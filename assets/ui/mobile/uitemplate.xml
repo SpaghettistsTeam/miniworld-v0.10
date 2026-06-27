@@ -1,0 +1,642 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Ui>
+	<Script file="ui/mobile/uitemplate.lua" />
+	##Tips面板的背景
+	<Texture name="TipsBkgTemplate" virtual="true" file="ui/mobile/ui.png" DrawType="ninesquare">
+		<Size>
+			<RelDimension x="1.0" y="1.0"/>
+		</Size>
+		<Anchors>
+			<Anchor point="topleft" relativeTo="$parent" relativePoint="topleft">
+				<Offset>
+					<AbsDimension x="0" y="0"/>
+				</Offset>
+			</Anchor>
+		</Anchors>
+		<NineSquare>
+			<Topleft		x="879"	y="647"	w="48"	h="48"/>
+			<Top			x="927"	y="647"	w="48"  h="48"/>
+			<Topright		x="975"	y="647"	w="48"	h="48"/>
+			<Left			x="879"	y="695"	w="48"	h="48"/>
+			<Center			x="927" y="695"	w="48"	h="48"/>
+			<Right			x="975"	y="695"	w="48"	h="48"/>
+			<Bottomleft		x="879" y="743"	w="48"	h="48"/>
+			<Bottom			x="927"	y="743"	w="48"	h="48"/>
+			<Bottomright	x="975" y="743"	w="48"	h="48"/>
+			<OffSet x="48" y="48" />
+		</NineSquare>
+	</Texture>
+	
+	##灰色背景
+	<Texture name="GaryBkgTemplate" virtual="true" file="ui/mobile/ui.png" DrawType="ninesquare">
+		<Size>
+			<RelDimension x="1.0" y="1.0"/>
+		</Size>
+		<Anchors>
+			<Anchor point="topleft" relativeTo="$parent" relativePoint="topleft">
+				<Offset>
+					<AbsDimension x="0" y="0"/>
+				</Offset>
+			</Anchor>
+		</Anchors>
+		<NineSquare>
+			<Topleft		x="394"	y="878"	w="48"	h="48"/>
+			<Top			x="442"	y="878"	w="48"  h="48"/>
+			<Topright		x="490"	y="878"	w="48"	h="48"/>
+			<Left			x="394"	y="926"	w="48"	h="48"/>
+			<Center			x="442" y="926"	w="48"	h="48"/>
+			<Right			x="490"	y="926"	w="48"	h="48"/>
+			<Bottomleft		x="394" y="974"	w="48"	h="48"/>
+			<Bottom			x="442"	y="974"	w="48"	h="48"/>
+			<Bottomright	x="490" y="974"	w="48"	h="48"/>
+			<OffSet x="48" y="48" />
+		</NineSquare>
+	</Texture>
+	##深灰色背景
+	<Texture name="DarkGaryBkgTemplate" virtual="true" file="ui/mobile/ui3.png" DrawType="ninesquare">
+		<Size>
+			<RelDimension x="1.0" y="1.0"/>
+		</Size>
+		<Anchors>
+			<Anchor point="topleft" relativeTo="$parent" relativePoint="topleft">
+				<Offset>
+					<AbsDimension x="0" y="0"/>
+				</Offset>
+			</Anchor>
+		</Anchors>
+		<NineSquare>
+			<Topleft		x="7"	y="35"	w="48"	h="48"/>
+			<Top			x="55"	y="35"	w="48"  h="48"/>
+			<Topright		x="103"	y="35"	w="48"	h="48"/>
+			<Left			x="7"	y="93"	w="48"	h="48"/>
+			<Center			x="55" y="93"	w="48"	h="48"/>
+			<Right			x="103"	y="93"	w="48"	h="48"/>
+			<Bottomleft		x="7" y="141"	w="48"	h="48"/>
+			<Bottom			x="55"	y="141"	w="48"	h="48"/>
+			<Bottomright	x="103" y="141"	w="48"	h="48"/>
+			<OffSet x="48" y="48" />
+		</NineSquare>
+	</Texture>
+	
+	##黄色背景
+	<Texture name="YellowBkgTemplate" virtual="true" file="ui/mobile/ui1.png" DrawType="ninesquare">
+		<Size>
+			<RelDimension x="1.0" y="1.0"/>
+		</Size>
+		<Anchors>
+			<Anchor point="topleft" relativeTo="$parent" relativePoint="topleft">
+				<Offset>
+					<AbsDimension x="0" y="0"/>
+				</Offset>
+			</Anchor>
+		</Anchors>
+		<NineSquare>
+			<Topleft		x="974"	y="763"	w="16"	h="16"/>
+			<Top			x="990"	y="763"	w="16"  h="16"/>
+			<Topright		x="1006"y="763"	w="16"	h="16"/>
+			<Left			x="974"	y="779"	w="16"	h="16"/>
+			<Center			x="990" y="779"	w="16"	h="16"/>
+			<Right			x="1006"y="779"	w="16"	h="16"/>
+			<Bottomleft		x="974" y="795"	w="16"	h="16"/>
+			<Bottom			x="990"	y="795"	w="16"	h="16"/>
+			<Bottomright	x="1006"y="795"	w="16"	h="16"/>
+			<OffSet x="16" y="16" />
+		</NineSquare>
+	</Texture>
+	
+	##黑色背景
+	<Texture name="BlackBkgTemplate" virtual="true" file="ui/mobile/ui.png" DrawType="ninesquare">
+		<Size>
+			<RelDimension x="1.0" y="1.0"/>
+		</Size>
+		<Anchors>
+			<Anchor point="topleft" relativeTo="$parent" relativePoint="topleft">
+				<Offset>
+					<AbsDimension x="0" y="0"/>
+				</Offset>
+			</Anchor>
+		</Anchors>
+		<NineSquare>
+			<Topleft		x="617"	y="776"	w="32"	h="32"/>
+			<Top			x="649"	y="776"	w="32"  h="32"/>
+			<Topright		x="681"	y="776"	w="32"	h="32"/>
+			<Left			x="617"	y="808"	w="32"	h="32"/>
+			<Center			x="649" y="808"	w="32"	h="32"/>
+			<Right			x="681"	y="808"	w="32"	h="32"/>
+			<Bottomleft		x="617" y="840"	w="32"	h="32"/>
+			<Bottom			x="649"	y="840"	w="32"	h="32"/>
+			<Bottomright	x="681" y="840"	w="32"	h="32"/>
+			<OffSet x="32" y="32" />
+		</NineSquare>
+	</Texture>
+	
+	##透明底框
+	<Texture name="TransparentBoxTemplate" virtual="true" file="ui/mobile/ui2.png" DrawType="ninesquare">
+		<Size>
+			<RelDimension x="1.0" y="1.0"/>
+		</Size>
+		<Anchors>
+			<Anchor point="topleft" relativeTo="$parent" relativePoint="topleft">
+				<Offset>
+					<AbsDimension x="0" y="0"/>
+				</Offset>
+			</Anchor>
+		</Anchors>
+		<NineSquare>
+			<Topleft		x="135"	y="1"	w="44"	h="44"/>
+			<Top			x="179"	y="1"	w="44"  h="44"/>
+			<Topright		x="223"	y="1"	w="44"	h="44"/>
+			<Left			x="135"	y="45"	w="44"	h="44"/>
+			<Center			x="179" y="45"	w="44"	h="44"/>
+			<Right			x="223"	y="45"	w="44"	h="44"/>
+			<Bottomleft		x="135" y="89"	w="44"	h="44"/>
+			<Bottom			x="179"	y="89"	w="44"	h="44"/>
+			<Bottomright	x="223" y="89"	w="44"	h="44"/>
+			<OffSet x="44" y="44" />
+		</NineSquare>
+	</Texture>
+	
+	##棕色底框
+	<Texture name="BrownBoxTemplate" virtual="true" file="ui/mobile/ui2.png" DrawType="ninesquare">
+		<Size>
+			<RelDimension x="1.0" y="1.0"/>
+		</Size>
+		<Anchors>
+			<Anchor point="topleft" relativeTo="$parent" relativePoint="topleft">
+				<Offset>
+					<AbsDimension x="0" y="0"/>
+				</Offset>
+			</Anchor>
+		</Anchors>
+		<NineSquare>
+			<Topleft		x="1"	y="1"	w="44"	h="44"/>
+			<Top			x="45"	y="1"	w="44"  h="44"/>
+			<Topright		x="89"	y="1"	w="44"	h="44"/>
+			<Left			x="1"	y="45"	w="44"	h="44"/>
+			<Center			x="45" y="45"	w="44"	h="44"/>
+			<Right			x="89"	y="45"	w="44"	h="44"/>
+			<Bottomleft		x="1" y="89"	w="44"	h="44"/>
+			<Bottom			x="45"	y="89"	w="44"	h="44"/>
+			<Bottomright	x="89" y="89"	w="44"	h="44"/>
+			<OffSet x="44" y="44" />
+		</NineSquare>
+	</Texture>
+	
+	##血条底框
+	<Texture name="HpBkgTemplate" virtual="true" file="ui/mobile/ui3.png" DrawType="ninesquare">
+		<Size>
+			<RelDimension x="1.0" y="1.0"/>
+		</Size>
+		<Anchors>
+			<Anchor point="topleft" relativeTo="$parent" relativePoint="topleft">
+				<Offset>
+					<AbsDimension x="0" y="0"/>
+				</Offset>
+			</Anchor>
+		</Anchors>
+		<NineSquare>
+			<Topleft		x="255"	y="52"	w="10"	h="10"/>
+			<Top			x="265"	y="52"	w="10"  h="10"/>
+			<Topright		x="275"	y="52"	w="10"	h="10"/>
+			<Left			x="255"	y="62"	w="10"	h="10"/>
+			<Center			x="265" y="62"	w="10"	h="10"/>
+			<Right			x="275"	y="62"	w="10"	h="10"/>
+			<Bottomleft		x="255" y="72"	w="10"	h="10"/>
+			<Bottom			x="265"	y="72"	w="10"	h="10"/>
+			<Bottomright	x="275" y="72"	w="10"	h="10"/>
+			<OffSet x="10" y="10" />
+		</NineSquare>
+	</Texture>
+	
+	#绿色按钮
+	<Button name="GreenBtnTemplate" virtual="true" >
+		<Size>
+			<AbsDimension x="193" y="75"/>
+		</Size>
+		<NormalTexture name="$parentNormal" file="ui/mobile/ui.png" x="1" y="789" w="193" h="75" />		
+		<PushedTexture name="$parentPushedBG" file="ui/mobile/ui.png" x="196" y="789" w="192" h="75" />
+	</Button>
+	
+	#绿色长按钮
+	<Button name="GreenLongBtnTemplate" virtual="true" >
+		<Size>
+			<AbsDimension x="390" y="79"/>
+		</Size>
+		<NormalTexture name="$parentNormal" file="ui/mobile/ui.png" x="1" y="865" w="390" h="79" />		
+		<PushedTexture name="$parentPushedBG" file="ui/mobile/ui.png" x="1" y="945" w="390" h="78" />
+	</Button>
+	
+	#青色按钮
+	<Button name="CyanBtnTemplate" virtual="true" >
+		<Size>
+			<AbsDimension x="287" y="140"/>
+		</Size>
+		<NormalTexture name="$parentNormal" file="ui/mobile/ui.png" x="736" y="863" w="287" h="140" />		
+	</Button>
+	
+	<Button name="LobbyLongTextBtnTemplate" virtual="true">
+		<Size>
+			<AbsDimension x="255" y="32"/>
+		</Size>
+		<NormalTexture name="$parentNormal" file="ui/login.png" x="63" y="33" w="255" h="32"/>
+		<PushedTexture name="$parentPushed" file="ui/login.png" x="63" y="33" w="255" h="32"/>
+		<HighlightTexture name="$parentHighlight" file="ui/login.png" x="320" y="33" w="255" h="32"/>
+		<FontString name="$parentText" fonttype="BlackFont" justifyH="center" fontStyle="border">
+			<Size>
+				<AbsDimension x="255" y="16"/>
+			</Size>
+			<Anchors>
+				<Anchor point="center" relativePoint="center" relativeTo="$parent">
+					<Offset>
+						<AbsDimension x="0" y="0"/>
+					</Offset>
+				</Anchor>
+			</Anchors>
+		</FontString>
+	</Button>
+	
+	<Button name="PackLeftBtnTemplate" virtual="true">
+		<Size>
+			<AbsDimension x="106" y="119"/>
+		</Size>
+		<NormalTexture name="$parentNormal" file="ui/mobile/ui.png" x="88" y="0" w="68" h="76" />		
+		<PushedTexture name="$parentPushedBG" file="ui/mobile/ui.png" x="1" y="0" w="82" h="76">
+			<Size>
+				<AbsDimension x="128" y="119"/>
+			</Size>
+		</PushedTexture>
+		<HighlightTexture name="$parentHighlightBG" file="ui/mobile/ui.png" x="88" y="0" w="68" h="76"/>
+		<CheckedTexture name="$parentCheckedBG" file="ui/mobile/ui.png" x="1" y="0" w="82" h="76">
+			<Size>
+				<AbsDimension x="128" y="119"/>
+			</Size>
+		</CheckedTexture>
+	</Button>
+	
+	<Button name="PackGridBtnTemplate" virtual="true" click_threshold="5" holddown_threshold="0.6">
+		<Size>
+			<AbsDimension x="103" y="106"/>
+		</Size>
+		<Layers>
+			<Layer level="BACKGROUND">
+				<Texture name="$parentBkgTexture" file="ui/mobile/ui.png" x="160" y="4" w="66" h="68">
+					<Size>
+						<AbsDimension x="103" y="106"/>
+					</Size>
+					<Anchors>
+						<Anchor point="TopLeft" relativePoint="TopLeft" relativeTo="$parent">
+							<Offset>
+								<AbsDimension x="0" y="0"/>
+							</Offset>
+						</Anchor>
+					</Anchors>				
+				</Texture>
+			</Layer>
+		</Layers>
+		<Frames>
+			<Frame name="$parentContent" input_transparent="true">
+				<Size>
+					<AbsDimension x="100" y="100"/>
+				</Size>
+				<Anchors>
+					<Anchor point="center" relativePoint="center" relativeTo="$parent">
+						<Offset>
+							<AbsDimension x="0" y="0"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Layers>
+					<Layer level="BACKGROUND">
+						<Texture name="$parentIcon" >
+							<Size>
+								<AbsDimension x="80" y="80"/>
+							</Size>
+							<Anchors>
+								<Anchor point="center" relativePoint="center" relativeTo="$parent">
+									<Offset>
+										<AbsDimension x="0" y="0"/>
+									</Offset>
+								</Anchor>
+							</Anchors>
+						</Texture>
+						<Texture name="$parentLock" file="ui/mobile/ui2.png" x="979" y="431" w="45" h="52" hidden="true">
+							<Size>
+								<AbsDimension x="60" y="70"/>
+							</Size>
+							<Anchors>
+								<Anchor point="center" relativePoint="center" relativeTo="$parent">
+									<Offset>
+										<AbsDimension x="0" y="0"/>
+									</Offset>
+								</Anchor>
+							</Anchors>
+						</Texture>
+						<Texture name="$parentBoxTexture" file="ui/mobile/ui2.png" x="943" y="765" w="70" h="70" hidden="true" color="ff00ff00">
+							<Size>
+								<AbsDimension x="104" y="106"/>
+							</Size>
+							<Anchors>
+								<Anchor point="TopLeft" relativePoint="TopLeft" relativeTo="$parent">
+									<Offset>
+										<AbsDimension x="-3" y="-3"/>
+									</Offset>
+								</Anchor>
+							</Anchors>				
+						</Texture>
+					</Layer>
+					<Layer level="ARTWORK">
+						<Texture name="$parentDuration" file="ui/mobile/ui.png" x="712" y="164" w="59" h="8" hidden="true">
+							<Size>
+								<AbsDimension x="72" y="10"/>
+							</Size>
+							<Anchors>
+								<Anchor point="BottomLeft" relativePoint="BottomLeft" relativeTo="$parent">
+									<Offset>
+										<AbsDimension x="3" y="-5"/>
+									</Offset>
+								</Anchor>
+							</Anchors>				
+						</Texture>
+					</Layer>
+					<Layer level="HIGHLIGHT">
+						 <FontString name="$parentCount" fonttype="BlackFont14" fontStyle="border" justifyH="left" text="">
+							<Color r="243" g="245" b="218" />
+							<Size>
+								<AbsDimension x="24" y="14" />
+							</Size>
+							<Anchors>
+								<Anchor point="topleft" relativePoint="topleft" relativeTo="$parent">
+									<Offset>
+										<AbsDimension x="5" y="3" />
+									</Offset>
+								</Anchor>
+							</Anchors>
+						</FontString>
+						<Texture name="$parentLack" file="ui/mobile/ui.png" x="1001" y="81" w="17" h="18" hidden="true" color="7fffffff">
+							<Size>
+								<AbsDimension x="22" y="23"/>
+							</Size>
+							<Anchors>
+								<Anchor point="bottomright" relativePoint="bottomright" relativeTo="$parent">
+									<Offset>
+										<AbsDimension x="-6" y="-6"/>
+									</Offset>
+								</Anchor>
+							</Anchors>
+						</Texture>
+					</Layer>
+				</Layers>
+			</Frame>
+		</Frames>
+		<Scripts>
+			<OnClick>PackGridBtn_OnClick();</OnClick>
+			<OnMouseUp>PackGridBtn_OnMouseUp();</OnMouseUp>
+			<MouseDownUpdate>PackGridBtn_OnMouseDownUpdate();</MouseDownUpdate>
+		</Scripts>
+	</Button>
+	
+	<Button name="CraftingTableLeftBtnTemplate" virtual="true">
+		<Size>
+			<AbsDimension x="122" y="101"/>
+		</Size>
+		<NormalTexture name="$parentNormal" file="ui/mobile/ui.png" x="2" y="650" w="93" h="77" />		
+		<PushedTexture name="$parentPushedBG" file="ui/mobile/ui.png" x="98" y="651" w="113" h="78">
+			<Size>
+				<AbsDimension x="148" y="102"/>
+			</Size>
+		</PushedTexture>
+		<HighlightTexture name="$parentHighlightBG" file="ui/mobile/ui.png" x="2" y="650" w="93" h="77"/>
+		<CheckedTexture name="$parentCheckedBG" file="ui/mobile/ui.png" x="98" y="651" w="113" h="78">
+			<Size>
+				<AbsDimension x="148" y="102"/>
+			</Size>
+		</CheckedTexture>
+	</Button>
+	
+	<Button name="CraftingTableGridBtnTemplate" virtual="true" click_threshold="5">
+		<Size>
+			<AbsDimension x="90" y="96"/>
+		</Size>
+		<Layers>
+			<Layer level="BACKGROUND">
+				<Texture name="$parentBkgTexture" file="ui/mobile/ui.png" x="932" y="389" w="69" h="73">
+					<Size>
+						<AbsDimension x="90" y="96"/>
+					</Size>
+					<Anchors>
+						<Anchor point="TopLeft" relativePoint="TopLeft" relativeTo="$parent">
+							<Offset>
+								<AbsDimension x="0" y="0"/>
+							</Offset>
+						</Anchor>
+					</Anchors>				
+				</Texture>
+			</Layer>
+		</Layers>
+		<Frames>
+			<Frame name="$parentContent" input_transparent="true">
+				<Size>
+					<AbsDimension x="84" y="84"/>
+				</Size>
+				<Anchors>
+					<Anchor point="center" relativePoint="center" relativeTo="$parent">
+						<Offset>
+							<AbsDimension x="0" y="0"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Layers>
+					<Layer level="BACKGROUND">
+						<Texture name="$parentIcon" >
+							<Size>
+								<AbsDimension x="70" y="70"/>
+							</Size>
+							<Anchors>
+								<Anchor point="center" relativePoint="center" relativeTo="$parent">
+									<Offset>
+										<AbsDimension x="0" y="0"/>
+									</Offset>
+								</Anchor>
+							</Anchors>
+						</Texture>
+						<Texture name="$parentBoxTexture" file="ui/mobile/ui2.png" x="943" y="765" w="70" h="70" hidden="true" color="ff00ff00">
+							<Size>
+								<AbsDimension x="86" y="90"/>
+							</Size>
+							<Anchors>
+								<Anchor point="TopLeft" relativePoint="TopLeft" relativeTo="$parent">
+									<Offset>
+										<AbsDimension x="-4" y="-4"/>
+									</Offset>
+								</Anchor>
+							</Anchors>				
+						</Texture>
+					</Layer>
+					<Layer level="ARTWORK">
+						<Texture name="$parentDuration" file="ui/mobile/ui.png" x="712" y="164" w="59" h="8" hidden="true">
+							<Size>
+								<AbsDimension x="72" y="10"/>
+							</Size>
+							<Anchors>
+								<Anchor point="BottomLeft" relativePoint="BottomLeft" relativeTo="$parent">
+									<Offset>
+										<AbsDimension x="3" y="-7"/>
+									</Offset>
+								</Anchor>
+							</Anchors>				
+						</Texture>
+					</Layer>
+					<Layer level="HIGHLIGHT">
+						 <FontString name="$parentCount" fonttype="BlackFont14" fontStyle="border" justifyH="left" text="">
+							<Color r="243" g="245" b="218" />
+							<Size>
+								<AbsDimension x="24" y="14" />
+							</Size>
+							<Anchors>
+								<Anchor point="topleft" relativePoint="topleft" relativeTo="$parent">
+									<Offset>
+										<AbsDimension x="3" y="3" />
+									</Offset>
+								</Anchor>
+							</Anchors>
+						</FontString>
+						<Texture name="$parentLack" file="ui/mobile/ui.png" x="1001" y="81" w="17" h="18" hidden="true" color="7fffffff">
+							<Size>
+								<AbsDimension x="22" y="23"/>
+							</Size>
+							<Anchors>
+								<Anchor point="bottomright" relativePoint="bottomright" relativeTo="$parent">
+									<Offset>
+										<AbsDimension x="-6" y="-6"/>
+									</Offset>
+								</Anchor>
+							</Anchors>
+						</Texture>
+					</Layer>
+				</Layers>
+			</Frame>
+		</Frames>
+		<Scripts>
+			<OnClick>CraftingTableGridBtn_OnClick();</OnClick>
+			<OnMouseDown>CraftingTableGridBtn_OnMouseDown();</OnMouseDown>
+			<OnMouseUp>CraftingTableGridBtn_OnMouseUp();</OnMouseUp>
+			<MouseDownUpdate>CraftingTableGridBtn_OnMouseDownUpdate();</MouseDownUpdate>
+		</Scripts>
+	</Button>
+
+	<Button name="MItemButtonTemplate" virtual="true" click_threshold="20">
+		<Size>
+			<AbsDimension x="82" y="82" />
+		</Size>
+		<Anchors>
+			<Anchor point="topleft" relativePoint="topleft" relativeTo="$parent">
+				<Offset>
+					<AbsDimension x="0" y="0"/>
+				</Offset>
+			</Anchor>
+		</Anchors>
+		<Frames>
+			<Frame name="$parentContent" input_transparent="true">
+				<Size>
+					<AbsDimension x="82" y="82"/>
+				</Size>
+				<Anchors>
+					<Anchor point="center" relativePoint="center" relativeTo="$parent">
+						<Offset>
+							<AbsDimension x="0" y="0"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Layers>
+					<Layer level="BACKGROUND">
+						<Texture name="$parentBoxTexture1" file="ui/mobile/ui.png" x="774" y="0" w="84" h="84" hidden="true" >
+							<Size>
+								<AbsDimension x="100" y="107"/>
+							</Size>
+							<Anchors>
+								<Anchor point="center" relativePoint="center" relativeTo="$parent">
+									<Offset>
+										<AbsDimension x="-2" y="0"/>
+									</Offset>
+								</Anchor>
+							</Anchors>				
+						</Texture>
+						<Texture name="$parentIcon">
+							<Size>
+								<AbsDimension x="66" y="66"/>
+							</Size>
+							<Anchors>
+								<Anchor point="center" relativePoint="center" relativeTo="$parent">
+									<Offset>
+										<AbsDimension x="0" y="0"/>
+									</Offset>
+								</Anchor>
+							</Anchors>
+						</Texture>
+						<Texture name="$parentBoxTexture" file="ui/mobile/ui2.png" x="943" y="765" w="70" h="70" hidden="true" color="ff00ff00">
+							<Size>
+								<AbsDimension x="84" y="89"/>
+							</Size>
+							<Anchors>
+								<Anchor point="center" relativePoint="center" relativeTo="$parent">
+									<Offset>
+										<AbsDimension x="-2" y="0"/>
+									</Offset>
+								</Anchor>
+							</Anchors>				
+						</Texture>
+						<Texture name="$parentUVAnimationTex" file="ui/mobile/effect/achievement_halo.png" hidden="true">
+							<Size>
+								<AbsDimension x="151" y="165"/>
+							</Size>
+							<Anchors>
+								<Anchor point="center" relativePoint="center" relativeTo="$parent">
+									<Offset>
+										<AbsDimension x="2" y="0"/>
+									</Offset>
+								</Anchor>
+							</Anchors>	
+							<UVAnimation texrows="4" texcols="4" />
+						</Texture>
+					</Layer>
+					<Layer level="ARTWORK">
+						<Texture name="$parentDuration" file="ui/mobile/ui.png" x="712" y="164" w="59" h="8" hidden="true">
+							<Size>
+								<AbsDimension x="72" y="10"/>
+							</Size>
+							<Anchors>
+								<Anchor point="BottomLeft" relativePoint="BottomLeft" relativeTo="$parent">
+									<Offset>
+										<AbsDimension x="3" y="-8"/>
+									</Offset>
+								</Anchor>
+							</Anchors>				
+						</Texture>
+					</Layer>
+					<Layer level="HIGHLIGHT">
+						 <FontString name="$parentCount" fonttype="BlackFont14" fontStyle="border" justifyH="right" text="">
+							<Color r="243" g="245" b="218" />
+							<Size>
+								<AbsDimension x="24" y="14" />
+							</Size>
+							<Anchors>
+								<Anchor point="topleft" relativePoint="topleft" relativeTo="$parent">
+									<Offset>
+										<AbsDimension x="3" y="5" />
+									</Offset>
+								</Anchor>
+							</Anchors>
+						</FontString>
+					</Layer>
+				</Layers>
+			</Frame>
+		</Frames>
+		<Scripts>
+			<OnClick>MItemButton_OnClick();</OnClick>
+			<OnMouseDown>MItemButton_OnMouseDown();</OnMouseDown>
+			<OnMouseUp>MItemButton_OnMouseUp();</OnMouseUp>
+			<MouseDownUpdate>MItemButton_OnMouseDownUpdate();</MouseDownUpdate>
+		</Scripts>
+	</Button>
+
+</Ui>

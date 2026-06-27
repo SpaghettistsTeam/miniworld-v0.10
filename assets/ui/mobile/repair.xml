@@ -1,0 +1,425 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Ui>
+	<Script file="ui/mobile/repair.lua" />
+	<Frame name="RepairFrame" parent="UIClient" frameStrata="MEDIUM" hidden="true" framelevel="10">
+		<Size>
+			<AbsDimension x="1239" y="591"/>
+		</Size>
+		<Anchors>
+			<Anchor point="bottom" relativePoint="top" relativeTo="PlayShortcut">
+				<Offset>
+					<AbsDimension x="0" y="0" />
+				</Offset>
+			</Anchor>
+		</Anchors>
+		<Layers>
+			<Layer level="BACKGROUND">
+				<Texture name="$parentBkg" file="ui/mobile/ui.png" x="1" y="268" w="726" h="379">
+					<Size>
+						<AbsDimension x="1133" y="591"/>
+					</Size>
+					<Anchors>
+						<Anchor point="topleft" relativePoint="topleft" relativeTo="$parent">
+							<Offset>
+								<AbsDimension x="105" y="0"/>
+							</Offset>
+						</Anchor>
+					</Anchors>	
+				</Texture>
+				<Texture name="$parentHLine" file="ui/mobile/ui.png" x="626" y="1012" w="397" h="12">
+					<Size>
+						<AbsDimension x="639" y="16"/>
+					</Size>
+					<Anchors>
+						<Anchor point="topleft" relativePoint="topleft" relativeTo="$parentBkg">
+							<Offset>
+								<AbsDimension x="17" y="277"/>
+							</Offset>
+						</Anchor>
+					</Anchors>	
+				</Texture>
+				<Texture name="$parentVLine" file="ui/mobile/ui.png" x="1003" y="260" w="20" h="368">
+					<Size>
+						<AbsDimension x="26" y="577"/>
+					</Size>
+					<Anchors>
+						<Anchor point="topleft" relativePoint="topleft" relativeTo="$parentBkg">
+							<Offset>
+								<AbsDimension x="640" y="0"/>
+							</Offset>
+						</Anchor>
+					</Anchors>	
+				</Texture>
+				<Texture name="$parentTips1" file="ui/mobile/ui2.png" x="232" y="374" w="192" h="25">
+					<Size>
+						<AbsDimension x="250" y="33"/>
+					</Size>
+					<Anchors>
+						<Anchor point="topleft" relativePoint="topleft" relativeTo="$parentBkg">
+							<Offset>
+								<AbsDimension x="53" y="17"/>
+							</Offset>
+						</Anchor>
+					</Anchors>	
+				</Texture>
+				<Texture name="$parentTips2" file="ui/mobile/ui1.png" x="620" y="977" w="96" h="24">
+					<Size>
+						<AbsDimension x="125" y="31"/>
+					</Size>
+					<Anchors>
+						<Anchor point="topleft" relativePoint="topleft" relativeTo="$parentBkg">
+							<Offset>
+								<AbsDimension x="53" y="306"/>
+							</Offset>
+						</Anchor>
+					</Anchors>	
+				</Texture>							
+				<Texture name="$parentArrow" file="ui/mobile/ui1.png" x="719" y="979" w="62" h="43">
+					<Size>
+						<AbsDimension x="100" y="56"/>
+					</Size>
+					<Anchors>
+						<Anchor point="topleft" relativePoint="topleft" relativeTo="$parentBkg">
+							<Offset>
+								<AbsDimension x="853" y="146"/>
+							</Offset>
+						</Anchor>
+					</Anchors>	
+				</Texture>
+				<Texture name="$parentAdd" file="ui/mobile/ui2.png" x="967" y="370" w="56" h="57">
+					<Size>
+						<AbsDimension x="73" y="74"/>
+					</Size>
+					<Anchors>
+						<Anchor point="topleft" relativePoint="topleft" relativeTo="$parentBkg">
+							<Offset>
+								<AbsDimension x="739" y="252"/>
+							</Offset>
+						</Anchor>
+					</Anchors>	
+				</Texture>
+				<!--
+				<Texture name="$parentEditBkg" file="ui/mobile/ui2.png" x="231" y="332" w="146" h="39">
+					<Size>
+						<AbsDimension x="190" y="51"/>
+					</Size>
+					<Anchors>
+						<Anchor point="topleft" relativePoint="topleft" relativeTo="$parentBkg">
+							<Offset>
+								<AbsDimension x="868" y="121"/>
+							</Offset>
+						</Anchor>
+					</Anchors>	
+				</Texture>
+				<FontString name="$parentRenameTitle" fonttype="BlackFont24" lineInterval="2" text="改名：" fontStyle="border">
+					<Color r="255" g="198" b="0"/>
+					<Size>
+						<AbsDimension x="80" y="25"/>
+					</Size>
+					<Anchors>
+						<Anchor point="bottomleft" relativePoint="topleft" relativeTo="$parentEditBkg">
+							<Offset>
+								<AbsDimension x="0" y="-13"/>
+							</Offset>
+						</Anchor>
+					</Anchors>
+				</FontString>
+				-->
+				<FontString name="$parentDurTitle" fonttype="BlackFont24" lineInterval="2" text="耐久度：" fontStyle="border" hidden="true">
+					<Color r="255" g="255" b="255"/>
+					<Size>
+						<AbsDimension x="80" y="25"/>
+					</Size>
+					<Anchors>
+						<Anchor point="topleft" relativePoint="topleft" relativeTo="$parent">
+							<Offset>
+								<AbsDimension x="826" y="60"/>
+							</Offset>
+						</Anchor>
+					</Anchors>
+				</FontString>
+				<FontString name="$parentDuration" fonttype="BlackFont24" lineInterval="2" text="" fontStyle="border" >
+					<Color r="255" g="255" b="255"/>
+					<Size>
+						<AbsDimension x="125" y="25"/>
+					</Size>
+					<Anchors>
+						<Anchor point="topleft" relativePoint="bottomleft" relativeTo="$parentDurTitle">
+							<Offset>
+								<AbsDimension x="0" y="5"/>
+							</Offset>
+						</Anchor>
+					</Anchors>
+				</FontString>
+				<FontString name="$parentDurTitle1" fonttype="BlackFont24" lineInterval="2" text="耐久度：" fontStyle="border" hidden="true">
+					<Color r="255" g="255" b="255"/>
+					<Size>
+						<AbsDimension x="80" y="25"/>
+					</Size>
+					<Anchors>
+						<Anchor point="topleft" relativePoint="topright" relativeTo="$parentDurTitle">
+							<Offset>
+								<AbsDimension x="170" y="0"/>
+							</Offset>
+						</Anchor>
+					</Anchors>
+				</FontString>
+				<FontString name="$parentDuration1" fonttype="BlackFont24" lineInterval="2" text="" fontStyle="border" >
+					<Color r="255" g="255" b="255"/>
+					<Size>
+						<AbsDimension x="125" y="25"/>
+					</Size>
+					<Anchors>
+						<Anchor point="topleft" relativePoint="bottomleft" relativeTo="$parentDurTitle1">
+							<Offset>
+								<AbsDimension x="0" y="5"/>
+							</Offset>
+						</Anchor>
+					</Anchors>
+				</FontString>
+				<Texture name="$parentStar" file="ui/mobile/ui.png" x="681" y="69" w="28" h="26">
+					<Size>
+						<AbsDimension x="36" y="34"/>
+					</Size>
+					<Anchors>
+						<Anchor point="topleft" relativePoint="bottomright" relativeTo="$parentBkg">
+							<Offset>
+								<AbsDimension x="-184" y="-125"/>
+							</Offset>
+						</Anchor>
+					</Anchors>	
+				</Texture>
+				<FontString name="$parentStarNum" fonttype="BlackFont28" lineInterval="2" text="500" fontStyle="border">
+					<Color r="156" g="255" b="0"/>
+					<Size>
+						<AbsDimension x="140" y="25"/>
+					</Size>
+					<Anchors>
+						<Anchor point="left" relativePoint="right" relativeTo="$parentStar">
+							<Offset>
+								<AbsDimension x="2" y="0"/>
+							</Offset>
+						</Anchor>
+					</Anchors>
+				</FontString>
+			</Layer>
+		</Layers>
+		<Frames>
+			<Button name="$parentCloseBtn">
+				<Size>
+					<AbsDimension x="106" y="119"/>
+				</Size>
+				<Anchors>
+					<Anchor point="topleft" relativeTo="$parent" relativePoint="topleft">
+						<Offset>
+							<AbsDimension x="0" y="14"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Layers>
+					<Layer level="overlay">
+						<Texture name="$parentIcon" file="ui/mobile/ui.png" x="351" y="222" w="42" h="43">
+							<Size>
+								<AbsDimension x="66" y="67"/>
+							</Size>
+							<Anchors>
+								<Anchor point="center" relativePoint="center" relativeTo="$parent">
+									<Offset>
+										<AbsDimension x="0" y="0"/>
+									</Offset>
+								</Anchor>
+							</Anchors>	
+						</Texture>
+					</Layer>
+				</Layers>
+				<NormalTexture name="$parentNormal" file="ui/mobile/ui.png" x="87" y="0" w="68" h="76" />
+				<Scripts>
+					<OnMouseDown>RepairFrameCloseBtn_OnMouseDown();</OnMouseDown>
+					<OnMouseUp>RepairFrameCloseBtn_OnMouseUp();</OnMouseUp>
+					<OnClick>RepairFrameCloseBtn_OnClick();</OnClick>
+				</Scripts>
+			</Button>
+			# id待定
+			<Button name="$parentRepairItem1" inherits="PackGridBtnTemplate" id="15001">
+				<Anchors>
+					<Anchor point="topleft" relativePoint="topleft" relativeTo="$parentBkg">
+						<Offset>
+							<AbsDimension x="722" y="121" />
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Layers>
+					<Layer level="overlay">
+						<Texture name="$parentBrokenLine" file="ui/mobile/ui.png" x="878" y="82" w="55" h="59">
+							<Size>
+								<AbsDimension x="73" y="77"/>
+							</Size>
+							<Anchors>
+								<Anchor point="bottomright" relativePoint="left" relativeTo="$parent">
+									<Offset>
+										<AbsDimension x="9" y="0"/>
+									</Offset>
+								</Anchor>
+							</Anchors>	
+						</Texture>
+					</Layer>
+				</Layers>
+			</Button>
+			<Button name="$parentRepairItem2" inherits="PackGridBtnTemplate" id="15002">
+				<Anchors>
+					<Anchor point="top" relativePoint="bottom" relativeTo="$parentRepairItem1">
+						<Offset>
+							<AbsDimension x="0" y="128" />
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Layers>
+					<Layer level="overlay">
+						<Texture name="$parentBrokenLine" file="ui/mobile/ui.png" x="939" y="82" w="55" h="59">
+							<Size>
+								<AbsDimension x="73" y="77"/>
+							</Size>
+							<Anchors>
+								<Anchor point="topright" relativePoint="left" relativeTo="$parent">
+									<Offset>
+										<AbsDimension x="9" y="0"/>
+									</Offset>
+								</Anchor>
+							</Anchors>	
+						</Texture>
+					</Layer>
+				</Layers>
+			</Button>
+			<Button name="$parentRepairItem3" inherits="PackGridBtnTemplate" id="15003">
+				<Anchors>
+					<Anchor point="left" relativePoint="right" relativeTo="$parentRepairItem1">
+						<Offset>
+							<AbsDimension x="150" y="0" />
+						</Offset>
+					</Anchor>
+				</Anchors>
+			</Button>
+			<SlidingFrame name="WaitRepairBox" slidingY="true" slideplane="$parentPlane">
+				<Size>
+					<AbsDimension x="527" y="209"/>
+				</Size>
+				<Anchors>
+				<Anchor point="topleft" relativePoint="topleft" relativeTo="$parentBkg">
+						<Offset>
+							<AbsDimension x="50" y="61"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Frames>
+					<Frame name="$parentPlane" hidden="true">
+						<Size>
+							<AbsDimension x="527" y="637"/>
+						</Size>
+					</Frame>
+					<Button name="$parentItem1" inherits="PackGridBtnTemplate"/>
+					<Button name="$parentItem2" inherits="PackGridBtnTemplate"/>
+					<Button name="$parentItem3" inherits="PackGridBtnTemplate"/>
+					<Button name="$parentItem4" inherits="PackGridBtnTemplate"/>
+					<Button name="$parentItem5" inherits="PackGridBtnTemplate"/>
+					<Button name="$parentItem6" inherits="PackGridBtnTemplate"/>
+					<Button name="$parentItem7" inherits="PackGridBtnTemplate"/>
+					<Button name="$parentItem8" inherits="PackGridBtnTemplate"/>
+					<Button name="$parentItem9" inherits="PackGridBtnTemplate"/>
+					<Button name="$parentItem10" inherits="PackGridBtnTemplate"/>
+					<Button name="$parentItem11" inherits="PackGridBtnTemplate"/>
+					<Button name="$parentItem12" inherits="PackGridBtnTemplate"/>
+					<Button name="$parentItem13" inherits="PackGridBtnTemplate"/>
+					<Button name="$parentItem14" inherits="PackGridBtnTemplate"/>
+					<Button name="$parentItem15" inherits="PackGridBtnTemplate"/>
+					<Button name="$parentItem16" inherits="PackGridBtnTemplate"/>
+					<Button name="$parentItem17" inherits="PackGridBtnTemplate"/>
+					<Button name="$parentItem18" inherits="PackGridBtnTemplate"/>
+					<Button name="$parentItem19" inherits="PackGridBtnTemplate"/>
+					<Button name="$parentItem20" inherits="PackGridBtnTemplate"/>
+					<Button name="$parentItem21" inherits="PackGridBtnTemplate"/>
+					<Button name="$parentItem22" inherits="PackGridBtnTemplate"/>
+					<Button name="$parentItem23" inherits="PackGridBtnTemplate"/>
+					<Button name="$parentItem24" inherits="PackGridBtnTemplate"/>
+					<Button name="$parentItem25" inherits="PackGridBtnTemplate"/>
+					<Button name="$parentItem26" inherits="PackGridBtnTemplate"/>
+					<Button name="$parentItem27" inherits="PackGridBtnTemplate"/>
+					<Button name="$parentItem28" inherits="PackGridBtnTemplate"/>
+					<Button name="$parentItem29" inherits="PackGridBtnTemplate"/>
+					<Button name="$parentItem30" inherits="PackGridBtnTemplate"/>
+				</Frames>
+			</SlidingFrame>
+			<SlidingFrame name="RepairStuffBox" slidingY="true" slideplane="$parentPlane">
+				<Size>
+					<AbsDimension x="527" y="209"/>
+				</Size>
+				<Anchors>
+				<Anchor point="topleft" relativePoint="topleft" relativeTo="$parentBkg">
+						<Offset>
+							<AbsDimension x="50" y="345"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Frames>
+					<Frame name="$parentPlane" hidden="true">
+						<Size>
+							<AbsDimension x="527" y="637"/>
+						</Size>
+					</Frame>
+					<Button name="$parentItem1" inherits="PackGridBtnTemplate"/>
+					<Button name="$parentItem2" inherits="PackGridBtnTemplate"/>
+					<Button name="$parentItem3" inherits="PackGridBtnTemplate"/>
+					<Button name="$parentItem4" inherits="PackGridBtnTemplate"/>
+					<Button name="$parentItem5" inherits="PackGridBtnTemplate"/>
+					<Button name="$parentItem6" inherits="PackGridBtnTemplate"/>
+					<Button name="$parentItem7" inherits="PackGridBtnTemplate"/>
+					<Button name="$parentItem8" inherits="PackGridBtnTemplate"/>
+					<Button name="$parentItem9" inherits="PackGridBtnTemplate"/>
+					<Button name="$parentItem10" inherits="PackGridBtnTemplate"/>
+					<Button name="$parentItem11" inherits="PackGridBtnTemplate"/>
+					<Button name="$parentItem12" inherits="PackGridBtnTemplate"/>
+					<Button name="$parentItem13" inherits="PackGridBtnTemplate"/>
+					<Button name="$parentItem14" inherits="PackGridBtnTemplate"/>
+					<Button name="$parentItem15" inherits="PackGridBtnTemplate"/>
+					<Button name="$parentItem16" inherits="PackGridBtnTemplate"/>
+					<Button name="$parentItem17" inherits="PackGridBtnTemplate"/>
+					<Button name="$parentItem18" inherits="PackGridBtnTemplate"/>
+					<Button name="$parentItem19" inherits="PackGridBtnTemplate"/>
+					<Button name="$parentItem20" inherits="PackGridBtnTemplate"/>
+					<Button name="$parentItem21" inherits="PackGridBtnTemplate"/>
+					<Button name="$parentItem22" inherits="PackGridBtnTemplate"/>
+					<Button name="$parentItem23" inherits="PackGridBtnTemplate"/>
+					<Button name="$parentItem24" inherits="PackGridBtnTemplate"/>
+					<Button name="$parentItem25" inherits="PackGridBtnTemplate"/>
+					<Button name="$parentItem26" inherits="PackGridBtnTemplate"/>
+					<Button name="$parentItem27" inherits="PackGridBtnTemplate"/>
+					<Button name="$parentItem28" inherits="PackGridBtnTemplate"/>
+					<Button name="$parentItem29" inherits="PackGridBtnTemplate"/>
+					<Button name="$parentItem30" inherits="PackGridBtnTemplate"/>
+				</Frames>
+			</SlidingFrame>
+			<Button name="$parentRepairBtn">
+				<Size>
+					<AbsDimension x="121" y="95"/>
+				</Size>
+				<Anchors>
+					<Anchor point="bottomleft" relativeTo="$parentStar" relativePoint="topleft">
+						<Offset>
+							<AbsDimension x="-8" y="-15"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<NormalTexture name="$parentNormal" file="ui/mobile/ui2.png" x="556" y="207" w="93" h="73" />
+				<PushedTexture name="$parentPushedBG" file="ui/mobile/ui.png" x="827" y="388" w="100" h="73" />
+				<Scripts>
+					<OnClick>RepairFrameRepairBtn_OnClick();</OnClick>
+				</Scripts>
+			</Button>
+		</Frames>		
+		<Scripts>
+			<OnLoad>RepairFrame_OnLoad();</OnLoad>
+			<OnShow>RepairFrame_OnShow();</OnShow>
+			<OnHide>RepairFrame_OnHide();</OnHide>
+			<OnEvent>RepairFrame_OnEvent();</OnEvent>
+		</Scripts>
+	</Frame>
+</Ui>

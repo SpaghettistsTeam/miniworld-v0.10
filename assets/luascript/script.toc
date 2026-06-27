@@ -1,0 +1,10 @@
+
+##game script files
+
+luascript/common.lua
+luascript/buffdef.lua
+luascript/blocks.lua
+luascript/items.lua
+luascript/mobs.lua
+luascript/gm.lua
+

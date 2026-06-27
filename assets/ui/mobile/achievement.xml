@@ -1,0 +1,868 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Ui>
+	<Script file="ui/mobile/achievement.lua"/>	
+	<Button name="AchievementLabelBtnTemplate" virtual="true">
+		<Size>
+			<AbsDimension x="106" y="92"/>
+		</Size>
+		<Layers>
+			<Layer level="overlay">
+				<Texture name="$parentRewardTag" file="ui/mobile/ui.png" x="966" y="288" w="28" h="28" hidden="true">
+					<Size>
+						<AbsDimension x="32" y="32"/>
+					</Size>
+					<Anchors>
+						<Anchor point="topleft" relativePoint="topleft" relativeTo="$parent">
+							<Offset>
+								<AbsDimension x="-18" y="-15"/>
+							</Offset>
+						</Anchor>
+					</Anchors>	
+				</Texture>
+			</Layer>
+		</Layers>
+		<NormalTexture name="$parentNormal" file="ui/mobile/ui1.png" x="823" y="904" w="94" h="82" />		
+		<PushedTexture name="$parentPushedBG" file="ui/mobile/ui1.png" x="823" y="817" w="116" h="82">
+			<Size>
+				<AbsDimension x="131" y="92"/>
+			</Size>
+		</PushedTexture>
+		<HighlightTexture name="$parentHighlightBG" file="ui/mobile/ui1.png" x="823" y="904" w="94" h="82"/>
+		<CheckedTexture name="$parentCheckedBG" file="ui/mobile/ui1.png" x="823" y="817" w="116" h="82">
+			<Size>
+				<AbsDimension x="131" y="92"/>
+			</Size>
+		</CheckedTexture>
+	</Button>
+	<Button name="AchievementBtnTemplate" virtual="true">
+		<Size>
+			<AbsDimension x="70" y="70"/>
+		</Size>
+		<Layers>
+			<Layer level="overlay">
+				<Texture name="$parentIcon">
+					<Size>
+						<AbsDimension x="65" y="65"/>
+					</Size>
+					<Anchors>
+						<Anchor point="center" relativePoint="center" relativeTo="$parent">
+							<Offset>
+								<AbsDimension x="0" y="0"/>
+							</Offset>
+						</Anchor>
+					</Anchors>	
+				</Texture>
+				<Texture name="$parentLock" file="ui/mobile/ui1.png" x="962" y="215" w="61" h="61" hidden="true">
+					<Size>
+						<AbsDimension x="63" y="63"/>
+					</Size>
+					<Anchors>
+						<Anchor point="center" relativePoint="center" relativeTo="$parent">
+							<Offset>
+								<AbsDimension x="0" y="0"/>
+							</Offset>
+						</Anchor>
+					</Anchors>	
+				</Texture>
+				<Texture name="$parentFinish" file="ui/mobile/ui.png" x="961" y="593" w="37" h="37" hidden="true">
+					<Size>
+						<AbsDimension x="38" y="38"/>
+					</Size>
+					<Anchors>
+						<Anchor point="bottomright" relativePoint="bottomright" relativeTo="$parent">
+							<Offset>
+								<AbsDimension x="0" y="0"/>
+							</Offset>
+						</Anchor>
+					</Anchors>	
+				</Texture>
+				<Texture name="$parentArrow" file="ui/mobile/ui1.png" x="1015" y="854" w="8" h="15">
+					<Size>
+						<AbsDimension x="9" y="17"/>
+					</Size>
+					<Anchors>
+						<Anchor point="right" relativePoint="left" relativeTo="$parent">
+							<Offset>
+								<AbsDimension x="0" y="-2"/>
+							</Offset>
+						</Anchor>
+					</Anchors>	
+				</Texture>		
+				<Texture name="$parentHalo" file="ui/mobile/effect/achievement_halo.png" hidden="true" alphamode="ALPHABLEND">
+					<Size>
+						<AbsDimension x="140" y="140"/>
+					</Size>
+					<Anchors>
+						<Anchor point="center" relativePoint="center" relativeTo="$parent">
+							<Offset>
+								<AbsDimension x="2" y="0"/>
+							</Offset>
+						</Anchor>
+					</Anchors>	
+					<UVAnimation texrows="4" texcols="4" />
+				</Texture>
+				<Texture name="$parentAward1" file="ui/mobile/effect/achievement_award_1.png" hidden="true" alphamode="add">
+					<Size>
+						<AbsDimension x="144" y="144"/>
+					</Size>
+					<Anchors>
+						<Anchor point="center" relativePoint="center" relativeTo="$parent">
+							<Offset>
+								<AbsDimension x="-5" y="-3"/>
+							</Offset>
+						</Anchor>
+					</Anchors>	
+					<UVAnimation texrows="2" texcols="4" />
+				</Texture>
+				<Texture name="$parentAward2" file="ui/mobile/effect/achievement_award_2.png" hidden="true">
+					<Size>
+						<AbsDimension x="256" y="256"/>
+					</Size>
+					<Anchors>
+						<Anchor point="center" relativePoint="center" relativeTo="$parent">
+							<Offset>
+								<AbsDimension x="0" y="50"/>
+							</Offset>
+						</Anchor>
+					</Anchors>	
+					<UVAnimation texrows="2" texcols="4" />
+				</Texture>
+				<Texture name="$parentUnlock" file="ui/mobile/effect/achievement_unlock.png" hidden="true">
+					<Size>
+						<AbsDimension x="140" y="140"/>
+					</Size>
+					<Anchors>
+						<Anchor point="center" relativePoint="center" relativeTo="$parent">
+							<Offset>
+								<AbsDimension x="0" y="0"/>
+							</Offset>
+						</Anchor>
+					</Anchors>	
+					<UVAnimation texrows="2" texcols="4" />
+				</Texture>
+				<Texture name="$parentEye" file="ui/mobile/ui.png" x="356" y="60" w="42" h="29" hidden="true">
+					<Size>
+						<AbsDimension x="43" y="30"/>
+					</Size>
+					<Anchors>
+						<Anchor point="center" relativePoint="topright" relativeTo="$parent">
+							<Offset>
+								<AbsDimension x="0" y="0"/>
+							</Offset>
+						</Anchor>
+					</Anchors>	
+				</Texture>
+			</Layer>
+		</Layers>
+		<NormalTexture name="$parentNormal" file="ui/mobile/ui1.png" x="943" y="817" w="68" h="68" />
+		<Scripts>
+			<OnClick>AchievementBtn_OnClick();</OnClick>
+		</Scripts>		
+	</Button>
+
+	<Frame name="AchievementFrame" parent="UIClient" frameStrata="MEDIUM" hidden="true" framelevel="10">
+		<Size>
+			<AbsDimension x="921" y="583"/>
+		</Size>
+		<Anchors>
+			<Anchor point="bottom" relativePoint="top" relativeTo="PlayShortcut">
+				<Offset>
+					<AbsDimension x="-30" y="0" />
+				</Offset>
+			</Anchor>
+		</Anchors>
+		<Layers>
+			<Layer level="BACKGROUND">
+				<Texture name="$parentBkg" file="ui/mobile/ui1.png" x="0" y="459" w="817" h="517">
+					<Size>
+						<AbsDimension x="921" y="583"/>
+					</Size>
+					<Anchors>
+						<Anchor point="topleft" relativePoint="topleft" relativeTo="$parent">
+							<Offset>
+								<AbsDimension x="105" y="0"/>
+							</Offset>
+						</Anchor>
+					</Anchors>	
+				</Texture>
+				<Texture name="$parentIconBox" inherits="TransparentBoxTemplate">
+					<Size>
+						<AbsDimension x="868" y="386"/>
+					</Size>
+					<Anchors>
+						<Anchor point="topleft" relativePoint="topleft" relativeTo="$parentBkg">
+							<Offset>
+								<AbsDimension x="28" y="13"/>
+							</Offset>
+						</Anchor>
+					</Anchors>	
+				</Texture>
+				<Texture name="$parentDescBox" inherits="BrownBoxTemplate">
+					<Size>
+						<AbsDimension x="868" y="155"/>
+					</Size>
+					<Anchors>
+						<Anchor point="top" relativePoint="bottom" relativeTo="$parentIconBox">
+							<Offset>
+								<AbsDimension x="0" y="5"/>
+							</Offset>
+						</Anchor>
+					</Anchors>	
+				</Texture>
+				<Texture name="$parentPointBkg" file="ui/mobile/ui1.png" x="444" y="984" w="174" h="39">
+					<Size>
+						<AbsDimension x="196" y="44"/>
+					</Size>
+					<Anchors>
+						<Anchor point="bottomright" relativePoint="topright" relativeTo="$parentIconBox">
+							<Offset>
+								<AbsDimension x="0" y="1"/>
+							</Offset>
+						</Anchor>
+					</Anchors>	
+				</Texture>
+			</Layer>
+		</Layers>
+		<Frames>
+			<Button name="$parentCloseBtn">
+				<Size>
+					<AbsDimension x="106" y="92"/>
+				</Size>
+				<Anchors>
+					<Anchor point="topleft" relativeTo="$parent" relativePoint="topleft">
+						<Offset>
+							<AbsDimension x="3" y="22"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Layers>
+					<Layer level="overlay">
+						<Texture name="$parentIcon" file="ui/mobile/ui.png" x="351" y="222" w="42" h="43">
+							<Size>
+								<AbsDimension x="47" y="48"/>
+							</Size>
+							<Anchors>
+								<Anchor point="center" relativePoint="center" relativeTo="$parent">
+									<Offset>
+										<AbsDimension x="0" y="0"/>
+									</Offset>
+								</Anchor>
+							</Anchors>	
+						</Texture>
+					</Layer>
+				</Layers>
+				<NormalTexture name="$parentNormal" file="ui/mobile/ui1.png" x="823" y="904" w="94" h="82">
+					<Size>
+						<AbsDimension x="106" y="92"/>
+					</Size>
+				</NormalTexture>
+				<Scripts>
+					<OnMouseDown>AchievementFrameCloseBtn_OnMounseDown();</OnMouseDown>
+					<OnMouseUp>AchievementFrameCloseBtn_OnMouseUp();</OnMouseUp>
+					<OnClick>AchievementFrameCloseBtn_OnClick();</OnClick>
+				</Scripts>
+			</Button>
+			<Button name="$parentMainBtn" inherits="AchievementLabelBtnTemplate">
+				<Anchors>
+					<Anchor point="topleft" relativeTo="$parentCloseBtn" relativePoint="bottomleft">
+						<Offset>
+							<AbsDimension x="0" y="25"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Layers>
+					<Layer level="ARTWORK">
+						<Texture name="$parentIcon" file="ui/mobile/ui1.png" x="899" y="660" w="71" h="36">
+							<Size>
+								<AbsDimension x="80" y="41"/>
+							</Size>
+							<Anchors>
+								<Anchor point="topleft" relativePoint="topleft" relativeTo="$parent">
+									<Offset>
+										<AbsDimension x="17" y="22"/>
+									</Offset>
+								</Anchor>
+							</Anchors>	
+						</Texture>		
+					</Layer>
+				</Layers>
+				<Scripts>
+					<OnClick>AchievementFrameMainBtn_OnClick();</OnClick>
+				</Scripts>
+			</Button>			
+			<Button name="$parentProductionBtn" inherits="AchievementLabelBtnTemplate">
+				<Anchors>
+					<Anchor point="topleft" relativeTo="$parentMainBtn" relativePoint="bottomleft">
+						<Offset>
+							<AbsDimension x="0" y="13"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Layers>
+					<Layer level="ARTWORK">
+						<Texture name="$parentIcon" file="ui/mobile/ui1.png" x="899" y="737" w="70" h="37">
+							<Size>
+								<AbsDimension x="79" y="42"/>
+							</Size>
+							<Anchors>
+								<Anchor point="topleft" relativePoint="topleft" relativeTo="$parent">
+									<Offset>
+										<AbsDimension x="17" y="22"/>
+									</Offset>
+								</Anchor>
+							</Anchors>	
+						</Texture>
+					</Layer>
+				</Layers>
+				<Scripts>
+					<OnClick>AchievementFrameProductionBtn_OnClick();</OnClick>
+				</Scripts>
+			</Button>
+			<Button name="$parentFightBtn" inherits="AchievementLabelBtnTemplate">
+				<Anchors>
+					<Anchor point="topleft" relativeTo="$parentProductionBtn" relativePoint="bottomleft">
+						<Offset>
+							<AbsDimension x="0" y="13"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Layers>
+					<Layer level="ARTWORK">
+						<Texture name="$parentIcon" file="ui/mobile/ui1.png" x="898" y="699" w="70" h="36">
+							<Size>
+								<AbsDimension x="79" y="41"/>
+							</Size>
+							<Anchors>
+								<Anchor point="topleft" relativePoint="topleft" relativeTo="$parent">
+									<Offset>
+										<AbsDimension x="17" y="22"/>
+									</Offset>
+								</Anchor>
+							</Anchors>	
+						</Texture>
+					</Layer>
+				</Layers>
+				<Scripts>
+					<OnClick>AchievementFrameFightBtn_OnClick();</OnClick>
+				</Scripts>
+			</Button>
+			<Button name="$parentOtherBtn" inherits="AchievementLabelBtnTemplate">
+				<Anchors>
+					<Anchor point="topleft" relativeTo="$parentFightBtn" relativePoint="bottomleft">
+						<Offset>
+							<AbsDimension x="0" y="13"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Layers>
+					<Layer level="ARTWORK">
+						<Texture name="$parentIcon" file="ui/mobile/ui1.png" x="899" y="777" w="71" h="36">
+							<Size>
+								<AbsDimension x="80" y="41"/>
+							</Size>
+							<Anchors>
+								<Anchor point="topleft" relativePoint="topleft" relativeTo="$parent">
+									<Offset>
+										<AbsDimension x="17" y="22"/>
+									</Offset>
+								</Anchor>
+							</Anchors>	
+						</Texture>
+					</Layer>
+				</Layers>
+				<Scripts>
+					<OnClick>AchievementFrameOtherBtn_OnClick();</OnClick>
+				</Scripts>
+			</Button>
+			<SlidingFrame name="AchievementIconInfo" slidingX="true" slidingY="true" slideplane="$parentPlane">
+				<Size>
+					<AbsDimension x="867" y="385"/>
+				</Size>
+				<Anchors>
+					<Anchor point="topleft" relativePoint="topleft" relativeTo="AchievementFrameIconBox">
+						<Offset>
+							<AbsDimension x="1" y="1"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Frames>
+					<Frame name="$parentPlane" hidden="true">
+						<Size>
+							<AbsDimension x="1527" y="720"/>
+						</Size>
+					</Frame>
+					<LineFrame name="AchievementLine" gridWidth="70">
+						<Size>
+							<AbsDimension x="1517" y="703"/>
+						</Size>
+						<Anchors>
+							<Anchor point="topleft" relativePoint="topleft" relativeTo="$parentPlane">
+								<Offset>
+									<AbsDimension x="10" y="17"/>
+								</Offset>
+							</Anchor>
+						</Anchors>
+					</LineFrame>		
+					<Button name="AchievementBtn1" inherits="AchievementBtnTemplate"/>
+					<Button name="AchievementBtn2" inherits="AchievementBtnTemplate"/>
+					<Button name="AchievementBtn3" inherits="AchievementBtnTemplate"/>
+					<Button name="AchievementBtn4" inherits="AchievementBtnTemplate"/>
+					<Button name="AchievementBtn5" inherits="AchievementBtnTemplate"/>
+					<Button name="AchievementBtn6" inherits="AchievementBtnTemplate"/>
+					<Button name="AchievementBtn7" inherits="AchievementBtnTemplate"/>
+					<Button name="AchievementBtn8" inherits="AchievementBtnTemplate"/>
+					<Button name="AchievementBtn9" inherits="AchievementBtnTemplate"/>
+					<Button name="AchievementBtn10" inherits="AchievementBtnTemplate"/>
+					<Button name="AchievementBtn11" inherits="AchievementBtnTemplate"/>
+					<Button name="AchievementBtn12" inherits="AchievementBtnTemplate"/>
+					<Button name="AchievementBtn13" inherits="AchievementBtnTemplate"/>
+					<Button name="AchievementBtn14" inherits="AchievementBtnTemplate"/>
+					<Button name="AchievementBtn15" inherits="AchievementBtnTemplate"/>	
+					<Button name="AchievementBtn16" inherits="AchievementBtnTemplate"/>
+					<Button name="AchievementBtn17" inherits="AchievementBtnTemplate"/>
+					<Button name="AchievementBtn18" inherits="AchievementBtnTemplate"/>
+					<Button name="AchievementBtn19" inherits="AchievementBtnTemplate"/>
+					<Button name="AchievementBtn20" inherits="AchievementBtnTemplate"/>
+					<Button name="AchievementBtn21" inherits="AchievementBtnTemplate"/>
+					<Button name="AchievementBtn22" inherits="AchievementBtnTemplate"/>
+					<Button name="AchievementBtn23" inherits="AchievementBtnTemplate"/>
+					<Button name="AchievementBtn24" inherits="AchievementBtnTemplate"/>
+					<Button name="AchievementBtn25" inherits="AchievementBtnTemplate"/>
+					<Button name="AchievementBtn26" inherits="AchievementBtnTemplate"/>
+					<Button name="AchievementBtn27" inherits="AchievementBtnTemplate"/>
+					<Button name="AchievementBtn28" inherits="AchievementBtnTemplate"/>
+					<Button name="AchievementBtn29" inherits="AchievementBtnTemplate"/>
+					<Button name="AchievementBtn30" inherits="AchievementBtnTemplate"/>	
+					<Button name="AchievementBtn31" inherits="AchievementBtnTemplate"/>
+					<Button name="AchievementBtn32" inherits="AchievementBtnTemplate"/>
+					<Button name="AchievementBtn33" inherits="AchievementBtnTemplate"/>
+					<Button name="AchievementBtn34" inherits="AchievementBtnTemplate"/>
+					<Button name="AchievementBtn35" inherits="AchievementBtnTemplate"/>
+					<Button name="AchievementBtn36" inherits="AchievementBtnTemplate"/>
+					<Button name="AchievementBtn37" inherits="AchievementBtnTemplate"/>
+					<Button name="AchievementBtn38" inherits="AchievementBtnTemplate"/>
+					<Button name="AchievementBtn39" inherits="AchievementBtnTemplate"/>
+					<Button name="AchievementBtn40" inherits="AchievementBtnTemplate"/>
+					<Button name="AchievementBtn41" inherits="AchievementBtnTemplate"/>
+					<Button name="AchievementBtn42" inherits="AchievementBtnTemplate"/>
+					<Button name="AchievementBtn43" inherits="AchievementBtnTemplate"/>
+					<Button name="AchievementBtn44" inherits="AchievementBtnTemplate"/>
+					<Button name="AchievementBtn45" inherits="AchievementBtnTemplate"/>	
+					<Button name="AchievementBtn46" inherits="AchievementBtnTemplate"/>
+					<Button name="AchievementBtn47" inherits="AchievementBtnTemplate"/>
+					<Button name="AchievementBtn48" inherits="AchievementBtnTemplate"/>
+					<Button name="AchievementBtn49" inherits="AchievementBtnTemplate"/>
+					<Button name="AchievementBtn50" inherits="AchievementBtnTemplate"/>
+					<Button name="AchievementBtn51" inherits="AchievementBtnTemplate"/>
+					<Button name="AchievementBtn52" inherits="AchievementBtnTemplate"/>
+					<Button name="AchievementBtn53" inherits="AchievementBtnTemplate"/>
+					<Button name="AchievementBtn54" inherits="AchievementBtnTemplate"/>
+					<Button name="AchievementBtn55" inherits="AchievementBtnTemplate"/>
+					<Button name="AchievementBtn56" inherits="AchievementBtnTemplate"/>
+					<Button name="AchievementBtn57" inherits="AchievementBtnTemplate"/>
+					<Button name="AchievementBtn58" inherits="AchievementBtnTemplate"/>
+					<Button name="AchievementBtn59" inherits="AchievementBtnTemplate"/>
+					<Button name="AchievementBtn60" inherits="AchievementBtnTemplate"/>	
+					<Button name="AchievementBtn61" inherits="AchievementBtnTemplate"/>
+					<Button name="AchievementBtn62" inherits="AchievementBtnTemplate"/>
+					<Button name="AchievementBtn63" inherits="AchievementBtnTemplate"/>
+					<Button name="AchievementBtn64" inherits="AchievementBtnTemplate"/>
+					<Button name="AchievementBtn65" inherits="AchievementBtnTemplate"/>
+					<Button name="AchievementBtn66" inherits="AchievementBtnTemplate"/>
+					<Button name="AchievementBtn67" inherits="AchievementBtnTemplate"/>
+					<Button name="AchievementBtn68" inherits="AchievementBtnTemplate"/>
+					<Button name="AchievementBtn69" inherits="AchievementBtnTemplate"/>
+					<Button name="AchievementBtn70" inherits="AchievementBtnTemplate"/>
+					<Button name="AchievementBtn71" inherits="AchievementBtnTemplate"/>
+					<Button name="AchievementBtn72" inherits="AchievementBtnTemplate"/>
+					<Button name="AchievementBtn73" inherits="AchievementBtnTemplate"/>
+					<Button name="AchievementBtn74" inherits="AchievementBtnTemplate"/>
+					<Button name="AchievementBtn75" inherits="AchievementBtnTemplate"/>
+					<Button name="AchievementBtn76" inherits="AchievementBtnTemplate"/>
+					<Button name="AchievementBtn77" inherits="AchievementBtnTemplate"/>
+					<Button name="AchievementBtn78" inherits="AchievementBtnTemplate"/>
+					<Button name="AchievementBtn79" inherits="AchievementBtnTemplate"/>
+					<Button name="AchievementBtn80" inherits="AchievementBtnTemplate"/>
+				</Frames>
+			</SlidingFrame>	
+			<Frame name="AchievementDecs">
+				<Size>
+					<AbsDimension x="868" y="155"/>
+				</Size>
+				<Anchors>
+				<Anchor point="topleft" relativePoint="topleft" relativeTo="$parentDescBox">
+						<Offset>
+							<AbsDimension x="0" y="0"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Layers>
+					<Layer level="BACKGROUND">
+						<Texture name="$parentDescTitle" file="ui/mobile/ui.png" x="944" y="800" w="68" h="30">
+							<Size>
+								<AbsDimension x="68" y="30"/>
+							</Size>
+							<Anchors>
+								<Anchor point="topleft" relativePoint="topleft" relativeTo="$parent">
+									<Offset>
+										<AbsDimension x="13" y="13"/>
+									</Offset>
+								</Anchor>
+							</Anchors>	
+						</Texture>
+						<FontString name="$parentText" fonttype="BlackFont24" lineInterval="2" fontStyle="border">
+							<Color r="255" g="255" b="255"/>
+							<Size>
+								<AbsDimension x="400" y="25"/>
+							</Size>
+							<Anchors>
+								<Anchor point="left" relativePoint="right" relativeTo="$parentDescTitle">
+									<Offset>
+										<AbsDimension x="15" y="30"/>
+									</Offset>
+								</Anchor>
+							</Anchors>
+						</FontString>
+						<Texture name="$parentConditionTitle" file="ui/mobile/ui.png" x="545" y="977" w="71" h="30">
+							<Size>
+								<AbsDimension x="71" y="30"/>
+							</Size>
+							<Anchors>
+								<Anchor point="topleft" relativePoint="topleft" relativeTo="$parent">
+									<Offset>
+										<AbsDimension x="14" y="80"/>
+									</Offset>
+								</Anchor>
+							</Anchors>	
+						</Texture>
+						<FontString name="$parentCondition1" fonttype="BlackFont24" lineInterval="2" fontStyle="border">
+							<Color r="98" g="97" b="97"/>
+							<Size>
+								<AbsDimension x="190" y="25"/>
+							</Size>
+							<Anchors>
+								<Anchor point="left" relativePoint="right" relativeTo="$parentConditionTitle">
+									<Offset>
+										<AbsDimension x="10" y="0"/>
+									</Offset>
+								</Anchor>
+							</Anchors>
+						</FontString>
+						<FontString name="$parentCondition2" fonttype="BlackFont24" lineInterval="2" fontStyle="border">
+							<Color r="98" g="97" b="97"/>
+							<Size>
+								<AbsDimension x="190" y="25"/>
+							</Size>
+							<Anchors>
+								<Anchor point="left" relativePoint="right" relativeTo="$parentCondition1">
+									<Offset>
+										<AbsDimension x="5" y="0"/>
+									</Offset>
+								</Anchor>
+							</Anchors>
+						</FontString>
+						<FontString name="$parentCondition3" fonttype="BlackFont24" lineInterval="2" fontStyle="border">
+							<Color r="98" g="97" b="97"/>
+							<Size>
+								<AbsDimension x="190" y="25"/>
+							</Size>
+							<Anchors>
+								<Anchor point="topleft" relativePoint="bottomleft" relativeTo="$parentCondition1">
+									<Offset>
+										<AbsDimension x="0" y="10"/>
+									</Offset>
+								</Anchor>
+							</Anchors>
+						</FontString>
+						<FontString name="$parentCondition4" fonttype="BlackFont24" lineInterval="2" fontStyle="border">
+							<Color r="98" g="97" b="97"/>
+							<Size>
+								<AbsDimension x="190" y="25"/>
+							</Size>
+							<Anchors>
+								<Anchor point="left" relativePoint="right" relativeTo="$parentCondition3">
+									<Offset>
+										<AbsDimension x="5" y="0"/>
+									</Offset>
+								</Anchor>
+							</Anchors>
+						</FontString>
+						<Texture name="$parentRewardTitle" file="ui/mobile/ui.png" x="624" y="977" w="72" h="30">
+							<Size>
+								<AbsDimension x="72" y="30"/>
+							</Size>
+							<Anchors>
+								<Anchor point="topleft" relativePoint="topleft" relativeTo="$parent">
+									<Offset>
+										<AbsDimension x="486" y="67"/>
+									</Offset>
+								</Anchor>
+							</Anchors>	
+						</Texture>
+						<Texture name="$parentReward1">
+							<Size>
+								<AbsDimension x="36" y="36"/>
+							</Size>
+							<Anchors>
+								<Anchor point="left" relativePoint="right" relativeTo="$parentRewardTitle">
+									<Offset>
+										<AbsDimension x="10" y="0"/>
+									</Offset>
+								</Anchor>
+							</Anchors>	
+						</Texture>
+						<FontString name="$parentRewardNum1" fonttype="BlackFont24" lineInterval="2" fontStyle="border">
+							<Color r="255" g="255" b="255"/>
+							<Size>
+								<AbsDimension x="100" y="25"/>
+							</Size>
+							<Anchors>
+								<Anchor point="left" relativePoint="right" relativeTo="$parentReward1">
+									<Offset>
+										<AbsDimension x="5" y="0"/>
+									</Offset>
+								</Anchor>
+							</Anchors>
+						</FontString>
+						<Texture name="$parentReward2">
+							<Size>
+								<AbsDimension x="36" y="36"/>
+							</Size>
+							<Anchors>
+								<Anchor point="topleft" relativePoint="bottomleft" relativeTo="$parentReward1">
+									<Offset>
+										<AbsDimension x="0" y="5"/>
+									</Offset>
+								</Anchor>
+							</Anchors>	
+						</Texture>
+						<FontString name="$parentRewardNum2" fonttype="BlackFont24" lineInterval="2" fontStyle="border">
+							<Color r="255" g="255" b="255"/>
+							<Size>
+								<AbsDimension x="100" y="25"/>
+							</Size>
+							<Anchors>
+								<Anchor point="left" relativePoint="right" relativeTo="$parentReward2">
+									<Offset>
+										<AbsDimension x="5" y="0"/>
+									</Offset>
+								</Anchor>
+							</Anchors>
+						</FontString>
+					</Layer>
+				</Layers>
+				<Frames>
+					<Button name="$parentRewardItemBtn1">
+						<Size>
+							<AbsDimension x="36" y="36"/>
+						</Size>
+						<Anchors>
+							<Anchor point="topleft" relativePoint="topleft" relativeTo="$parentReward1">
+								<Offset>
+									<AbsDimension x="0" y="0"/>
+								</Offset>
+							</Anchor>
+						</Anchors>
+						<Scripts>
+							<OnClick>AchievementDecsRewardItemBtn_Onclick();</OnClick>
+						</Scripts>
+					</Button>
+					<Button name="$parentRewardItemBtn2">
+						<Size>
+							<AbsDimension x="36" y="36"/>
+						</Size>
+						<Anchors>
+							<Anchor point="topleft" relativePoint="topleft" relativeTo="$parentReward2">
+								<Offset>
+									<AbsDimension x="0" y="0"/>
+								</Offset>
+							</Anchor>
+						</Anchors>
+						<Scripts>
+							<OnClick>AchievementDecsRewardItemBtn_Onclick();</OnClick>
+						</Scripts>
+					</Button>
+					<RichText name="$parentName" lineInterval="2" multiLine="false" fonttype="BlackFont24" fontStyle="border">
+						<Size>
+							<AbsDimension x="400" y="25"/>
+						</Size>
+						<Anchors>
+							<Anchor point="bottomleft" relativePoint="topleft" relativeTo="$parentText">
+								<Offset>
+									<AbsDimension x="0" y="-8"/>
+								</Offset>
+							</Anchor>
+						</Anchors>
+					</RichText>
+					<Button name="$parentTrackBtn" >
+						<Size>
+							<AbsDimension x="179" y="45"/>
+						</Size>
+						<Anchors>
+							<Anchor point="topleft" relativePoint="topleft" relativeTo="$parent">
+								<Offset>
+									<AbsDimension x="486" y="15"/>
+								</Offset>
+							</Anchor>
+						</Anchors>
+						<Layers>
+							<Layer name="ARTWORK" >
+								<Texture name="$parentTrackTagBkg" file="ui/mobile/ui1.png" x="1" y="979" w="179" h="45" />
+								<Texture name="$parentTrackTag" file="ui/mobile/ui1.png" x="183" y="980" w="44" h="44" hidden="true">
+									<Size>
+										<AbsDimension x="44" y="44"/>
+									</Size>
+									<Anchors>
+										<Anchor point="topleft" relativePoint="topleft" relativeTo="$parent">
+											<Offset>
+												<AbsDimension x="0" y="1"/>
+											</Offset>
+										</Anchor>
+									</Anchors>	
+								</Texture>
+							</Layer>
+						</Layers>
+						<Scripts>
+							<OnClick>AchievementDecsTrackBtn_OnClick();</OnClick>
+						</Scripts>
+					</Button>
+					<Button name="$parentRewardBtn" >
+						<Size>
+							<AbsDimension x="158" y="104"/>
+						</Size>
+						<Anchors>
+							<Anchor point="topleft" relativeTo="$parentTrackBtn" relativePoint="topleft">
+								<Offset>
+									<AbsDimension x="205" y="0"/>
+								</Offset>
+							</Anchor>
+						</Anchors>
+						<Layers>
+							<Layer level="overlay">
+								<Texture name="$parentName" file="ui/mobile/ui1.png" x="802" y="992" w="120" h="30">
+									<Size>
+										<AbsDimension x="135" y="34"/>
+									</Size>
+									<Anchors>
+										<Anchor point="center" relativePoint="center" relativeTo="$parent">
+											<Offset>
+												<AbsDimension x="0" y="0"/>
+											</Offset>
+										</Anchor>
+									</Anchors>	
+								</Texture>
+								<Texture name="$parentAward3" file="ui/mobile/effect/achievement_award_3.png" hidden="true">
+									<Size>
+										<AbsDimension x="256" y="256"/>
+									</Size>
+									<Anchors>
+										<Anchor point="topright" relativePoint="bottomleft" relativeTo="$parent">
+											<Offset>
+												<AbsDimension x="100" y="-60"/>
+											</Offset>
+										</Anchor>
+									</Anchors>	
+									<UVAnimation texrows="2" texcols="4" />
+								</Texture>
+								<Texture name="$parentAward4" file="ui/mobile/effect/achievement_award_4.png" hidden="true">
+									<Size>
+										<AbsDimension x="280" y="280"/>
+									</Size>
+									<Anchors>
+										<Anchor point="center" relativePoint="center" relativeTo="$parent">
+											<Offset>
+												<AbsDimension x="0" y="0"/>
+											</Offset>
+										</Anchor>
+									</Anchors>	
+									<UVAnimation texrows="2" texcols="4" />
+								</Texture>
+							</Layer>
+						</Layers>
+						<NormalTexture name="$parentNormal" file="ui/mobile/ui2.png" x="269" y="1" w="140" h="92" />	
+						<PushedTexture name="$parentPushedBG" file="ui/mobile/ui2.png" x="411" y="1" w="140" h="92" />				
+						<Scripts>						
+							<OnClick>AchievementDecsRewardBtn_OnClick();</OnClick>
+						</Scripts>
+					</Button>
+				</Frames>
+			</Frame>
+			<Frame name="$parentArrow" input_transparent="true">
+				<Layers>
+					<Layer level="overlay">
+						<Texture name="$parentTop" file="ui/mobile/ui1.png" x="229" y="985" w="101" h="36" hidden="true">
+							<Size>
+								<AbsDimension x="57" y="21"/>
+							</Size>
+							<Anchors>
+								<Anchor point="bottom" relativePoint="top" relativeTo="AchievementFrameIconBox">
+									<Offset>
+										<AbsDimension x="0" y="10"/>
+									</Offset>
+								</Anchor>
+							</Anchors>	
+						</Texture>
+						<Texture name="$parentLeft" file="ui/mobile/ui1.png" x="986" y="0" w="37" h="104" hidden="true">
+							<Size>
+								<AbsDimension x="21" y="58"/>
+							</Size>
+							<Anchors>
+								<Anchor point="right" relativePoint="left" relativeTo="AchievementFrameIconBox">
+									<Offset>
+										<AbsDimension x="30" y="0"/>
+									</Offset>
+								</Anchor>
+							</Anchors>	
+						</Texture>
+						<Texture name="$parentBottom" file="ui/mobile/ui1.png" x="334" y="988" w="101" h="36" hidden="true">
+							<Size>
+								<AbsDimension x="57" y="21"/>
+							</Size>
+							<Anchors>
+								<Anchor point="bottom" relativePoint="bottom" relativeTo="AchievementFrameIconBox">
+									<Offset>
+										<AbsDimension x="0" y="10"/>
+									</Offset>
+								</Anchor>
+							</Anchors>	
+						</Texture>
+						<Texture name="$parentRight" file="ui/mobile/ui1.png" x="984" y="108" w="38" h="104" hidden="true">
+							<Size>
+								<AbsDimension x="21" y="58"/>
+							</Size>
+							<Anchors>
+								<Anchor point="right" relativePoint="right" relativeTo="AchievementFrameIconBox">
+									<Offset>
+										<AbsDimension x="10" y="0"/>
+									</Offset>
+								</Anchor>
+							</Anchors>	
+						</Texture>
+					</Layer>
+				</Layers>
+				<Scripts>
+					<OnLoad>AchievementFrameArrow_OnLoad();</OnLoad>
+					<OnUpdate>AchievementFrameArrow_OnUpdate();</OnUpdate>
+				</Scripts>
+			</Frame>
+			<RichText name="$parentPoint" lineInterval="2" multiLine="false" fonttype="BlackFont18" fontStyle="border" >
+				<Size>
+					<AbsDimension x="175" y="25"/>
+				</Size>
+				<Anchors>
+					<Anchor point="center" relativePoint="center" relativeTo="$parentPointBkg">
+						<Offset>
+							<AbsDimension x="0" y="0"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+			</RichText>
+		</Frames>
+		<Scripts>
+			<OnLoad>AchievementFrame_OnLoad();</OnLoad>
+			<OnEvent>AchievementFrame_OnEvent();</OnEvent>
+			<OnShow>AchievementFrame_OnShow();</OnShow>
+			<OnHide>AchievementFrame_OnHide();</OnHide>
+		</Scripts>
+	</Frame>
+</Ui>

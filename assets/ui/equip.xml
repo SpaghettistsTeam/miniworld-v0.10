@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Ui>
+	<Script file="ui/equip.lua" />
+	<Frame name="EquipFrame" parent="UIClient" frameStrata="MEDIUM" hidden="true" framelevel="50">
+		<Size>
+			<AbsDimension x="312" y="514"/>
+		</Size>
+		<Anchors>
+			<Anchor point="topright" relativePoint="topleft" relativeTo="BackpackFrame">
+				<Offset>
+					<AbsDimension x="0" y="0" />
+				</Offset>
+			</Anchor>
+		</Anchors>
+		<Layers>
+			<Layer level="BACKGROUND">
+				<Texture name="$parentBkg" file="ui/backpack.png" x="0" y="0" w="312" h="514">
+				</Texture>
+			</Layer>
+			<Layer level="ARTWORK">
+				<ModelView name="EquipActorView">
+					<Size>
+						<AbsDimension x="250" y="320"/>
+					</Size>
+					<Anchors>
+						<Anchor point="topleft" relativeTo="$parent" relativePoint="topleft">
+							<Offset>
+								<AbsDimension x="30" y="44" />
+							</Offset>
+						</Anchor>
+					</Anchors>
+				</ModelView>
+			</Layer>
+		</Layers>
+		<Frames>
+			<Button name="$parentRotateLeftBtn">
+				<Size>
+					<AbsDimension x="41" y="30"/>
+				</Size>
+				<Anchors>
+					<Anchor point="topleft" relativeTo="$parent" relativePoint="topleft">
+						<Offset>
+							<AbsDimension x="58" y="334"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<NormalTexture name="$parentNormal" file="ui/backpack.png" x="901" y="515" w="42" h="27"/>
+				<PushedTexture name="$parentPushedBG" file="ui/backpack.png" x="983" y="515" w="42" h="27"/>
+				<HighlightTexture name="$parentHighlightBG" file="ui/backpack.png" x="942" y="515" w="42" h="27"/>
+				<Scripts>
+					<OnMouseDown>EquipFrameLeftBtn_OnMouseDown();</OnMouseDown>
+					<OnMouseUp>EquipFrameLeftBtn_OnMouseUp();</OnMouseUp>
+				</Scripts>
+			</Button>
+			<Button name="$parentRotateRightBtn">
+				<Size>
+					<AbsDimension x="41" y="30"/>
+				</Size>
+				<Anchors>
+					<Anchor point="topleft" relativeTo="$parent" relativePoint="topleft">
+						<Offset>
+							<AbsDimension x="221" y="334"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<NormalTexture name="$parentNormal" file="ui/backpack.png" x="901" y="544" w="42" h="27"/>
+				<PushedTexture name="$parentPushedBG" file="ui/backpack.png" x="983" y="544" w="42" h="27"/>
+				<HighlightTexture name="$parentHighlightBG" file="ui/backpack.png" x="942" y="544" w="42" h="27"/>
+				<Scripts>
+					<OnMouseDown>EquipFrameRightBtn_OnMouseDown();</OnMouseDown>
+					<OnMouseUp>EquipFrameRightBtn_OnMouseUp();</OnMouseUp>
+				</Scripts>
+			</Button>
+			<Button name="$parentChangeBtn">
+				<Size>
+					<AbsDimension x="45" y="47"/>
+				</Size>
+				<Anchors>
+					<Anchor point="topleft" relativeTo="$parent" relativePoint="topleft">
+						<Offset>
+							<AbsDimension x="31" y="43"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<NormalTexture name="$parentNormal" file="ui/backpack.png" x="0" y="668" w="45" h="47"/>
+				<PushedTexture name="$parentPushedBG" file="ui/backpack.png" x="90" y="668" w="45" h="47"/>
+				<HighlightTexture name="$parentHighlightBG" file="ui/backpack.png" x="45" y="668" w="45" h="47"/>
+			</Button>
+			<Button name="$parentCloseBtn" inherits="CloseBtnTemplate">
+				<Anchors>
+					<Anchor point="topleft" relativeTo="$parent" relativePoint="topleft">
+						<Offset>
+							<AbsDimension x="265" y="0"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Scripts>
+					<OnClick>EquipFrameCloseBtn_OnClick();</OnClick>
+				</Scripts>
+			</Button>
+			<Button name="EquipItemBtn1" inherits="ItemButtonTemplate" id="8000">
+				<Anchors>
+					<Anchor point="topleft" relativeTo="$parent" relativePoint="topleft">
+						<Offset>
+							<AbsDimension x="16" y="435"/>
+						</Offset>
+				</Anchor>
+				</Anchors>
+			</Button>
+			<Button name="EquipItemBtn2" inherits="ItemButtonTemplate" id="8001">
+				<Anchors>
+					<Anchor point="topleft" relativeTo="$parent" relativePoint="topleft">
+						<Offset>
+							<AbsDimension x="90" y="435"/>
+						</Offset>
+				</Anchor>
+				</Anchors>
+			</Button>
+			<Button name="EquipItemBtn3" inherits="ItemButtonTemplate" id="8002">
+				<Anchors>
+					<Anchor point="topleft" relativeTo="$parent" relativePoint="topleft">
+						<Offset>
+							<AbsDimension x="165" y="435"/>
+						</Offset>
+				</Anchor>
+				</Anchors>
+			</Button>
+			<Button name="EquipItemBtn4" inherits="ItemButtonTemplate" id="8003">
+				<Anchors>
+					<Anchor point="topleft" relativeTo="$parent" relativePoint="topleft">
+						<Offset>
+							<AbsDimension x="239" y="435"/>
+						</Offset>
+				</Anchor>
+				</Anchors>
+			</Button>
+		</Frames>
+		<Scripts>
+			<OnLoad>EquipFrame_OnLoad();</OnLoad>
+			<OnEvent>EquipFrame_OnEvent();</OnEvent>
+			<OnShow>EquipFrame_OnShow();</OnShow>
+			<OnHide>EquipFrame_OnHide();</OnHide>
+		</Scripts>
+	</Frame>
+</Ui>

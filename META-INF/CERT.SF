@@ -1,0 +1,5047 @@
+Signature-Version: 1.0
+Created-By: 1.0 (Android)
+SHA1-Digest-Manifest: J7UHdptDO7plJgnjOwRwmCYNSIA=
+
+Name: assets/blocks/redstone_dust_line_overlay.png
+SHA1-Digest: 5+xIVubB+cLcOgCrkENk2fQbc6E=
+
+Name: assets/blocks/piston_side.png
+SHA1-Digest: oIIUQBaHIXCd/8RhxJGIVh4QOU4=
+
+Name: assets/voxel/monu.vox
+SHA1-Digest: x7Z3rkJKv5cdk0SFAdp25r65kt4=
+
+Name: assets/ui/mobile/store.lua
+SHA1-Digest: oly+2O6jPR3af3Cs/HF3VYAsygo=
+
+Name: assets/particles/texture/Shaped_Protoss2.png
+SHA1-Digest: TxDw4FU7EQfdBcWbvVSJuIFdKYo=
+
+Name: assets/blocks/dispenser_front_horizontal.png
+SHA1-Digest: Ol6o0TzK4uD3piBRXwZtTCdV/94=
+
+Name: assets/sounds/mob/sheep/say3.ogg
+SHA1-Digest: sscK6dXQNZlmL2icoZbyUvaITgw=
+
+Name: assets/blocks/wool_colored_green.png
+SHA1-Digest: dle9DrMqK2ZfJ2dsFmtjk1dh4b4=
+
+Name: assets/items/compass.png
+SHA1-Digest: E7oOhDXHvoBFoIfHiL+QjPvltX0=
+
+Name: assets/particles/texture/fire3_D_C.png
+SHA1-Digest: FHzz3YdjNM/Eeegqi8K+nr86h+M=
+
+Name: assets/ui/bufficons/damaged_punch_add.png
+SHA1-Digest: s171SZtQV4RwX/915hqtQiVKAd4=
+
+Name: assets/entity/100007/male_s.png
+SHA1-Digest: WmOH0/VdG11bG5rULS9K0qQhPM0=
+
+Name: assets/csvdef/enchantment.csv
+SHA1-Digest: BSB4LwdqP3TP0SW+szUojSV6KyY=
+
+Name: assets/luascript/blocks.lua.bak
+SHA1-Digest: H16EuCqIZRnH2zFGvi9yUEEH1mk=
+
+Name: assets/sounds/mob/zombiegirl/step1.ogg
+SHA1-Digest: b46wAguVR9drUi/zJKgPm5/hLKQ=
+
+Name: assets/items/stone_sword.png
+SHA1-Digest: VlaeO6NJEihr/liNTcksCAnJi2A=
+
+Name: assets/entity/120005/body.omod
+SHA1-Digest: f9qEwq0GtGagdTSB77+vArFvRaU=
+
+Name: assets/sounds/buff/buff_damaged_1.ogg
+SHA1-Digest: UoP1cWpqq5Uf9LtRKnH/e9A2rhc=
+
+Name: assets/items/gold_sword.png
+SHA1-Digest: 6viPUdBjsHnL1CUfGbzfBn1G4kM=
+
+Name: assets/sounds/random/burp.ogg
+SHA1-Digest: IOEpPbxj+nP0XIb+XdQgsobRWMU=
+
+Name: assets/blocks/crafting_table_side.png
+SHA1-Digest: kGIkH+BLYvKHFkWUPGIvH6sizqU=
+
+Name: assets/entity/110008/body.omod
+SHA1-Digest: /p3l/KnYi7DfZ+tWJAXFF8/QS6A=
+
+Name: assets/colormap/foliage.png
+SHA1-Digest: f4+KmHmLgMiP+9HaITk9s+PRzRM=
+
+Name: assets/sounds/liquid/swim2.ogg
+SHA1-Digest: pZg1fDjnTQb7EnzuOA3Tku1z2RM=
+
+Name: assets/blocks/furnace_side.png
+SHA1-Digest: vE1pE+u/jw1TjG9h2hc70CyHvBA=
+
+Name: assets/sounds/mob/wolf/death.ogg
+SHA1-Digest: YQisgXzT3mK4liPX9BJhQz7szTM=
+
+Name: assets/ui/bufficons/attack_wither_add.png
+SHA1-Digest: FbRoQGnsSSNdplDbUaEe6r4I2NU=
+
+Name: assets/items/icon2541.png
+SHA1-Digest: CwY8E1gkrYp1D425ZoIXl9bp/cw=
+
+Name: assets/entity/110022/body.omod
+SHA1-Digest: K8wva4WHYu4sp5PMAVSYu6xTPDQ=
+
+Name: assets/sounds/random/ArcherEventBlack.map
+SHA1-Digest: gRStF8ifSWD49CFo6PfAEJ9b9OU=
+
+Name: assets/ui/game.toc
+SHA1-Digest: 9++ATN80XEBQxisi7tPJfEIudAU=
+
+Name: assets/entity/200007/body.omod
+SHA1-Digest: Na1l9siH2bfwfRk/wfXrwZVeU9c=
+
+Name: assets/items/egg.png
+SHA1-Digest: p9PhADzBepoHHnM9eU8pkMNm0/g=
+
+Name: assets/ui/equip.xml
+SHA1-Digest: OUQrE2N583KCCXyR4S8SGY4F3QA=
+
+Name: assets/particles/xxx1001.ent
+SHA1-Digest: o9DgrOxL3KY11uaMqioEV2GSiA8=
+
+Name: assets/blocks/diamond_block.png
+SHA1-Digest: rRHA1l7zifmD+K8ER3mLbrDoefA=
+
+Name: assets/ui/chatframe.lua
+SHA1-Digest: y0xxs7s2RcJ1hsP+IPmiBP7lQO4=
+
+Name: assets/particles/1102.ent
+SHA1-Digest: 5IMQxDsueNciaQgrraxFGhh8gPE=
+
+Name: assets/sounds/buff/buff_wither_1.ogg
+SHA1-Digest: 1KydKqMY0U23BBIJC1kcz4vX7ek=
+
+Name: assets/blocks/flower_rose.png
+SHA1-Digest: RddpW9dU8gjFyq8jDzcDMniB5eg=
+
+Name: assets/sounds/dig/gravel2.ogg
+SHA1-Digest: cTRiqF8ge00V1Nl04toq6m3DQus=
+
+Name: assets/blocks/potatoes_stage_1.png
+SHA1-Digest: xoSvhOV/0Y8rbVR/VKbTCvw7/ks=
+
+Name: assets/sounds/mob/chicken/hurt1.ogg
+SHA1-Digest: 3FpR+yITNhN5GXBfdFuYuDUwcmQ=
+
+Name: assets/blocks/obsidian.png
+SHA1-Digest: FqQ4s3FVMPYs9e4w+9zmlANlP64=
+
+Name: assets/ui/mobile/messagebox.lua.bak
+SHA1-Digest: 30kTIkkdzeA0PfhlYQKziqjRIPY=
+
+Name: assets/blocks/redstone_torch_on.png
+SHA1-Digest: /1a0U60cm3KabB1A/bTKBf0cHWI=
+
+Name: assets/entity/100022/body.omod
+SHA1-Digest: HNdPd5GaZpgXmeT2AyiqvMaNXCI=
+
+Name: assets/blocks/double_plant_sunflower_top.png
+SHA1-Digest: W6Fi/uDMLi8/j5Qufes0WSrJYSI=
+
+Name: assets/entity/100011/body.omod
+SHA1-Digest: +uz3so+m5dkDczjAmpfgKvMOLLA=
+
+Name: assets/ui/shortcut.lua
+SHA1-Digest: EIOSCEuQQGOKgL3YDpasODe+YNU=
+
+Name: assets/items/spawn_egg_overlay.png
+SHA1-Digest: RkDVK34GWyE/GLHJ56hZioqtB64=
+
+Name: assets/items/icon002.png
+SHA1-Digest: 7aEsvUoxsOZaOmkouYv0HZ54gFQ=
+
+Name: assets/items/arrow.png
+SHA1-Digest: rlfNCyntVijFvDoz6kgoHiVceJ8=
+
+Name: assets/entity/player/player08/body.omod
+SHA1-Digest: qmJvFSbGr7Z0u6XnfbopXXFHPEE=
+
+Name: assets/sounds/mob/horse/soft1.ogg
+SHA1-Digest: D84Pn8nbVXUN+H03GmV8NFUY1/0=
+
+Name: assets/entity/100007/male1.png
+SHA1-Digest: xo/xwyNMhZuwKyH3FDhxKhjDoUw=
+
+Name: assets/items/cookie.png
+SHA1-Digest: 1K9fDfPdgevj74JwIcGV2QgJyR4=
+
+Name: assets/ui/roleicons/5.png
+SHA1-Digest: /qCkALXrAYZF3NseUB2RfOfO9GM=
+
+Name: assets/items/fireworks_charge_overlay.png
+SHA1-Digest: qa1RsasZIeOQ3h0ajrzdbuhQYOQ=
+
+Name: assets/items/chainmail_chestplate.png
+SHA1-Digest: nTNEFbhXckr7jboECBNkKLhKpMU=
+
+Name: assets/blocks/wool_colored_pink.png
+SHA1-Digest: I/fNMTZtE416i9ggylF/0CzEs9I=
+
+Name: assets/particles/34071.emo
+SHA1-Digest: r85x0aQueiOzJBb8tuMNjWqjOVc=
+
+Name: assets/blocks/radio.obj
+SHA1-Digest: Z2c6PmHmLnRRRdcbpzJhLMLRD3c=
+
+Name: assets/sounds/random/spring_out.ogg
+SHA1-Digest: Lmek7RR9zNIw4N9qj8+7jCGMSbs=
+
+Name: assets/blocks/rail_golden.png
+SHA1-Digest: GNb/FLoRIcj/Sh7YRaZ0Ju4+YwA=
+
+Name: assets/particles/texture/halo_07.png
+SHA1-Digest: hlu/RIvJ+m2hMF2kE0xuiT/bueE=
+
+Name: assets/blocks/carrots_stage_3.png
+SHA1-Digest: qTODnCE0wI3TMmeq/9+ZPpDpuq0=
+
+Name: assets/items/diamond_hoe.png
+SHA1-Digest: JiagpGSOSypFNeFH8SgdRAoR7D0=
+
+Name: assets/entity/player/player09/hand.omod
+SHA1-Digest: X8ku1AQyTuoqCw3/DoF4dC1h51g=
+
+Name: assets/sounds/random/explode1.ogg
+SHA1-Digest: sj2ZkJpnePUfYBGFN+jwnjnqDgY=
+
+Name: assets/sounds/random/door_open.ogg
+SHA1-Digest: WUoSysG4WeNA9R0UHCyJhPHnO7E=
+
+Name: assets/entity/player/share/shoe/2214.png
+SHA1-Digest: ci9hdjieQ4rMtbTtgFlGv5sBqWY=
+
+Name: assets/items/sugar.png
+SHA1-Digest: q2MgKn8hCqbBbusHQDF0IA7je9U=
+
+Name: assets/particles/texture/addpx_e23.png
+SHA1-Digest: K7a8id6qaGa3rQenxfROReBq8d4=
+
+Name: assets/sounds/mob/creeper/say3.ogg
+SHA1-Digest: SaOunOpKnCd2bjVXHFzJBsgXJ4k=
+
+Name: assets/items/dye_powder_lime.png
+SHA1-Digest: s299XYVVbezNotmu25N7ITRGUqw=
+
+Name: assets/items/dye_powder_green.png
+SHA1-Digest: Pc/gg0by3PQW6gOzqx4Uj+vjlss=
+
+Name: assets/entity/100019/body.omod
+SHA1-Digest: FIM6+TBydkJVOgPE6WVHUd8m654=
+
+Name: assets/colormap/grass.png
+SHA1-Digest: pQYbClAhAiypR+X/zkKBBIKrvos=
+
+Name: assets/particles/texture/3.png
+SHA1-Digest: XFvI4pJhrszqhfSvosdm1F6+o8s=
+
+Name: assets/sounds/mob/wolf/growl2.ogg
+SHA1-Digest: M3y1WK0nida98pxVCrLw1QpoJBs=
+
+Name: assets/shadercache_ogl.dat
+SHA1-Digest: NEr08GLfmybjarih1r/LPzS1ZCg=
+
+Name: assets/sounds/mob/spider/step3.ogg
+SHA1-Digest: 2admVAriTHzEu1+scYMnvADGgZ4=
+
+Name: assets/particles/shu1/fuhuotai.png
+SHA1-Digest: eyv2zGdUWA/rXK+xiYb0B28UW1Q=
+
+Name: assets/csvdef/blockdef.csv
+SHA1-Digest: CzkvBnlxS/bQ3r2A3AlKmb23pIc=
+
+Name: assets/items/record_wait.png
+SHA1-Digest: u/rfmVa2vEU2ULM/p2shBx6XPf4=
+
+Name: assets/sounds/ambient/weather/rain2.ogg
+SHA1-Digest: Dk9DD9khV2aQQHv1+3xgSYIED/M=
+
+Name: assets/blocks/spring.obj
+SHA1-Digest: vAKsnkfJ6/ZAoZysclCccLK7DFk=
+
+Name: assets/items/record_mall.png
+SHA1-Digest: vkHfoPEIG4La+tFilp8UJWUXfDk=
+
+Name: assets/blocks/tripwire.obj
+SHA1-Digest: J6Nvj365mn0QaMyAjfnf8bAtYcY=
+
+Name: assets/entity/player/player01/body.omod
+SHA1-Digest: 5/TV2I8Hf3DhXfxfRtjHkOytKM4=
+
+Name: assets/blocks/trapdoor.obj
+SHA1-Digest: XX5DzPJI9IfJ1iKHcgCrUzhsfcg=
+
+Name: assets/items/ghast_tear.png
+SHA1-Digest: BeE8eyr9Fm4nREHT/XH+DBDFugI=
+
+Name: assets/sounds/step/wood6.ogg
+SHA1-Digest: NUoxQu+mwMo9tmU8N04zzvIknx4=
+
+Name: assets/blocks/piston_bottom.png
+SHA1-Digest: YOEQmzGLGZH13m7XWdBjGJbt7XE=
+
+Name: assets/items/skull_zombie.png
+SHA1-Digest: TEL5t3y/ul2DZW3j8aZWhijDkGI=
+
+Name: assets/items/porkchop_cooked.png
+SHA1-Digest: MLLwin0QTc0IX6HeAOgE3+NIZBw=
+
+Name: assets/entity/player/player06/body.omod
+SHA1-Digest: LNIelEWlAiJuwdtGu8RmPiYMgg4=
+
+Name: assets/blocks/glass_pane_top.png
+SHA1-Digest: wcpGdHJYZhw3KbTkV1AuVxz9jTk=
+
+Name: assets/blocks/hardened_clay_stained_red.png
+SHA1-Digest: tjb5BLIp6C1MLHv/LCW0X44bIYM=
+
+Name: assets/sounds/step/stone5.ogg
+SHA1-Digest: bEHKFK78y7G+beM9iWoukU9xHUU=
+
+Name: assets/items/icon2564.png
+SHA1-Digest: 4yzvHU+INnUnVrIkWlFHa9EDGpA=
+
+Name: assets/particles/texture/pao2.png
+SHA1-Digest: JX7QHZhdAy9AyK1gGR8+YLbQnPk=
+
+Name: assets/luascript/gm.lua.bak
+SHA1-Digest: /PQ+lcR4oa/qq6V6j2xlZ2DL5Bc=
+
+Name: assets/entity/player/player05/body.omod
+SHA1-Digest: xAna+C7S1S08/17vYwNCzo1sSyk=
+
+Name: assets/entity/player/player07/hand.omod
+SHA1-Digest: T9M/5qBqmSnt9FdMdkGVa5mO3OM=
+
+Name: assets/ui/roleicons/7.png
+SHA1-Digest: 2sVYQwYL3mikIev0zKCsi8BF2WM=
+
+Name: assets/particles/texture/9d1b0af6.png
+SHA1-Digest: 1RcxkJyQLEp4GYInH+JegcQ6fNQ=
+
+Name: assets/blocks/destroy_stage_5.png
+SHA1-Digest: PVGAwr0+vRfE3ynjveOHIPE0Dfo=
+
+Name: assets/blocks/glass_light_blue.png
+SHA1-Digest: Y8QDKC/+ERBn7uBB5a2jkjbD2M8=
+
+Name: assets/ui/furnace.xml
+SHA1-Digest: qYub/fiVaXT4IXV9oYZGDkJs5JM=
+
+Name: assets/voxel/test.vox
+SHA1-Digest: /7ssBFdhxJkruv12rDQVKtsnz3c=
+
+Name: assets/blocks/wool_colored_purple.png
+SHA1-Digest: RHZjmErg0vB1W2saRv2Idb2EQ3c=
+
+Name: assets/ui/mobile/effect/ui_shortcuts_halo.png
+SHA1-Digest: 5f0OTYNfnec6GTH82MQlB0//p4k=
+
+Name: assets/items/door_iron.png
+SHA1-Digest: aiBrQALeiDhKwTtqcmFan08a4VI=
+
+Name: assets/sounds/step/wood1.ogg
+SHA1-Digest: alddUB2w/AfI2MZsw/0cuFICf6s=
+
+Name: assets/entity/player/player02/body.omod
+SHA1-Digest: 1N+MfLWsPknDdu8wI4vdcqNIvoo=
+
+Name: assets/sounds/step/gravel5.ogg
+SHA1-Digest: RlSB7/AJwvmNR84GT5m8AxxeWh4=
+
+Name: assets/blocks/grass_side_snowed.png
+SHA1-Digest: i4Gwm/W9lLPOqWCusonmhxzAbnQ=
+
+Name: assets/entity/110020/male.png
+SHA1-Digest: lcrE3cWpwszLWmTrtU0OZzBLFF8=
+
+Name: assets/entity/player/share/helmet/2221.png
+SHA1-Digest: ye1nAfqtloEUkcRRMQJxcCcfeyI=
+
+Name: assets/entity/100004/male.png
+SHA1-Digest: y5dUPVq7Zkg2fuWJ+n5eK5uH7ko=
+
+Name: assets/items/empty_armor_slot_chestplate.png
+SHA1-Digest: ZDM0FW1KIScBG1Q5vPYjQvOC1+I=
+
+Name: assets/sky/snow.png
+SHA1-Digest: QHt9uyu2QpSee6MRZrPzOM8Wk8U=
+
+Name: assets/items/dye_powder_gray.png
+SHA1-Digest: Y85FbeKK89mM0gogjGbhLPFUQjs=
+
+Name: assets/ui/lobby_single.lua
+SHA1-Digest: HPFQSMmtwGm0bJzHphz6SP4pfqs=
+
+Name: assets/ui/bufficons/knock_resist.png
+SHA1-Digest: PuLIuVl4XdZbfPFVr4Kis0Rg0E8=
+
+Name: assets/sounds/ui/info/achievement_complete.ogg
+SHA1-Digest: QO87HEQKZlOopYFlh9vqcYS5MHA=
+
+Name: assets/sounds/step/stone1.ogg
+SHA1-Digest: SUGpLwSocrCMePjJhhLrjcJ4pSQ=
+
+Name: assets/items/record_chirp.png
+SHA1-Digest: 1RvfOiiZ2M7tOyeZs7nXs2LxdNU=
+
+Name: assets/entity/200006/body.omod
+SHA1-Digest: YUho5Rb3KWK01+5lf8HGyZl3kOM=
+
+Name: assets/sounds/mob/wolf/growl4.ogg
+SHA1-Digest: r1KqT1vxp45WgJLVV8PEhBXSsOo=
+
+Name: assets/entity/player/share/legging/2203.png
+SHA1-Digest: A2i8xufc+3dfjo3B1HFVsR+Zhy8=
+
+Name: assets/ui/mobile/xiaoji.png
+SHA1-Digest: WLKs1vIjddJ8HpqwO1TdxXfHrAg=
+
+Name: assets/entity/100014/male.png
+SHA1-Digest: Q3TI7ikANW0s66Z3DzQdshb80CQ=
+
+Name: assets/items/fishing_rod_uncast.png
+SHA1-Digest: aubyUh55NDmKIKA4ad5FyfRxyX8=
+
+Name: assets/blocks/piston_top_sticky.png
+SHA1-Digest: 1rw1bPDfkyVDs0cmCdTw7qGNCvs=
+
+Name: assets/items/icon2225.png
+SHA1-Digest: 4gg4/7pCZCGh54qIpolA+kA4iO4=
+
+Name: assets/items/icon3404.png
+SHA1-Digest: 1S0rjk+wxhfokXEuevLiRLncZFQ=
+
+Name: assets/items/potato_poisonous.png
+SHA1-Digest: vmy/z/EgLLX4bHCnrHuhjik/oqM=
+
+Name: assets/items/icon003.png
+SHA1-Digest: gBbDCmJpuez/fpLXqV8jrI1LC8w=
+
+Name: assets/blocks/destroy_stage_6.png
+SHA1-Digest: QpLR2M2gCJcVFqBcI2SBKaR8NJ8=
+
+Name: assets/ui/mobile/instance.lua
+SHA1-Digest: TJBnlGmfQXb0oRbMjrgxm+YKd/c=
+
+Name: assets/blocks/planks_jungle.png
+SHA1-Digest: U3JXLSHR7yY3qZv8QUNtIQ65TGo=
+
+Name: assets/blocks/furnace_top.png
+SHA1-Digest: 0bnSm+wGp6dQJeL1xKbeqxqubP0=
+
+Name: assets/luascript/script.toc
+SHA1-Digest: wGZnYBnLSwjqP0evH9xmZQ00RSo=
+
+Name: assets/particles/texture/dust01.png
+SHA1-Digest: WRJWc2FzXxuzc7oQ0DYbE89HdXI=
+
+Name: assets/blocks/sponge.png
+SHA1-Digest: u1tj9qz/sLBZQPa5kvSpC28pXLY=
+
+Name: assets/sounds/mob/chicken/say1.ogg
+SHA1-Digest: TGzWGn1hYJF2Y20p5nXkuO5Nk6U=
+
+Name: assets/items/icon3400.png
+SHA1-Digest: qlc+/H0KAjz/DXq8O154oC3Ov/c=
+
+Name: assets/sounds/mob/sheep/step2.ogg
+SHA1-Digest: 1OmEuq9tRcvPlKLTR1P5Sot4PPw=
+
+Name: assets/entity/110021/dabai.png
+SHA1-Digest: lW5fU3giH5f0ucrI9Fw/l140qrU=
+
+Name: assets/particles/BUFF_HP_1.emo
+SHA1-Digest: CAN5YeanEFA6gdy+g/Sci5zoVqY=
+
+Name: assets/sounds/step/grass4.ogg
+SHA1-Digest: Hq02ryw6ZDAPIuFxb9LuODv3Ahk=
+
+Name: assets/sounds/mob/wolf/step3.ogg
+SHA1-Digest: PW+kYNXO2l+SEWO/+WLVaqrWYk4=
+
+Name: assets/blocks/glass_pane_top_light_blue.png
+SHA1-Digest: Rjajdv918KIKJfmhZnvz4ZY9bLY=
+
+Name: assets/items/blaze_rod.png
+SHA1-Digest: ACoQAizE1Cgi8HhBnrNYfq6I8Sg=
+
+Name: assets/entity/110001/male1.png
+SHA1-Digest: r1eh7u/QYcXaWe/K00Ih+gtnZ2s=
+
+Name: assets/ui/bufficons/dig_speed_add.png
+SHA1-Digest: Y6DTFIViDPiDlmcsiXE5WL/45Z8=
+
+Name: assets/blocks/glass_pane_top_orange.png
+SHA1-Digest: w8XHHnJuUEROF4JPnnYljqpsLtw=
+
+Name: assets/blocks/wool_colored_white.png
+SHA1-Digest: LKbv9f59R9eNzv7Xl4LkN9bETSI=
+
+Name: assets/ui/mobile/store.xml
+SHA1-Digest: 3F+ZwUFaPXNq8f9OsAkFtGBTlSQ=
+
+Name: assets/particles/texture/eye_lwy_t_hit_00_single.png
+SHA1-Digest: ddqtsEswSVJBAazLYwmjb9LLFRo=
+
+Name: assets/blocks/lever.obj
+SHA1-Digest: U/1VDwQklDkKz/F8yiESdNnM8eY=
+
+Name: assets/entity/110004/body.omod
+SHA1-Digest: pJ9Sq95yRwIgjugUZJm/qaModuQ=
+
+Name: assets/blocks/glass_pane_top_lime.png
+SHA1-Digest: hd/0uFn5IZsfq2zNvqDFx/ZZOmU=
+
+Name: assets/items/spider_eye.png
+SHA1-Digest: jvCqB3k5bQBLzhi07WAZM5hL5Yg=
+
+Name: assets/blocks/cauldron_inner.png
+SHA1-Digest: qul2SKve8c5y/+M+Cy6w9P/TBVg=
+
+Name: assets/sounds/mob/pig/say2.ogg
+SHA1-Digest: JqFQYe59z0jwrIzCnhOuvzlaf+A=
+
+Name: assets/ui/mobile/playmain.lua
+SHA1-Digest: CNIw7UU+xNca3+4448HIOCBmuhY=
+
+Name: assets/entity/100015/body.omod
+SHA1-Digest: ZotwYyX3rzcGygVZMRKiugh/yjU=
+
+Name: assets/items/diamond_leggings.png
+SHA1-Digest: zOCgFrhQJ5z5pSS7sdlurzdzEJY=
+
+Name: assets/ui/cursor/fps.png
+SHA1-Digest: qJezw5aW+huBG8QFTcWc4YHIR2o=
+
+Name: assets/ui/buddy.lua
+SHA1-Digest: 3/awwZ1hz/F32wbrc9FunK9JKT0=
+
+Name: assets/entity/110010/male1.png
+SHA1-Digest: Cl7wq9UUJugy2uZJQAzKCXXO28E=
+
+Name: assets/ui/mobile/ui1.png
+SHA1-Digest: cOzo2TDvCWIizuk0fqNFpM2V9AI=
+
+Name: assets/ui/mobile/enchant.lua
+SHA1-Digest: /Vxfb9ZE7ZzN4UQLr4m1O8frH/0=
+
+Name: assets/ui/gameoption.xml
+SHA1-Digest: js0SN8xRvdqSnIodrcWUi+AbmcI=
+
+Name: assets/blocks/glass_pane_top_magenta.png
+SHA1-Digest: /CEBUhfUuxNCbfZVezJdojq8IxY=
+
+Name: assets/items/minecart_furnace.png
+SHA1-Digest: KQMH/VkLE37rZM8vmiHaseMMwqk=
+
+Name: assets/blocks/wheat_stage_0.png
+SHA1-Digest: GhRYhGdzU9BTMGLrFj+zWdZvafo=
+
+Name: assets/items/brick.png
+SHA1-Digest: 1QfUJKRffOMfuvoTh7ZFSe1eQ5U=
+
+Name: assets/blocks/leaves_big_oak.png
+SHA1-Digest: t416/wH3o2ISf3L1ZL8FdNTeZh0=
+
+Name: assets/particles/texture/blue_lightbar_02.png
+SHA1-Digest: s7sq8PjvowqA1uP7m0LvHNXkPWY=
+
+Name: assets/sounds/ambient/weather/rain4.ogg
+SHA1-Digest: LlOPtpVcLZin6duQnAKgpNX5kGM=
+
+Name: assets/items/diamond_sword.png
+SHA1-Digest: bfHw2UtmoNX4wOIeLRP3MJZ8nF8=
+
+Name: assets/blocks/glass_brown.png
+SHA1-Digest: j93JpgBL2tvTG7spHKMuF06Q+pk=
+
+Name: assets/voxel/chr_fox.vox
+SHA1-Digest: VAVTFnoLW84zM9qeal95oKmgTT8=
+
+Name: assets/ui/bufficons/damaged_poison_add.png
+SHA1-Digest: cwYID2mI3EsYYIFV06a0pHWTm7U=
+
+Name: assets/blocks/pumpkin_stem_connected.png
+SHA1-Digest: HP8+v7/OYE/Pi09JlJxO77PAjws=
+
+Name: assets/entity/110021/110021.omod
+SHA1-Digest: v1LcV2yTBj6IjariQfxoTJ60+zs=
+
+Name: assets/items/map_filled.png
+SHA1-Digest: n8cGxF7EwVnO0VYIfcjcBGC8RFU=
+
+Name: assets/blocks/bed.obj
+SHA1-Digest: Ftcfr/gd1KNR8xOiG551sauARJY=
+
+Name: assets/blocks/waterlily.png
+SHA1-Digest: GC/xqUO7kG62UV6p4bKCGfXe0LU=
+
+Name: assets/entity/130002/body.omod
+SHA1-Digest: gHv17jc4quTNr2B36mZ3HvUmarM=
+
+Name: assets/items/iron_boots.png
+SHA1-Digest: PPk0qae1czONi7nJqOJZXydPrL4=
+
+Name: assets/items/book_enchanted.png
+SHA1-Digest: alzhzwinxjbmPN4kJgi0iqlakFI=
+
+Name: assets/sounds/step/snow4.ogg
+SHA1-Digest: Ob+HtLABmp1odFBX6gdTA4GWJpA=
+
+Name: assets/blocks/wheat_stage_7.png
+SHA1-Digest: /VJQLfvWRFoiWfhkepw0WvianKU=
+
+Name: assets/particles/texture/xingguang0170.png
+SHA1-Digest: z2MjjDHXm4vBCcv1zzH5xvrY5rA=
+
+Name: assets/particles/1018.ent
+SHA1-Digest: 7Cqf/+uxVmZxucjLBrywyssWF5k=
+
+Name: assets/sounds/random/chest_open.ogg
+SHA1-Digest: sTfub85B1tfHB6GN6fZD73+HPzA=
+
+Name: assets/entity/player/share/shoe/2244.png
+SHA1-Digest: cSRyjyaTATKTTDvNhSQurV4zutc=
+
+Name: assets/sounds/ui/info/experience_star.ogg
+SHA1-Digest: iwqehR8uj/wzxT+jViDGb/H2B9o=
+
+Name: assets/blocks/gold_block.png
+SHA1-Digest: Yros66DTSDvTSnwrWc3aHXYhua0=
+
+Name: assets/sounds/dig/stone4.ogg
+SHA1-Digest: CsYifR4L3pjhLbtQlHHZiD0/gKc=
+
+Name: assets/ui/bufficons/attack_undead_reduce.png
+SHA1-Digest: pppx8KPjrJaUSb+H20mDmFUXH1w=
+
+Name: assets/blocks/jar1.png
+SHA1-Digest: z3C5TCgNIqZEI2K3cypHpIBuzfk=
+
+Name: assets/sounds/random/break.ogg
+SHA1-Digest: Ud4VN7DnAlWG4HMccgbjvngfqyE=
+
+Name: assets/blocks/tnt_bottom.png
+SHA1-Digest: rZiEIzQtku9BYYcJHktQIAa3nz4=
+
+Name: assets/csvdef/birch_geom.csv
+SHA1-Digest: 8kSQHQxjlZqJnGUOSbKXVPS2I/k=
+
+Name: assets/items/stone_hoe.png
+SHA1-Digest: M+Yc06xSwKYsjfzQL2pvwk97c6Y=
+
+Name: assets/entity/110014/body.omod
+SHA1-Digest: r3kIA8HbscMr9K6I8PkVCDP86wg=
+
+Name: assets/ui/mobile/uicommon.lua.bak
+SHA1-Digest: aTvMOcdDqZd2TJ1wBAAHaJRE3UQ=
+
+Name: assets/sounds/dig/snow4.ogg
+SHA1-Digest: sD8NE//PUPpd9ppNuXJBF3qdrKQ=
+
+Name: assets/blocks/glass_yellow.png
+SHA1-Digest: 8UaFLrQNuBlPmoWQvtVICgNdkPw=
+
+Name: assets/blocks/planks_birch.png
+SHA1-Digest: xNv+37qk+ewFdawxWFr+dduQ4ew=
+
+Name: assets/ui/roleicons/4.png
+SHA1-Digest: nWi0lIZ4bpZR6qm9T9Dh340xsbw=
+
+Name: assets/particles/texture/fodder168a_D_C.png
+SHA1-Digest: 4pPrJ7r+1tYcpl2pSv7ztqh1+n4=
+
+Name: assets/items/icon3105.png
+SHA1-Digest: Efk8+ZkZYm2KruXgPhCMAVd/Ydc=
+
+Name: assets/sounds/mob/horse/soft4.ogg
+SHA1-Digest: 0rHowlTdPzVVz2z+HuRi5TDlzUE=
+
+Name: assets/items/wood_hoe.png
+SHA1-Digest: FCzH5rPWCtIxO9QB/U7eqhH87Xw=
+
+Name: assets/blocks/log_acacia.png
+SHA1-Digest: b9961pyKQEKfrGkqL5tTRcXESt4=
+
+Name: assets/blocks/hardened_clay_stained_magenta.png
+SHA1-Digest: 0LcZVZ4Jg20X8+HJzyMXSKlMX2w=
+
+Name: assets/blocks/redstone_lamp_on.png
+SHA1-Digest: VyWMQ9gw8KPRYny/kmNbHJ658Dg=
+
+Name: assets/entity/100018/male.png
+SHA1-Digest: Iw+H0PyOa90FMrcMSDjpaWBCm9U=
+
+Name: assets/ui/mobile/lobby.xml
+SHA1-Digest: 9hKB3zNPR5UPY/atvZZMO2tb/PE=
+
+Name: assets/shaders/materials.xml
+SHA1-Digest: 5hzq/6gF4JzVoOV0KwK/27cfphM=
+
+Name: assets/items/chainmail_leggings.png
+SHA1-Digest: PqzXvSqbUWxiD2p5qGN9OZ54vMs=
+
+Name: assets/items/melon.png
+SHA1-Digest: k1mYhbpKkl3CzbZZDZ2t1KcNHIE=
+
+Name: assets/proto_cs.meta
+SHA1-Digest: 8DJ8ULHcYoVEyvdcXan8R/LxEzk=
+
+Name: assets/ui/uitemplate.xml
+SHA1-Digest: iOMeXWnh6aQBU2fqj4fIjF2bSSI=
+
+Name: assets/items/wheat.png
+SHA1-Digest: ZIBdMP09K/EaNAkAobYOfuAl1qo=
+
+Name: assets/items/fish_salmon_cooked.png
+SHA1-Digest: 05CLlhWy1GLSIPcxkJG9GTXJYP8=
+
+Name: assets/ui/bufficons/damagebuff_poison.png
+SHA1-Digest: ZDKe2uTSOIV1hlb/gKmSa8bEYv4=
+
+Name: assets/items/book_written.png
+SHA1-Digest: JO0QUNWqw/Rv7omPnflc/z2LGZ4=
+
+Name: assets/blocks/emerald_ore.png
+SHA1-Digest: cCU5xLMj6L4Ocja3zu32vuIpAvE=
+
+Name: assets/blocks/red_sand.png
+SHA1-Digest: Fs3CneVMysAJO2tSybhI2hn82+0=
+
+Name: lib/armeabi/libAppPlayJNI.so
+SHA1-Digest: TlQO+xPpapq1qA41WusAwjZaD8M=
+
+Name: assets/entity/120003/body.omod
+SHA1-Digest: U2Rnd0DDL4rSDfxM0IOiqHqPW5Y=
+
+Name: assets/blocks/anvil.obj
+SHA1-Digest: Q+8OZJgR9PTTt4ePfjDDZz6KThM=
+
+Name: assets/blocks/door.obj
+SHA1-Digest: piP9WdLLRPHW+AncGYQ8pNI8H1s=
+
+Name: assets/blocks/beacon.png
+SHA1-Digest: a7BjaA+ka6GP2Dg09YBUF29zVIo=
+
+Name: assets/blocks/stone.png
+SHA1-Digest: g23rBcxpc8pMQK+zZfeajb+6M4U=
+
+Name: assets/items/iron_sword.png
+SHA1-Digest: bZBc7URNTsZlQPP++WmbyOUjprM=
+
+Name: assets/entity/110001/body.omod
+SHA1-Digest: DvO3FgurQ80DQaWXrqXbjhD85PA=
+
+Name: assets/entity/100001/js.otex
+SHA1-Digest: MkPonmXwkWWTr2UKM0d8i9n6Zw4=
+
+Name: assets/sounds/mob/cow/say2.ogg
+SHA1-Digest: kuCrjG44TtqTqfve7rLRIKYcS2E=
+
+Name: assets/sounds/mob/zombie/death.ogg
+SHA1-Digest: qcw/S5KqYWRlfJX2auRxk0HsMV4=
+
+Name: assets/items/gold_hoe.png
+SHA1-Digest: BkPXnE5Lh+VeU+3D1htSDdx38Zg=
+
+Name: assets/sounds/mob/zombie/step5.ogg
+SHA1-Digest: EJyc9zjASGqu/0nGmLTOM+c1ssI=
+
+Name: assets/items/leather_helmet_overlay.png
+SHA1-Digest: VWwPO4D75gL1LKbQ8CQ2YccThdM=
+
+Name: assets/csvdef/stringdef.csv
+SHA1-Digest: mxRyC3pmXU05kJvRyV0BVcYkJmk=
+
+Name: assets/items/icon3001.png
+SHA1-Digest: L1/nb5VstK63oijCrRaGLbXPLGc=
+
+Name: assets/ui/mobile/messagebox.xml
+SHA1-Digest: yp6Xgo5XinRkp37IcYXEcaahzv4=
+
+Name: assets/sounds/mob/chicken/plop.ogg
+SHA1-Digest: DKb3YtgZ65PXPC9loWl7IWMBaZM=
+
+Name: assets/items/fish_cod_raw.png
+SHA1-Digest: vL+8ss8uSHqTCigi0fZCQuDytTk=
+
+Name: assets/ui/bufficons/attack_range_add.png
+SHA1-Digest: UHDH7wEW1w/gVNRWvSg8YgzoVjM=
+
+Name: assets/blocks/portal.png
+SHA1-Digest: WiBhCR7i/QDApYfQiY+J9taoW/o=
+
+Name: assets/ui/mobile/backpack.xml
+SHA1-Digest: lBUL9sDLeisyZ7lNdyEyDJLwirE=
+
+Name: assets/particles/texture/floor_04_.png
+SHA1-Digest: wJ3MdnegBjlT/6MXqQZaAdlRZpM=
+
+Name: assets/blocks/redstone_dust_cross.png
+SHA1-Digest: ++NcYh7vEXonRSXsWMOkPNFVIWQ=
+
+Name: assets/particles/31051.emo
+SHA1-Digest: 0bdF3YlHbjJ79P7Fewd5zicIykk=
+
+Name: assets/items/potato.png
+SHA1-Digest: FWCWz3JKH3X14bn0ClE6n5iaN4s=
+
+Name: assets/items/potion_overlay.png
+SHA1-Digest: 8uLUtRebWa+GCnn2ySte6rB6QcY=
+
+Name: assets/blocks/cocoa_stage_2.png
+SHA1-Digest: Sd8tYa4dJkj7Z8TSS17a4KQozXc=
+
+Name: assets/sky/moon_phases.png
+SHA1-Digest: l0G0S8K2oPjBSBRWqS8dCUFHaVM=
+
+Name: assets/csvdef/voxpal_2.csv
+SHA1-Digest: UssRA8Q1UP2Mpg52bK39VXoRgU0=
+
+Name: assets/blocks/glass_pane_top_blue.png
+SHA1-Digest: MZMkzvVaU3vNFXwV+o6ngkBzYJM=
+
+Name: assets/particles/texture/_twinkle_01.png
+SHA1-Digest: 2mJvY2CCLJ9fnmgiY/t0UO7MYms=
+
+Name: assets/entity/player/share/women/shoe/2204.png
+SHA1-Digest: dKDIk0W8w3DRmyOOsTzb2eN4ezo=
+
+Name: assets/ui/titlescreen.xml
+SHA1-Digest: C/ti9z1blHR2pwjprO6QhtKSkv8=
+
+Name: assets/sounds/mob/zombie/step4.ogg
+SHA1-Digest: VVXma2ERRzogg3g9uw2NMWCfgE4=
+
+Name: assets/items/compass.png.mcmeta
+SHA1-Digest: wa4wF9eXsCUZR7S0+tmJnmA5szs=
+
+Name: assets/entity/110024/body.omod
+SHA1-Digest: NXKEzg4//AHeQ5yFfCWesNRpMrQ=
+
+Name: assets/particles/texture/dun005.png
+SHA1-Digest: mWGc0NRi0fg2ODTlx3dQIciO0Jo=
+
+Name: assets/particles/31021.emo
+SHA1-Digest: LPe7rs/DfmtKbCVuaY0STqT0zd8=
+
+Name: assets/entity/110007/body.omod
+SHA1-Digest: JnUwr4EbU+LFztqKWe9KX3U+X2w=
+
+Name: assets/entity/player/share/women/legging/2233.png
+SHA1-Digest: ecS2zZl6pFxe8T74YZPJEk4g/4A=
+
+Name: assets/particles/texture/yanwu021.png
+SHA1-Digest: KoPJAkhKeOSfIWWd7YAFrmI6NjQ=
+
+Name: assets/ui/mobile/loading.lua.bak
+SHA1-Digest: yx425/r19r6V9kmHh41XV4031RA=
+
+Name: assets/ui/mobile/effect/achievement_unlock.png
+SHA1-Digest: j4NMoJHf6W7bhpcEbTO2MapkfwY=
+
+Name: assets/entity/130001/body.omod
+SHA1-Digest: uPCN1exxnd3713c7d6IIqX+/Yqc=
+
+Name: assets/items/icon3007.png
+SHA1-Digest: kIOy1NafKicF1RUAPdQT1qEWMxM=
+
+Name: assets/items/potato_baked.png
+SHA1-Digest: gJ1WMLt+sy3fjX4gXsvxpo+gmPk=
+
+Name: assets/items/bow_standby.png
+SHA1-Digest: 8cgYRYJNWOn9/9HZ27Uq/qCr0xI=
+
+Name: assets/sounds/dig/snow3.ogg
+SHA1-Digest: 9k9C/XRXomgn2JIjtMqo7DOIK1g=
+
+Name: assets/entity/100007/malegai01.png
+SHA1-Digest: 51MJd5t9181X4MLj+Bfo2rJgucg=
+
+Name: assets/blocks/sapling_oak.png
+SHA1-Digest: ygZR1eLRoQDiuVl6IWhPcataRHk=
+
+Name: assets/ui/bufficons/damagebuff_wither.png
+SHA1-Digest: Aqw4NprAj9P/NENZPG6FyVams2I=
+
+Name: assets/items/record_far.png
+SHA1-Digest: EICU3mx+r5Zm0WsjoDxSLBYt8Mk=
+
+Name: assets/ui/mobile/playmain.xml.bak
+SHA1-Digest: Yi2D4g6izZgxNWTwTEuVvAWnUM0=
+
+Name: assets/entity/100020/male.png
+SHA1-Digest: 9tCJxUdO8MSGE7bCjcSLz86ngps=
+
+Name: assets/blocks/torch_on.png
+SHA1-Digest: NN73R/ht8KH0SmJXZJtF2eChdaY=
+
+Name: assets/entity/120005/male.png
+SHA1-Digest: SU3YdW5Pfy7CP5aD6awpW3/g1ic=
+
+Name: assets/sounds/mob/cow/step1.ogg
+SHA1-Digest: Si5aEZJPxjzMtb3FjXlToyRGs94=
+
+Name: assets/sounds/step/stone4.ogg
+SHA1-Digest: TPmMZoPqQu1gzLQZDah0OUj3gXY=
+
+Name: assets/blocks/tnt_side.png
+SHA1-Digest: daRnePsSB6TdGxfLD3FcJm8i8PQ=
+
+Name: assets/particles/texture/eye_fxl_glass_001.png
+SHA1-Digest: 7VAXnXqZKllc+9dqZpbOxJ3f/yU=
+
+Name: assets/sounds/mob/pig/step3.ogg
+SHA1-Digest: 6b6cqsuysZTSFCyJl91eVIVFy/g=
+
+Name: assets/entity/110024/male.png
+SHA1-Digest: bag+4NPP9sW4qPWewei/tXveL3Q=
+
+Name: assets/blocks/portal.png.mcmeta
+SHA1-Digest: ljjjTWshYSCmvE/n5Xm+RlSeXQY=
+
+Name: assets/items/icon715.png
+SHA1-Digest: 3r0X7YQ7rov2rawWyPCCYnP14jM=
+
+Name: assets/entity/player/player03/body/malebody03.png
+SHA1-Digest: tHPV2AR0Q7nJ1DDBcqsbYMTwIuQ=
+
+Name: assets/blocks/hardened_clay_stained_black.png
+SHA1-Digest: OmSFkEz6glCk29qEQ3oXWUb6O2k=
+
+Name: assets/blocks/stair.obj
+SHA1-Digest: JAVNjni54S77KXiwgJydMQ9kQkQ=
+
+Name: res/layout/activity_app_play.xml
+SHA1-Digest: ZD1x3FSNhM5jWnxeTzhUcx6m0/U=
+
+Name: assets/ui/mobile/ui.png
+SHA1-Digest: +/qngZW2hQG5jala9Nt5NunUQ08=
+
+Name: assets/ui/mobile/login.xml
+SHA1-Digest: 0iBAmXu+BtOmvd0ALwGe1FN4u7o=
+
+Name: assets/blocks/hardened_clay_stained_gray.png
+SHA1-Digest: A+Ox8rAszRxogT7SZvPxATpk9eI=
+
+Name: assets/ui/mobile/effect/ui_enchant_1.png
+SHA1-Digest: fumtDNnhpHMuXRy0Rj4j8fJOyjg=
+
+Name: assets/entity/110011/male1.png
+SHA1-Digest: ls/1Gs5fdA7//GTUtnCpaOG/yRE=
+
+Name: assets/particles/texture/addpx_e24.png
+SHA1-Digest: uN6MOI19j9AGlL6/ULhuwXiEhP8=
+
+Name: assets/particles/texture/cloud1_D_C.png
+SHA1-Digest: 1l9kklYqCrxgKb02CDXdT9nY5no=
+
+Name: assets/csvdef/fooddef.csv
+SHA1-Digest: EgBGJ+fm6Q0ajz0+DVTNvmfgMbU=
+
+Name: assets/particles/texture/eye_lwy_t_som_20_single.png
+SHA1-Digest: t4x3Gcg+tQmozYuTRRYQvJYJtL8=
+
+Name: assets/blocks/waternormal.png
+SHA1-Digest: F0iD7RN2yK1D5X/giOfScawKBIQ=
+
+Name: assets/items/reeds.png
+SHA1-Digest: 1McnpZzc3vn0clgcJA1lkS9T5Jw=
+
+Name: assets/entity/200000/gun.png
+SHA1-Digest: uoe1GrRO6LIDoqvRn4JRqJB/AtM=
+
+Name: assets/entity/100015/100015 (1).otex
+SHA1-Digest: KH3W91lDUnYNFaP+IZW6bDTg4Fg=
+
+Name: assets/entity/100013/male1.png
+SHA1-Digest: RbBw7e9Y5HnbssZ/4SMPWaD2frs=
+
+Name: assets/blocks/log_jungle.png
+SHA1-Digest: ECr45ClSozKvu7bHAwCK2MHO02w=
+
+Name: assets/items/leather_leggings.png
+SHA1-Digest: arghjTA/BR6wSb0NU/I28nx7v2A=
+
+Name: assets/ui/roleicons/8.png
+SHA1-Digest: qclRq+OT0wEXBjyp80X7Eeq95uc=
+
+Name: assets/items/minecart_chest.png
+SHA1-Digest: itmKbm3NCfUBIFypBgprDuA4GhY=
+
+Name: assets/ui/mobile/playmain.lua.bak
+SHA1-Digest: HO+wMFB6ffZGHfQTA8hD4YpJAF4=
+
+Name: assets/items/string.png
+SHA1-Digest: yGc9HkYhKo0w9EkMeNWggaL7PeY=
+
+Name: assets/sounds/random/explode3.ogg
+SHA1-Digest: wx8MBnESYg36iAWpGba7F9ZiA6A=
+
+Name: assets/blocks/double_plant_grass_top.png
+SHA1-Digest: q0061c6kElYA+dHYEdQo5UrPGOg=
+
+Name: assets/entity/200004/shu.png
+SHA1-Digest: FZR8625AgmTdzCmyOzrv9x/BCVE=
+
+Name: assets/entity/player/player09/body/femalebody09.png
+SHA1-Digest: KhygD1WEanzZcUIB3V1OfjJCGfY=
+
+Name: assets/blocks/wire.png
+SHA1-Digest: 31fvjbEruVBTHg81Vt8nE/+fdQ4=
+
+Name: assets/items/wood_axe.png
+SHA1-Digest: 4ls1JmhrumFKNJ0FhcY0Hjjqra8=
+
+Name: assets/particles/gongjian/body.omod
+SHA1-Digest: MawX81+7FudrsbYKxF9p6HjrcZY=
+
+Name: assets/particles/texture/halo_57.png
+SHA1-Digest: 8Du2j14+W2EbQMlYHY8vK8iz5mg=
+
+Name: assets/ui/mobile/login.xml.bak
+SHA1-Digest: cHiippDAziBO4QE4DsPLNgwO1ME=
+
+Name: assets/items/blaze_powder.png
+SHA1-Digest: QEvM3RySTi9ZPwSOCkrjbfXA1a8=
+
+Name: assets/ui/mobile/effect/achievement_award_3.png
+SHA1-Digest: pNcPxbXT50Zm/tbc12Lj0u/VAHc=
+
+Name: assets/items/leather_chestplate_overlay.png
+SHA1-Digest: R+CAnCFuxYernDWLVeAmA1h61pE=
+
+Name: assets/sounds/step/cloth3.ogg
+SHA1-Digest: XFd5az8xrs9bpeo9poBYqoZjSJ0=
+
+Name: assets/entity/player/share/pifeng/pifeng02.png
+SHA1-Digest: R+XyU2GmE89vmB6CyPG4qUoF4wU=
+
+Name: assets/sounds/mob/wolf/growl3.ogg
+SHA1-Digest: ADgM4VZo0+hwCuxu1lK8j88bLek=
+
+Name: assets/blocks/dirt_podzol_side.png
+SHA1-Digest: 2PlChA0/k+3S7Xt+LWy0Ru42mHc=
+
+Name: assets/entity/player/player09/body.omod
+SHA1-Digest: UVjIOe/XJovbD0Kcz8ZYU1jbOOE=
+
+Name: assets/items/ruby.png
+SHA1-Digest: ZqDgSd1gAadb5KhkRraB25KK82s=
+
+Name: assets/blocks/glowstone.png
+SHA1-Digest: 7f9Z4oPd1uKpIXtiQH2LUCxyvF0=
+
+Name: assets/blocks/flower_houstonia.png
+SHA1-Digest: GaAR3puhD3maFAb1vlfRfQHkR9c=
+
+Name: assets/particles/texture/cresh01.png
+SHA1-Digest: ++Qz2YWPgSy0uoI4R9er6hvJL54=
+
+Name: assets/items/bucket_empty.png
+SHA1-Digest: UUguwLg0P6go40h6UPpXkMFA23E=
+
+Name: assets/blocks/sapling_birch.png
+SHA1-Digest: h0QcEBJKLp18gGIKgRpf/u1n+Os=
+
+Name: assets/sounds/step/stone6.ogg
+SHA1-Digest: EvKHDWUPx46r0WuD1za4Pj8QJPk=
+
+Name: assets/sounds/mob/zombiegirl/step3.ogg
+SHA1-Digest: pj6BIfJgucVIkk4QXtIO99qPYRA=
+
+Name: assets/ui/mobile/craftingtable.xml
+SHA1-Digest: VT1c93Ldu2ddDn5UM2XAqluok1k=
+
+Name: assets/items/chicken_cooked.png
+SHA1-Digest: HsKS0L1AH2R1HgFMHJBRqk0Eqwk=
+
+Name: assets/blocks/glass_pane_top_black.png
+SHA1-Digest: 2ZMLmfUPSJQ3F8TLSBPOsb7zEi0=
+
+Name: assets/particles/texture/machine_01_keep_01.png
+SHA1-Digest: +1CrhSJiGTxpsA1MmVE+l5xE5LE=
+
+Name: assets/blocks/log_birch_top.png
+SHA1-Digest: HXNCQeJKS7S+mgLbUSMkJ/5sEFQ=
+
+Name: assets/items/repeater.png
+SHA1-Digest: UHZzDwyYmqOM4kS1bUCKELOmfNE=
+
+Name: assets/entity/player/player07/body/femalebody07.png
+SHA1-Digest: pXtj/NN7WTexXINPdKpUzauYdow=
+
+Name: assets/blocks/water_flow.png
+SHA1-Digest: TIboqTQOQNWj1zNA36nCouNUO3Q=
+
+Name: assets/entity/100006/body.omod
+SHA1-Digest: jI6k39C2b3D0+goWNj9ekGreFtY=
+
+Name: assets/items/icon2554.png
+SHA1-Digest: SEIg/KBQHs6SpFxs0+aGdXCiWvk=
+
+Name: assets/ui/mobile/lobby.lua
+SHA1-Digest: 0Vq0+FF+uZBSwX88V/RjxTfgktg=
+
+Name: assets/blocks/radio.png
+SHA1-Digest: SYOT9Y1qbN7bJisbEpIyrgJkfsI=
+
+Name: assets/sounds/mob/zombiegirl/death.ogg
+SHA1-Digest: XUXMztxxjm9y3rk3KNi+7qxUvU4=
+
+Name: assets/blocks/hardened_clay_stained_brown.png
+SHA1-Digest: nuiM/7uOAa0dYgR6xmuGYpWBsms=
+
+Name: assets/ui/models/back.png
+SHA1-Digest: vYfz46+1aLNjVBfD3JLoxtnqFRk=
+
+Name: assets/blocks/sandstone_carved.png
+SHA1-Digest: FNo1fYcriXnkJFRDAoHiC8ezHdc=
+
+Name: assets/particles/1001.ent
+SHA1-Digest: xMmeAdGzMt93tWU8W47ucnNMmcA=
+
+Name: assets/items/hopper.png
+SHA1-Digest: UsmMQkAxvAjd8jMc/jaYoPaHX3Q=
+
+Name: assets/entity/animmap.csv
+SHA1-Digest: m6Zt0/Ak0IIpDltcVE1ZKiyRa/g=
+
+Name: assets/items/dye_powder_black.png
+SHA1-Digest: 9jitZiOZGMjT7MhMtguezOzhBZE=
+
+Name: assets/items/icon712.png
+SHA1-Digest: fTZkjd+0KfBsye9uOTHU4DnoOOA=
+
+Name: res/drawable-xhdpi-v4/ic_launcher.png
+SHA1-Digest: f0vXm56wx7vc1lmCnE2053xRLp4=
+
+Name: assets/entity/player/share/legging/2233.png
+SHA1-Digest: J0tPGND41PKH3OsRfqA4Rh6oFtQ=
+
+Name: assets/blocks/glass.png
+SHA1-Digest: KOcDKeqhaBt2AzDslf2lOcdBtdE=
+
+Name: assets/particles/35011.emo
+SHA1-Digest: FDuDU0NxKUGdg2h8m3iU1qhP20E=
+
+Name: assets/blocks/wool_colored_cyan.png
+SHA1-Digest: 0yMiddPf5EFz9qXXGqi7aOWbFpg=
+
+Name: assets/csvdef/tree204.csv
+SHA1-Digest: YvTlC+FtC/JgIOi+xRzPRUgj6DI=
+
+Name: assets/ui/accelkeys.lua.bak
+SHA1-Digest: meoQmgfibbpD17gQOYOQ6q80iJc=
+
+Name: assets/blocks/wool_colored_brown.png
+SHA1-Digest: pdCBLjABBXZoHX5z0dudcFVzHZU=
+
+Name: assets/particles/texture/huo5.png
+SHA1-Digest: EEzTd1hU1kyTsSlqVu0VOhCieZA=
+
+Name: assets/entity/player/player04/hand.omod
+SHA1-Digest: hIvShKF+gwJ6EqOcpSG5K9faiZo=
+
+Name: assets/items/diamond_helmet.png
+SHA1-Digest: rlE1ijHz6tfZfVOVZY67MPr0Czo=
+
+Name: assets/blocks/flower_tulip_red.png
+SHA1-Digest: FcIlPBTnLSrMS0CKT6+jR9i3Jh0=
+
+Name: assets/blocks/itemframe_background.png
+SHA1-Digest: miDdvjilZ8DKqXq6gfLLBAv6ZhM=
+
+Name: assets/entity/player/player07/body.omod
+SHA1-Digest: chKlvu3hN+QuLdsoYn+vqfppnIo=
+
+Name: assets/entity/player/share/breast/2232.png
+SHA1-Digest: tA6+IVTnrk0UjskeYLZo5o15uVA=
+
+Name: assets/blocks/flower_dandelion.png
+SHA1-Digest: aIk7XwokKdwQe8bm5qAWKWl/w5s=
+
+Name: assets/items/clock.png
+SHA1-Digest: wGWPJIny2vysXlL5SBNeHN9ycLc=
+
+Name: assets/particles/BUFF_ATTACK_2.emo
+SHA1-Digest: H+Mj84iObtHQ8k5UX0qAapA5370=
+
+Name: assets/ui/bufficons/damaged_poison_reduce.png
+SHA1-Digest: LL60YyI2/wErxATCpThkPiSUEok=
+
+Name: assets/ui/mobile/tips.xml
+SHA1-Digest: MgWWBNN64acC4VbrW2iYy2Vi2Uo=
+
+Name: assets/entity/110016/body.omod
+SHA1-Digest: 7rroRXpkpyl3jWcXRRa5nt+leTw=
+
+Name: assets/blocks/hopper_top.png
+SHA1-Digest: Z2GdL8mBG+ia376cKuV7znduNNE=
+
+Name: assets/blocks/tallgrass.png
+SHA1-Digest: WgyquHLy6BR6CsQ6griz/2DImkM=
+
+Name: assets/blocks/mushroom_brown.png
+SHA1-Digest: MlVbKGOzvTxSMDFwy1b69TNqX9s=
+
+Name: assets/items/stone_axe.png
+SHA1-Digest: lOKSwSfn53G7OuJZ2kEdSAra7Ts=
+
+Name: assets/blocks/piston_inner.png
+SHA1-Digest: 7Df62/xRuimxNWcbF0uiJu151UE=
+
+Name: assets/items/door_wood.png
+SHA1-Digest: 9akl3tH1i0w3xg7dMmsmkMTD3I8=
+
+Name: assets/csvdef/treedef.csv
+SHA1-Digest: mj6cMlKlsVyOeuZd+ZSckeD+GUk=
+
+Name: assets/entity/200003/body.omod
+SHA1-Digest: ddLgMw4KU9YCnT/PAPkn4qOUnnw=
+
+Name: assets/items/chainmail_helmet.png
+SHA1-Digest: sAm/amT5Joo1v6o33eHY+NBaJO0=
+
+Name: assets/blocks/notice.obj
+SHA1-Digest: o7p+N9dh3C54g4HZas2rwuUYI0Q=
+
+Name: assets/serverlist.data
+SHA1-Digest: JLt+AX+vgIEfwmIa0AVzGn8DWGg=
+
+Name: assets/blocks/log_spruce_top.png
+SHA1-Digest: 2PF7awyxms+hgaoWnQSyNlsr2J0=
+
+Name: assets/blocks/planks_spruce.png
+SHA1-Digest: BDQ86rA+8eK7QlcwJjhi6xE5Csg=
+
+Name: assets/entity/player/share/pifeng/pifeng03.png
+SHA1-Digest: loT1GzenAxlKsjV639nSPXWHZPo=
+
+Name: assets/items/dye_powder_magenta.png
+SHA1-Digest: s72F+9h5rg/xi6xkaqto+Msv61c=
+
+Name: assets/sounds/dig/grass2.ogg
+SHA1-Digest: 01+3H4VOyZCMGo9Hk1uBelHo+HM=
+
+Name: assets/items/leather_helmet.png
+SHA1-Digest: KdyjQMmdP0Os/bFOfa66WbYFbHI=
+
+Name: assets/blocks/destroy_stage_1.png
+SHA1-Digest: gqzRLxIp0G1Dznyest6qJtA4gdg=
+
+Name: assets/sounds/mob/zombiegirl/say6.ogg
+SHA1-Digest: lrUJcrjej/3QvqTX1jyrHGAWg6s=
+
+Name: assets/blocks/nether_wart_stage_2.png
+SHA1-Digest: LqHpuzJdHY2bpKM6LmP8VIugPhY=
+
+Name: assets/items/ender_pearl.png
+SHA1-Digest: F7No9GrZzFS6Fj8Oe35FOWiE8Wk=
+
+Name: assets/blocks/stonebrick.png
+SHA1-Digest: Sd3ApurSVZqb7uJeIBf3X0IpkAw=
+
+Name: assets/ui/models/selrole1.omod
+SHA1-Digest: stu+/EiOIASKiPST7Wb7eanlLcs=
+
+Name: assets/particles/texture/jiguang.png
+SHA1-Digest: ySw81U8RqfLvpDs1DvFkcMsNX7E=
+
+Name: assets/entity/110002/male.png
+SHA1-Digest: hxe/rM2M9kTWbb5XE5qOnqg3jHo=
+
+Name: assets/sounds/mob/cow/say1.ogg
+SHA1-Digest: cNGxjaMH30HUTPkiv1WkCK4DO/w=
+
+Name: assets/sounds/mob/zombiegirl/say3.ogg
+SHA1-Digest: uboT5U6gpYIh1vPTp48q0WZPx3I=
+
+Name: assets/ui/mobile/effect/ui_button_vip.png
+SHA1-Digest: WnIXbZ5pXKvYEcwvgDTCPXCcMds=
+
+Name: assets/blocks/pumpkin_face_off.png
+SHA1-Digest: GkGSmdAsvKCGHBWPIRVp1Ka7Xs8=
+
+Name: assets/blocks/flower_oxeye_daisy.png
+SHA1-Digest: COAQQ4fVwjFKo+4QS54dqBVX2ro=
+
+Name: assets/sounds/mob/spider/step4.ogg
+SHA1-Digest: wHbMxfmRZ4qtrCNJWGM4aDbX7sg=
+
+Name: assets/sounds/dig/sand2.ogg
+SHA1-Digest: 2ApAGvxh/h0ZBbuacWtszUICr+Q=
+
+Name: assets/blocks/chest.png
+SHA1-Digest: jOBb3GfJTfX3T1rCY2awVQBWDxU=
+
+Name: assets/items/fireworks.png
+SHA1-Digest: iUidhNuRw16yBnZeXjcuztWgJ/g=
+
+Name: assets/blocks/rail_golden_powered.png
+SHA1-Digest: lkp6amG8wqM8ABDGoSr0WqUnEyU=
+
+Name: assets/entity/200008/body.omod
+SHA1-Digest: f+MCF++C+SFbQJ7VeYLJAhjA/wg=
+
+Name: assets/blocks/emerald_block.png
+SHA1-Digest: AUHyROjewZdMyOAVodzouAKHMk0=
+
+Name: assets/blocks/endframe_eye.png
+SHA1-Digest: ILfusoHQqQyeNov6CPv/IVwKADk=
+
+Name: assets/items/iron_axe.png
+SHA1-Digest: eGYmsolwRyeA7UUfuHkKUbsfRzo=
+
+Name: assets/blocks/notice.png
+SHA1-Digest: KT6VLyErkAAQpGoF57MUGDEuIEg=
+
+Name: assets/blocks/leaves_jungle.png
+SHA1-Digest: moBqkrRLhAmQMlfD+Gtn8r9yPa8=
+
+Name: assets/blocks/furnace_front_on.png
+SHA1-Digest: dDfgT4MwZ/iizKwf/bLOpEUS1+I=
+
+Name: assets/items/minecart_command_block.png
+SHA1-Digest: uKS61U8RXjxvA/JTMu61japxkKY=
+
+Name: assets/particles/texture/lv.png
+SHA1-Digest: qgCxzObLanul23/s25XjTRoSuDY=
+
+Name: assets/ui/mobile/furnace.lua
+SHA1-Digest: gim8q+bXR3XlS3XVlcNXLCjhY5M=
+
+Name: assets/entity/100014/zhizhugai.png
+SHA1-Digest: 2tg2TvxYF6B4kcU8b8MqPrE7Hmg=
+
+Name: assets/sounds/mob/pig/death.ogg
+SHA1-Digest: hP1Gc9hmqD6zGf3lztPNEcTaE9I=
+
+Name: assets/items/fishing_rod_cast.png
+SHA1-Digest: mZLYEFs3mUngWi7i46hD204CJWA=
+
+Name: assets/items/icon2552.png
+SHA1-Digest: d5AahZBRIkdcZTv8sPyHJhltrYs=
+
+Name: assets/blocks/melon_stem_disconnected.png
+SHA1-Digest: MIJFbgTIdkmOoehDTUGT8zM5ghc=
+
+Name: assets/blocks/double_plant_grass_bottom.png
+SHA1-Digest: lX9UhcCUO0urrw5dM1eetf9vgc4=
+
+Name: assets/particles/34073.emo
+SHA1-Digest: sz1Y64Bqzm2iBOxudg92lmAq0Xw=
+
+Name: assets/particles/texture/bao.png
+SHA1-Digest: kpPufQBisc4XM7+Hm9HC4lORv98=
+
+Name: assets/items/skull_wither.png
+SHA1-Digest: j0dWTt2q1XqSvAkz+TQ3BGyFu2A=
+
+Name: assets/ui/shortcut.lua.bak
+SHA1-Digest: ircfkCsiT61Bm0D+FjYAOVHXi00=
+
+Name: assets/particles/1100.ent
+SHA1-Digest: 2TGtOFmn4rI/T46DjV5pSgoPoyw=
+
+Name: assets/blocks/glass_pane_top_red.png
+SHA1-Digest: IAeP3E6yV/0nMzwcU0CLAUHd/Ic=
+
+Name: assets/blocks/repeater.obj
+SHA1-Digest: 5g4PFGkcKaKetlSzKcoCwK7hXvo=
+
+Name: assets/blocks/iron_block.png
+SHA1-Digest: Ebvqbn4MfIzEMPn2HqwSlxCEyo0=
+
+Name: assets/ui/mobile/storagebox.lua
+SHA1-Digest: JrLrAUf5FEWnq88F/Z8Ch3RzXrA=
+
+Name: assets/items/dye_powder_orange.png
+SHA1-Digest: 4Ad5cZ2eut4aqCpILuaMHdwwg0I=
+
+Name: assets/sounds/mob/endermen/stare.ogg
+SHA1-Digest: IdyV87nyuCJYXiybBH6zdoC2r5M=
+
+Name: assets/entity/player/player01/body/malebody01.png
+SHA1-Digest: uDBM/ZRVifpaHK7BSOgewU4QBd0=
+
+Name: assets/ui/mobile/buff.lua
+SHA1-Digest: i/DHcBmhDWyMm22fG7iY0VyRVME=
+
+Name: assets/blocks/mycelium_top.png
+SHA1-Digest: kmsdKbh3B4efPOcXpXmzBsqmxOU=
+
+Name: assets/items/icon2245.png
+SHA1-Digest: JYYNe5sZ6Gr82Lr9oKzFiaKVFdY=
+
+Name: assets/colormap/enchanted_item_glint.png
+SHA1-Digest: rOoMvCnBtYyMVsxeWhhgeTQGkwI=
+
+Name: assets/ui/mobile/enchant.lua.bak
+SHA1-Digest: 9/5zn9v2f9VA5EzZqamABeaLfTM=
+
+Name: assets/blocks/dragoncup.png
+SHA1-Digest: PVSAEk8qiB50V8k09Rzom40yQQk=
+
+Name: assets/items/paper.png
+SHA1-Digest: WacdHP3465AD9vFUVj8DRmZnMbQ=
+
+Name: assets/blocks/sandstone_bottom.png
+SHA1-Digest: ytFVrd3LNJTIfYJhzjvLi9FGMGo=
+
+Name: assets/blocks/piston.obj
+SHA1-Digest: 2TBZEd38KIfGucOO3P4GF30qk+M=
+
+Name: assets/blocks/comparator.obj
+SHA1-Digest: emowFtt9dO8HzY+ksu/TRNrsKqg=
+
+Name: assets/blocks/hardened_clay_stained_white.png
+SHA1-Digest: e0baBoqeisidSuMJ0BKdCtE8SA0=
+
+Name: assets/blocks/spring_iron.png
+SHA1-Digest: dRbxAUaJZQnJCO+VwdHW4P9RTws=
+
+Name: assets/blocks/redstone_lamp_off.png
+SHA1-Digest: 5MnuecZt7t8r/t7G9XU2I7MmhCU=
+
+Name: assets/items/nether_wart.png
+SHA1-Digest: by3K9I3ltAN+xbRjwzIlr04FAgA=
+
+Name: assets/sounds/dig/cloth3.ogg
+SHA1-Digest: pntwVR8qZ9FTYbxyrZYZyVJzdFE=
+
+Name: assets/blocks/jar2.png
+SHA1-Digest: 2G4qsyZL+7i0v8sjVqxFQGk71yM=
+
+Name: assets/particles/texture/yanwu030.png
+SHA1-Digest: AeWptOcUvuXRC6MQMp6IEQcRdIk=
+
+Name: assets/items/iron_hoe.png
+SHA1-Digest: FR9DTV3RbezPJt8CzDkThwUnbwQ=
+
+Name: assets/ui/white.png
+SHA1-Digest: 25ya4UVJzzbgK+FPk1VnDC6Twvo=
+
+Name: assets/sounds/mob/wolf/growl1.ogg
+SHA1-Digest: NcGRWRporssulwbtVpTUkhmX8c8=
+
+Name: assets/csvdef/achievement.csv
+SHA1-Digest: FV9vEWV7ofHPOrsqqPZ6dos4rsY=
+
+Name: assets/sounds/damage/hit1.ogg
+SHA1-Digest: nl5Wzp0j+UBglIhF7CPHD3N7YCY=
+
+Name: assets/items/painting.png
+SHA1-Digest: pLMI98AzpCNwD9OU59w1pHEIrZ4=
+
+Name: assets/blocks/box1.png
+SHA1-Digest: wvWcs3Fq2pJ0EIWNfXxVJyO84ho=
+
+Name: assets/items/pumpkin_pie.png
+SHA1-Digest: DuhlO1wp0p4TFHivCHav2xk6vKI=
+
+Name: assets/items/record_mellohi.png
+SHA1-Digest: oQAT3H67+YVTDmiNiJ+NG3JeAmo=
+
+Name: assets/sounds/dig/cloth2.ogg
+SHA1-Digest: tOxNtMfBLaG8bfHSRuAEXUZy2cc=
+
+Name: assets/items/icon2553.png
+SHA1-Digest: ayZv/gsg6LbMLjUl2Iat/kELko8=
+
+Name: assets/blocks/glasspane.obj
+SHA1-Digest: FdYgBRPSXem1LHzP0NPjiZWJm68=
+
+Name: assets/blocks/quartz_block_side.png
+SHA1-Digest: GIU2AUd/7TPeM4CGPgZSnmEesKc=
+
+Name: assets/entity/player/share/women/breast/2222.png
+SHA1-Digest: m09bt23Dfw7rxw4LfQTU/ej1f78=
+
+Name: assets/entity/120004/female.png
+SHA1-Digest: rRfOLL8DW8Uqq0uX9u71hfdYuQY=
+
+Name: assets/blocks/wheat_stage_4.png
+SHA1-Digest: ayXSOL8n0qKpi0kFdkbRPhzrQ9o=
+
+Name: assets/blocks/double_plant_sunflower_front.png
+SHA1-Digest: 0ESoY+Fw3jUa7s10UtgXA0+9xiI=
+
+Name: assets/ui/mobile/selectrole.lua
+SHA1-Digest: /k6mdumr8ajRFJ0kdpVxC73i5h0=
+
+Name: assets/entity/120002/male.png
+SHA1-Digest: woHtdTbpVFW5iNeGYGx4OfRNn58=
+
+Name: assets/items/feather.png
+SHA1-Digest: g8sksYCz9UKKUCj1cQlf5RqgwBA=
+
+Name: assets/items/book_normal.png
+SHA1-Digest: 1n+Y5lbFTgD6oK4LrCGP9eUy3YE=
+
+Name: assets/sounds/dig/grass4.ogg
+SHA1-Digest: BxwSYF5xSz4IICJMQn5+ROdJYKo=
+
+Name: assets/sounds/random/glass3.ogg
+SHA1-Digest: tr/fwGOKblU0x6BD0HGrwU5Rr9s=
+
+Name: assets/entity/player/share/women/legging/2213.png
+SHA1-Digest: mKG+zfLzKXzaFdujRk8ylamU004=
+
+Name: assets/items/icon3401.png
+SHA1-Digest: 4r3Tpnp3TJK22sMKqlnThmMwY2w=
+
+Name: assets/items/record_strad.png
+SHA1-Digest: RiJ7nmzr7wAlkP8LcXkeQPPWSaM=
+
+Name: assets/ui/lobby_multi.xml
+SHA1-Digest: LuO8t4cJFKkFSI8v4u+cwa5P/v4=
+
+Name: assets/blocks/double_plant_sunflower_back.png
+SHA1-Digest: eZhPuhRHwsTWsfivUPW+aWo3nJU=
+
+Name: assets/particles/texture/bao1.png
+SHA1-Digest: raRx3WQPuQhfj/5aNuSPwB5qPBQ=
+
+Name: assets/items/leather_leggings_overlay.png
+SHA1-Digest: hxG8MH1ypCtWcJ+EgQHsUaUqf58=
+
+Name: assets/ui/mobile/furnace.lua.bak
+SHA1-Digest: ngmiYo8Xwjjf1kknu3Hy6m8G4Yg=
+
+Name: assets/blocks/glass_orange.png
+SHA1-Digest: 5gqzn8noVud/JHiXIlUiq5F2Pl8=
+
+Name: assets/items/gold_horse_armor.png
+SHA1-Digest: DDFZthwuNJLLAdFbBPkC9vtHzmI=
+
+Name: assets/blocks/lava_still.png
+SHA1-Digest: 32F5QM3VSwgSb8XLN4Z3YyOBteE=
+
+Name: assets/sounds/mob/zombie/hurt2.ogg
+SHA1-Digest: qZTAur9O2Gu7jvQYzoWiWTKXw9A=
+
+Name: assets/items/fish_pufferfish_raw.png
+SHA1-Digest: 5+gafu1DrQ62UxrovjDlp3DyKtc=
+
+Name: assets/blocks/sapling_roofed_oak.png
+SHA1-Digest: lAa11Q3nS4n1CG39ijsmFqt9irU=
+
+Name: assets/entity/player/share/shoe/2204.png
+SHA1-Digest: xW1rybxQ/kpgl7XJKSXjzTIX7a8=
+
+Name: assets/particles/BUFF_LUCK_1.emo
+SHA1-Digest: JR18t4GMs9NuYgZIA0FDQTRyAb4=
+
+Name: assets/sounds/random/bowhit4.ogg
+SHA1-Digest: HzqbybnLRuIQUkm7IDlh25jP2oA=
+
+Name: assets/sounds/step/sand2.ogg
+SHA1-Digest: 9RI2eFkTNBGiIv/9wx7DSAhglB4=
+
+Name: assets/sounds/dig/gravel3.ogg
+SHA1-Digest: /UN2lZcTOTChp5n23OlYQadY+ho=
+
+Name: assets/sounds/step/ladder3.ogg
+SHA1-Digest: jn5/ds2JKHVlKuGTNtSRhco8DeY=
+
+Name: assets/sounds/mob/wolf/bark2.ogg
+SHA1-Digest: SNTpYRZMQYUpCai0WbXQVhWi+BA=
+
+Name: assets/items/potion_bottle_empty.png
+SHA1-Digest: KBZSN6+JjJVoB+ybu6rHb6tSRRA=
+
+Name: assets/particles/31071.emo
+SHA1-Digest: YoaI5T8NPQSF8Vr7R/k85jsJb6U=
+
+Name: assets/particles/BUFF_DAMAGE_ABSORB.emo
+SHA1-Digest: u7x4CJ5vbAOGwdmHc2kvBDEx6Ws=
+
+Name: assets/blocks/destroy_stage_7.png
+SHA1-Digest: U9aRlXzdDX79ScT1tQUBAlKZEBs=
+
+Name: assets/ui/bufficons/damagebuff_fire.png
+SHA1-Digest: fa3gwNoYN2dLO2rXkAyh2t4EPQk=
+
+Name: assets/ui/bufficons/model_ghost.png
+SHA1-Digest: /AOJKj7b4ZWhSGJ1rYQUsdw4DO0=
+
+Name: assets/sounds/step/sand5.ogg
+SHA1-Digest: HNXmXYFUDxwDWO76skWEY2EpNlA=
+
+Name: AndroidManifest.xml
+SHA1-Digest: hkOUlePAoonLhr9cByRj5AyJ+JU=
+
+Name: assets/blocks/flower_paeonia.png
+SHA1-Digest: BAAkENi1Vxj5/jJa1bpd4Oj8p00=
+
+Name: assets/ui/bufficons/addhpbuff_add.png
+SHA1-Digest: Xe3HwJ16riT+3aOa5S/M2t8GMSc=
+
+Name: assets/entity/player/share/women/helmet/2201.png
+SHA1-Digest: 4JXIMjFv5BFOUtkAuohlo4fG7ds=
+
+Name: assets/particles/texture/eye_fxl_shockwave_006.png
+SHA1-Digest: 16dJ0cxYxs7FBGnH9n94tvahEDg=
+
+Name: assets/entity/110006/male.png
+SHA1-Digest: BAAUmxs/gVse00SMBebfD7MUPKI=
+
+Name: assets/items/gold_shovel.png
+SHA1-Digest: qXPsRsltAcDrjf6suZ7VA/dMakg=
+
+Name: assets/sounds/liquid/splash2.ogg
+SHA1-Digest: ez6G6mG4fzU0jTFpTM3arDU/sFk=
+
+Name: assets/items/minecart_normal.png
+SHA1-Digest: oKn7JTRd0RkKeu801MVWwEnFBR0=
+
+Name: assets/ui/deathframe.lua
+SHA1-Digest: FyZfHX3wtklu2vuuwtyIC7SKo8w=
+
+Name: assets/blocks/planks_acacia.png
+SHA1-Digest: QZPAgsEXoxZ5wohGOB4gvhI2wW8=
+
+Name: assets/items/magma_cream.png
+SHA1-Digest: dxvVYCPVZB+fxhSS+rWMS3HJ+HE=
+
+Name: assets/ui/lobby_multi.lua
+SHA1-Digest: 4G6URInrwBItQ7I3aeMgcu5OnUA=
+
+Name: assets/entity/player/share/breast/2242.png
+SHA1-Digest: Hq5SYQgQtqcgA4l75tZWbeH6+Sk=
+
+Name: assets/entity/player/player06/body/malebody06.png
+SHA1-Digest: KT7khon1G5jNYxE7aD60bc/i6LQ=
+
+Name: assets/luascript/buffdef.lua.bak
+SHA1-Digest: SxIzO9NIzewqRuOqRaMtKv7n7Nk=
+
+Name: assets/luascript/blocks.lua
+SHA1-Digest: 0elc/9DVGWmCNPiA7LIqVBDIq/Y=
+
+Name: assets/entity/player/player10/hand.omod
+SHA1-Digest: FbkbJy45dKxURjM567nkJnJNoOE=
+
+Name: assets/entity/110021/body.omod
+SHA1-Digest: Lvm3aAURVkW225tF/GeqZUV+s88=
+
+Name: assets/particles/texture/halo_55.png
+SHA1-Digest: t6lDv935gN2B4MgUCi8yZNtEzwY=
+
+Name: assets/items/icon2560.png
+SHA1-Digest: NvVj6G+YWMQ/DqH5r3WYmmyVYuw=
+
+Name: assets/sounds/mob/pig/step4.ogg
+SHA1-Digest: /wFXwHXuWL60IGis2QQ5n8Jj1iA=
+
+Name: assets/particles/texture/eye_lwy_t_som_15_single.png
+SHA1-Digest: FZHmfVHgcCTOSY6k0RYpaiORsWs=
+
+Name: assets/blocks/furnace_front_off.png
+SHA1-Digest: NjIChYqz5T0jjA7dz+Y+5FQxh6Q=
+
+Name: assets/ui/mobile/effect/ui_experience_1.png
+SHA1-Digest: Mp04SDM0nbNLTmK2Ro/eg2qJ0E8=
+
+Name: assets/particles/texture/halo_08.png
+SHA1-Digest: dKpmJVtmTQVRqCcM4LnjrjZJsbQ=
+
+Name: assets/csvdef/enchant.csv
+SHA1-Digest: isNjZ6Wb1qqwCO7XK0CCjY5fwjo=
+
+Name: assets/items/bed.png
+SHA1-Digest: se8ncRUNLNOTnuyn8op1/QYQhe0=
+
+Name: assets/sounds/mob/skeleton/step2.ogg
+SHA1-Digest: aXIJA/u9WxFMvLZHlFpw6rS2GbE=
+
+Name: assets/particles/texture/baozha111.png
+SHA1-Digest: 3rfeq0hiq3a9+9ikxy8hHl9qVyM=
+
+Name: assets/entity/player/share/women/shoe/2244.png
+SHA1-Digest: VZQeSvG4AoTzx5LuYPqOhV5dBAE=
+
+Name: assets/entity/110005/body.omod
+SHA1-Digest: VzKOD+nx6a5oso0c3ot3CU0LRGo=
+
+Name: assets/blocks/farmland_dry.png
+SHA1-Digest: 4Q4RIN1W8Xz2glYtzbGTksEJ7Ik=
+
+Name: assets/entity/200004/body.omod
+SHA1-Digest: I8oz7C8t1MZcDCVUzsDEIhL7WwA=
+
+Name: assets/sounds/mob/creeper/death.ogg
+SHA1-Digest: O61JtlEESf5b/iJbuvaH+mB2WBU=
+
+Name: assets/sounds/mob/cow/step4.ogg
+SHA1-Digest: 0FS7+hM5PYBdy78lj1VaVMek2Wc=
+
+Name: assets/ui/mobile/setting.xml
+SHA1-Digest: fs3HoK3vvUmVnQ43w8a8ZbZOYEc=
+
+Name: assets/ui/mobile/storagebox.xml
+SHA1-Digest: ekwt2ISYQcmK7TSm5moFxWhIQBI=
+
+Name: assets/items/dye_powder_yellow.png
+SHA1-Digest: IPAWFzQH+YIX0uqOx+ml67ePdW0=
+
+Name: assets/ui/mobile/messagebox.lua
+SHA1-Digest: 74N2nlO/tFgVP/ZuqkWNsbf4C5k=
+
+Name: assets/particles/texture/jinbi.png
+SHA1-Digest: Kuh4f2dbaGPZ3dJj/tuJSTZIeUk=
+
+Name: assets/particles/texture/hong.png
+SHA1-Digest: qQpjoF1udET6lqDlKr1cU4UJbGI=
+
+Name: assets/items/dye_powder_pink.png
+SHA1-Digest: Yr+lJ9ODDa9bflkIoOYrkuoh6mM=
+
+Name: assets/blocks/lava_still.png.mcmeta
+SHA1-Digest: 5CmOm0DbvC5o1Q8VlM0FFIBWE1U=
+
+Name: assets/blocks/flower_tulip_pink.png
+SHA1-Digest: 333wfqrFyVXswWZyttqDnQp1R5g=
+
+Name: assets/particles/1101.ent
+SHA1-Digest: LMWjODu5qdbydqZBm9Oo71Xw9J8=
+
+Name: assets/items/dye_powder_purple.png
+SHA1-Digest: 5uOMaw+1vDQXUyrClDDojtML5eo=
+
+Name: assets/blocks/double_plant_rose_top.png
+SHA1-Digest: enTa/Mch3Ur7Kw2lJoOy6xiiitk=
+
+Name: assets/entity/120001/male.png
+SHA1-Digest: 3iK8Iv1frhPalGQ95ZmMpM/O0wo=
+
+Name: assets/entity/player/player08/body/femalebody08.png
+SHA1-Digest: OME6/SWqEjUxAfv+iES55f1BelQ=
+
+Name: assets/entity/200001/body.omod
+SHA1-Digest: K7OhX3Wa3LTOq5ZNf9/sY+ZAYSg=
+
+Name: assets/sounds/mob/spider/say4.ogg
+SHA1-Digest: e/M72xlCY2Ws0PdY6+C9JWaPrnU=
+
+Name: assets/blocks/anvil_stage_2.png
+SHA1-Digest: SnaVyWvTrLeiZr2669V7SeIv0Vs=
+
+Name: assets/sounds/mob/zombiegirl/hurt.ogg
+SHA1-Digest: igLbiqjBn5lawiSOvPgOfHvSYQc=
+
+Name: assets/ui/mobile/map.lua
+SHA1-Digest: gW3g0zBkA45xGFY31ajVVVSu14g=
+
+Name: assets/blocks/sandstone_normal.png
+SHA1-Digest: 2W/9v6y09NPD3fufU/CUnAcIdww=
+
+Name: assets/entity/110017/male.png
+SHA1-Digest: TOsemS/ocvqw/xHKueTuSCZ6u/4=
+
+Name: assets/sounds/mob/horse/soft5.ogg
+SHA1-Digest: wi1T1yVJ2rUVrr1L+E7bqKO2f3Q=
+
+Name: assets/ui/mobile/repair.lua
+SHA1-Digest: j0QLtcugiKRu3vH5i1kA6isaY9Y=
+
+Name: assets/particles/BUFF_ATTACK_1.emo
+SHA1-Digest: xLOo7K2RxqQPZgZdfhQzJ13tFUw=
+
+Name: assets/csvdef/tooldef.csv
+SHA1-Digest: yLc+GU973fAJKV3nMMCLZC+nt4Q=
+
+Name: assets/voxel/portal.vox
+SHA1-Digest: MJPH5kgYA9idHbmCIhHbjpUSkk4=
+
+Name: assets/items/wood_pickaxe.png
+SHA1-Digest: okUYV2NCsvYP5g3t4kp4iKVoKFc=
+
+Name: assets/sounds/liquid/water.ogg
+SHA1-Digest: 8E9bcyssAN3SyZVZcConvUr8V7M=
+
+Name: assets/sounds/mob/endermen/scream3.ogg
+SHA1-Digest: nz9Xt8Y83mlxI7gW6KLpCq7tFpc=
+
+Name: assets/blocks/redstone_ore.png
+SHA1-Digest: 9PQOgT1wR7P5h61zVOr9pGqwk78=
+
+Name: assets/entity/200005/body.omod
+SHA1-Digest: JmD5EuEV9BnqAEoMxcE9CaDkprU=
+
+Name: assets/sounds/mob/zombiegirl/say4.ogg
+SHA1-Digest: VNgoitSSsx5cqQauymNcBNtHeAw=
+
+Name: assets/entity/110007/yanse1.png
+SHA1-Digest: fMdYkUlqsa6Hvmz7Ur45pCK5Ah8=
+
+Name: assets/sounds/mob/chicken/say2.ogg
+SHA1-Digest: 1Xo1i6g1YJL1gZjFh6FQylOrpQA=
+
+Name: assets/ui/models/back2.png
+SHA1-Digest: mDu/CELDN/xI3+iHQcLT66wPpk8=
+
+Name: assets/sounds/mob/chicken/step2.ogg
+SHA1-Digest: 26gI4SgZ/fRlh1cQ6ojeqSzmA8s=
+
+Name: assets/items/icon2563.png
+SHA1-Digest: kEOeR+zcgfJv9EGE09quKirAvsc=
+
+Name: assets/blocks/rail_normal_turned.png
+SHA1-Digest: 7y8VqAiaRDEpSIc63vn7ngvOIh8=
+
+Name: assets/blocks/jar.obj
+SHA1-Digest: 0y1F+ltWjEgdP8L/ENxPPBKngU0=
+
+Name: assets/csvdef/tree203.csv
+SHA1-Digest: Vk8l0od1cungTmZI+ZTBY7H2NW0=
+
+Name: assets/particles/texture/halo_26.png
+SHA1-Digest: 76iZgpRnqvOkPHAsng7AaGyCAkQ=
+
+Name: assets/sounds/mob/horse/soft6.ogg
+SHA1-Digest: IWWUkhyfClBhTxXTsoN351X6Bxg=
+
+Name: assets/luascript/mobs.lua.bak
+SHA1-Digest: CAh1PKsoMGFk+93V5vtxst4GGwo=
+
+Name: res/drawable-mdpi-v4/ic_launcher.png
+SHA1-Digest: ydq/tscHh47SbS6f3OjtyfxEg/4=
+
+Name: assets/sounds/step/wood5.ogg
+SHA1-Digest: gvuUxNZqdeuvRdTPB9EU5nGfQNs=
+
+Name: assets/particles/texture/trail02.png
+SHA1-Digest: Ma7vKZ+rb2tfYCWwZyNDjfWXgmw=
+
+Name: assets/entity/110016/male.png
+SHA1-Digest: 2Mw19FEOQk/WKw6gSyhMVQMI/kc=
+
+Name: assets/sounds/fire/fire.ogg
+SHA1-Digest: d1RXobfJ6tQJ8dMukmHQ9e9x0JA=
+
+Name: assets/particles/item_810.ent
+SHA1-Digest: MXjpD9ePESQIbcGH0yikzTMn6jQ=
+
+Name: assets/entity/200007/femalebody01.png
+SHA1-Digest: kuVIPEVvrQ8Qghzgald2ctjQsiY=
+
+Name: assets/blocks/pressure.obj
+SHA1-Digest: 2jX+wsHMVQwT6kFiLuJdcZ75xcI=
+
+Name: assets/blocks/door_wood_lower.png
+SHA1-Digest: TMA1OAEquOLKPLTenxlFrWGumKY=
+
+Name: assets/items/gold_pickaxe.png
+SHA1-Digest: 9UQFvrtFvsjTgIwyqjulnAwM/tc=
+
+Name: assets/ui/mobile/effect/ui_button_1.png
+SHA1-Digest: dMK+vYC7Uah8gEm+UkI0TFCbPN8=
+
+Name: assets/particles/texture/_FIRE_01.png
+SHA1-Digest: HEnDQrxo6sK3aHonNF9UlTdziYM=
+
+Name: assets/ui/storagebox.lua
+SHA1-Digest: 4NyO0xhFCjFTNOMNe3gyfZZtzkA=
+
+Name: assets/sounds/mob/skeleton/death.ogg
+SHA1-Digest: bvwyLyQqlh9qdhdmcOU+odFeOAk=
+
+Name: assets/csvdef/birch_geom.xlsx
+SHA1-Digest: lny0OuWlrDJzTO/Gxf4Hk6O7jZs=
+
+Name: assets/sounds/mob/creeper/say4.ogg
+SHA1-Digest: F6oPtiTBXxYcMgpVtJJf2oIxCgU=
+
+Name: assets/sounds/mob/horse/hit1.ogg
+SHA1-Digest: Rek+6QJ64ydnaJE5Y8DwuFwZuiQ=
+
+Name: assets/items/beef_cooked.png
+SHA1-Digest: o7yQ91CyZhtbsuUOsdqJUlhSgMs=
+
+Name: assets/entity/110003/male.png
+SHA1-Digest: pVzpl9mzD908R02Py+7n2MTaKJw=
+
+Name: assets/items/coal.png
+SHA1-Digest: o/jZq0IGhNm7wbEBiMOw/RxngT8=
+
+Name: assets/blocks/melon_stem_connected.png
+SHA1-Digest: Lud0+gXhGbZDTHDxu9uB6mOSgkk=
+
+Name: assets/items/empty_armor_slot_helmet.png
+SHA1-Digest: 1zR/2c4xggPWrBZaUxKE8x7XISg=
+
+Name: assets/sounds/mob/pig/say3.ogg
+SHA1-Digest: 9NBIV8NWD5okCXg/nktCxRgENoY=
+
+Name: assets/items/flint_and_steel.png
+SHA1-Digest: LjQyPeGtkm9SH/PvV/fHhlDr2yA=
+
+Name: assets/sounds/mob/spider/say3.ogg
+SHA1-Digest: ci4TQ0RaJnRUIb3A5tHEdTQBMoc=
+
+Name: assets/sounds/random/door_close.ogg
+SHA1-Digest: kBRjNzvxNaHQQzosFbb9i2/JL3U=
+
+Name: assets/entity/100020/body.omod
+SHA1-Digest: yx4rgllyfwETK6NFADVPWiMc9sY=
+
+Name: assets/sounds/random/bow.ogg
+SHA1-Digest: GibGbo4rssIyaEdkTB26mjPIPXk=
+
+Name: assets/sounds/mob/horse/idle3.ogg
+SHA1-Digest: l7rAV+yonFQzjQx8vR+nPzS5nQg=
+
+Name: assets/entity/110013/male.png
+SHA1-Digest: oDf0i87BS3t1sev/+clYqsTLatM=
+
+Name: assets/items/gunpowder.png
+SHA1-Digest: 99zeXhEBX10Mpzhqvxs+FVvHYDk=
+
+Name: assets/particles/texture/xingxing.png
+SHA1-Digest: KGsc8U5WPS9vpuQ1j2FQ6XfZjsM=
+
+Name: assets/ui/selectrole.xml
+SHA1-Digest: bqg+7g7ELpYQT5NSLA3sOBJtKlM=
+
+Name: assets/particles/texture/ElementClient0864.png
+SHA1-Digest: bFoWbMJGYR4O/ogVGaXSQGOu1z0=
+
+Name: assets/csvdef/tree202.csv
+SHA1-Digest: 333V/iMvxpYJEJN0Atn6t0GwWwI=
+
+Name: assets/entity/100002/body.omod
+SHA1-Digest: YvwsC3HfFThzBSfH4tUNn+i8AfA=
+
+Name: assets/ui/lobby.lua
+SHA1-Digest: kWuseGzMUA+7Cvq2X2nq4DCXFbg=
+
+Name: assets/items/skull_creeper.png
+SHA1-Digest: eERCci4knE0OaLIH4rKxmTFZWNc=
+
+Name: assets/sounds/buff/buff_damage_absorb.ogg
+SHA1-Digest: GDGtsAjjeAqsNDysvskxQGqYaP8=
+
+Name: assets/particles/35022.emo
+SHA1-Digest: +RHgx6dFXrl7btjpDIvmkUdkpxE=
+
+Name: assets/particles/texture/ch_smoke02_16.png
+SHA1-Digest: VlfnweFS/YjGzd4ENo76FunBEjM=
+
+Name: assets/sounds/step/wood2.ogg
+SHA1-Digest: KBKfqLj7uZaeJvy077XlWHkNeQQ=
+
+Name: assets/entity/200007/hua.png
+SHA1-Digest: 4W+dxwy6LnjSnxXj+L5wGqwgXxY=
+
+Name: assets/blocks/bookshelf_side.png
+SHA1-Digest: NhMSbj8LjYH2E0Mftae+F4lzQMU=
+
+Name: assets/ui/mobile/uicommon.lua
+SHA1-Digest: 8KSqM4eRVZQrD0cLp5gXFVqDR+I=
+
+Name: assets/items/icon2549.png
+SHA1-Digest: b0bI4PRsXrsmPnD89Ycn5ZJ6X1c=
+
+Name: assets/blocks/wool_colored_yellow.png
+SHA1-Digest: MqnN4qkFTs/f/2yieeChaixBss0=
+
+Name: assets/sounds/damage/hit2.ogg
+SHA1-Digest: /Bzy5np3AHB5yXq+/pR3rtA4y1c=
+
+Name: assets/sounds/dig/sand1.ogg
+SHA1-Digest: rXpJfOWJyuIgZBxpVrd3zha/nqw=
+
+Name: assets/blocks/wool_colored_lime.png
+SHA1-Digest: ejDP7D1kRRNUz6Hiw4fqKXWaPiE=
+
+Name: assets/entity/130001/male.png
+SHA1-Digest: Ks1Mhc8LSIrRmDk3oVIV3GAMLk8=
+
+Name: assets/sounds/mob/wolf/step4.ogg
+SHA1-Digest: y4VHryopGUF47ZY6Cb3AhtvMSmM=
+
+Name: assets/sounds/step/snow1.ogg
+SHA1-Digest: xEMExx6WSQnJYOc6G8XR+zDMtXc=
+
+Name: assets/sounds/step/ladder1.ogg
+SHA1-Digest: knzKjMNYq4lOjTGb1XKgX65t8Cc=
+
+Name: assets/items/iron_helmet.png
+SHA1-Digest: d8mCr39l+PB2BS1SMajYNlWbWU0=
+
+Name: assets/blocks/wool_colored_magenta.png
+SHA1-Digest: owlh9zbERIUcFzcGeVvhfcCJu3A=
+
+Name: assets/blocks/wool_colored_blue.png
+SHA1-Digest: qVM9dYrdZCeg5UjaaTVZ9vBbBnQ=
+
+Name: assets/items/icon3004.png
+SHA1-Digest: Tupx+brINuUWXueNGWjR7bNltT4=
+
+Name: assets/blocks/dirt_podzol_top.png
+SHA1-Digest: OtAZL5IHpRCACV+ITcd2W/uvJcU=
+
+Name: assets/sounds/mob/endermen/idle5.ogg
+SHA1-Digest: NVl+nkrCn5WU9FKh/OQS/pu0MBE=
+
+Name: assets/ui/bufficons/attack_fire_add.png
+SHA1-Digest: zsr+zkA0t1wsRVIBYnoZ7OPrtxQ=
+
+Name: assets/voxel/menger.vox
+SHA1-Digest: u9qrONOlcNeQ4l7hRa4kmGcXzj8=
+
+Name: assets/entity/200000/xuejia.png
+SHA1-Digest: tmJLTaqQPAr3evrnseGJecVXj6Y=
+
+Name: assets/items/item_frame.png
+SHA1-Digest: ee69/D0xFbIx8tOIMfwJQ3w7YnM=
+
+Name: assets/entity/120003/male.png
+SHA1-Digest: lISYVyq674Csys5hj+jPHfynDYg=
+
+Name: assets/ui/mobile/yanchen.png
+SHA1-Digest: MG2QtbIUmjBxgw0T3DgcyoQAOEA=
+
+Name: assets/voxel/chr_sword.vox
+SHA1-Digest: OKTNU+daEeuqR05XMP2U8myxEoQ=
+
+Name: assets/blocks/web.png
+SHA1-Digest: b267jQumIwTT1gNvJfj7ySUB89s=
+
+Name: assets/blocks/repeater_off.png
+SHA1-Digest: pYAWISuocVac/+QLeYAQrGZP50A=
+
+Name: assets/entity/100012/male.png
+SHA1-Digest: E9zUbLOMVQ52cc5YaoFgG4Ee3Eg=
+
+Name: assets/items/apple_golden.png
+SHA1-Digest: 4GSJUBG2sgD1gdkvD34w2RYOoCE=
+
+Name: assets/ui/mobile/death.xml
+SHA1-Digest: FsOXQqR6kATmIgDhFauZwg06+QY=
+
+Name: assets/blocks/fire_layer_1_1_32.png
+SHA1-Digest: Ii2v7kouaAlQFI266LkRGCA2E9g=
+
+Name: assets/ui/bufficons/armor_reduce.png
+SHA1-Digest: OEAr7kNSDGfsKPRlBjosnlJmnqw=
+
+Name: assets/items/rotten_flesh.png
+SHA1-Digest: H+zsZ3Iig45mptH2C4GAq7d+8Es=
+
+Name: assets/ui/gameoption.lua
+SHA1-Digest: loIMNo10q6bUVZYfP29L4fy+i7U=
+
+Name: assets/ui/bufficons/swim_speed_add.png
+SHA1-Digest: ZRmdfDE1AQaUB00zW626nA6qnWo=
+
+Name: assets/blocks/clay.png
+SHA1-Digest: DMUjY+PQRaTJBL32HF3MZ0+oyzE=
+
+Name: assets/ui/mobile/enchant.xml
+SHA1-Digest: krMx1odXUToIzO9e93bOnKLIGro=
+
+Name: assets/particles/texture/fire4_z.png
+SHA1-Digest: /BzLezi1Lri2iwo58S/Xsnf8/4c=
+
+Name: assets/sounds/random/click.ogg
+SHA1-Digest: Td417RMC4eXX+beL/5joD1JmQrY=
+
+Name: assets/blocks/redstone_torch_off.png
+SHA1-Digest: t9TvBt/YJzByM/WVbpM7x3M9i10=
+
+Name: assets/entity/120006/body.omod
+SHA1-Digest: 81klg46v5qiJB2vehI2/fSge5v0=
+
+Name: assets/ui/bufficons/damaged_range_reduce.png
+SHA1-Digest: KrFD106G1y8TtvUW0LODFb+sV/A=
+
+Name: assets/particles/texture/boom01_r.png
+SHA1-Digest: OeTsFyUbCxLbSKeH6c8No7GT0MI=
+
+Name: assets/ui/cursor.xml.bak
+SHA1-Digest: LK92mB+jHTuwi9O0sGN6XTD/JzY=
+
+Name: assets/terrgen.xml
+SHA1-Digest: kvtKhtFMxHn3Dgq8qtXTd6smmzI=
+
+Name: assets/items/icon2545.png
+SHA1-Digest: ANhAVRXXILyj5UyhHyktruraoQ4=
+
+Name: assets/entity/120004/male.png
+SHA1-Digest: xh398RkiNaJtmZB2+jb2LM9sA7M=
+
+Name: assets/entity/100016/malegai.png
+SHA1-Digest: 4/uwC4rTG6Sra0TA9TQF+jQndDQ=
+
+Name: assets/items/fish_cod_cooked.png
+SHA1-Digest: cx7AgxVm4fWE2hzUW2+vyrj7dwQ=
+
+Name: assets/particles/test.emo
+SHA1-Digest: 4dti4OxkGGP54PuiUgILgTG83aE=
+
+Name: assets/particles/texture/qwe.png
+SHA1-Digest: 09iWDZx8PyvR0l6Jj8UK6e8I0TI=
+
+Name: assets/particles/texture/0057.png
+SHA1-Digest: ZSs6TRjZVK/5B+92hTfSUgklr8E=
+
+Name: assets/entity/player/share/women/helmet/2241.png
+SHA1-Digest: 2+a7t5ulPZJq2x/zJVTx3Ksq4D0=
+
+Name: assets/blocks/glass_gray.png
+SHA1-Digest: mEOASYNu49guOsLI062PR5G3iEQ=
+
+Name: assets/blocks/nether_wart_stage_0.png
+SHA1-Digest: KWJLPjU+u2q58vNGvzO7SOgRsgc=
+
+Name: assets/blocks/cauldron_top.png
+SHA1-Digest: YlbVIYMDuL0oilfqVtZtVUBQbls=
+
+Name: assets/ui/uicommon.lua
+SHA1-Digest: gGuRyW7NmMTYjBBrpCvbuZtYIQY=
+
+Name: assets/particles/texture/lan (2).png
+SHA1-Digest: uP3t/BV7qaGhTblyaHaiI5XjTdo=
+
+Name: assets/ui/mobile/uitemplate.lua
+SHA1-Digest: hBLmGXTB3YCYZr1hYsYjwP+ymd4=
+
+Name: assets/blocks/wool_colored_orange.png
+SHA1-Digest: w8UiZccjdE7BnQcbJCvObkqg5dI=
+
+Name: assets/ui/mobile/effect/achievement_award_1.png
+SHA1-Digest: hh36NRuZ+DZAb4lteidA8BXJ4fU=
+
+Name: assets/sounds/random/bowhit3.ogg
+SHA1-Digest: B2TnbO0yfWl2OU6MKMokJpGHKZQ=
+
+Name: assets/ui/cursor/arrow.png
+SHA1-Digest: RRZMEVISbY94jYPFi/tlvC9dpIg=
+
+Name: assets/sounds/mob/skeleton/step3.ogg
+SHA1-Digest: RHJIcJtaCrbi3FSTTS4rk+AfkSA=
+
+Name: assets/items/bow_pulling_2.png
+SHA1-Digest: GxCB8YaRhekiMQ4Vwm4IdCH4f6g=
+
+Name: assets/entity/player/share/helmet/2241.png
+SHA1-Digest: Ce1RYUEgw5Y6dR5rry9VD7tKwTY=
+
+Name: assets/items/icon3108.png
+SHA1-Digest: 5rc7bjkCLSM5UmbE0jIMasyoHDk=
+
+Name: assets/blocks/dispenser_front_vertical.png
+SHA1-Digest: TQL7H4pXnBCrPSRG2Npg6DMdzHY=
+
+Name: assets/uitexture.ref
+SHA1-Digest: r/3kA87ZpRkeoGX8vfhHEjSNxSU=
+
+Name: assets/particles/texture/circlewave02.png
+SHA1-Digest: FzLRiLHcyBZfnvIoRKcJEzst+eY=
+
+Name: assets/items/icon3006.png
+SHA1-Digest: 28tMWPb0B7skYL/Fx/wPTjk0Q14=
+
+Name: assets/particles/BUFF_SPEED_1.emo
+SHA1-Digest: NZuYB/v6F/mCcV/RMKIyIKjuLCI=
+
+Name: assets/items/iron_leggings.png
+SHA1-Digest: t6eegz2QiAPz1PYNbkU7iys8EXI=
+
+Name: assets/items/diamond_chestplate.png
+SHA1-Digest: mFkIcoC8w78+xrSFPrfcF3V0oyU=
+
+Name: assets/particles/texture/ElementClient0930.png
+SHA1-Digest: qdQW7FGrrMoX3ViXLXHLOxfCDdQ=
+
+Name: assets/items/potion_bottle_drinkable.png
+SHA1-Digest: At/GNSq0ufKFVkJJYqGJeufuBNY=
+
+Name: assets/ui/bufficons/attack_explode_add.png
+SHA1-Digest: HHN7x5O63tkjml/IN0J/0to0VhM=
+
+Name: assets/blocks/hardened_clay_stained_yellow.png
+SHA1-Digest: JI0+NMJhYBbLlxfjeXi78A3Dm3U=
+
+Name: assets/sounds/fire/ignite.ogg
+SHA1-Digest: 3L2c8EgDviDA6eUFzCx4N6Wkg+I=
+
+Name: assets/ui/bufficons/attack_player_add.png
+SHA1-Digest: GAIvAbWy7Z4YMxSjqwnenMPjp9Q=
+
+Name: assets/ui/mobile/craftingtable.png
+SHA1-Digest: 3ksHodjlvPf2O33HwGXO8Cp4ba8=
+
+Name: assets/blocks/endframe_side.png
+SHA1-Digest: SX3CMiWsErqig1jBUTpdPyv453M=
+
+Name: assets/entity/110018/body.omod
+SHA1-Digest: LElcSRVvjcBgj+M5FDqnLTKgosk=
+
+Name: assets/luascript/items.lua
+SHA1-Digest: 7uf8Za3sWbt5g7lQtNOcyqpuKSk=
+
+Name: assets/items/icon2559.png
+SHA1-Digest: cGEDZQvDGCTnQTsoBVZoYz0pIr0=
+
+Name: assets/sounds/step/gravel1.ogg
+SHA1-Digest: ry+qQASIV3P72O4tHMTNq9baQkE=
+
+Name: assets/ui/mobile/ui2.png
+SHA1-Digest: pQMvh6e8NQg6YH1wr/v8VHj5NQ4=
+
+Name: assets/ui/bufficons/view_bright.png
+SHA1-Digest: YhVc65HZbYe5emMCs2QQnJz5gws=
+
+Name: assets/blocks/mushroom_block_skin_red.png
+SHA1-Digest: yVFW4ZO4vHrQ8K6AFDMVc9m3eSg=
+
+Name: assets/items/icon2235.png
+SHA1-Digest: luvogJL1LXXKa2g4aLEYQEk03Zw=
+
+Name: assets/sounds/liquid/swim1.ogg
+SHA1-Digest: tJE2569sFhbzDmhwc6nsD4L1K8I=
+
+Name: assets/ui/mobile/createworld.xml
+SHA1-Digest: NMAOCb48Be3uT8syXXGrzyVSOWc=
+
+Name: assets/blocks/glass_pink.png
+SHA1-Digest: IFBg15t2EEI6w6kKg93PccIDjeg=
+
+Name: assets/blocks/sapling_spruce.png
+SHA1-Digest: oy2dOQ51kValo/yFidLAf6PQ898=
+
+Name: assets/csvdef/furnace.csv
+SHA1-Digest: wFlfzJUHq/1tJbIyoFqxtmOE2Gw=
+
+Name: assets/items/icon2542.png
+SHA1-Digest: DxNZ4qxuFFcUOy4OQVpUljAMgnU=
+
+Name: assets/particles/texture/eye_lwy_t_ptc_12_single.png
+SHA1-Digest: eE9z2gqKqnnYiRPlAZxcYF4wkW8=
+
+Name: assets/entity/110005/male3.png
+SHA1-Digest: lbTZYx1xQYgU4V40sfvtewQsvpE=
+
+Name: assets/entity/player/share/legging/2243.png
+SHA1-Digest: 30wOqNszCxBFWt6i2PCb0Vnr0Xk=
+
+Name: assets/entity/100024/male.png
+SHA1-Digest: kNXUZiggRq9KNJF00CONrSId/hA=
+
+Name: assets/blocks/double_plant_sunflower_bottom.png
+SHA1-Digest: LM1HEaPYhHiikt29BFXqFZKpvhQ=
+
+Name: assets/entity/110023/body.omod
+SHA1-Digest: XQbRn4l4SET2H8QpxGDAUpE8Z3E=
+
+Name: assets/shadercache.key
+SHA1-Digest: iFbnXZ4P2yCUvjxQysIsDnLfiBI=
+
+Name: assets/entity/100025/body.omod
+SHA1-Digest: YeEC0uMOcA1I2b+zVYwG10YHizs=
+
+Name: assets/ui/mobile/pack.txt
+SHA1-Digest: CI1te5J/oj3TZd1vv4RnKH0+vfo=
+
+Name: assets/sounds/mob/zombiegirl/step2.ogg
+SHA1-Digest: pl6Fe9L+7h6jDkfeTjbz+v3Y10E=
+
+Name: assets/entity/110018/male.png
+SHA1-Digest: lasow0r8GMSShWR7XwyHak0gg84=
+
+Name: assets/ui/bufficons/damaged_explode_add.png
+SHA1-Digest: cIwZdvFzyD+E4pKScycLZsZZx+E=
+
+Name: assets/items/wood_shovel.png
+SHA1-Digest: zXbumbmcDfu0LcK5Fao5SBGLybs=
+
+Name: assets/entity/100002/jsv.png
+SHA1-Digest: n6aAorkZUhxk4vX5d+Oi6BO+Hjk=
+
+Name: lib/armeabi/libcrypto.so
+SHA1-Digest: Ny7AzzKtV+LZRkUWgQ7+XxoF2AY=
+
+Name: assets/blocks/glass_silver.png
+SHA1-Digest: W8W+6i4MqldIpo9IvGYNn6pFHjo=
+
+Name: assets/particles/texture/eye_lwy_t_sun_31_single2.png
+SHA1-Digest: uvnIFA64cOraoZ4s1OmtpUyORyY=
+
+Name: assets/entity/100007/malegai.png
+SHA1-Digest: T7e+Byy/fiv9u/GJALb8796vX5g=
+
+Name: assets/blocks/mushroom_block_skin_stem.png
+SHA1-Digest: L4zefPBZZou7QYViENlFZba8ATw=
+
+Name: assets/particles/texture/yezi.png
+SHA1-Digest: vINoiPglmeqeM0F96hEOGzaXukA=
+
+Name: assets/entity/player/player01/hand.omod
+SHA1-Digest: 0Mnyii4RgRcGxMpzzQw6ZhtZcYc=
+
+Name: assets/ui/mobile/achievement.lua
+SHA1-Digest: vO7mPnj/o7SeVVXB/dJgHvP+Z34=
+
+Name: assets/sounds/mob/spider/say1.ogg
+SHA1-Digest: 1/GS3zdDeaGNlGcvm8NlUuCDMKo=
+
+Name: assets/blocks/vine.png
+SHA1-Digest: Frq9U8JeKzy/4UtdJXVFJW1U7cQ=
+
+Name: assets/ui/mobile/effect/achievement_award_2.png
+SHA1-Digest: 9nFwqWHp3TeaGddMjGgV9ZJc6dI=
+
+Name: assets/sounds/mob/skeleton/hurt4.ogg
+SHA1-Digest: 0an0AWNDUpnWcGdEv3GyT1lVcNs=
+
+Name: assets/ui/chatframe.xml
+SHA1-Digest: L898cjypbHeOap8dgAaBQjkadTc=
+
+Name: assets/ui/mobile/furnace.xml
+SHA1-Digest: dS5cjzBK/1Xl7Sg5cFmflhkPAIk=
+
+Name: assets/ui/bufficons/attack_wither_reduce.png
+SHA1-Digest: S2GfvWc+ZJ27YC72qgs+v8WOjmg=
+
+Name: assets/items/boat.png
+SHA1-Digest: aS0LJk6NzR0K2oYqSKuDP+6ey8M=
+
+Name: assets/entity/100019/male.png
+SHA1-Digest: hUw3FHv1phHEEHXI/9no28VL+mU=
+
+Name: assets/blocks/sand.png
+SHA1-Digest: Gu2wZQctvGddFmTzVw09kfXpY7g=
+
+Name: assets/sounds/mob/endermen/hit4.ogg
+SHA1-Digest: ErheAGgYxvrCAwtilEyzQygUwl4=
+
+Name: assets/sounds/mob/zombie/say1.ogg
+SHA1-Digest: 79zP6S3L9tK7fHVw8cqQqVpLoy8=
+
+Name: assets/blocks/hay_block_top.png
+SHA1-Digest: XOge8LBawonLVM/AaK8fVs6jjoo=
+
+Name: assets/items/beef_raw.png
+SHA1-Digest: 9TMZTA2ADDCr8wqvSIRxLhwJgfg=
+
+Name: assets/particles/1019.ent
+SHA1-Digest: PqihLGtdfIRd6/LQ1t0EIICwLdA=
+
+Name: assets/items/fish_clownfish_raw.png
+SHA1-Digest: etR6XEC8F+o4LOMVRTibfaKIiBg=
+
+Name: assets/blocks/trip_wire_source.png
+SHA1-Digest: XAnGXkxiXSDjeY2q5HtegzOikgc=
+
+Name: assets/luascript/script.toc.bak
+SHA1-Digest: 4H/GgQbKTlkD4CO9Ah5mr32GhsU=
+
+Name: assets/entity/100008/body.omod
+SHA1-Digest: 4EKDTQH/1/4S+1VQ2u0laYnzKU8=
+
+Name: assets/items/diamond_axe.png
+SHA1-Digest: GAJtn0sDrydR4tPbAotD70V1w9g=
+
+Name: assets/sounds/mob/sheep/say1.ogg
+SHA1-Digest: 6rbCJkGqveGVeH2ZKev8FArQ0P8=
+
+Name: assets/blocks/gravel.png
+SHA1-Digest: 6hfXRr0JLmXH56HV/PKpBQc3xOU=
+
+Name: assets/items/fish_cooked.png
+SHA1-Digest: VOUjK72PTQWPcBjKvBLqwUSFGG8=
+
+Name: assets/entity/100007/body.omod
+SHA1-Digest: uQFq+mWkekG+RL1k57kp7cT+psE=
+
+Name: assets/items/porkchop_raw.png
+SHA1-Digest: QA2HJc7+ZBo86V+KwxpcCYBOz3U=
+
+Name: assets/entity/player/player03/hand.omod
+SHA1-Digest: TbRbvtc8z912QDISPgpagVj8zKM=
+
+Name: assets/blocks/cocoa_stage_1.png
+SHA1-Digest: u+3NuIW4AP09gxDG/RaxCMHVCMM=
+
+Name: assets/particles/1028.emo
+SHA1-Digest: x50zeRsa6PFO/nfs70APwYXJBo8=
+
+Name: assets/ui/roleicons/3.png
+SHA1-Digest: Qr46XsmHPtzpMIBhHr0Gbnb6WoE=
+
+Name: assets/entity/100003/male.png
+SHA1-Digest: 401maKhHhNvr/TCPytya/dqpuWE=
+
+Name: assets/blocks/nether_brick.png
+SHA1-Digest: /Mue6BCRfio69bEH0YL2JmRkEV4=
+
+Name: assets/items/icon2551.png
+SHA1-Digest: MlNF4le0v1Nr34eY/EmVjKA3/0w=
+
+Name: assets/items/empty_armor_slot_boots.png
+SHA1-Digest: def79A0nzNR0CxmsqSxVHZeeD0w=
+
+Name: assets/sounds/mob/zombie/hurt1.ogg
+SHA1-Digest: N9L0b9riOggWhWAjyq4A4KKClMc=
+
+Name: assets/blocks/pumpkin_face_on.png
+SHA1-Digest: UpiG+w3keFJZ39GXToJz1o3WpF4=
+
+Name: assets/blocks/snow.png
+SHA1-Digest: DmLOPyVkDlnTzhtelaIpiwa/kAk=
+
+Name: assets/entity/200009/malebody01.png
+SHA1-Digest: V+OJgWOWK75wvt8pBj92J1z3tiQ=
+
+Name: assets/blocks/flower_tulip_orange.png
+SHA1-Digest: jDIAikrPWLVaDgDaKxiczSFJ4rE=
+
+Name: assets/blocks/wire.obj
+SHA1-Digest: P1bnnguquvt8ty7/GDYI7CDMSL0=
+
+Name: assets/sounds/mob/horse/death.ogg
+SHA1-Digest: UNHXOukf8JeTcUpYZQRirrdbLFk=
+
+Name: assets/items/emerald.png
+SHA1-Digest: iiYoL+qIyKWDldqFC6djLqTrrfo=
+
+Name: assets/sounds/mob/endermen/scream1.ogg
+SHA1-Digest: x7Z9YTQE1KyNbJbFnaThyGd68Ok=
+
+Name: assets/sounds/random/fuse.ogg
+SHA1-Digest: DkYzpETUCCImI6cxKbMHedge5ZI=
+
+Name: assets/blocks/hardened_clay_stained_blue.png
+SHA1-Digest: jeoVo1loj/orHjyJR9SH28bixBs=
+
+Name: assets/entity/player/share/breast/2222.png
+SHA1-Digest: IOFfyXdWYmjXCTqOAcUb1wUHh3E=
+
+Name: assets/entity/110015/body.omod
+SHA1-Digest: 3nxb59HS/+nlNkOjkMiV0wNOKFk=
+
+Name: assets/sounds/ui/info/crafting_success.ogg
+SHA1-Digest: Gx1JpiloF+w6cGNZddJzr2TeUtU=
+
+Name: assets/entity/200000/body.omod
+SHA1-Digest: AvSlubwrEMI582Hz3eM1JH2Bveg=
+
+Name: assets/items/record_blocks.png
+SHA1-Digest: 6+usbE3CwYys0FyDFGTRx8q1tfI=
+
+Name: assets/blocks/door_iron_upper.png
+SHA1-Digest: XndIAwwlyT903EVYXvek94B3j1o=
+
+Name: assets/entity/player/player01/body.png
+SHA1-Digest: IrHoTzmE66SYEs2h9NvZRIgbdXc=
+
+Name: assets/items/icon2547.png
+SHA1-Digest: 7YwY7wAhcgugOARu4jKkTzJZMC4=
+
+Name: assets/sounds/mob/sheep/step4.ogg
+SHA1-Digest: AJ3fydpitCoiAYNnaoX5BJAxSZs=
+
+Name: assets/sounds/random/eat2.ogg
+SHA1-Digest: LNdCGkeJQ1wNeS81fFSlNm22uys=
+
+Name: assets/blocks/jukebox_top.png
+SHA1-Digest: HlkJTBe0ttPBCCcS3Novn2sgeFw=
+
+Name: assets/ui/mobile/setting.lua
+SHA1-Digest: 4v2P/OMkEmLyy+fXbQiCx8st8BY=
+
+Name: assets/entity/120001/body.omod
+SHA1-Digest: /P6yFAUFvdUbSnXq+9z8oeyAq58=
+
+Name: assets/particles/1002.emo
+SHA1-Digest: SZpDjVJGasIvduS1fVgyPfWMmW8=
+
+Name: assets/entity/110002/body.omod
+SHA1-Digest: qyArdZp79/wzTi0iVRzkQOzCsx4=
+
+Name: assets/blocks/double_plant_paeonia_top.png
+SHA1-Digest: ETAgEChysZv9riunm3iwm6tTWW4=
+
+Name: assets/entity/100008/male.png
+SHA1-Digest: GRfTHsVZLg8qrwHVKid8AmwqjBM=
+
+Name: assets/ui/bufficons/attack_player_reduce.png
+SHA1-Digest: vLLOkTvXaXiUxJFdWgQUCDNUlBM=
+
+Name: assets/entity/100021/male.png
+SHA1-Digest: DOJCZ3YDD/52Zs+fzLzSfqSFHAI=
+
+Name: assets/entity/player/share/women/shoe/2224.png
+SHA1-Digest: D70dSiUcz+/OLh47PBFf3RR3ZG8=
+
+Name: assets/ui/Fonts.xml
+SHA1-Digest: AnR7mUEFSpx03RrU2UESS3a4GtA=
+
+Name: assets/ui/craftingtable.lua
+SHA1-Digest: RHfM2hS8bDe8/UfrhQcQDOmcK+c=
+
+Name: assets/sounds/random/bowhit2.ogg
+SHA1-Digest: uVEWColRHax7ht3uJySBPBodTys=
+
+Name: assets/items/icon2555.png
+SHA1-Digest: /+n529UxLrHD6+0T7ezYIhmCrXo=
+
+Name: assets/blocks/glass_pane_top_green.png
+SHA1-Digest: fBBGNnRJVHAbz7YpK90MFN0Vz40=
+
+Name: assets/items/icon2544.png
+SHA1-Digest: azV77+ltY9YPTbneTduu1XE84No=
+
+Name: assets/particles/34074.emo
+SHA1-Digest: kRqP0vM4Dx6ezv/O3vzkL+OEiNU=
+
+Name: assets/sounds/random/piston_in.ogg
+SHA1-Digest: qKaXDQQoRZkLt5CEqGt5Q8Sky60=
+
+Name: assets/sounds/mob/zombie/say3.ogg
+SHA1-Digest: 67RB6XGc8Tnjv3XS5xS4ORqOfD4=
+
+Name: assets/blocks/hardened_clay.png
+SHA1-Digest: +zPa0At60h1igwrx/JfAcP0ruUs=
+
+Name: assets/items/icon3005.png
+SHA1-Digest: UVwi7aIKnjFeIik9HM0Svfo2L6E=
+
+Name: assets/csvdef/tree200.csv
+SHA1-Digest: NHzlMGe9uPaGuZuxjXjks2egpQ8=
+
+Name: assets/particles/texture/xiaohuo1.png
+SHA1-Digest: XDPCDwsCdrOWEw4X6yB/n6At1Ys=
+
+Name: assets/blocks/destroy_stage_2.png
+SHA1-Digest: j5qapSYc2sLKI/RteWes+PlX3wU=
+
+Name: assets/entity/110020/body.omod
+SHA1-Digest: qNDCREQhbXinNdBeo0JSh5OvnzI=
+
+Name: assets/blocks/enchanting_table_top.png
+SHA1-Digest: jiIquMOw21Gei4EHs57qP61A1dY=
+
+Name: assets/blocks/sandstone_top.png
+SHA1-Digest: mYaVMpX/qGP6n5Iu7H7PjflB8iE=
+
+Name: assets/entity/200001/gun9.png
+SHA1-Digest: kWl9dNoMQY0Be7f4kTG4BzTD7HA=
+
+Name: assets/entity/player/share/legging/2223.png
+SHA1-Digest: q7lHwybUtMlKK7OosCoxXuMM7sE=
+
+Name: assets/blocks/flower_blue_orchid.png
+SHA1-Digest: NQrWpgWnoSII1wZOe5a75h2hiT8=
+
+Name: assets/sounds/step/gravel3.ogg
+SHA1-Digest: pzK5XwOPfAd29/daL2Q4jXE0LTA=
+
+Name: assets/items/icon716.png
+SHA1-Digest: dgtQfGr5k87NggbgvF+WkAwRDKQ=
+
+Name: assets/entity/200002/body.omod
+SHA1-Digest: 9lYpcOX4TzMEx+LmyfHxScoTEPA=
+
+Name: assets/items/icon2550.png
+SHA1-Digest: 7hNaghsZ1ML+csYgniuvL91bNio=
+
+Name: assets/blocks/quartz_block_lines_top.png
+SHA1-Digest: dWrbAg76se8NqK2SuG3IAFXkGYQ=
+
+Name: assets/blocks/pumpkin_top.png
+SHA1-Digest: 3FKGNWstRt41i6oS1G3S1aunqa8=
+
+Name: assets/particles/texture/082.png
+SHA1-Digest: RSWW1PlK9xBlD+NuSUdvXnCNa/s=
+
+Name: assets/ui/lobby.xml
+SHA1-Digest: 6dUfbQbLSH7R7MXTN9PGSllr/OQ=
+
+Name: assets/blocks/wool_colored_silver.png
+SHA1-Digest: XSILuT4JyvfvMYrcPWheY4R4kf4=
+
+Name: assets/entity/player/player05/body/malebody05.png
+SHA1-Digest: +rgpd/SDy3kT8Jgp2tPi6qSI+HM=
+
+Name: assets/sounds/dig/stone2.ogg
+SHA1-Digest: 67ugoGA6XkJIQFyCVIFmWeI/ySI=
+
+Name: assets/ui/mobile/effect/achievement_award_4.png
+SHA1-Digest: sg1dnVLABrQqzOqynXBekYBawfc=
+
+Name: assets/particles/texture/eye_lwy_t_smo_14_single.png
+SHA1-Digest: TBU2NqewcGNeWsbQFxVHGqZSKzo=
+
+Name: assets/entity/player/share/women/breast/2202.png
+SHA1-Digest: 6VeMRO+O5BxK/QYErVlPXM4ELGc=
+
+Name: assets/entity/player/fbody.oanim
+SHA1-Digest: Y9+I0h619+8nOhDnp2/eyUbxK9g=
+
+Name: assets/blocks/stonebrick_cracked.png
+SHA1-Digest: XyuR7SkztXuopGkHxoVZmhx8S4o=
+
+Name: assets/blocks/destroy_stage_4.png
+SHA1-Digest: vxIOHTfKdvvxBXY7S+YN/h9RteQ=
+
+Name: assets/sounds/mob/endermen/scream4.ogg
+SHA1-Digest: TXtdGTfw3lMxR0qi9KsRp06kN9M=
+
+Name: assets/sounds/mob/wolf/hurt3.ogg
+SHA1-Digest: lOfXVGrRLU/VDIesPEfRuUsZBYg=
+
+Name: assets/blocks/rail_normal.png
+SHA1-Digest: cm9K9XcnMWjRyAq3UEp4KJATWyU=
+
+Name: assets/particles/texture/blast.png
+SHA1-Digest: ia7JTGaqLnOiShWpU/bi4ymbNk8=
+
+Name: assets/sounds/dig/wood3.ogg
+SHA1-Digest: nidGjOKrU4V2C0eHuLZ2Pnwjwlc=
+
+Name: assets/entity/100012/body.omod
+SHA1-Digest: ln9y66I+rX6HkZruc3iiylVeIgE=
+
+Name: assets/entity/100010/body.omod
+SHA1-Digest: Q0uyBta+DgC4JgEfnXT/eEKosF0=
+
+Name: assets/sounds/step/gravel4.ogg
+SHA1-Digest: OycC8rB6C6ZQKNZM03vsnEElnLU=
+
+Name: assets/entity/100015/100015 (1).png
+SHA1-Digest: eA5ZNC0VcJgklqwnbuorf6/qqUI=
+
+Name: assets/entity/110009/body.omod
+SHA1-Digest: bLVTqwUTHeqvUVioJR/F7J4iutk=
+
+Name: assets/entity/130002/male.png
+SHA1-Digest: fikx4tfRLvN2NoQeEyLxpYXFQAY=
+
+Name: assets/items/fish_salmon_raw.png
+SHA1-Digest: ArgwP5yXrA0TuFgYGXZwQgSjQuw=
+
+Name: res/drawable-hdpi-v4/ic_launcher.png
+SHA1-Digest: B57aFPwIdpfeGPt9PDG2NeqCCEU=
+
+Name: assets/blocks/dragoncup.obj
+SHA1-Digest: Ae6FM5B8zd+za6cN/JfyVVZhQ14=
+
+Name: assets/entity/player/player04/body.omod
+SHA1-Digest: aTJA8zkhvYWMvHpL++aF4OOuX24=
+
+Name: assets/voxel/maze2D.vox
+SHA1-Digest: Sjl+qbLkao1T2vfMOcnbFkdFRlk=
+
+Name: assets/ui/selectrole.lua
+SHA1-Digest: 7Y0YNLe94z3dQ0LRicNGnIc3Q7I=
+
+Name: assets/blocks/dragon_egg.png
+SHA1-Digest: gzmycFF6Z+k2IswtJXYOfG1briw=
+
+Name: assets/blocks/wool_colored_gray.png
+SHA1-Digest: iO1KZ0D0ejdgolCFsNFi/kSzqy0=
+
+Name: assets/blocks/pumpkin_side.png
+SHA1-Digest: 8N+uJEpyEsbqrQP0++sPc9mt8j0=
+
+Name: assets/items/icon811.png
+SHA1-Digest: poxuZVbunTI0cAD71T6zDHvkk90=
+
+Name: assets/particles/1017.ent
+SHA1-Digest: fagsCry2IVld0TvA7RJw6Lw9PuQ=
+
+Name: assets/sounds/liquid/lava.ogg
+SHA1-Digest: 6u3cfyPqMnE8NRyZXo/xNR/sQ6c=
+
+Name: assets/ui/bufficons/attack_range_reduce.png
+SHA1-Digest: rJlq4qyPWM+ycTyUzdnDwtp5o7c=
+
+Name: assets/items/fireball.png
+SHA1-Digest: pttguiGjV2etn755hUY0DSfGM74=
+
+Name: assets/items/gold_chestplate.png
+SHA1-Digest: Rt6aLci04aH5lufREDHAkWXX9sk=
+
+Name: assets/entity/player/share/women/shoe/2234.png
+SHA1-Digest: rRgA2Vk2uPL+8kUtx1g0sWb2JFs=
+
+Name: assets/sounds/mob/cow/step3.ogg
+SHA1-Digest: GOltYUf1+5XwVNtZ+iFbcOmhI88=
+
+Name: assets/sounds/step/ladder2.ogg
+SHA1-Digest: X+QVAWi0tBv84ACBwny9ApAZQYk=
+
+Name: assets/ui/mobile/createworld.lua
+SHA1-Digest: O1WHMcuzG/DMcSBH99cJzvXOEm0=
+
+Name: assets/entity/200006/xuejia.png
+SHA1-Digest: ZTGG0aiVtSHHGWAzD71KMgrBdyw=
+
+Name: assets/sounds/dig/grass3.ogg
+SHA1-Digest: opVk1YzGPoVXIXxX6G/ATlTi4NE=
+
+Name: assets/csvdef/itemdef.csv
+SHA1-Digest: o4bTXWf3N6TMK42PrPqW4wjAPPA=
+
+Name: assets/particles/BUFF_DAMAGED_2.emo
+SHA1-Digest: RfW6O6DAsF4ViRLir51EqaxKVP4=
+
+Name: assets/ui/bufficons/attack_animal_reduce.png
+SHA1-Digest: mWUS58NE68fc+8xel86lc86Nm6U=
+
+Name: assets/sounds/mob/endermen/idle1.ogg
+SHA1-Digest: 3pFLxnw4+QC6AY4+GjM+rlAnjv0=
+
+Name: assets/items/dye_powder_cyan.png
+SHA1-Digest: bczf+Hmyqp1+JV/poOK7RrZbpOs=
+
+Name: assets/items/icon3008.png
+SHA1-Digest: DqxJY4tpG8iDJ2ohNAvBf6eSA9o=
+
+Name: assets/blocks/carrots_stage_2.png
+SHA1-Digest: gs65jJeKOf7zBa7Gw+a8jgP/z84=
+
+Name: assets/blocks/stonebrick_carved.png
+SHA1-Digest: ORZp8lA+6vNacc4fDUZCRaD0MZA=
+
+Name: assets/ui/mobile/backpack.lua.bak
+SHA1-Digest: BpOa+iRe/EgVC2tUFTWY/vNnjzs=
+
+Name: assets/items/saddle.png
+SHA1-Digest: FMLIQIpf362CY9+0iJUaqqkOnGQ=
+
+Name: assets/sounds/mob/pig/say1.ogg
+SHA1-Digest: NS1iUJkse0+bSlkVRJKzfkn7ofE=
+
+Name: assets/blocks/wool_colored_light_blue.png
+SHA1-Digest: p72mEKcsHGhIk/dpB4Dcc425jYw=
+
+Name: assets/ui/mobile/selectrole.lua.bak
+SHA1-Digest: +fYwPSUtC6eg8gpeXqyniZvwAOc=
+
+Name: assets/items/comparator.png
+SHA1-Digest: 9pLN9iIxaWoUn8X6X4r57BBnm4E=
+
+Name: assets/ui/bufficons/damaged_punch_reduce.png
+SHA1-Digest: aSH5Ytf8HZTFvrbiWYy17dKuIQg=
+
+Name: assets/entity/200009/tnt.png
+SHA1-Digest: oTJ3XfZtI3yulBo4atOfyfAL6p8=
+
+Name: assets/entity/100002/female.png
+SHA1-Digest: dq17w8dfr1jTsb+FI5VC/ViZB1A=
+
+Name: assets/blocks/hardened_clay_stained_lime.png
+SHA1-Digest: 95CZvP4UJrId0a4lStEREJWxc5E=
+
+Name: assets/items/gold_axe.png
+SHA1-Digest: /wG26X7PpVEpEa2WmnbQwdQ7/UA=
+
+Name: assets/sounds/damage/fallbig.ogg
+SHA1-Digest: YIWfMMGMAfiL1P511RPSdGz+d1w=
+
+Name: assets/sounds/step/grass2.ogg
+SHA1-Digest: +q37OcFT1N084tNNfUlEpUd2+Gs=
+
+Name: assets/sounds/mob/endermen/hit1.ogg
+SHA1-Digest: zoEs3HLVfetieaixQl8A1MqyXaQ=
+
+Name: assets/ui/mobile/login.lua
+SHA1-Digest: 6jv7OD5+VfrvGqeO2vrDASuHCk4=
+
+Name: assets/blocks/wheat_stage_1.png
+SHA1-Digest: m+1owiQTQkHWinVwp7nKv9u5LVE=
+
+Name: assets/csvdef/biomedef.csv
+SHA1-Digest: lnnQoah1ao0wFY09lavFYH8bGlA=
+
+Name: assets/sounds/random/explode4.ogg
+SHA1-Digest: mKWaMpjp00JIJJNgqRZtGxWMsbU=
+
+Name: assets/blocks/cake.png
+SHA1-Digest: MV/ZcFeHqOIAN3CnOEQW2/ANmrM=
+
+Name: assets/items/bucket_milk.png
+SHA1-Digest: LSjvhfh+6/4Bhi+NSeWoJwIyGj0=
+
+Name: assets/sounds/step/ladder4.ogg
+SHA1-Digest: XS82sP8R6mS+RS9CITe5L+r2orw=
+
+Name: assets/particles/31052.emo
+SHA1-Digest: 8wBYZijt4+IyF6kfCXKpFGZTG/I=
+
+Name: assets/items/netherbrick.png
+SHA1-Digest: NDEMgjj72JuzwFwAvQQQR5W5lvU=
+
+Name: assets/entity/100001/body.omod
+SHA1-Digest: JZuU78Fii6ec5mOFrQW4IHrNaTQ=
+
+Name: assets/sounds/dig/grass1.ogg
+SHA1-Digest: va7MtaQ8/HeScqwHXL4fnqLgKJ0=
+
+Name: assets/blocks/log_oak.png
+SHA1-Digest: Z9hhA5aB8zWgtgI3GYEXPd+vD5k=
+
+Name: assets/particles/texture/dun001.png
+SHA1-Digest: nTF5viDzVLCqTwVFC5792SJalds=
+
+Name: assets/sounds/mob/cow/say3.ogg
+SHA1-Digest: CojZ7cRzoWL1IktWu8jo2KViaj8=
+
+Name: assets/ui/backpack.lua
+SHA1-Digest: kiboUntR3SUncKMOVsAKiC425iY=
+
+Name: assets/ui/login.xml.bak
+SHA1-Digest: c3kmdYRv+8n1wmjqAGZWi5UeLSI=
+
+Name: assets/sounds/step/wood4.ogg
+SHA1-Digest: JTcHm8wcXpfr5afNRv+ii3sMKx0=
+
+Name: assets/sounds/step/sand4.ogg
+SHA1-Digest: lwnBYqfOz3sSmJdkIRzctWsltLw=
+
+Name: assets/entity/100007/male1_s.png
+SHA1-Digest: yyqWq3iDZMUPB6HuV3Nx/at05rM=
+
+Name: assets/particles/texture/yunduo7.png
+SHA1-Digest: tJz25yRLlA1px7P94UNEah/pors=
+
+Name: assets/entity/100005/body.omod
+SHA1-Digest: lHfXIwHYsvFOBENx+OwesD+M4RU=
+
+Name: assets/blocks/melon_side.png
+SHA1-Digest: 2dnAEooZQfJIoBXq0ucZYcUiKbQ=
+
+Name: assets/entity/100014/body.omod
+SHA1-Digest: Qjxa3xmWlR5Mql5SwWfPChT1+VE=
+
+Name: assets/blocks/fern.png
+SHA1-Digest: pI0B3jD1eKMGZEZE3jnPav5glvk=
+
+Name: assets/ui/bufficons/damaged_wither_reduce.png
+SHA1-Digest: 5U1GlfVgjJYTMKyNs0F4POydHfk=
+
+Name: assets/entity/100016/body.omod
+SHA1-Digest: 9D5L7sPyGZFZZfxRwLHzl4cERII=
+
+Name: assets/particles/texture/Cannibalism02.png
+SHA1-Digest: ctQLnBtXF/XpacWN1UUfPcxMmF4=
+
+Name: assets/blocks/double_plant_fern_bottom.png
+SHA1-Digest: L48OTTFAflyI+FdwjERfUF6Zaxs=
+
+Name: assets/blocks/double_plant_fern_top.png
+SHA1-Digest: sCRA9iXhE238hvnYq7bLt+qgV10=
+
+Name: assets/sounds/dig/wood2.ogg
+SHA1-Digest: dZSPrqnfMW8K2JjG0Xxac1XxmGo=
+
+Name: assets/sounds/mob/skeleton/step4.ogg
+SHA1-Digest: DJpUJRNLpbYqeP2q5zR7tzKF5WI=
+
+Name: assets/entity/110011/body.omod
+SHA1-Digest: KD15801LEhYgbpPjQYMHsCZOaPU=
+
+Name: assets/particles/1026.emo
+SHA1-Digest: Mo70LREwZDyl/3yAlBjxAAEQDdc=
+
+Name: assets/items/icon2558.png
+SHA1-Digest: BLJmz/svP6c+qFyZOvAtKGEv3WY=
+
+Name: assets/particles/texture/eye_fxl_t_skull_001.png
+SHA1-Digest: AwU+85jSMiscJhmqcJe6dxjag4I=
+
+Name: assets/luascript/common.lua
+SHA1-Digest: blli2mOchrYNnEFuDRzI5keQrvw=
+
+Name: assets/particles/texture/yun (2).png
+SHA1-Digest: 7NGBLBtHa+7WW+XBqmeHp51BUHU=
+
+Name: assets/ui/fonts/heiti.ttf
+SHA1-Digest: jlt83aSFmJwXVK81BVQ2nj0ibq8=
+
+Name: assets/blockgeom.xml.bak
+SHA1-Digest: M4DcyxEktRGWkVR5wiBOZMYLsPU=
+
+Name: assets/ui/chatframe.lua.bak
+SHA1-Digest: xrUzqWqDOvuVc+hp2iEftS2Qm64=
+
+Name: assets/items/empty_armor_slot_leggings.png
+SHA1-Digest: 5LX4/4+BcV3ZdD6ZeeuN+1I9L6E=
+
+Name: assets/items/experience_bottle.png
+SHA1-Digest: T8jRNGznz1oBMW5m6+Oc6xv3vk8=
+
+Name: assets/entity/player/player02/body/malebody02.png
+SHA1-Digest: EpGfSQm4WEEU7nXewC7CFVyWMOM=
+
+Name: assets/ui/bufficons/attack_poison_add.png
+SHA1-Digest: 7E7dGe5a9WnaEdgsdjBk7RLCbNg=
+
+Name: assets/items/nether_star.png
+SHA1-Digest: /NvnApJBQ+PeaM/BJA+7EliBgdM=
+
+Name: assets/sounds/mob/skeleton/step1.ogg
+SHA1-Digest: D2qkylh6c55sNLTdUZi9TGKr53E=
+
+Name: assets/sounds/mob/endermen/scream2.ogg
+SHA1-Digest: Evwc1Q/BgmDJnV+SW6FxGxdyXv0=
+
+Name: assets/items/icon3408.png
+SHA1-Digest: FgGsa/1a9jFq0P5ihojDYT94JME=
+
+Name: assets/particles/1029.emo
+SHA1-Digest: /M91+uBIk3UF9gBq3RoFv/YVbBo=
+
+Name: assets/blocks/jar3.png
+SHA1-Digest: Q7u6kL2eJyOSlMPqObRK7k+zzvw=
+
+Name: assets/sounds/mob/spider/say2.ogg
+SHA1-Digest: LL4KSPwvZDD0ET13VbJgfYsI+RM=
+
+Name: assets/entity/110009/male2.png
+SHA1-Digest: 6/Mlt/5+7bO7a8Q8J5djZf3Rdt8=
+
+Name: assets/csvdef/oredef.csv
+SHA1-Digest: j0W4V3//HSNGFDD4rrUWZBulBpM=
+
+Name: assets/sounds/step/grass6.ogg
+SHA1-Digest: G+EfLa1XoLk+c+q9i5IWJVAMagg=
+
+Name: assets/sounds/mob/skeleton/hurt1.ogg
+SHA1-Digest: T+Fc8/FJFxxATlJAWE5eDQXPz0I=
+
+Name: assets/sounds/random/glass1.ogg
+SHA1-Digest: a9FD/N68aLFvOH4ifGTG16lP+44=
+
+Name: assets/entity/120004/body.omod
+SHA1-Digest: NLVCZapci3pYX4dYcjpai9t1cWc=
+
+Name: assets/blocks/mob_spawner.png
+SHA1-Digest: ao2O4kgCR7H4zacnlhXSbM6EdX0=
+
+Name: assets/entity/110017/body.omod
+SHA1-Digest: 0U6VRxv1GuNeqO7jcyxiiDj0lHA=
+
+Name: assets/blocks/planks_big_oak.png
+SHA1-Digest: SIpX0eTQQuH+PBn+Bth2SSyYEEg=
+
+Name: assets/ui/bufficons/armor_add.png
+SHA1-Digest: u3FSpO3b9cmu1VlDM0cYy2pYujQ=
+
+Name: assets/blocks/glass_pane_top_purple.png
+SHA1-Digest: UDRRFUsYOLC6lPtdVTmAghZfQ9k=
+
+Name: assets/particles/texture/boom01_.png
+SHA1-Digest: qR+/0vImHzJO6qaQ0zvfPEpbLyM=
+
+Name: assets/entity/110007/male.png
+SHA1-Digest: HMzy4h0Y9pGkTldIpo+HgFgQUPE=
+
+Name: assets/sounds/mob/horse/hit4.ogg
+SHA1-Digest: YG5Me1wXpUlwwdwKwYa+HNut9QM=
+
+Name: assets/items/icon3003.png
+SHA1-Digest: ZV7L6JnRZnOyjGiIdvXKJVEEvyI=
+
+Name: assets/particles/1020.ent
+SHA1-Digest: HjbZ9J7RHETGq3FXYIxEkPvFFx4=
+
+Name: assets/sounds/mob/zombie/step1.ogg
+SHA1-Digest: FOSrcfaJtUyakj02zYSV8VOtWu4=
+
+Name: assets/particles/1002.ent
+SHA1-Digest: LzG4bIKlErdxNMZtm5HDCWftyY0=
+
+Name: assets/sounds/mob/sheep/step5.ogg
+SHA1-Digest: V/zqX9/zZXiorutix/efQ4I3bKQ=
+
+Name: assets/ui/craftingtable.xml
+SHA1-Digest: FkcvzwkONL139DutdelK01bL+XU=
+
+Name: assets/entity/player/fbody01.oanim
+SHA1-Digest: THqS0G+YPzeEoBWvQgZl/wox7sQ=
+
+Name: assets/entity/100001/js.png
+SHA1-Digest: jWixm4TMyhO2fj3HeqaDxtxUC5g=
+
+Name: assets/particles/shu1/shu1.omod
+SHA1-Digest: jz8lBo9gvLRKGJA3h/S69cxBUWY=
+
+Name: assets/blocks/dirt.png
+SHA1-Digest: rgPlL2In7uqWLbN+zl7GPritE2k=
+
+Name: assets/sounds/dig/cloth4.ogg
+SHA1-Digest: yVrmRd75KRy1EBP0BlxH0OyiwiU=
+
+Name: assets/blocks/lapis_ore.png
+SHA1-Digest: AgnHVIK7guwwegl4gLWrecN+YyM=
+
+Name: assets/ui/mobile/backpack.lua
+SHA1-Digest: +aZi6O4nn8WY04UDIm0WliYDmHk=
+
+Name: assets/particles/1029.ent
+SHA1-Digest: 8jk3wxxfgtMXOPNQJM6d+w5M7NU=
+
+Name: assets/items/seeds_wheat.png
+SHA1-Digest: iWl1MwnlhGVd/ljqzUvs5TpiXYo=
+
+Name: assets/items/bucket_water.png
+SHA1-Digest: F3IgD9D6Y/SmfHzqqX8gwYek2so=
+
+Name: assets/particles/texture/eye_lwy_t_sun_41_single2.png
+SHA1-Digest: Ba/Q28A54cAuCPYWcDC6hYiM5Oc=
+
+Name: assets/blocks/gold_ore.png
+SHA1-Digest: gUbgWYVJ1ciPQEvvTO8UbGIuMAY=
+
+Name: assets/ui/mobile/lobby.xml.bak
+SHA1-Digest: lmfphW6ZMn7OjhwkMWyHNuHHEUQ=
+
+Name: assets/sounds/damage/fallsmall.ogg
+SHA1-Digest: Qux2iZ64bSEwKY8R2r0X8GJVH+A=
+
+Name: assets/items/bow_pulling_0.png
+SHA1-Digest: 1GfiqjClTaIfw+UNcCym5Qu28Ws=
+
+Name: assets/particles/texture/xingguang0129.png
+SHA1-Digest: qdkjqK04NR5Ve0Q0V8VaMapIMro=
+
+Name: assets/particles/item_706.ent
+SHA1-Digest: a+I2gzeiBmORC4/9qpMpnjF7ASc=
+
+Name: assets/sounds/mob/creeper/say1.ogg
+SHA1-Digest: QjNU81kO1j4jZqeuRkxHWs+pTME=
+
+Name: assets/sounds/step/snow2.ogg
+SHA1-Digest: oZrIWixNNENsQMTk2qr/sDDUYiI=
+
+Name: assets/items/minecart_tnt.png
+SHA1-Digest: JF+NsvpHvKj4aftBFbrVNds/Rv0=
+
+Name: assets/particles/texture/dustleft02.png
+SHA1-Digest: 0qaRwDsEMpDz4HCMPtfDvb1WDFU=
+
+Name: assets/sounds/mob/horse/hit2.ogg
+SHA1-Digest: kGs1WCuk7+zoXoY/KWHORYXN4Bw=
+
+Name: assets/blocks/rail_activator.png
+SHA1-Digest: 7whTdwDnwA+kzUyTi1nm9Q9Qmzk=
+
+Name: assets/sounds/mob/horse/idle1.ogg
+SHA1-Digest: OoSBJbazT79IiiTRitT2YRilWk4=
+
+Name: assets/entity/110019/body.omod
+SHA1-Digest: buP5nOQTFBs8bc8Nho+o404jqUI=
+
+Name: assets/sounds/mob/spider/step2.ogg
+SHA1-Digest: WsimRzbpcKkORUcISaBf46ChE1w=
+
+Name: assets/blocks/enchanting_table_bottom.png
+SHA1-Digest: 6bh0nDrF8dKzW+L3hXsVm3ZhIMo=
+
+Name: assets/items/dye_powder_light_blue.png
+SHA1-Digest: dYsbBqHD5avZD921PwqRx0+Vk+A=
+
+Name: assets/sounds/mob/skeleton/say2.ogg
+SHA1-Digest: MdIkrvJd8aMJT/cWiRlf793LRs0=
+
+Name: assets/sounds/random/spring_in.ogg
+SHA1-Digest: aF9ZjiV+dfox6WW6wpEMSYu/G0c=
+
+Name: res/drawable-ldpi-v4/ic_launcher.png
+SHA1-Digest: UuS3C0OLZyEOmtJCa7oRYH5xuwY=
+
+Name: assets/items/dye_powder_blue.png
+SHA1-Digest: 1tha52cU7dClEEq9Ml5dGqSPjAQ=
+
+Name: assets/sounds/random/chest_close.ogg
+SHA1-Digest: 1yqDtSMRpuOKagRpeizRhnrRHzw=
+
+Name: assets/items/cauldron.png
+SHA1-Digest: SZlcXrT7PCE9dWqMtxdrGtsRfdQ=
+
+Name: assets/blocks/ironfence.obj
+SHA1-Digest: Xt7bputwsS95r+MnoexjZdSJAMM=
+
+Name: assets/items/record_stal.png
+SHA1-Digest: 46BWHktyjvQoCsNyXF/2l02tDWw=
+
+Name: assets/sounds/mob/endermen/idle2.ogg
+SHA1-Digest: cSLx7TPH0msWsbMEt3fWvASYYUU=
+
+Name: assets/blocks/flower_tulip_white.png
+SHA1-Digest: 6kiSGmXh+4J3mfC2+LRxOTYpqlg=
+
+Name: assets/blocks/destroy_stage_8.png
+SHA1-Digest: naWADadfn/R2SGUoe96JW9VVB8o=
+
+Name: assets/entity/player/player06/hand.omod
+SHA1-Digest: T8Fd/aqvQUI5gBZUm0uxMmOk5kA=
+
+Name: assets/entity/100010/male.png
+SHA1-Digest: uAQXZharZJ5UhD8v+NT33ETazqk=
+
+Name: assets/ui/accelkeys.xml
+SHA1-Digest: T24c6M3lCCvXIh2mj4fOvFE4RJE=
+
+Name: assets/ui/mobile/ui3.png
+SHA1-Digest: poOi5gdz6iCwlne5yhOHFBtukRE=
+
+Name: assets/csvdef/voxpal_3.csv
+SHA1-Digest: hxGLD3kj2Uq+jyV/yofNsfkzzs0=
+
+Name: assets/sky/starfield.png
+SHA1-Digest: Uu3BFMHBbxBt2QJ5JaFs4j04p1c=
+
+Name: assets/particles/selrole_bg.emo
+SHA1-Digest: db/GWpomGvzSMlyfruc5aplG7Xg=
+
+Name: assets/sounds/mob/pig/step1.ogg
+SHA1-Digest: RXUqSdf5bsCBvziXeBf8yC4bDdQ=
+
+Name: assets/ui/bufficons/damaged_fire_reduce.png
+SHA1-Digest: wfhFjvaK8GUe0MOziMvAr2okO7g=
+
+Name: assets/particles/texture/pao3.png
+SHA1-Digest: 8sW4pVjWspAX8ufz62nZvDWaiIo=
+
+Name: assets/items/skull_steve.png
+SHA1-Digest: 2jY0W6RNee4LKeFeU6RsWgDkrGA=
+
+Name: assets/ui/bufficons/damaged_all_add.png
+SHA1-Digest: X/3YtLLD2WV0477tLmjizPfcbZ8=
+
+Name: assets/items/record_ward.png
+SHA1-Digest: nkxWIX5VlBfXIoZIq7ABtW1D24s=
+
+Name: assets/ui/bufficons/move_speed_reduce.png
+SHA1-Digest: jXqSvfnFNwLRkJv1SYuJD8uGT0I=
+
+Name: assets/entity/player/player04/body/malebody04.png
+SHA1-Digest: f5T9nIcszqq2nNAigFLfeDXvZsg=
+
+Name: assets/blocks/diamond_ore.png
+SHA1-Digest: Uhen9nWjaoSLDo3SVGe0LdxWZjU=
+
+Name: assets/sounds/dig/sand4.ogg
+SHA1-Digest: s6S6VOgkKc2T24gHv+lgr+TZaXU=
+
+Name: assets/blocks/quartz_block_top.png
+SHA1-Digest: Msa8Kva65s5EqCQAAOV9gPvNWCk=
+
+Name: assets/blocks/destroy_stage_3.png
+SHA1-Digest: atYC1zq5C7lzpHgABW3S9WLSGMM=
+
+Name: assets/blocks/brewing_stand.png
+SHA1-Digest: vaKLiS6hhzxMYBUxpRW5+kZHbSc=
+
+Name: assets/items/icon2540.png
+SHA1-Digest: ST1/kkwzY2HSiDGA4OMIIC2PXd4=
+
+Name: assets/items/icon3109.png
+SHA1-Digest: uvyGW/OKA8WxYzSrzmXo7S0McdE=
+
+Name: assets/ui/bufficons/damaged_all_reduce.png
+SHA1-Digest: ufQsfObSjWgvtUlie93YftcTifc=
+
+Name: assets/blocks/hardened_clay_stained_purple.png
+SHA1-Digest: HnHQi91DHKkdPHysKVDNV0bVySo=
+
+Name: assets/items/stone_pickaxe.png
+SHA1-Digest: Y03f8w5bhIk8mRU0FN7RY62RLGk=
+
+Name: assets/blocks/cocoa_stage_0.png
+SHA1-Digest: B2sAPddyiHdAxcmthtSJULO+LSk=
+
+Name: assets/items/seeds_melon.png
+SHA1-Digest: UO0h1dH4g9KJdjpR7BPg9oTI2h4=
+
+Name: assets/sky/sun.png
+SHA1-Digest: p8N8j//1kMkCuyLOGIOUQrX7QuA=
+
+Name: assets/blocks/quartz_block_chiseled.png
+SHA1-Digest: F08zXLvNpSiiYf6bF+iOM6NCKf0=
+
+Name: assets/particles/texture/rain.png
+SHA1-Digest: nQ36Bx9k6venCAPLLBV/mE+BP5o=
+
+Name: assets/blocks/wall.obj
+SHA1-Digest: 4Euxq2iA5via5F8R1OkGxw1IYn0=
+
+Name: assets/particles/35021.emo
+SHA1-Digest: KUWSCNkAqdraGwMGyU3D9n7eMH4=
+
+Name: lib/armeabi/libfmodex.so
+SHA1-Digest: pm2V6n4ea9nlf37t19SwYiChal8=
+
+Name: assets/ui/roleicons/10.png
+SHA1-Digest: bKRxy5IzAatcQrINI+i1NAv60PA=
+
+Name: assets/blocks/carrots_stage_0.png
+SHA1-Digest: nI/dUHZCkDM+RfW0YXZWxzHuDmg=
+
+Name: assets/sounds/mob/horse/soft3.ogg
+SHA1-Digest: DftQ4bUrgH1gDQth7pxJM/CXSJg=
+
+Name: assets/entity/player/hand.oanim
+SHA1-Digest: DjWZsg7rFQ75mmvTlKSoTyi4DkM=
+
+Name: assets/particles/texture/fatcook_skill01_ring_01.png
+SHA1-Digest: mfcZvGCsoFzHyWtOeaHu6/sMV/c=
+
+Name: assets/ui/lobby_single.xml
+SHA1-Digest: NjoAXZttuDgkmxtaQqx94FEzF7w=
+
+Name: assets/ui/mobile/craftingtable.lua
+SHA1-Digest: a9UOdLgBOff23dDCfZXTXWIZ+20=
+
+Name: assets/items/iron_pickaxe.png
+SHA1-Digest: XVL6DcCGtV48/7F6lmeO20j4lok=
+
+Name: assets/sounds/step/stone3.ogg
+SHA1-Digest: HW6ZGI/lcPHpf3HEpo/UtuH4y7g=
+
+Name: assets/items/carrot_on_a_stick.png
+SHA1-Digest: c2nzB9vPIsBwZQkZXOnfmFUKWao=
+
+Name: assets/ui/bufficons/swim_speed_reduce.png
+SHA1-Digest: RHYtHzcpHqec4F9umhKjsPuhcr4=
+
+Name: assets/items/iron_ingot.png
+SHA1-Digest: EPwf4kx1Bo+CNyLLdbaG0iDQlUo=
+
+Name: assets/entity/100003/male.otex
+SHA1-Digest: XYbGmpcpjanAhuzvsI7P5xlVBv0=
+
+Name: assets/particles/34072.ent
+SHA1-Digest: AmaTBh+dEL2QKmw2e3ID+BVSwkQ=
+
+Name: assets/entity/player/share/women/breast/2232.png
+SHA1-Digest: Rn+8vLjLnpdQ1cUuYlPH/E0DmN4=
+
+Name: assets/items/brewing_stand.png
+SHA1-Digest: DWpYatQCVlcw8oNNwsu0Yx3Isg4=
+
+Name: assets/blocks/log_oak_top.png
+SHA1-Digest: 245zkGXdxvU9jOsqOseQyg/tLEo=
+
+Name: assets/particles/10021.ent
+SHA1-Digest: Ssn6gnCt54ozLkvGxb4DjJiwGak=
+
+Name: assets/sounds/mob/sheep/say2.ogg
+SHA1-Digest: /YrS8wGHifnEF9efRfcu//Ts0aE=
+
+Name: assets/entity/player/share/women/shoe/2214.png
+SHA1-Digest: m91dfMp6ytUpFWQKn2lCYRsYmYg=
+
+Name: assets/particles/texture/eye_lwy_t_mul_69_single.png
+SHA1-Digest: mSsB1gicMaZYrfUpBueH8VcbN2g=
+
+Name: assets/sounds/mob/skeleton/hurt3.ogg
+SHA1-Digest: lcKQmfsndwkaJt+zsDGMK8dIDHM=
+
+Name: assets/particles/texture/eye_fxl_ptc_0011.png
+SHA1-Digest: vZzpzI5LQnOk8QOuK7glwFWe49U=
+
+Name: assets/blocks/flower_pot.png
+SHA1-Digest: 6zf/emXfDzSF71chHPBb3ZzZLFI=
+
+Name: assets/particles/texture/addpx_d32.png
+SHA1-Digest: 4+eEKHHgU2nqgTG7OLckwtj3g8Q=
+
+Name: assets/blocks/stone_slab_top.png
+SHA1-Digest: gywlKqzW2IyqOaNcfBaKX0Qf2C4=
+
+Name: assets/blocks/glass_blue.png
+SHA1-Digest: vvMT3ByQeMdA3lNww6Lh8YHAJLk=
+
+Name: assets/blocks/deadbush.png
+SHA1-Digest: uEKSboSHkRJ4GGKKiFc6GA98Lcg=
+
+Name: assets/sounds/mob/wolf/bark1.ogg
+SHA1-Digest: cxhuOY+hBtnivqvupvFevHY8VsU=
+
+Name: assets/blocks/mushroom_block_inside.png
+SHA1-Digest: wJq7Sksucp2iD6klgTfzHX6LUAc=
+
+Name: assets/blocks/ice_packed.png
+SHA1-Digest: xucVmu25s/EJXCuDCtdGkYHOs/I=
+
+Name: assets/blocks/chest.obj
+SHA1-Digest: ObN+7TbAPc7zH7jt8H44Hqq2h+E=
+
+Name: assets/particles/texture/eye_lwy_t_som.png
+SHA1-Digest: ZZItIgO9xZ1TW3ELtboVfIeKRPo=
+
+Name: assets/sounds/step/grass3.ogg
+SHA1-Digest: pNPV6WleG2ze1JciLQRhFrbhlHA=
+
+Name: assets/items/gold_ingot.png
+SHA1-Digest: 6+KGZWmo4VA03N9yj5Owk9TRvq4=
+
+Name: assets/entity/110022/male.png
+SHA1-Digest: jyOwUgNJDW7tMdsP7gYoOM6o0+A=
+
+Name: assets/ui/mobile/friend.xml
+SHA1-Digest: ij/UXhebZi2tl1uwggCdpHgEzbs=
+
+Name: assets/sounds/mob/endermen/idle3.ogg
+SHA1-Digest: s7EOI6VcnDS+wXzWI4h90Y5qhRI=
+
+Name: assets/blocks/mycelium_side.png
+SHA1-Digest: +/a552JTxI/OEhrmqaTEvqZyFmQ=
+
+Name: assets/entity/100002/jsv.otex
+SHA1-Digest: dlApBwN+MQHQDqJjzHVJgy4dk2E=
+
+Name: assets/blocks/mushroom_red.png
+SHA1-Digest: eERE9kT65h+gj/Zdw1u2Q4ysxe0=
+
+Name: assets/particles/texture/kj1.png
+SHA1-Digest: itE5fYnB5Q8+SYbfeWeNc5pF6JY=
+
+Name: assets/ui/mobile/effect/achievement_halo.png
+SHA1-Digest: gbALpS0K4+/rYv0JxEGeFgpAfFg=
+
+Name: assets/blocks/box3.png
+SHA1-Digest: o2PlIrYVwNIPRDUstphPSWpUTWo=
+
+Name: assets/blocks/redstone_dust_line.png
+SHA1-Digest: trHe4hiWITb2X3b/DpHO/VNIKnM=
+
+Name: assets/blocks/door_wood_upper.png
+SHA1-Digest: kYSlJUw/3Qx2eI4cQcwX1QTkzmY=
+
+Name: assets/items/record_cat.png
+SHA1-Digest: 5Q5WCG8adUTGhE/GiOwgXyyhQRA=
+
+Name: assets/sounds/damage/hit3.ogg
+SHA1-Digest: EsDn0A7HRLBo58oBRTHWO8yzC7Y=
+
+Name: assets/blocks/hardened_clay_stained_silver.png
+SHA1-Digest: vfgVqBHhjfcRlhUna+B6WRl1m7k=
+
+Name: assets/ui/backpack.xml
+SHA1-Digest: Gd7jOj+kyb02KnJSQIzUHvuc3KE=
+
+Name: assets/items/record_11.png
+SHA1-Digest: JnBTMlJY9Yqp3r8ro437sw+opc0=
+
+Name: assets/sounds/random/eat3.ogg
+SHA1-Digest: i21L8Q/YbdhIDPNe6/uaCZCGjp4=
+
+Name: assets/items/apple.png
+SHA1-Digest: nlBCtfNxUTrtrGAR6tvv8h6xbqg=
+
+Name: assets/particles/texture/Z.png
+SHA1-Digest: +pWFU68x3q2dph3xDUrH5287mN8=
+
+Name: assets/items/icon3101.png
+SHA1-Digest: GBb2VXiltGOaf7j3URmSl89txCk=
+
+Name: assets/items/icon3117.png
+SHA1-Digest: AdXPCUJmXmW7tv1A8pKe3Z6QhjQ=
+
+Name: assets/blocks/piston_top_normal.png
+SHA1-Digest: f5ZxGLj/q1ptfrohKW2f3vsSt0A=
+
+Name: assets/sounds/mob/zombiegirl/say1.ogg
+SHA1-Digest: 3cZ7lbSafss+minzkn6ec9t/XCE=
+
+Name: assets/blocks/cauldron_bottom.png
+SHA1-Digest: RyQfUL58YiIbqtFjLXNsmixwKCM=
+
+Name: assets/blocks/crafting_table_top.png
+SHA1-Digest: ydutK9Vre/ANDDp0xNEe+IXtwUo=
+
+Name: assets/entity/player/share/women/legging/2223.png
+SHA1-Digest: AI6bJBaohAC0VDxLA/My7ZND/dI=
+
+Name: assets/entity/110012/male.png
+SHA1-Digest: 9QmkZuyAITM+2yAE79iniGIoBRo=
+
+Name: assets/blocks/mobspawner.obj
+SHA1-Digest: nIywQ9jwnhC8EJJNtxK/Wx9quZA=
+
+Name: assets/blocks/daylight_detector_top.png
+SHA1-Digest: EoWpjE10wRvEiZn42VQIDpm0oJ0=
+
+Name: assets/items/flower_pot.png
+SHA1-Digest: +z2ZxQtrvNXhE3SPoX5VrtTnvaI=
+
+Name: assets/ui/mobile/friend.lua
+SHA1-Digest: PhfuX8W8MehgxBpYJOnixtx+7I4=
+
+Name: assets/items/dye_powder_silver.png
+SHA1-Digest: +0TLx4fhxq+rM/ywWATjtRJgoCE=
+
+Name: assets/entity/100022/malegai.png
+SHA1-Digest: nz7vSVdLkPxACA/9GiTwGahaa74=
+
+Name: assets/blocks/leaves_spruce.png
+SHA1-Digest: b1TDX64wee1PXJfu9hvNSvpK4z8=
+
+Name: assets/particles/texture/10.png
+SHA1-Digest: xXDuK5ro98VJvfSbnZvSJGTfqV0=
+
+Name: assets/entity/100016/male1.png
+SHA1-Digest: jVF033AYgXSc4ptM1GIy9yOcHm8=
+
+Name: assets/blocks/cauldron_side.png
+SHA1-Digest: gye/cC2TUXorTPnk/R1cICafkYE=
+
+Name: assets/ui/mobile/tips.lua
+SHA1-Digest: KEF2BvukQu9IuneiJ8QCMjZYuew=
+
+Name: assets/sky/rain.png
+SHA1-Digest: BvqzOr1PExKtPvLmEgNwzpO22Mg=
+
+Name: assets/items/icon724.png
+SHA1-Digest: kWCwVQ384kIF7YqSPIEkvS7CS38=
+
+Name: assets/entity/100013/male.png
+SHA1-Digest: GCx9eAIWbbnwxWXNYUqx9YgfHys=
+
+Name: assets/particles/BUFF_DAMAGED_1.emo
+SHA1-Digest: rns6zzazDd/iOBGVXbtnEPX/Mb4=
+
+Name: assets/ui/chatframe.xml.bak
+SHA1-Digest: 3OyVvZ1QLBKeBa/h9JLngYWS3g0=
+
+Name: assets/items/leather_boots.png
+SHA1-Digest: kHb/+DKLORF+HnLwjCS+4zMWrwo=
+
+Name: assets/blocks/fire.obj
+SHA1-Digest: 5ZlbEbZk0im4HcIg9h0Tb+5njsU=
+
+Name: assets/items/carrot_golden.png
+SHA1-Digest: IvsAnuU7hisoPEF0ZDhaq/Qq1g0=
+
+Name: assets/particles/texture/gjd2.png
+SHA1-Digest: yyCTf+9B9HLy0UX63VfHVi+pLkA=
+
+Name: assets/sounds/mob/creeper/creeper_fuse.ogg
+SHA1-Digest: 97yq5wTcVrFSlgfwVb1n3hvAbv8=
+
+Name: assets/items/icon3501.png
+SHA1-Digest: jF6WYmQY8MVjFZRey2GVqAxvF9Q=
+
+Name: assets/items/skull_skeleton.png
+SHA1-Digest: hsDH3Rd9wGypw84kX9KmOuQ0NfU=
+
+Name: assets/blocks/glass_pane_top_pink.png
+SHA1-Digest: vVL14dhr4O//RodGsBGS8W22RlU=
+
+Name: assets/blocks/sapling_acacia.png
+SHA1-Digest: zX+JOBx4hlM6xBHd8KeiBQMiFZA=
+
+Name: assets/sounds/mob/endermen/portal.ogg
+SHA1-Digest: YfXVarlyt3pp0ZC55qzqGXxdYC4=
+
+Name: assets/particles/texture/chibang.png
+SHA1-Digest: uoRqjOGUYwbM9btjceqBGJ3FLzs=
+
+Name: assets/ui/models/selrole.omod
+SHA1-Digest: 9c0Ssfr+YrHiIRHoaxuu1bWADs0=
+
+Name: assets/items/icon2518.png
+SHA1-Digest: 6za120BAO8VrJK+T8NCLx6Lkr/A=
+
+Name: assets/entity/player/share/women/helmet/2221.png
+SHA1-Digest: RA069lEmBn1bHHAiwoFygP2Fvvw=
+
+Name: assets/ui/selectrole.xml.bak
+SHA1-Digest: l8aIv+A/u6O3e+LPYZDt7Cwgosk=
+
+Name: assets/ui/mobile/advancedset.lua
+SHA1-Digest: lD9qviP+O7G5rTh+rhKf6PufB/c=
+
+Name: assets/blocks/anvil_stage_0.png
+SHA1-Digest: BTlY1mTczjWQuD2zVwWCvZ9TgDw=
+
+Name: assets/blocks/noteblock.png
+SHA1-Digest: Oll7VcoHTbMVF41bvfqwloqVWYQ=
+
+Name: assets/csvdef/chestdef.csv
+SHA1-Digest: hXxMnp7XdWk6b3D45h5GjfBb/TI=
+
+Name: assets/items/sign.png
+SHA1-Digest: mu2vfj13Sbac9d7M6iMN29GJOB0=
+
+Name: assets/entity/100007/male.png
+SHA1-Digest: ptfLEVsiovk0XysMpxp53/jS7lM=
+
+Name: assets/sounds/mob/zombiegirl/say7.ogg
+SHA1-Digest: ufM9OqWaciRmk0PQjnSSISXyP5U=
+
+Name: assets/ui/mobile/advancedset.xml
+SHA1-Digest: UP+kT0oiLbkbz6llTkq2aTb3mt4=
+
+Name: assets/blocks/bookshelf_top.png
+SHA1-Digest: 6FfKp+SOSgFjl56Yh4aYxgIUCL4=
+
+Name: assets/blocks/potatoes_stage_0.png
+SHA1-Digest: G5n8BhguMm8P6E0B40v6cofto34=
+
+Name: assets/ui/bufficons/damaged_range_add.png
+SHA1-Digest: ujoqym3qNsqrwUZ/ZsySUmEGix4=
+
+Name: assets/blocks/end_stone.png
+SHA1-Digest: Hvs0uF2Ux9Vf/K2VgCR/u68SknI=
+
+Name: assets/blocks/reeds.png
+SHA1-Digest: J6hsp3u8PMotnUklgGkng93Da5w=
+
+Name: assets/sounds/step/gravel2.ogg
+SHA1-Digest: qN9Rc7r7myJQeXMdBU1pBGeBpOo=
+
+Name: assets/blocks/quartz_block_chiseled_top.png
+SHA1-Digest: Lneehd1l6YyV2iIF9FOT8GRdIqo=
+
+Name: assets/entity/100003/body.omod
+SHA1-Digest: OegXyZcQXwtu61Tyf0FWx4KoV2c=
+
+Name: assets/luascript/common.lua.bak
+SHA1-Digest: QkMb83jkVObw+voCOAG5pzLwh30=
+
+Name: assets/sounds/step/wood3.ogg
+SHA1-Digest: CdRWtCuW24TCy6DDftjOwGEfweg=
+
+Name: assets/csvdef/crafting.csv
+SHA1-Digest: T44ZtJRPoFcCjuJQnK7Ej3UiqRQ=
+
+Name: assets/particles/texture/qiu1.png
+SHA1-Digest: zKaJyrUJSaAx1XLLMRXQnyoChhk=
+
+Name: assets/sounds/step/cloth2.ogg
+SHA1-Digest: YNoO1brQ6dKa7nKrNQBJOrOe1FQ=
+
+Name: assets/sounds/dig/snow1.ogg
+SHA1-Digest: 8m15ZlszP07zwEwg7aODA8ee7FE=
+
+Name: assets/ui/bufficons/move_speed_add.png
+SHA1-Digest: ioUVtWYeF8MtcwjZyPd5tlHmm6A=
+
+Name: assets/entity/100023/male.png
+SHA1-Digest: hw3ut4NWfZNK20qxOXEMWtZ3UPg=
+
+Name: assets/particles/item_833_1.ent
+SHA1-Digest: Moyn0X8KLzvT+yoqcEN9nEreOOg=
+
+Name: assets/items/icon2215.png
+SHA1-Digest: N3xfIg5j44yPky0VVVxOUVIEJiA=
+
+Name: assets/ui/bufficons/damaged_explode_reduce.png
+SHA1-Digest: UgBckcSIdYxnD9/7UIcNDML9q68=
+
+Name: assets/entity/120006/male1.png
+SHA1-Digest: yutM9smpcrPYkgJ0HGX8nXNO4dM=
+
+Name: assets/sounds/mob/wolf/bark3.ogg
+SHA1-Digest: bRI6o0GsWCpc2VDEtSZeYlNnHXM=
+
+Name: assets/blocks/enchanttable.obj
+SHA1-Digest: pL/K8h+0JZZSEvNhh88VgDjDzwE=
+
+Name: assets/items/icon001.png
+SHA1-Digest: RYT8CH3pS3GEIk/L9JGieq+V2U0=
+
+Name: assets/ui/mobile/uitemplate.xml.bak
+SHA1-Digest: tFMJSi6A9yIJ2uBvsxd3VkFFjx8=
+
+Name: assets/blocks/tnt_explode.png
+SHA1-Digest: SIMfuUprHO8vA4wN317km9N+G4Q=
+
+Name: assets/sounds/mob/wolf/hurt1.ogg
+SHA1-Digest: 3bvhxOOFv9l+yQeSiQBycjemEts=
+
+Name: assets/blocks/ice.png
+SHA1-Digest: AfkguBCyZqrg9dr/PyjMIM8bR5Y=
+
+Name: assets/entity/player/share/breast/2202.png
+SHA1-Digest: fP1izltLgv6QpvENDFxHnicCoo8=
+
+Name: assets/blocks/grass_side_overlay.png
+SHA1-Digest: rXbhoswVOm1s5VKpq0GraQgJg6c=
+
+Name: assets/blocks/cocoa.obj
+SHA1-Digest: YbHtc1+WfT33JIY3gpUsQN6krhs=
+
+Name: assets/items/fish_raw.png
+SHA1-Digest: qgVonGgWpzhvMeVuu4MB1v72CMQ=
+
+Name: assets/entity/110007/yanse.png
+SHA1-Digest: qXHc/LtRXC7oxAlZZLBzE33gchM=
+
+Name: assets/items/icon3402.png
+SHA1-Digest: Ri2OOr64qyubbPiNwdE7iKL/ygk=
+
+Name: assets/items/shears.png
+SHA1-Digest: hp706srQSNufIIjkJDqxuuRXGas=
+
+Name: assets/blocks/log_jungle_top.png
+SHA1-Digest: TfTV7pEsmV66/MyOYQh/sTBkGEQ=
+
+Name: assets/sounds/liquid/swim3.ogg
+SHA1-Digest: r2D0y5m9QVKCFnk1+FkD3nBdizc=
+
+Name: assets/texpacker.xml
+SHA1-Digest: jSPxNwE0EonWOeRHT9iKQ0X77L4=
+
+Name: assets/blocks/hay_block_side.png
+SHA1-Digest: PrbZIOxpS5vsXbgHX421HOBVRvU=
+
+Name: assets/blocks/glass_cyan.png
+SHA1-Digest: jLIOq2FtyD2PBnfjX+dl8e+J6vQ=
+
+Name: assets/particles/texture/word.png
+SHA1-Digest: Vb9JY0hrK6T3qXOegvzV2+ZHKNU=
+
+Name: assets/particles/texture/mini36.png
+SHA1-Digest: T1l2n+MkcKBUuREUPs4/ioRIpu4=
+
+Name: assets/entity/100014/male1.png
+SHA1-Digest: 0YLLju8gsbbJHK1UVA0AYvglg7Q=
+
+Name: assets/blocks/hardened_clay_stained_cyan.png
+SHA1-Digest: b6LMjFk5iFtbc/V2IiBxKhpOAQA=
+
+Name: assets/items/snowball.png
+SHA1-Digest: o/CedMkhuKImatb262EIUz7MMss=
+
+Name: assets/entity/player/share/women/breast/2242.png
+SHA1-Digest: TwqLpKH9mlzzJEHf2n3aX4UYWpE=
+
+Name: assets/blocks/fire_layer_1.png.mcmeta
+SHA1-Digest: zK3uS96syGZjsYIuKuGAVUkU47s=
+
+Name: assets/blocks/rail_detector.png
+SHA1-Digest: hQrnkmUkRXbb2vn/XX4tcF+ChPo=
+
+Name: assets/blocks/redstone_dust_cross_overlay.png
+SHA1-Digest: JXONBhT9uwgLqmEFlqKU+FHpxqg=
+
+Name: assets/particles/texture/zbtx20.png
+SHA1-Digest: gfZNOJalUGCTCgv2prXrCcZDR3k=
+
+Name: assets/entity/player/share/legging/2213.png
+SHA1-Digest: BmFEcSHwS6U/yIUnH/9A+66hFtE=
+
+Name: assets/blocks/mushroom_block_skin_brown.png
+SHA1-Digest: ll9YgQFNIxNB2eBZyjinXVAUt9o=
+
+Name: assets/particles/texture/BlueSkyClient_R0080.png
+SHA1-Digest: 95Ttk74WAsBNY9rlzFdcaM/Khbw=
+
+Name: assets/csvdef/monsterbiomedef.csv
+SHA1-Digest: qpUX3d4D61pYoMxOP1W+JgL/muM=
+
+Name: assets/particles/texture/dian.png
+SHA1-Digest: up2R0/ruwgqGRhZXAgDOVWBVJ6M=
+
+Name: assets/entity/200008/gun9.png
+SHA1-Digest: zLB3MQVuzJNe7a7lfLpkp+9w6V0=
+
+Name: assets/blocks/hopper_outside.png
+SHA1-Digest: bt27s0V1F3ABosvAzy70mxZZg0c=
+
+Name: assets/ui/mobile/effect/ui_experience_2.png
+SHA1-Digest: +s/3XerkS7vZEkYmdyVzWYGRBV0=
+
+Name: assets/items/ender_eye.png
+SHA1-Digest: l8/nM2l1F9mH38dRdpWE2RzkxYQ=
+
+Name: assets/particles/texture/lan.png
+SHA1-Digest: lRf8X20iaICtwa5SqbEk+rFAVI4=
+
+Name: assets/items/icon2546.png
+SHA1-Digest: IuAmD31YBpb/PXue0ZepCFpCqPI=
+
+Name: assets/ui/bufficons/attack_poison_reduce.png
+SHA1-Digest: 7zWbXZleICQm3vH4Cu4cYu8EEOw=
+
+Name: assets/blocks/glass_pane_top_gray.png
+SHA1-Digest: K4hHCh0HdkwOpSSLJUUzGitAt1s=
+
+Name: assets/ui/backpack.lua.bak
+SHA1-Digest: Tm5UJwqorysqSwpeS6YoXTKZz5M=
+
+Name: assets/items/bone.png
+SHA1-Digest: 571LvYW7BEy++3opOq8YaPSyDP0=
+
+Name: assets/blocks/highlight.png
+SHA1-Digest: S3BUj/Mu3txPVUe362vgG700cWM=
+
+Name: assets/sounds/ui/info/achievement_reach.ogg
+SHA1-Digest: mOd/AzO/isp72FOASuM3O9290Mw=
+
+Name: assets/blocks/rail_detector_powered.png
+SHA1-Digest: 8ySj+oNnEHv1GzAjF5TDk3Tnu5M=
+
+Name: assets/particles/texture/eye_lwy_t_mul_70_single.png
+SHA1-Digest: ZUVG61MXUutjUTo5yHY7az/1NSM=
+
+Name: assets/sounds/dig/cloth1.ogg
+SHA1-Digest: zOwkX02fStE5GJutBRoeGfHzplE=
+
+Name: assets/blocks/enchanting_table.png
+SHA1-Digest: ii3I2qm+vL7MYhnrDaHgu8kSoEs=
+
+Name: assets/ui/login.png
+SHA1-Digest: RFLPwhrrA+IgG1WRzoOWhRNFmVU=
+
+Name: assets/particles/texture/aurora01.png
+SHA1-Digest: pc9uHo5yQ/Nq82zoQHsmBmXhXsk=
+
+Name: assets/ui/mobile/playmain.xml
+SHA1-Digest: 6KR5/3DUYOzzY8w7PwZvP9Z2nv8=
+
+Name: assets/sounds/buff/buff_speed_1.ogg
+SHA1-Digest: BB/GFYZUyt9ExDF49cVdXig+E7s=
+
+Name: assets/blocks/water_still.png
+SHA1-Digest: pwznuV/tYGNUJVlaufilCWbU320=
+
+Name: assets/blocks/glass_pane_top_cyan.png
+SHA1-Digest: 0xy4O/QUPCXp61pNi+9a0Z+huwo=
+
+Name: assets/blocks/lava_flow.png.mcmeta
+SHA1-Digest: oQWCx0mY7f6mR5LMpKuLWOWCr5g=
+
+Name: assets/sounds/mob/cow/step2.ogg
+SHA1-Digest: LEzaNQglfdbNjBM9Z7w2kc1nqMk=
+
+Name: assets/entity/100023/body.omod
+SHA1-Digest: G0OZCv4dhJzc8GizvYg1+3bsX4E=
+
+Name: assets/blocks/dropper_front_vertical.png
+SHA1-Digest: h5XIboM6/XTeUqtEF97tW272Zas=
+
+Name: assets/entity/player/share/helmet/2201.png
+SHA1-Digest: /Wae318vg0x84PfRdnV6vAx6rqI=
+
+Name: assets/items/diamond_horse_armor.png
+SHA1-Digest: qWVyrAJ/RXJx7EodKdEB7nPw0E0=
+
+Name: assets/sounds/mob/chicken/step1.ogg
+SHA1-Digest: fGrFRBQ/ts4LTUHMyAgysYv+J48=
+
+Name: assets/blocks/cactus_side.png
+SHA1-Digest: JuA2fstt+uGo5pLiaQn4I5QAEbU=
+
+Name: assets/items/quartz.png
+SHA1-Digest: ZSQJ9EuF1Lh3PjSkyQ6cSRK49QE=
+
+Name: assets/entity/200009/body.omod
+SHA1-Digest: T9m6ZHWiFNVOGZjPDEnYn4p9JIg=
+
+Name: assets/ui/uitemplate.lua
+SHA1-Digest: gC9G7fHBbfKcH8P1Joka9Wcq/gs=
+
+Name: assets/ui/roleicons/2.png
+SHA1-Digest: NAjXm5bL8+F0iofyzFu6f3EpdzY=
+
+Name: assets/entity/player/share/pifeng/pifeng01.png
+SHA1-Digest: O3JdvvSmXg9C3ntxvnpOeBwrs38=
+
+Name: assets/ui/mobile/lobby.lua.bak
+SHA1-Digest: GDz81Khv2XokfTnpKuDunVO6dmI=
+
+Name: assets/sounds/mob/cow/hurt3.ogg
+SHA1-Digest: VZUHcKpedf0j7XiYWn791QyM0sU=
+
+Name: assets/blocks/lava_flow.png
+SHA1-Digest: hg/4ZrOPkVk2TFIfz71FejdRmAI=
+
+Name: assets/blocks/endframe_top.png
+SHA1-Digest: kJxgSkUOlMRkEyLKtJ4db7b+YEY=
+
+Name: assets/entity/player/share/women/helmet/2211.png
+SHA1-Digest: d8QxijitWW1Iv4Gw7csBgqiaRYE=
+
+Name: assets/blocks/cactus_top.png
+SHA1-Digest: z4fVu8FwXpRZ2E400MrRlP/rqg8=
+
+Name: assets/entity/110012/body.omod
+SHA1-Digest: RQ1DXoUnVQcozGKqklFE6u+58ms=
+
+Name: assets/sounds/mob/spider/step1.ogg
+SHA1-Digest: JkheunuUo38/RgUjA3pWepqKxek=
+
+Name: assets/sounds/music/theme1.ogg
+SHA1-Digest: cjwQQmv/Ll1mnMLff+ZXwIjUDOA=
+
+Name: assets/sounds/mob/skeleton/say3.ogg
+SHA1-Digest: rhDsJes41g14w8jKGdNkmUFUpGM=
+
+Name: assets/blocks/cake.obj
+SHA1-Digest: RLRsPIjU1eyKnSXm7nY5QFrPtX8=
+
+Name: assets/ui/bufficons/knock.png
+SHA1-Digest: HhIVjJWhlD/hTb5o2L0ghhX8k1M=
+
+Name: assets/blocks/leaves_acacia.png
+SHA1-Digest: iNq1POqJ5jcyx36rNkt20j6K7TA=
+
+Name: assets/blocks/fire_3_3.png
+SHA1-Digest: aPUcDhb4m2OKLNpqyxyzrgtjdac=
+
+Name: assets/blocks/log_acacia_top.png
+SHA1-Digest: 5xglMI0NvViW9MqQCJ2OIEQeQQQ=
+
+Name: assets/items/seeds_pumpkin.png
+SHA1-Digest: rDYZMRdYEZFKZO83xISSSG1WQWk=
+
+Name: assets/sounds/mob/chicken/hurt2.ogg
+SHA1-Digest: mcUE6C6jnGjwq+IybH6M047utw0=
+
+Name: assets/sounds/step/snow3.ogg
+SHA1-Digest: +5qoDSLaTy2MFlp1ryt2g0h6sUg=
+
+Name: assets/particles/BUFF_WITHER_1.emo
+SHA1-Digest: n6BsbzUkD5yO66NnQdqAh/KJTf0=
+
+Name: assets/entity/100005/male.png
+SHA1-Digest: tWogP4Bu1ohX3uX+W5WwoOeI8Fk=
+
+Name: assets/entity/110007/male1.png
+SHA1-Digest: ofEPz4pet8j9o1xn3a1fyWlgqFw=
+
+Name: assets/blocks/sapling_jungle.png
+SHA1-Digest: VrxP9ZLN18hhD3pHUR+7deHw1Qg=
+
+Name: assets/items/icon3407.png
+SHA1-Digest: q6/nxBJCtBe4lV+HXug0QxwVqbI=
+
+Name: assets/blocks/glass_pane_top_white.png
+SHA1-Digest: fbGZos/k0GxVV4XXHevV3jLVq9g=
+
+Name: assets/items/leather_chestplate.png
+SHA1-Digest: DmBkSiCtfchdOpdm6+5dwbc4b4M=
+
+Name: assets/ui/mobile/game.toc
+SHA1-Digest: 4MU/tKP8szIMvSmdhpFlz1iMiJw=
+
+Name: assets/ui/bufficons/dig_speed_reduce.png
+SHA1-Digest: gTATUUmRPNw+VHYuQQvF+KKXxTM=
+
+Name: assets/voxel/church.vox
+SHA1-Digest: aT3NIG1Fe/ZP0DcPknWbrUZLKkA=
+
+Name: assets/blocks/box.obj
+SHA1-Digest: Uteed/r6zRv2Qex6yzWGFOfdqf4=
+
+Name: assets/particles/experience_star.ent
+SHA1-Digest: gS1h6BiAV7sviyyRPrX9GCsJ+Tc=
+
+Name: assets/items/icon3102.png
+SHA1-Digest: 7VmtJufeyUPHK4VbOvmB/+aUbD0=
+
+Name: assets/blockgeom.xml
+SHA1-Digest: 1V7bwc9NMi4mPZXk9rI476EKf2Q=
+
+Name: assets/ui/buddy.xml
+SHA1-Digest: PuHAmP15HDZpyFecz4aMKBWHhuA=
+
+Name: assets/ui/lobby_mygame.xml
+SHA1-Digest: /V11alA/ylHwm02WU0N1TBicoQc=
+
+Name: assets/blocks/wheat_stage_6.png
+SHA1-Digest: YBALyw38m1lBLDfHLSS0XCTSlAw=
+
+Name: assets/sky/clearsky.png
+SHA1-Digest: ErKqSYA15zCpZlcLEjHkwl5Gads=
+
+Name: assets/items/icon2205.png
+SHA1-Digest: 2guThsV5lIo6biwx81ccfdt57Q4=
+
+Name: assets/blocks/hopper_inside.png
+SHA1-Digest: Z/veYJ5Cpews7xJeuSupIW6l6kI=
+
+Name: assets/blocks/hardened_clay_stained_green.png
+SHA1-Digest: cXMJLE7/Trt2hA60LJVKDsHV0rk=
+
+Name: assets/sounds/buff/buff_attack_1.ogg
+SHA1-Digest: ZgBraPZEsRlbTqFy3mgaC6ho7g8=
+
+Name: assets/ui/titlescreen.lua
+SHA1-Digest: MgnsnLuldRGt9Idnb8aTtVzbtR0=
+
+Name: assets/particles/texture/zi.png
+SHA1-Digest: ZY050QeTZIYZ09TN3imIJPO4Hf4=
+
+Name: assets/items/mushroom_stew.png
+SHA1-Digest: V7CsRViHI7hj8k6gQHv+dzYPMMw=
+
+Name: assets/blocks/jukebox_side.png
+SHA1-Digest: tDquFbnD9NRkP10GpXdig69Fcgw=
+
+Name: assets/items/icon2548.png
+SHA1-Digest: jzVFD3D2El1bxOTeiL5bL8r9t2w=
+
+Name: assets/particles/1027.ent
+SHA1-Digest: +CLw+6RpFquiFiZyqxxHP82u+X8=
+
+Name: assets/items/redstone_dust.png
+SHA1-Digest: roaBRxAUsOjvuHXrwV/0R6xIrTc=
+
+Name: assets/particles/texture/flare_gr.png
+SHA1-Digest: UqcLZB3BlaLHqX8jJGTjWOwmlU0=
+
+Name: assets/sounds/dig/stone1.ogg
+SHA1-Digest: 9XDbFiX8RwiJTTcwIS2fw7CEh3I=
+
+Name: assets/items/icon2556.png
+SHA1-Digest: OODsqHwmA09oW3mgWQkAzsFWop4=
+
+Name: assets/particles/texture/081.png
+SHA1-Digest: yWzg49gx5IqKNEUvu4D3r0W5ugE=
+
+Name: assets/items/icon711.png
+SHA1-Digest: v+D5xSKegeaicrzIwbpw+tIWbqk=
+
+Name: assets/ui/mobile/repair.lua.bak
+SHA1-Digest: gRwPaUYZ5ZrKyKlfY2ShI6e4scw=
+
+Name: assets/entity/120002/body.omod
+SHA1-Digest: IdrVQfUvAQM6txoIAko8sN+uljM=
+
+Name: assets/blocks/default.png
+SHA1-Digest: aIueM9qXu1HRbEy0DG+8pV8wrCU=
+
+Name: assets/particles/texture/halo_75.png
+SHA1-Digest: ngr6HL5PQaxCfleaeUIkdD/LzPs=
+
+Name: assets/entity/100009/male.png
+SHA1-Digest: G2/ydJaghWj7HaT5qngJGVpIWhs=
+
+Name: assets/blocks/hardened_clay_stained_pink.png
+SHA1-Digest: RsHw0XQ+AhOpKDpcmc3kwfBzD2Q=
+
+Name: assets/blocks/coal_ore.png
+SHA1-Digest: 5rvwC/uIhUo5xNZwvurN4VuIkLg=
+
+Name: assets/ui/storagebox.xml
+SHA1-Digest: uPhIO7xz1XZfoZk1xAchfyYbNe0=
+
+Name: assets/sounds/random/explode2.ogg
+SHA1-Digest: 0zJODBqhlD10Agz3HVZhIimC95U=
+
+Name: assets/sounds/mob/wolf/step1.ogg
+SHA1-Digest: gQs7x5buuURuGlRA4VgbQnrff3g=
+
+Name: assets/ui/mobile/achievement.xml
+SHA1-Digest: 2eabcCcm4SNLXbjga4kODcVfpE4=
+
+Name: assets/blocks/coal_block.png
+SHA1-Digest: 8zTi0OLGp+WYMxqQQz1tAJP3Zmw=
+
+Name: assets/particles/texture/halo_54.png
+SHA1-Digest: CcZxl9t3ZsLvTfDEPCe9pdSPSEg=
+
+Name: assets/blocks/log_spruce.png
+SHA1-Digest: +bi/y6rS5vlRV/VqSCwaJR47mlo=
+
+Name: assets/blocks/quartz_block_lines.png
+SHA1-Digest: we2bj79tNpgS6rQjccXeGvdV7TY=
+
+Name: assets/ui/bufficons/attack_all_add.png
+SHA1-Digest: +pe7lg1WIs7F9y7UUdhQdHfX/ho=
+
+Name: assets/particles/item_701.ent
+SHA1-Digest: TmSxHEpav78U1rCpICYH0tgvaXs=
+
+Name: assets/ui/lobby.lua.bak
+SHA1-Digest: PucdoCuHjOJbiB2lQ3FVB8hDQtI=
+
+Name: assets/blocks/wheat_stage_5.png
+SHA1-Digest: N8nicwKPwRrgwg4vGMSldjXbDN8=
+
+Name: assets/ui/uitemplate.xml.bak
+SHA1-Digest: KknGKa1EGbxaDlnBVsHkWBiba4A=
+
+Name: assets/items/dye_powder_white.png
+SHA1-Digest: SunKcmIVlhP67G4wNEp9lSspsGM=
+
+Name: assets/blocks/tnt_top.png
+SHA1-Digest: xY84oB1bvvvBPTFX5ukgcmijuxg=
+
+Name: assets/items/bowl.png
+SHA1-Digest: Ez9HJ24lcgjcJlqSWGfBjZTrzWo=
+
+Name: assets/items/icon2561.png
+SHA1-Digest: JSZk+Ag/B8C6QbqqArK1q7EaSeI=
+
+Name: assets/blocks/lever.png
+SHA1-Digest: fSYpJK6F2LrcpM+gLXpRbavyUOA=
+
+Name: assets/items/dye_powder_brown.png
+SHA1-Digest: lOoLHUHrc692wl9VlFEjk8VK0JA=
+
+Name: assets/ui/login.lua.bak
+SHA1-Digest: nNrkNfnItCFBJtKA+51fQ7rqVs4=
+
+Name: assets/sounds/mob/endermen/portal2.ogg
+SHA1-Digest: qmDL1YH7CCAfbm8uv/Xn011u6wI=
+
+Name: assets/sounds/mob/wolf/step5.ogg
+SHA1-Digest: Fc98B41P33grmZWoeoLb/MNOj64=
+
+Name: assets/particles/1027.emo
+SHA1-Digest: NH3FduWp8Lq7A7xba19+LPEltMo=
+
+Name: assets/blocks/piston_sticky.png
+SHA1-Digest: SgNky0yavGlHjz7AdFmL8HKmyC8=
+
+Name: assets/entity/200006/malebody01.png
+SHA1-Digest: huL35DcWwraUVeLX6halxETNK7I=
+
+Name: assets/sounds/mob/endermen/hit2.ogg
+SHA1-Digest: fA6loEek7nyqiBEVfSxB4KAtQrA=
+
+Name: assets/blocks/trapdoor.png
+SHA1-Digest: kGBwCOf6jtUt8fZRmDa6ngaARXI=
+
+Name: assets/ui/mobile/buff.xml
+SHA1-Digest: jEUaQ7VpUNO4ymUbUfiOeeldzMg=
+
+Name: assets/sounds/dig/wood4.ogg
+SHA1-Digest: Z1GZlG6pWRnW+/IhMnB2CIPqhPQ=
+
+Name: assets/particles/texture/A_fire004.png
+SHA1-Digest: WRb+z7/j5SSCoG4dAmFmf/cHE1s=
+
+Name: assets/blocks/glass_purple.png
+SHA1-Digest: UfwVg1io/9EswONqK+1bQeEMp7M=
+
+Name: assets/items/spawn_egg.png
+SHA1-Digest: KnDUayXElaIHKst5c0r9eT3Fh/U=
+
+Name: assets/entity/200005/wuqi.png
+SHA1-Digest: hMFsCefDrT6vA7WWJGk1QryCpBI=
+
+Name: assets/sounds/mob/skeleton/hurt2.ogg
+SHA1-Digest: zmUJIXhDIbmsRvgVK6Nj2zZuUJc=
+
+Name: assets/sounds/step/cloth1.ogg
+SHA1-Digest: QzNTScNKT8+RGEsq6LgMfCmUhZI=
+
+Name: assets/entity/player/share/breast/2212.png
+SHA1-Digest: 3PCMoA7ofDo7hm3ULZxnRy2NQxs=
+
+Name: assets/particles/texture/aixin.png
+SHA1-Digest: l8/8/G+MogRFS0EkyEywO58wrrM=
+
+Name: assets/blocks/fire_layer_0_1_32.png
+SHA1-Digest: oKm2KQRaDop/F2uRzb04VMaXQhU=
+
+Name: assets/ui/bufficons/luck_dig.png
+SHA1-Digest: z1kZa4Ul6/MXvXZO4K3bkpOlAxc=
+
+Name: assets/entity/110019/male.png
+SHA1-Digest: nmtUqf0S00JuRINzLeZ7q0Q0rzU=
+
+Name: assets/blocks/farmland_wet.png
+SHA1-Digest: ubhy81/yrw4HR1wFe8KFASVAr0g=
+
+Name: assets/sounds/random/bowhit1.ogg
+SHA1-Digest: D7k50xXxb5aenKkNF3T8S82DQDI=
+
+Name: assets/items/icon2557.png
+SHA1-Digest: pyyW+ZANTJ7a1DdxjY3DN3EeBws=
+
+Name: assets/items/clock.png.mcmeta
+SHA1-Digest: KQ4L+UH6xYLZglzPON/I+LL5N2I=
+
+Name: assets/entity/player/share/helmet/2211.png
+SHA1-Digest: RN3y+l17krepBEaNdcw9tUDp5hQ=
+
+Name: assets/blocks/wheat_stage_2.png
+SHA1-Digest: 9e9qnjAPw4H+p0/4aG3EqcGW5xg=
+
+Name: assets/luascript/gm.lua
+SHA1-Digest: lUueOlzZLGu5KBhKx9qYJ1+pSf8=
+
+Name: assets/ui/roleicons/1.png
+SHA1-Digest: xhRaNIxKvyG7Kpe8rNKVhIb++Uk=
+
+Name: assets/voxel/snow.vox
+SHA1-Digest: Ls9R2ZAlu6Nyd180kyDnW6llu4s=
+
+Name: assets/sounds/liquid/swim4.ogg
+SHA1-Digest: npDcfgSG0ZLuLdTkBQTnDNf8r9Y=
+
+Name: assets/blocks/trip_wire.png
+SHA1-Digest: wnQQujb3tsVnc4pqqJh3/oPUuNQ=
+
+Name: assets/entity/200001/wuqi.png
+SHA1-Digest: 0FiVug32YjEyNvaYbi0BQM6BI6c=
+
+Name: assets/blocks/double_plant_paeonia_bottom.png
+SHA1-Digest: w6hixFeY8a8nqzzglZBxihkSih8=
+
+Name: assets/blocks/stonebrick_mossy.png
+SHA1-Digest: BTn48g0eyZuARGkGCL2kHZS8fQg=
+
+Name: assets/ui/bufficons/unknown.png
+SHA1-Digest: HhK7Rq4IELboBEiEcGDCJu39R1I=
+
+Name: assets/particles/1025.ent
+SHA1-Digest: hUfqLkTF9KSXxw/hvXNGFQqNjJE=
+
+Name: assets/items/diamond_boots.png
+SHA1-Digest: /+P3i/oc8VDgE8+e/8e05nLhc40=
+
+Name: assets/ui/mobile/loading.lua
+SHA1-Digest: hNhycEs4Z5uY1bQ9jPYlMNGeK44=
+
+Name: assets/particles/texture/dun001c.png
+SHA1-Digest: QzejCskMGcxu2EHVvtgAiNpsckA=
+
+Name: assets/entity/110004/male1.png
+SHA1-Digest: hCAKbSi1pwFE5ob3NpyAThcxGPM=
+
+Name: assets/blocks/double_plant_syringa_top.png
+SHA1-Digest: dnUCzHDUgJON8KDRa7M9kxmboug=
+
+Name: assets/sounds/mob/cow/hurt1.ogg
+SHA1-Digest: i3mDdVjwmqQBcQMs2HTpyQ0V6nk=
+
+Name: assets/items/wood_sword.png
+SHA1-Digest: B11GTk2r5BhHWqWZAd7XhFDY+is=
+
+Name: assets/particles/31091.emo
+SHA1-Digest: CEwTfJI+yv3I4iN4EXx3qRwwEwE=
+
+Name: assets/items/record_13.png
+SHA1-Digest: VbMpIiTbjjIEaX7MndlYfIYlz8s=
+
+Name: assets/items/iron_shovel.png
+SHA1-Digest: 3LyGsBa2h7s4cfB27SM7raAwjis=
+
+Name: assets/entity/player/body.oanim
+SHA1-Digest: gvrtCK63S8eu6M41zl0If5LFtDs=
+
+Name: assets/sounds/mob/endermen/idle4.ogg
+SHA1-Digest: CdSBEmvx2ujadeJlF/kIi3zVA6U=
+
+Name: assets/blocks/glass_pane_top_yellow.png
+SHA1-Digest: r3A1lLOWmwU8FFNpPH3FJ/OVtmM=
+
+Name: assets/blocks/log_birch.png
+SHA1-Digest: M/ErGJox/v3rtEMtVRVomViu9pI=
+
+Name: assets/sounds/ui/info/crafting_error.ogg
+SHA1-Digest: gVdwEIfzW7ihPI4CCMnaOKA/Nu8=
+
+Name: assets/blocks/sandstone_smooth.png
+SHA1-Digest: +WoG4csbf/IiKY8ct+tHbgPMpNw=
+
+Name: assets/blocks/wool_colored_red.png
+SHA1-Digest: 7nK85gvu3Vs4j5hXuL7LuugnnTE=
+
+Name: assets/blocks/quartz_ore.png
+SHA1-Digest: WnpMKWwjWCLv3FingrVpI9l2goc=
+
+Name: assets/items/book_writable.png
+SHA1-Digest: qVk+gma2hDsmcdYTLt/KivN7mX0=
+
+Name: assets/blocks/double_plant_syringa_bottom.png
+SHA1-Digest: H4aZqr1Rl2tyt/ktWAXcnZ9PIDw=
+
+Name: assets/items/flint.png
+SHA1-Digest: /geHV+rRVa1i0AnRUrSfYaadQQA=
+
+Name: assets/items/bucket_lava.png
+SHA1-Digest: ofGOUojhhgpwySKPktIYjH0Dtng=
+
+Name: assets/sky/suncolor.png
+SHA1-Digest: pae9ZD8dOARfzjmn3s2apM8ZE8k=
+
+Name: assets/sounds/step/grass1.ogg
+SHA1-Digest: Glpg4s5E49RbxQgtfyazY3SC/F0=
+
+Name: classes.dex
+SHA1-Digest: 1SkkUeNdWq2jiGimwUyxsmYnpJI=
+
+Name: assets/items/gold_leggings.png
+SHA1-Digest: TkXQmz2xf0ZLmd9kkQOK4LI+WNc=
+
+Name: assets/blocks/door_iron_lower.png
+SHA1-Digest: J/hkMLKXxO2W3zbaEj3u5CMrBRk=
+
+Name: assets/ui/accelkeys.lua
+SHA1-Digest: AB70UMe3Xa/bfFWRCpSCM3hpo0U=
+
+Name: assets/items/name_tag.png
+SHA1-Digest: CQr1P4rgDcHvSu3dSlwpMCAXXTs=
+
+Name: assets/particles/texture/Shaped2.png
+SHA1-Digest: y141DU6AUKsELw/lyWCJMZ4ixxE=
+
+Name: assets/particles/texture/9.png
+SHA1-Digest: h9j8nq29kvMJ/TetG9pzAhh9SH0=
+
+Name: assets/blocks/cobblestone_mossy.png
+SHA1-Digest: YWorJ0speJxERhhxSdkM7jHMOfg=
+
+Name: assets/blocks/double_plant_rose_bottom.png
+SHA1-Digest: H8dJKYUiMsLvlvEynNjkEmbu8hU=
+
+Name: assets/voxel/maze3D.vox
+SHA1-Digest: 3WZ1wvqqNhmqar64/VC1+EmwRIs=
+
+Name: assets/blocks/glass_green.png
+SHA1-Digest: bN8kAx+HXF4BBYg94S6HG9Vdmis=
+
+Name: assets/items/potion_bottle_splash.png
+SHA1-Digest: O+cquhdBgW+jKN9kE7h7yuoyGvU=
+
+Name: assets/entity/110010/body.omod
+SHA1-Digest: ycfvD7aiT2oHmSUrrBisdT1Uztc=
+
+Name: assets/sounds/buff/buff_hp_1.ogg
+SHA1-Digest: Nq23zKQeyx7SIlj6DWujVVjBhOQ=
+
+Name: assets/items/stone_shovel.png
+SHA1-Digest: 5hGxa8KWoKMkyKqwqgBf8A73WUw=
+
+Name: assets/particles/texture/2.png
+SHA1-Digest: IQ9G6OITeHpS7Jo5z2nZPvSbqdA=
+
+Name: assets/sounds/mob/sheep/step3.ogg
+SHA1-Digest: sg+ITPqhP6a6lgYiHt58Xux7MnY=
+
+Name: assets/sounds/mob/zombiegirl/step4.ogg
+SHA1-Digest: IHiGHtRetAkQYwzKDnKZfS1jIOk=
+
+Name: assets/particles/texture/yanwu057.png
+SHA1-Digest: Stc/KsIp4ru0zN5JBQtAdfUaHLw=
+
+Name: assets/particles/texture/cloud2_D_C.png
+SHA1-Digest: +e4UpiN4t1pq3C6d2s9Y19ej2D0=
+
+Name: assets/ui/mobile/effect/ui_button_2.png
+SHA1-Digest: j1ux7EXhpErMjTdjNYIXx8ZpdWw=
+
+Name: assets/items/chainmail_boots.png
+SHA1-Digest: RMxz1O+OWDKYj/VFRHLph/U8Gyc=
+
+Name: assets/blocks/repeater_on.png
+SHA1-Digest: FSwWLRCRu7ZkQqSmxSQ4Hag/zSE=
+
+Name: assets/items/icon3502.png
+SHA1-Digest: xK3VyiCckJ6UbUJtalx8UJ21xz0=
+
+Name: assets/items/gold_boots.png
+SHA1-Digest: AHJOpMkaxOIFQuZfcX7k4Womgsg=
+
+Name: assets/blocks/quartz_block_bottom.png
+SHA1-Digest: r79E2ZlPTfChVyiKGJsk8vvAZqo=
+
+Name: assets/blocks/soul_sand.png
+SHA1-Digest: cpcgMA9tZ2CRRlHuAYhKpJ7ocIg=
+
+Name: assets/ui/mobile/uitemplate.xml
+SHA1-Digest: z79xu+bRbNid2BROpYsFwo0Yqlo=
+
+Name: assets/ui/mobile/selectrole.xml
+SHA1-Digest: dS7kNCkyq3ZeFmRgKizkltR8eNE=
+
+Name: assets/sounds/ambient/weather/rain3.ogg
+SHA1-Digest: HitSgn3+sGRzBzLVQ1fIqN62KoY=
+
+Name: assets/ui/bufficons/attack_explode_reduce.png
+SHA1-Digest: KVDPMo37LnoVS+Y6+lm6bvNETNI=
+
+Name: assets/items/icon3107.png
+SHA1-Digest: Tdlq2ZO5F9zc9UID4vA7EyHDT0k=
+
+Name: assets/particles/texture/halo_93.png
+SHA1-Digest: tswdUqLyH/v0rdbkohskXeaI+O4=
+
+Name: assets/sounds/mob/wolf/hurt2.ogg
+SHA1-Digest: gUvFZe78ImqGSLW4VOQCGQJBNss=
+
+Name: assets/ui/mobile/login.lua.bak
+SHA1-Digest: njK57IBy6Efv02gOyvnCVUezEys=
+
+Name: assets/entity/100013/body.omod
+SHA1-Digest: YIgfnZX0A9JsRW5aypoR/yzIz+4=
+
+Name: assets/particles/texture/pao.png
+SHA1-Digest: qoknzXGY2HBPUbZEH3NHOlzOMA0=
+
+Name: assets/blocks/glass_white.png
+SHA1-Digest: F6UASpLzMFwVqbPNWOqgtZUT6aM=
+
+Name: assets/blocks/dropper_front_horizontal.png
+SHA1-Digest: T2gvb43euF5ZMzHDLabqrEUxqH0=
+
+Name: assets/blocks/log_big_oak_top.png
+SHA1-Digest: hUlpiXx65drtPHlOjkD2yTov8p8=
+
+Name: assets/blocks/stone_slab_side.png
+SHA1-Digest: dWCL75GvjDhyWFV24ewhTOd8XXY=
+
+Name: assets/sounds/mob/sheep/step1.ogg
+SHA1-Digest: tSjV+V5Z1+a2y6qwks34OVAP+lE=
+
+Name: assets/entity/cj/222.png
+SHA1-Digest: KgoO200KkbwCoX1VbzvZD0nk4A8=
+
+Name: assets/sounds/step/grass5.ogg
+SHA1-Digest: OH6iFLSOeozcajg7bOtwzxUZTzs=
+
+Name: assets/sounds/step/sand1.ogg
+SHA1-Digest: DK4d5NDAqvSGDL4SiFnZzJcZPGE=
+
+Name: assets/blocks/fence.obj
+SHA1-Digest: HlyxWEuB2tuHV9lmOMUUAsoaIRE=
+
+Name: assets/luascript/items.lua.bak
+SHA1-Digest: UCkPuRpLuc3oUJtYCM8uRBkGVJs=
+
+Name: assets/csvdef/tree205.csv
+SHA1-Digest: 8kBT2P9U6Pg8Lgy+HZhw2iJDzmk=
+
+Name: assets/entity/player/share/women/legging/2203.png
+SHA1-Digest: 0pFl1+h6ptc1aducVV6UN2dR4Nw=
+
+Name: assets/blocks/glass_lime.png
+SHA1-Digest: BZOyY1UOs+QUnfKlozkubEqF/G4=
+
+Name: assets/blocks/destroy_stage_9.png
+SHA1-Digest: 18XaAJNurFEb88D2OG8b8PbeFiw=
+
+Name: assets/sounds/random/eat1.ogg
+SHA1-Digest: pgwMk/8Y3ii+ZJ49rp7mNfBTR+A=
+
+Name: assets/entity/player/share/women/legging/2243.png
+SHA1-Digest: 4w48rybF/Ne25DNvamslxEyAoS0=
+
+Name: assets/blocks/netherrack.png
+SHA1-Digest: QHWBV0DUZwMH427iqb609nA+cbA=
+
+Name: assets/items/icon000.png
+SHA1-Digest: cYCFnXK1cc8XnZtFAwVMi2ytmfE=
+
+Name: assets/items/spider_eye_fermented.png
+SHA1-Digest: GcEslIWIIf1BmwRiAMyUBhdOqEw=
+
+Name: assets/sounds/mob/pig/step2.ogg
+SHA1-Digest: YeKVGYJ5fyOCjKXGGa3jeMNcebo=
+
+Name: assets/items/fireworks_charge.png
+SHA1-Digest: wk0qXD0+nYeNgVBTHYQ5xrywPkY=
+
+Name: assets/ui/roleicons/9.png
+SHA1-Digest: 43PAr9VvhrbWAJGe6+mVZkycILQ=
+
+Name: assets/items/iron_chestplate.png
+SHA1-Digest: RVwsoJx7l208VPtfuqFfE90yNZU=
+
+Name: assets/sounds/ui/button/jump.ogg
+SHA1-Digest: ul9detuE3qVh5B11hm/HWyv1hPQ=
+
+Name: assets/items/carrot.png
+SHA1-Digest: lJaLcUK5WZnUxGrRe60H/8/2cdc=
+
+Name: assets/csvdef/voxpal_0.csv
+SHA1-Digest: eZP0b8DEF7/ezWgch4UHlP540p0=
+
+Name: assets/sounds/step/cloth4.ogg
+SHA1-Digest: exgeK9533i8oIFUYIjCFgWjYQGE=
+
+Name: assets/particles/texture/aixin1.png
+SHA1-Digest: fbtDmZ+HZGl39EWUrUUoqw04Lw0=
+
+Name: assets/particles/texture/chongjibo17_05_.png
+SHA1-Digest: br9ku7IXxqTr0wCCsAI+qNoAw7Q=
+
+Name: assets/entity/200008/femalebody02.png
+SHA1-Digest: vvn5FNADxu9WZ/KbmOubQzL6Yck=
+
+Name: assets/entity/110023/male.png
+SHA1-Digest: +HZngAX/UxisZAP52J4DftmUksQ=
+
+Name: assets/particles/texture/halo_56.png
+SHA1-Digest: kgsl1nod7skcf8YAlTKB7JbrLgI=
+
+Name: assets/items/iron_horse_armor.png
+SHA1-Digest: 2I4H6vm227oBwIUZ0w3Qm3W7ftA=
+
+Name: assets/ui/roleicons/6.png
+SHA1-Digest: 6m861lICRZGNObQOalRNiW6oOTg=
+
+Name: assets/sounds/mob/skeleton/say1.ogg
+SHA1-Digest: sdxjmxS+3ziRqe7DZCJXPKsAD3g=
+
+Name: assets/ui/bufficons/attack_undead_add.png
+SHA1-Digest: Mu6bReVu5QGbIsXhVMi6Byvhrts=
+
+Name: assets/ui/mobile/death.lua
+SHA1-Digest: QP42PI3R2oRGfr+XFakqCUbbZFM=
+
+Name: assets/ui/shortcut.xml
+SHA1-Digest: UlX/JP7uCfLlaBhpa312atbUnk4=
+
+Name: assets/sounds/mob/spider/death.ogg
+SHA1-Digest: 4X93sn3HCoJhqIp1YNN9IUVbeuw=
+
+Name: assets/entity/200005/malebody02.png
+SHA1-Digest: b7607lHAUctVoo+DO1HxFHsKlPI=
+
+Name: assets/particles/BUFF_POISON_1.emo
+SHA1-Digest: zwDLaT3GysR1Mv9GdoRDdhC7D/A=
+
+Name: assets/ui/bufficons/attack_punch_add.png
+SHA1-Digest: KWMIXwzt+4a5xW9KNc9emGVo1pk=
+
+Name: assets/entity/player/player08/hand.omod
+SHA1-Digest: U/iET8bZT4fmiexbffddB9y1HJ8=
+
+Name: assets/blocks/fencegate.obj
+SHA1-Digest: qI10wF3OmAuSLM2cYV+ZSIn48HI=
+
+Name: assets/items/lead.png
+SHA1-Digest: jkDtDToCncBxJM+6ygLBnOR9iAo=
+
+Name: assets/particles/item_1500.ent
+SHA1-Digest: S5gEfS7LKns8FtL0/lNMfH3Hrjk=
+
+Name: assets/entity/player/player05/hand.omod
+SHA1-Digest: WOASoe5ymoNPKQtSNeqaskyUzfM=
+
+Name: assets/ui/mobile/backpack.xml.bak
+SHA1-Digest: /tUfakKDT/Y2XmLZ4jIGiA99exg=
+
+Name: assets/blocks/potatoes_stage_3.png
+SHA1-Digest: 8WvIIcGe7eAqaHRtVcO0CxB5N6Y=
+
+Name: res/drawable-xxhdpi-v4/ic_launcher.png
+SHA1-Digest: jzQMqctvb1vh/5iDr0pl8B/KM/k=
+
+Name: assets/ui/mobile/loading.xml
+SHA1-Digest: dM5u4wgBNbTABa4z28Npc2HcPO8=
+
+Name: assets/blocks/cobblestone.png
+SHA1-Digest: EyoLXAajtkKK0aWqotw62K1V0WA=
+
+Name: assets/blocks/log_big_oak.png
+SHA1-Digest: 3BBEOdvf4h/WNaxBzzNVlIKRSO4=
+
+Name: assets/blocks/wool_colored_black.png
+SHA1-Digest: NBCUneDqfS3/SLUXeFpto7zKPI4=
+
+Name: assets/blocks/glass_pane_top_brown.png
+SHA1-Digest: OQA3b5SkfA2gNhu1bf341BGvNos=
+
+Name: assets/blocks/spring_gold.png
+SHA1-Digest: 9g5HzvX0tj94G/xKfxDxmhezDLg=
+
+Name: assets/entity/110006/body.omod
+SHA1-Digest: 6llJZZaiDhYIT7Ttn2Dgf6blRnM=
+
+Name: assets/blocks/grass_top.png
+SHA1-Digest: FiCbCKbG27cW1KsLwpLV35t0K2Q=
+
+Name: assets/luascript/buffdef.lua
+SHA1-Digest: LHqJYjGaLCtTkD94i+Xan4rgEFw=
+
+Name: assets/sounds/random/glass2.ogg
+SHA1-Digest: MNC3YvWXldg61W18mbUOmSHveao=
+
+Name: assets/items/quiver.png
+SHA1-Digest: kZWJ1f8BFMmFX0AVUynJ5DXyozQ=
+
+Name: assets/items/melon_speckled.png
+SHA1-Digest: PQrS8v76lveBknPmHycaYX/+Sh0=
+
+Name: assets/sounds/step/stone2.ogg
+SHA1-Digest: mKVyE/CYEeTd4UGOqkA5LEwSemY=
+
+Name: assets/items/minecart_hopper.png
+SHA1-Digest: ON4hZeXskoQYnHGPxFshrYYlV4M=
+
+Name: assets/particles/gongjian/male.png
+SHA1-Digest: nnoilGeZCly5zfS8vEX4+x2FB7M=
+
+Name: assets/entity/110014/male1.png
+SHA1-Digest: 6AaEtnZxXMBusYFvc8qQZm3lSOg=
+
+Name: assets/entity/110003/body.omod
+SHA1-Digest: sGzJZAD4nftAfzuDrd8NEf/zGps=
+
+Name: assets/particles/particles.png
+SHA1-Digest: SeyNdZfUZLuZnD7tgwg247V7GMY=
+
+Name: assets/particles/texture/blue_purp_flash_03.png
+SHA1-Digest: TMuFFxg1Xx0ctnrpa3Y9IITwhf0=
+
+Name: assets/blocks/glass_black.png
+SHA1-Digest: JTS/CiqwNMjA2JrFdHkLQo6MAbs=
+
+Name: assets/items/leather.png
+SHA1-Digest: 1ARwzz0duej1/spob9RKzeakl6A=
+
+Name: assets/blocks/box2.png
+SHA1-Digest: ZjoDbvG0whDkYfNJ5gUHiuhu3+E=
+
+Name: assets/items/bread.png
+SHA1-Digest: DL1hXhb+r0fOdclAzbRsBMBQfhY=
+
+Name: assets/items/diamond.png
+SHA1-Digest: 9ZHyv/GM8DTv8pvXCzrwfUoxv2I=
+
+Name: assets/sounds/mob/cow/say4.ogg
+SHA1-Digest: 3xOuBf69zVNDkPviq3MeD7CRtFM=
+
+Name: assets/particles/texture/qipao6.png
+SHA1-Digest: 0jsVpowQQ6ilup2z/Oq3ub9xgSg=
+
+Name: assets/blocks/hardened_clay_stained_orange.png
+SHA1-Digest: fV/en8QMSIxc3QI1/REErgdQD0Y=
+
+Name: assets/ui/blackscreen.xml
+SHA1-Digest: wATqyGn3dt4k1Y0ICCK5m/cvrd8=
+
+Name: assets/ui/models/back4.png
+SHA1-Digest: csl+3UcmeWtPVqVM54X8cbu4nKQ=
+
+Name: assets/particles/texture/fire01.png
+SHA1-Digest: a2LsgeWhcZVqPu1QGb25vKCWEAc=
+
+Name: assets/entity/player/share/women/helmet/2231.png
+SHA1-Digest: 2dVIkv8+sl/5hAnsEhY8Ms4nQ+k=
+
+Name: assets/csvdef/dropitems.csv
+SHA1-Digest: o9SUAgES1vnFZZt1FmK4Sw0v5mg=
+
+Name: assets/blocks/rail_activator_powered.png
+SHA1-Digest: pGynpg6vLA9hcOZr9YXPcLlKC6s=
+
+Name: assets/items/charcoal.png
+SHA1-Digest: ZeyvBF1XqjchuslsPK/Ettg8uwY=
+
+Name: assets/ui/bufficons/attack_punch_reduce.png
+SHA1-Digest: LzywETeSHPNCPI09JOhSq424r3Y=
+
+Name: assets/items/clay_ball.png
+SHA1-Digest: zJeK5gNHUdlZUISZtyuj9Dvbwcw=
+
+Name: assets/entity/player/share/shoe/2224.png
+SHA1-Digest: G0lfLNPN7+4JZQ613q7V7z/VT5U=
+
+Name: assets/particles/texture/eye_lwy_t_wat_12_single.png
+SHA1-Digest: hTEwxCHZ9d2HlrBB/BsSYs8CENo=
+
+Name: assets/blocks/glass_magenta.png
+SHA1-Digest: AlVbVLx3+VRzvxXUiuIKASLeHNo=
+
+Name: assets/entity/100025/male.png
+SHA1-Digest: VVwx2Zb59zlxHaSBdCpWFnfuNGc=
+
+Name: assets/sounds/ambient/weather/rain1.ogg
+SHA1-Digest: ltwTaj/K1bvYmGwpwpWCTtmYyRY=
+
+Name: assets/sounds/mob/wolf/step2.ogg
+SHA1-Digest: IWTy15FMYpat74wTisI/gp+jvjs=
+
+Name: assets/sounds/random/pop.ogg
+SHA1-Digest: FcEu+mq1GQaubEJ0uJ6QCRp7ORE=
+
+Name: assets/items/icon2519.png
+SHA1-Digest: iG4uhwbjmmCWo42BMXkqZAtUkno=
+
+Name: assets/blocks/fire_layer_0.png.mcmeta
+SHA1-Digest: 0W5KbXTe4LcG9uChRXgw3pc3lvk=
+
+Name: assets/entity/player/body01.oanim
+SHA1-Digest: o7HXytbW72/fJE4AubVFar35/TQ=
+
+Name: assets/blocks/leaves_oak.png
+SHA1-Digest: N+jeVpPB09BwopagGQSF9JB4LAk=
+
+Name: assets/blocks/brick.png
+SHA1-Digest: hTPQGPEEO83iDEuNb9jkXuytTDY=
+
+Name: assets/particles/1004.ent
+SHA1-Digest: 5/jz87mWmMNfigkcn9d2bJKop0s=
+
+Name: assets/sounds/mob/zombie/say2.ogg
+SHA1-Digest: DSgB+gUlYbmRdtuaGaSKNoAcK6g=
+
+Name: assets/sounds/mob/zombiegirl/say5.ogg
+SHA1-Digest: mWG3Wfsf+DS7BeF8EULglN2PSu4=
+
+Name: assets/particles/texture/Effects_Textures_407.png
+SHA1-Digest: CJrDxoguOkmUtvq4+/VIiJWKbkk=
+
+Name: assets/items/slimeball.png
+SHA1-Digest: ekQL8czmHhAuH98NWGMHf67oM3E=
+
+Name: assets/blocks/hardened_clay_stained_lightblue.png
+SHA1-Digest: aVzCY4PRJU0c0tEx/5lVju48mr8=
+
+Name: assets/items/dye_powder_red.png
+SHA1-Digest: N/j5S983HqcpQ5w/DiMwBPxNjkE=
+
+Name: assets/blocks/daylight_detector_side.png
+SHA1-Digest: j+2vS5D08nWA4BfrfHlu41sBadY=
+
+Name: assets/sounds/mob/cow/hurt2.ogg
+SHA1-Digest: wSZafy4WbGk/puk8pBnmpW1ik0g=
+
+Name: assets/items/stick.png
+SHA1-Digest: NtKq5z6qOSPRV2QqFDVRW3M287o=
+
+Name: assets/particles/texture/chongjibo17_0.png
+SHA1-Digest: dfgnzRHOVdg0Bb3ovSu6CBwlXx8=
+
+Name: assets/entity/player/player10/body.omod
+SHA1-Digest: ++7Qq27ZjLjbXQ5tdxnAsmTIUtg=
+
+Name: assets/sounds/dig/snow2.ogg
+SHA1-Digest: glE4WFKSBvfvrejKMrvTtWlRb8k=
+
+Name: assets/iworld.cfg
+SHA1-Digest: 8UxvfFWWnQh2mYTCA/Bf2HWbEXo=
+
+Name: assets/items/leather_boots_overlay.png
+SHA1-Digest: +nKHZJcQ81Ccmi1XKKnszquVUpU=
+
+Name: assets/csvdef/tree201.csv
+SHA1-Digest: kyrnhfYRKSX5KJyFsa7U7qhouco=
+
+Name: assets/blocks/glass_pane_top_silver.png
+SHA1-Digest: 9CizYSWXwnyjzE+mbta7QiFoUD4=
+
+Name: assets/sounds/random/piston_out.ogg
+SHA1-Digest: 9nEwqhYBjuptpCRpKznqw+izo/I=
+
+Name: assets/ui/cursor.xml
+SHA1-Digest: c+rx+PtF+PL8RgEYgup98NI06gc=
+
+Name: res/drawable-xxhdpi-v4/splashscreen.png
+SHA1-Digest: c4mYV1kbn1WXvzX5dQ7Znv3zx7U=
+
+Name: assets/ui/mobile/instance.xml
+SHA1-Digest: mEyEwd+GR35Mj1XrNPAijNpvRpk=
+
+Name: assets/ui/models/back3.png
+SHA1-Digest: VPiFV06BzWtVLZKBPFs7+1QhEik=
+
+Name: assets/sounds/mob/zombie/step3.ogg
+SHA1-Digest: QZfbOdV+QOJL0EX+JVTCKtENuxs=
+
+Name: assets/entity/100009/body.omod
+SHA1-Digest: bVXuf2ea7tjnNJVirvFhzJq3Ozc=
+
+Name: assets/ui/selectrole.lua.bak
+SHA1-Digest: O5Nghca0I30VyV5V3QhT5cQs77A=
+
+Name: assets/particles/1005.ent
+SHA1-Digest: 02qimluX+GL59hH8s8Ki1pZki4U=
+
+Name: assets/sounds/mob/horse/soft2.ogg
+SHA1-Digest: N4kU2wJW3JDwAefe+iWyEd+XyTA=
+
+Name: assets/ui/bufficons/dameged_wither_add.png
+SHA1-Digest: Y1oChWs2xA1JZCI+ViPOrUQJ/zw=
+
+Name: assets/items/glowstone_dust.png
+SHA1-Digest: G7el/URAVWEed5PC7xgD3sv1bes=
+
+Name: assets/entity/100011/malegai.png
+SHA1-Digest: Kuos/Vcp42vtj+H0+2m91/+wtsc=
+
+Name: assets/ui/uicommon.lua.bak
+SHA1-Digest: VbnDPe/GDxYcCa7d7oaG23J1+WE=
+
+Name: assets/sounds/mob/horse/idle2.ogg
+SHA1-Digest: nHMxitKCu3QDh7/M/o3HJB2UIFA=
+
+Name: assets/sounds/dig/gravel4.ogg
+SHA1-Digest: O6ETLnnPXPIItHWh4p3HYgUKp4c=
+
+Name: assets/ui/equip.lua
+SHA1-Digest: ffZKvaAjsVrR+CHVHj2krV+Zx1U=
+
+Name: assets/ui/login.lua
+SHA1-Digest: KwHCh6pFchFTr7rmQkkBFD/+ZAI=
+
+Name: assets/luascript/mobs.lua
+SHA1-Digest: /Cd02imb7k44Z1rDVQcDTynIXwU=
+
+Name: assets/ui/bufficons/attack_fire_reduce.png
+SHA1-Digest: rxdURXZZVIUUBR65XmcDmJdsJB4=
+
+Name: assets/sounds/mob/creeper/say2.ogg
+SHA1-Digest: TemNHK6YimDkOd3PqzrrMQiuAgs=
+
+Name: assets/entity/200003/gun.png
+SHA1-Digest: 7ilgQ/dGNCUqk+/1xlWniKMR5cg=
+
+Name: assets/blocks/wheat_stage_3.png
+SHA1-Digest: 8FlGilpRAXaAIrroPzG6io98eq0=
+
+Name: assets/items/icon3403.png
+SHA1-Digest: SXL49HI1pJQF5sGsQXJKWW+wAUw=
+
+Name: assets/particles/texture/halo_06.png
+SHA1-Digest: 7GAs/8tbZIExZ+GeGHlExLAfh2M=
+
+Name: assets/blocks/flower_allium.png
+SHA1-Digest: KrDA4CYMtEGerC6S6+cqntxMu5k=
+
+Name: assets/blocks/ladder.png
+SHA1-Digest: n/RqH/2AYP44TihFXX/SkT46nM4=
+
+Name: assets/items/map_empty.png
+SHA1-Digest: iEj4enRHnynZdmZjdZlRRd532+0=
+
+Name: assets/items/bow_pulling_1.png
+SHA1-Digest: +/OqH9ZRTdRiknTccLDhXoo4658=
+
+Name: assets/blocks/planks_oak.png
+SHA1-Digest: WsjZBZB82SMQDMA2oDx45votxOI=
+
+Name: assets/entity/110010/male.png
+SHA1-Digest: Pght8HA+u5BnfFT8dv3lKLmKyz0=
+
+Name: assets/entity/player/share/shoe/2234.png
+SHA1-Digest: wuOLHhz+tMElSlQKm17Tvu8Km70=
+
+Name: assets/particles/texture/dust02.png
+SHA1-Digest: 4aJ/HIkgeIQN23JHCy7XODkORKQ=
+
+Name: assets/csvdef/monster.csv
+SHA1-Digest: lPUqrpceE9rwCt0PyqAFXtovkr8=
+
+Name: assets/ui/game_mobile.toc.bak
+SHA1-Digest: xaXoquiDRGDGLtV7Pq59ZxUg7jk=
+
+Name: assets/ui/login_bg.png
+SHA1-Digest: y6qwKiYl/j6m3/H8hdWY8Ker8FI=
+
+Name: assets/items/cake.png
+SHA1-Digest: 23sM9cPunnhlXsht4zYvRgeffyU=
+
+Name: assets/blocks/nether_wart_stage_1.png
+SHA1-Digest: JfK+EHHMnCnDDdkroOjHfp2irkg=
+
+Name: assets/csvdef/random_names.csv
+SHA1-Digest: g2JSC5TCZFhU2/uuU8ehUKV07IU=
+
+Name: assets/blocks/button.obj
+SHA1-Digest: gzrIahK91UmYyaZqPbAz7ay+Ppc=
+
+Name: assets/particles/texture/halo_14.png
+SHA1-Digest: Nso46S8rarbAr9TQJ1uSL1McQUU=
+
+Name: assets/particles/texture/halo_22.png
+SHA1-Digest: Y+TIysKnrZ26GNxQHVcLT0Sv7gY=
+
+Name: assets/entity/100017/male2.png
+SHA1-Digest: uuxcj9HeXbz+j53nCXLZAtw6P4M=
+
+Name: assets/entity/110015/tuoniao.png
+SHA1-Digest: 3mltFgAoBn5hbq1AzE/5k3YMDeM=
+
+Name: assets/particles/texture/eye_lwy_t_sun_16_single.png
+SHA1-Digest: PfTVmp76K+4oIgYA5YkLCTEjkK4=
+
+Name: assets/blocks/potatoes_stage_2.png
+SHA1-Digest: VYxEwu+m07BJu/zCrLVQZ46tdYU=
+
+Name: assets/ui/login.xml
+SHA1-Digest: 2/e8GsmFMBFf+mm0fYOZidh1KQc=
+
+Name: assets/items/diamond_shovel.png
+SHA1-Digest: LXCVWWy0e4KESGpd0vPsLQmVWEU=
+
+Name: assets/blocks/crafting_table_front.png
+SHA1-Digest: xRYwtF2bw9ueWwzk2UzRZnffxQM=
+
+Name: assets/blocks/redstone_block.png
+SHA1-Digest: RuDcmhK7e6Z3Qx7Xgi+JYO1/jT8=
+
+Name: assets/entity/player/player02/hand.omod
+SHA1-Digest: CBkDe1mNQUqtgvQN0RYUa5Xx9M8=
+
+Name: assets/blocks/pumpkin_stem_disconnected.png
+SHA1-Digest: gqs/+RdaSbf2SMCnlzUmJv85zts=
+
+Name: assets/entity/100024/body.omod
+SHA1-Digest: 2Znj2ByE5X8xKITlSjiKb3gjpzs=
+
+Name: assets/particles/BUFF_FIRE_1.ent
+SHA1-Digest: rJ4UvXniEkYnFFTex/MAXvrEQXQ=
+
+Name: assets/ui/bufficons/luck_killmob.png
+SHA1-Digest: V9LXJxjOPTLuk3aMzvlP4VVsy7M=
+
+Name: assets/items/gold_helmet.png
+SHA1-Digest: 40mN0VPavQ2OQFRCMuUDQP85nI8=
+
+Name: assets/items/gold_nugget.png
+SHA1-Digest: Xwi3V5b46Hps7MIogOTERhjolaE=
+
+Name: assets/entity/cj/cj.omod
+SHA1-Digest: RcLcZXAN2+WZtns/4dwbXPW1jLE=
+
+Name: assets/ui/furnace.lua
+SHA1-Digest: UKkBjqp+H3sCMsDm8jY6x00GG/U=
+
+Name: assets/particles/experience_star_02.ent
+SHA1-Digest: dz5RQDq4prHZ9QGBdqRJZilDgos=
+
+Name: assets/particles/texture/snow.png
+SHA1-Digest: bM6loo8z5UJIXaEduJFTMeZHNW8=
+
+Name: assets/sounds/dig/gravel1.ogg
+SHA1-Digest: m13baoYXwKRJqf75vDJe2uF51Wk=
+
+Name: assets/sounds/dig/stone3.ogg
+SHA1-Digest: yDS2e+eiX4u6dQBwf6NJYmtlLJE=
+
+Name: assets/ui/mobile/map.xml
+SHA1-Digest: M0+OkpkoNabgcAse4OYqhlGg+1U=
+
+Name: assets/sounds/mob/zombie/step2.ogg
+SHA1-Digest: I/Ho0A6JgqGBJ2uIB1dD0fnlMi8=
+
+Name: resources.arsc
+SHA1-Digest: wEPmugpZZA6NI/f4z//mEO2hQXU=
+
+Name: assets/items/diamond_pickaxe.png
+SHA1-Digest: v9d4LLl9BxxRcIL8VmJlb4zn4zo=
+
+Name: assets/entity/player/share/women/breast/2212.png
+SHA1-Digest: 03+bnKcg9Fq+WQV2EkjQk4KpRIk=
+
+Name: assets/sounds/mob/sheep/shear.ogg
+SHA1-Digest: CySk8p7hS7h1DqhWmjMvPx1VZAg=
+
+Name: assets/ui/bufficons/attack_animal_add.png
+SHA1-Digest: sVIWEkLZDeYYbfBNA4dZ+O82gZY=
+
+Name: assets/entity/100004/shaozhou.png
+SHA1-Digest: Wx07ITfkTJYLiscbskx277Biy+Q=
+
+Name: assets/items/unknown.png
+SHA1-Digest: ajfUoI4anaH9+Q0UAlaCBRqpR9I=
+
+Name: assets/entity/100004/body.omod
+SHA1-Digest: LeDQDmzPZs35IKMhuEDuoW5bwJc=
+
+Name: assets/sounds/dig/sand3.ogg
+SHA1-Digest: prTmuL/FEJV7ZrL9vMol6K0Il7A=
+
+Name: assets/ui/bufficons/damaged_fire_add.png
+SHA1-Digest: d2BLVoC1YsCNYidSkW0JqLT8OcE=
+
+Name: assets/entity/player/player03/body.omod
+SHA1-Digest: OJJVR3ml29CyAGzm51GQNEeVjD0=
+
+Name: assets/particles/texture/fire15_D_Y3.png
+SHA1-Digest: yZMXx2c+nYmaWBy+SnTcEpMrIJQ=
+
+Name: assets/particles/texture/huoPNG.png
+SHA1-Digest: 1It5T70icivWxp9LFXc1XsFKobw=
+
+Name: assets/blocks/bedrock.png
+SHA1-Digest: Z/SHl42yPcAfPWUJOj6Wv+po/yk=
+
+Name: assets/ui/mobile/repair.xml
+SHA1-Digest: qim10eAzBiLhQMI8BlT1EszTdzw=
+
+Name: assets/particles/BUFF_FIRE_1.emo
+SHA1-Digest: sxCx02tB/5lqoTCTbOYq8FRtwxk=
+
+Name: assets/ui/bufficons/damage_absorb.png
+SHA1-Digest: dSHIe8HxAcKGqU5V8DY6fydMqRk=
+
+Name: assets/sounds/mob/endermen/hit3.ogg
+SHA1-Digest: bt2PnnyoYKzpiKibckVFSrNOtdE=
+
+Name: assets/sounds/mob/pig/step5.ogg
+SHA1-Digest: NK2jP3TXwWj4zaeUr33Vacl7vy0=
+
+Name: assets/particles/1003.ent
+SHA1-Digest: LXAXy8NVF7koaAzyhTGWOmRRCXU=
+
+Name: assets/blocks/piston.png
+SHA1-Digest: 0nfiohvC4BtKigxfbdSnSaoJgrw=
+
+Name: assets/items/icon2562.png
+SHA1-Digest: hXY4FocQMA3EkwjuDlC40RUqLmI=
+
+Name: assets/items/chicken_raw.png
+SHA1-Digest: 5tv3swZZq8nfAt+KeclIHzZL54Y=
+
+Name: assets/blocks/cactus_bottom.png
+SHA1-Digest: AZUgIk5ZXW2z4w9Ds3tCOzKPlEc=
+
+Name: assets/sounds/random/fizz.ogg
+SHA1-Digest: HZV+eq6loZr38dKrViTKlv0G7hI=
+
+Name: assets/blocks/anvil_stage_1.png
+SHA1-Digest: kyoJ8TtyPPBHPECDUOW7W+cFcbA=
+
+Name: assets/particles/texture/halo_01.png
+SHA1-Digest: F1g1tl09Gyc2L8c8iNCz00Q7Qcw=
+
+Name: assets/blocks/destroy_stage_0.png
+SHA1-Digest: 72v4QG9vPKpaqS+qm+mx2Rom0nc=
+
+Name: assets/blocks/glass_red.png
+SHA1-Digest: d7lU49W3iQPW0r7E4xbDOG6Y8dI=
+
+Name: assets/sounds/mob/zombiegirl/step5.ogg
+SHA1-Digest: cUEGYBDPtYkbV4rs8Jno0eEa7s0=
+
+Name: assets/sounds/step/ladder5.ogg
+SHA1-Digest: c1a/5DQYxB8gNds7P3DloOsFG/E=
+
+Name: assets/blocks/enchanting_table_side.png
+SHA1-Digest: 14ixuQwGj+EBPOuBsLhMOJ+Vpxk=
+
+Name: assets/voxel/longdan.vox
+SHA1-Digest: Bfrn5r5wS5kaeZVDg4hCtPgy8rQ=
+
+Name: assets/entity/100006/male.png
+SHA1-Digest: tx0r/mfn8PmGP0NBsFVMlFdcrx0=
+
+Name: assets/particles/texture/halo_13.png
+SHA1-Digest: tN3wH+43w/nrnYpTjOMcv50ffqs=
+
+Name: assets/blocks/iron_ore.png
+SHA1-Digest: saYU3Nd9S4UhkJRKUaxwA03d4bA=
+
+Name: assets/ui/deathframe.xml
+SHA1-Digest: ZhuIXB8/bfa+pjggDx/MKktD3tc=
+
+Name: assets/particles/experience_orb_1.ent
+SHA1-Digest: jaCfsq8c/Y1+WEdyiFe35HK1q4s=
+
+Name: assets/particles/texture/Effects_Textures_406.png
+SHA1-Digest: 9WN2V9+qSDHAe0f7ydtQd6Ohe7c=
+
+Name: assets/blocks/leaves_birch.png
+SHA1-Digest: jsG1U78E0hOLE5BHbVez2RKWI0I=
+
+Name: res/layout/appplayupdateview.xml
+SHA1-Digest: wvQqYUpWtDnUjdqXSPZWCETtAkk=
+
+Name: assets/entity/100017/body.omod
+SHA1-Digest: xMdQyS4a1bmZ73CzsglZFXJl89Y=
+
+Name: assets/sounds/liquid/lavapop.ogg
+SHA1-Digest: cukiVEdwFMjqxbtOBeB1eV/Tk1o=
+
+Name: assets/ui/mobile/xiaojiangshi.png
+SHA1-Digest: B9rYJaUsmec5YLo1XxSrc//9J4g=
+
+Name: assets/blocks/iron_bars.png
+SHA1-Digest: EEgykYPM/+2OUGNl6cwGt7TmWUo=
+
+Name: assets/blocks/melon_top.png
+SHA1-Digest: pgqSqHMNJUFHl8cuwIlDjLCXhpc=
+
+Name: assets/sounds/mob/chicken/say3.ogg
+SHA1-Digest: DmXJ9mgbZOuEAneabeILm0Hxbu0=
+
+Name: assets/entity/player/share/helmet/2231.png
+SHA1-Digest: 576yV7LU0XJJkRA04iXPftNmdCU=
+
+Name: assets/sounds/mob/endermen/death.ogg
+SHA1-Digest: Jge6EwjEwM2PlJG1zAR4wmuvIKc=
+
+Name: assets/sounds/mob/horse/hit3.ogg
+SHA1-Digest: lvBMCvRCeOL7jzf+tF4g4nBo5sw=
+
+Name: assets/entity/200005/tnt.png
+SHA1-Digest: 9BeT5VaO+asz5OCEIyYccOxWIdg=
+
+Name: assets/sounds/liquid/splash.ogg
+SHA1-Digest: oO7LpHs71G+OH8Z0am00zfOkuzQ=
+
+Name: assets/entity/100021/body.omod
+SHA1-Digest: //1svetUKh20KpWOEzR4L36AwlI=
+
+Name: assets/ui/bufficons/attack_all_reduce.png
+SHA1-Digest: kMCjeF/1t+lv1DDR3lFC2dwosE8=
+
+Name: assets/particles/texture/xingguang0771.png
+SHA1-Digest: 5BmpyFaUPtCe6WouAcb6u3OakDE=
+
+Name: assets/csvdef/voxpal_1.csv
+SHA1-Digest: U3fcwH0plMGl920Wnqiu5Xy3vTw=
+
+Name: assets/ui/lobby_mygame.lua
+SHA1-Digest: OTa9zech2dh6941iWVkdZsbCoY0=
+
+Name: assets/ui/bufficons/mask_black.png
+SHA1-Digest: MqF5A6Wznzet4mOpw6Nq1MxvQOI=
+
+Name: assets/entity/player/player10/body/femalebody10.png
+SHA1-Digest: mLUk8gb1eZanLM4k62f288MbHQ0=
+
+Name: assets/particles/item_833.ent
+SHA1-Digest: 7mw6JicBjtdXr1plgeOKdtpb9BQ=
+
+Name: assets/blocks/torch.obj
+SHA1-Digest: VUD32sE5tegBeVRcEOzUikxFX9o=
+
+Name: assets/entity/200003/shu.png
+SHA1-Digest: yLI7j1kbU9YNOCFnqhcK9kaQ3k0=
+
+Name: assets/sounds/dig/wood1.ogg
+SHA1-Digest: YSgAeRSops3PW3Lq9Ej5MrBjTwQ=
+
+Name: assets/csvdef/buffdef.csv
+SHA1-Digest: IGJwiNPyPHsMWGY4gpmoQHul6EI=
+
+Name: assets/sounds/step/sand3.ogg
+SHA1-Digest: GXkvjWTuV19qAOiwXqV2/E68VAg=
+
+Name: assets/blocks/grass_side.png
+SHA1-Digest: Nabhg2L+uAirEgrAg0iC3SSGFSE=
+
+Name: assets/blocks/carrots_stage_1.png
+SHA1-Digest: nmQ25A1x/0kEn9tIFtRnr03fCtE=
+
+Name: assets/blocks/bed.png
+SHA1-Digest: ZMG2hIIIcIRyX7fzjWcM6JW6LTU=
+
+Name: assets/entity/110013/body.omod
+SHA1-Digest: Wp3xXNWQ8jLVf5epqCcLunH7KDs=
+
+Name: assets/sounds/mob/zombiegirl/say2.ogg
+SHA1-Digest: 7wFTQCpZM81ExrfpXMhmkt/JC+4=
+
+Name: assets/entity/100018/body.omod
+SHA1-Digest: aj/2mbfEC1Pijf3cD62cN5JuTCU=
+
+Name: assets/particles/texture/shatu.png
+SHA1-Digest: sfWrx1CFJv0g7mn5AHWvwwcMoTE=
+
+Name: assets/blocks/lapis_block.png
+SHA1-Digest: B1lNm5PGS5oCO9rktB7Knt2CXLU=
+

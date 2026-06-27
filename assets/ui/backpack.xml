@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Ui>
+	<Script file="ui/backpack.lua" />
+	<Button name="MousePickItem" inherits="ItemButtonTemplate" id="7000" hidden="true" frameStrata="TOOLTIP" framelevel="1000" input_transparent="true"/>
+	<Frame name="ItemTipsFrame" parent="UIClient" frameStrata="TOOLTIP" hidden="true" framelevel="1000" input_transparent="true">
+		<Size>
+			<AbsDimension x="100" y="20" />
+		</Size>
+		<Anchors>
+			<Anchor point="topleft" relativePoint="topleft" relativeTo="$parent">
+				<Offset>
+					<AbsDimension x="0" y="0"/>
+				</Offset>
+			</Anchor>
+		</Anchors>
+		<Layers>
+			<Layer level="BACKGROUND">
+				<Texture name="$parentBkg" file="ui/white.png" color="40000000">
+					<Size>
+						<RelDimension x="1.0" y="1.0" />
+					</Size>
+					<Anchors>
+						<Anchor point="topleft" relativeTo="$parent" relativePoint="topleft">
+							<Offset>
+								<AbsDimension x="0" y="0" />
+							</Offset>
+						</Anchor>
+					</Anchors>
+				</Texture>
+			</Layer>
+		</Layers>
+		<Frames>
+			<RichText name="$parentText" lineInterval="2" multiLine="false" fonttype="BlackFont" fontStyle="border" autoextend="true" input_transparent="true">
+				<Size>
+					<RelDimension x="1.0" y="1.0" />
+				</Size>
+				<Anchors>
+					<Anchor point="topleft" relativeTo="$parent" relativePoint="topleft">
+						<Offset>
+							<AbsDimension x="0" y="0" />
+						</Offset>
+					</Anchor>
+				</Anchors>
+			</RichText>
+		</Frames>
+	</Frame>
+
+	<Frame name="BackpackGrids" parent="UIClient" frameStrata="MEDIUM" hidden="true" framelevel="20">
+		<Size>
+			<AbsDimension x="663" y="280"/>
+		</Size>
+		<Anchors>
+			<Anchor point="topleft" relativePoint="topleft" relativeTo="$parent">
+				<Offset>
+					<AbsDimension x="0" y="0" />
+				</Offset>
+			</Anchor>
+		</Anchors>
+		<Frames>
+			<Button name="BackpackItem1" inherits="ItemButtonTemplate" id="0"/>
+			<Button name="BackpackItem2" inherits="ItemButtonTemplate" id="1"/>
+			<Button name="BackpackItem3" inherits="ItemButtonTemplate" id="2"/>
+			<Button name="BackpackItem4" inherits="ItemButtonTemplate" id="3"/>
+			<Button name="BackpackItem5" inherits="ItemButtonTemplate" id="4"/>
+			<Button name="BackpackItem6" inherits="ItemButtonTemplate" id="5"/>
+			<Button name="BackpackItem7" inherits="ItemButtonTemplate" id="6"/>
+			<Button name="BackpackItem8" inherits="ItemButtonTemplate" id="7"/>
+			<Button name="BackpackItem9" inherits="ItemButtonTemplate" id="8"/>
+			<Button name="BackpackItem10" inherits="ItemButtonTemplate" id="9"/>
+			<Button name="BackpackItem11" inherits="ItemButtonTemplate" id="10"/>
+			<Button name="BackpackItem12" inherits="ItemButtonTemplate" id="11"/>
+			<Button name="BackpackItem13" inherits="ItemButtonTemplate" id="12"/>
+			<Button name="BackpackItem14" inherits="ItemButtonTemplate" id="13"/>
+			<Button name="BackpackItem15" inherits="ItemButtonTemplate" id="14"/>
+			<Button name="BackpackItem16" inherits="ItemButtonTemplate" id="15"/>
+			<Button name="BackpackItem17" inherits="ItemButtonTemplate" id="16"/>
+			<Button name="BackpackItem18" inherits="ItemButtonTemplate" id="17"/>
+			<Button name="BackpackItem19" inherits="ItemButtonTemplate" id="18"/>
+			<Button name="BackpackItem20" inherits="ItemButtonTemplate" id="19"/>
+			<Button name="BackpackItem21" inherits="ItemButtonTemplate" id="20"/>
+			<Button name="BackpackItem22" inherits="ItemButtonTemplate" id="21"/>
+			<Button name="BackpackItem23" inherits="ItemButtonTemplate" id="22"/>
+			<Button name="BackpackItem24" inherits="ItemButtonTemplate" id="23"/>
+			<Button name="BackpackItem25" inherits="ItemButtonTemplate" id="24"/>
+			<Button name="BackpackItem26" inherits="ItemButtonTemplate" id="25"/>
+			<Button name="BackpackItem27" inherits="ItemButtonTemplate" id="26"/>
+			<Button name="BackpackItem28" inherits="ItemButtonTemplate" id="27"/>
+			<Button name="BackpackItem29" inherits="ItemButtonTemplate" id="28"/>
+			<Button name="BackpackItem30" inherits="ItemButtonTemplate" id="29"/>
+			<Button name="BackpackShortcut1" inherits="ItemButtonTemplate" id="1000"/>
+			<Button name="BackpackShortcut2" inherits="ItemButtonTemplate" id="1001"/>
+			<Button name="BackpackShortcut3" inherits="ItemButtonTemplate" id="1002"/>
+			<Button name="BackpackShortcut4" inherits="ItemButtonTemplate" id="1003"/>
+			<Button name="BackpackShortcut5" inherits="ItemButtonTemplate" id="1004"/>
+			<Button name="BackpackShortcut6" inherits="ItemButtonTemplate" id="1005"/>
+			<Button name="BackpackShortcut7" inherits="ItemButtonTemplate" id="1006"/>
+			<Button name="BackpackShortcut8" inherits="ItemButtonTemplate" id="1007"/>
+			<Button name="BackpackShortcut9" inherits="ItemButtonTemplate" id="1008"/>
+			<Button name="BackpackShortcut10" inherits="ItemButtonTemplate" id="1009"/>
+		</Frames>
+		<Scripts>
+			<OnLoad>BackpackGrids_OnLoad();</OnLoad>
+			<OnEvent>BackpackGrids_OnEvent();</OnEvent>
+		</Scripts>
+	</Frame>
+	<Frame name="BackpackFrame" parent="UIClient" frameStrata="MEDIUM" hidden="true" framelevel="10">
+		<Size>
+			<AbsDimension x="711" y="514"/>
+		</Size>
+		<Anchors>
+			<Anchor point="center" relativePoint="center" relativeTo="$parent">
+				<Offset>
+					<AbsDimension x="156" y="0" />
+				</Offset>
+			</Anchor>
+		</Anchors>
+		<Layers>
+			<Layer level="BACKGROUND">
+				<Texture name="$parentBkg" file="ui/backpack.png" x="313" y="0" w="711" h="514">
+					<Anchors>
+						<Anchor point="topleft" relativePoint="topleft" relativeTo="$parent">
+							<Offset>
+								<AbsDimension x="0" y="0"/>
+							</Offset>
+						</Anchor>
+					</Anchors>	
+				</Texture>
+			</Layer>
+		</Layers>
+		<Frames>
+			<Button name="$parentCloseBtn" inherits="CloseBtnTemplate">
+				<Anchors>
+					<Anchor point="topleft" relativeTo="$parent" relativePoint="topleft">
+						<Offset>
+							<AbsDimension x="667" y="0"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Scripts>
+					<OnClick>BackpackFrameCloseBtn_OnClick();</OnClick>
+				</Scripts>
+			</Button>
+			<Button name="$parentSortBtn" inherits="SortBtnTemplate">
+			</Button>
+			<Button name="MiniCraftingBtn1" inherits="ItemButtonTemplate" id="2000">
+				<Anchors>
+					<Anchor point="topleft" relativeTo="$parent" relativePoint="topleft">
+						<Offset>
+							<AbsDimension x="65" y="48"/>
+						</Offset>
+				</Anchor>
+				</Anchors>
+			</Button>
+			<Button name="MiniCraftingBtn2" inherits="ItemButtonTemplate" id="2001">
+				<Anchors>
+					<Anchor point="topleft" relativeTo="$parent" relativePoint="topleft">
+						<Offset>
+							<AbsDimension x="136" y="48"/>
+						</Offset>
+				</Anchor>
+				</Anchors>
+			</Button>
+			<Button name="MiniCraftingBtn3" inherits="ItemButtonTemplate" id="2002">
+				<Anchors>
+					<Anchor point="topleft" relativeTo="$parent" relativePoint="topleft">
+						<Offset>
+							<AbsDimension x="65" y="120"/>
+						</Offset>
+				</Anchor>
+				</Anchors>
+			</Button>
+			<Button name="MiniCraftingBtn4" inherits="ItemButtonTemplate" id="2003">
+				<Anchors>
+					<Anchor point="topleft" relativeTo="$parent" relativePoint="topleft">
+						<Offset>
+							<AbsDimension x="136" y="120"/>
+						</Offset>
+				</Anchor>
+				</Anchors>
+			</Button>
+			<Button name="MiniCraftingBtn5" inherits="ItemButtonTemplate" id="2004">
+				<Anchors>
+					<Anchor point="topleft" relativeTo="$parent" relativePoint="topleft">
+						<Offset>
+							<AbsDimension x="292" y="82"/>
+						</Offset>
+				</Anchor>
+				</Anchors>
+			</Button>
+			<Button name="CommonUseItemBtn1" inherits="ItemButtonTemplate" id="4000"/>
+			<Button name="CommonUseItemBtn2" inherits="ItemButtonTemplate" id="4001"/>
+			<Button name="CommonUseItemBtn3" inherits="ItemButtonTemplate" id="4002"/>
+			<Button name="CommonUseItemBtn4" inherits="ItemButtonTemplate" id="4003"/>
+			<Button name="CommonUseItemBtn5" inherits="ItemButtonTemplate" id="4004"/>
+			<Button name="CommonUseItemBtn6">
+				<Size>
+					<AbsDimension x="42" y="42"/>
+				</Size>
+			</Button>
+		</Frames>
+		<Scripts>
+			<OnLoad>BackpackFrame_OnLoad();</OnLoad>
+			<OnShow>BackpackFrame_OnShow();</OnShow>
+			<OnHide>BackpackFrame_OnHide();</OnHide>
+		</Scripts>
+	</Frame>
+</Ui>

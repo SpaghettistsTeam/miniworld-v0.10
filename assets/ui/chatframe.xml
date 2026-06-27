@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Ui>
+	<Script file="ui/chatframe.lua" />
+	<Frame name="ChatInputFrame" parent="UIClient" frameStrata="MEDIUM" hidden="true" framelevel="12">
+		<Size>
+			<RelDimension x="1.0" y="0.04" />
+		</Size>
+		<Anchors>
+			<Anchor point="bottomleft" relativePoint="bottomleft" relativeTo="$parent">
+				<Offset>
+					<AbsDimension x="0" y="0"/>
+				</Offset>
+			</Anchor>
+		</Anchors>
+		<Layers>
+			<Layer level="BACKGROUND">
+				<Texture name="$parentBkg" file="ui/white.png" color="40000000">
+					<Size>
+						<RelDimension x="1.0" y="1.0"/>
+					</Size>
+				</Texture>
+			</Layer>
+		</Layers>
+		<Frames>
+			<EditBox name="ChatInputBox" letters="256" historyLines="1" multiLine="false">
+				<Size>
+					<RelDimension x="1.0" y="1.0" />
+				</Size>
+				<FontString name="$parentFont" fonttype="BlackFont">abc:</FontString>
+				<Scripts>
+					<OnEnterPressed>ChatInputBox_OnEnterPressed();</OnEnterPressed>
+				</Scripts>
+			</EditBox>
+		</Frames>
+		<Scripts>
+			<OnShow>UIFrameMgr:setCurEditBox(ChatInputBox);</OnShow>
+		</Scripts>
+	</Frame>
+
+	<Frame name="ChatContentFrame" parent="UIClient" frameStrata="MEDIUM" hidden="true" framelevel="12">
+		<Size>
+			<AbsDimension x="400" y="300" />
+		</Size>
+		<Anchors>
+			<Anchor point="bottomleft" relativePoint="bottomleft" relativeTo="$parent">
+				<Offset>
+					<AbsDimension x="0" y="-48"/>
+				</Offset>
+			</Anchor>
+		</Anchors>
+		<Layers>
+			<Layer level="BACKGROUND">
+				<Texture name="$parentBkg" file="ui/white.png" color="40000000">
+					<Size>
+						<RelDimension x="1.0" y="1.0" />
+					</Size>
+					<Anchors>
+						<Anchor point="topleft" relativeTo="$parent" relativePoint="topleft">
+							<Offset>
+								<AbsDimension x="0" y="0" />
+							</Offset>
+						</Anchor>
+					</Anchors>
+				</Texture>
+			</Layer>
+		</Layers>
+		<Frames>
+			<RichText name="ChatContentText" lineInterval="2" multiLine="true" fonttype="BlackFont" fontStyle="border" autoextend="true" input_transparent="true">
+				<Size>
+					<RelDimension x="1.0" y="1.0" />
+				</Size>		
+				<Anchors>
+					<Anchor point="topleft" relativeTo="$parent" relativePoint="topleft">
+						<Offset>
+							<AbsDimension x="0" y="0" />
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Scripts>
+				</Scripts>
+			</RichText>
+		</Frames>
+		<Scripts>
+			<OnLoad>ChatContentFrame_OnLoad();</OnLoad>
+			<OnEvent>ChatContentFrame_OnEvent();</OnEvent>
+			<OnUpdate>ChatContentFrame_OnUpdate();</OnUpdate>
+		</Scripts>
+	</Frame>
+</Ui>

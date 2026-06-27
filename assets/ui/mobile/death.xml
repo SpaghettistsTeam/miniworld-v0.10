@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Ui>
+	<Script file="ui/mobile/death.lua" />
+	<Frame name="DeathFrame" parent="UIClient" frameStrata="FULLSCREEN_DIALOG" hidden="true" framelevel="1">
+		<Size>
+			<RelDimension x="1.0" y="1.0"/>
+		</Size>
+		<Anchors>
+			<Anchor point="topleft" relativePoint="topleft" relativeTo="$parent">
+				<Offset>
+					<AbsDimension x="0" y="0" />
+				</Offset>
+			</Anchor>
+		</Anchors>
+		<Layers>
+			<Layer level="BACKGROUND">
+				<Texture name="$parentBkg" file="ui/white.png" color="A0800000">
+					<Size>
+						<RelDimension x="1.0" y="1.0" />
+					</Size>
+					<Anchors>
+						<Anchor point="topleft" relativeTo="$parent" relativePoint="topleft">
+							<Offset>
+								<AbsDimension x="0" y="0" />
+							</Offset>
+						</Anchor>
+					</Anchors>
+				</Texture>
+				<FontString name="$parentTitle" fonttype="BlackFont34" justifyH="center"  text="死亡" >
+					<Color r="255" g="254" b="189" />
+					<Size>
+						<AbsDimension x="70" y="35"/>
+					</Size>
+					<Anchors>
+						<Anchor point="center" relativeTo="$parent" LittleFZYBlackFont="center">
+							<Offset>
+								<AbsDimension x="0" y="-100" />
+							</Offset>
+						</Anchor>
+					</Anchors>
+				</FontString>
+			</Layer>
+		</Layers>
+		<Frames>
+			<Button name="$parentReviveBtn">
+				<Size>
+					<AbsDimension x="158" y="104"/>
+				</Size>
+				<Anchors>
+					<Anchor point="center" relativePoint="center" relativeTo="$parent">
+						<Offset>
+							<AbsDimension x="-150" y="50"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Layers>
+					<Layer level="overlay" >
+						<FontString name="$parentText" fonttype="BlackFont34" lineInterval="2" fontStyle="border" text="重生">
+							<Color r="255" g="253" b="222"/>
+							<Size>
+								<AbsDimension x="80" y="35"/>
+							</Size>
+							<Anchors>
+								<Anchor point="center" relativePoint="center" relativeTo="$parent">
+									<Offset>
+										<AbsDimension x="0" y="0"/>
+									</Offset>
+								</Anchor>
+							</Anchors>
+						</FontString>
+						<FontString name="$parentDesc" fonttype="BlackFont21" lineInterval="5" fontStyle="border" text="   回到复活点\n会掉落身上道具">
+							<Color r="255" g="253" b="222"/>
+							<Size>
+								<AbsDimension x="170" y="50"/>
+							</Size>
+							<Anchors>
+								<Anchor point="topleft" relativePoint="bottomleft" relativeTo="$parent">
+									<Offset>
+										<AbsDimension x="15" y="15"/>
+									</Offset>
+								</Anchor>
+							</Anchors>
+						</FontString>
+					</Layer>
+				</Layers>
+				<NormalTexture name="$parentNormal" file="ui/mobile/ui2.png" x="269" y="1" w="140" h="92" />		
+				<PushedTexture name="$parentPushedBG" file="ui/mobile/ui2.png" x="411" y="1" w="140" h="92"/>
+				<Scripts>
+					<OnClick>DeathReviveBtn_OnClick();</OnClick>
+				</Scripts>
+			</Button>
+			<Button name="$parentContinueBtn">
+				<Size>
+					<AbsDimension x="158" y="104"/>
+				</Size>
+				<Anchors>
+					<Anchor point="center" relativePoint="center" relativeTo="$parent">
+						<Offset>
+							<AbsDimension x="150" y="50"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Layers>
+					<Layer level="overlay" >
+						<FontString name="$parentText" fonttype="BlackFont34" lineInterval="2" fontStyle="border" text="继续探险">
+							<Color r="255" g="253" b="222"/>
+							<Size>
+								<AbsDimension x="145" y="35"/>
+							</Size>
+							<Anchors>
+								<Anchor point="topleft" relativePoint="topleft" relativeTo="$parent">
+									<Offset>
+										<AbsDimension x="15" y="20"/>
+									</Offset>
+								</Anchor>
+							</Anchors>
+						</FontString>
+						<FontString name="$parentDesc" fonttype="BlackFont21" lineInterval="5" fontStyle="border" text="      原地重生\n不会掉落身上道具">
+							<Color r="255" g="253" b="222"/>
+							<Size>
+								<AbsDimension x="170" y="50"/>
+							</Size>
+							<Anchors>
+								<Anchor point="topleft" relativePoint="bottomleft" relativeTo="$parent">
+									<Offset>
+										<AbsDimension x="5" y="15"/>
+									</Offset>
+								</Anchor>
+							</Anchors>
+						</FontString>
+						<Texture name="$parentStarIcon" file="ui/mobile/ui.png" x="681" y="69" w="28" h="26">
+							<Size>
+								<AbsDimension x="33" y="29"/>
+							</Size>
+							<Anchors>
+								<Anchor point="topleft" relativePoint="bottomleft" relativeTo="$parentText">
+									<Offset>
+										<AbsDimension x="20" y="3"/>
+									</Offset>
+								</Anchor>
+							</Anchors>	
+						</Texture>
+						<FontString name="$parentStarNum" fonttype="BlackFont28" lineInterval="2" fontStyle="border" text="999">
+							<Color r="255" g="246" b="0"/>
+							<Size>
+								<AbsDimension x="120" y="29"/>
+							</Size>
+							<Anchors>
+								<Anchor point="left" relativePoint="right" relativeTo="$parentStarIcon">
+									<Offset>
+										<AbsDimension x="5" y="3"/>
+									</Offset>
+								</Anchor>
+							</Anchors>
+						</FontString>	
+					</Layer>
+				</Layers>
+				<NormalTexture name="$parentNormal" file="ui/mobile/ui2.png" x="269" y="1" w="140" h="92" />		
+				<PushedTexture name="$parentPushedBG" file="ui/mobile/ui2.png" x="411" y="1" w="140" h="92"/>
+				<Scripts>
+					<OnClick>DeathContinueBtn_OnClick();</OnClick>
+				</Scripts>
+			</Button>
+			<Button name="$parentBackMainMenuBtn">
+				<Size>
+					<AbsDimension x="134" y="43" />
+				</Size>
+				<Anchors>
+					<Anchor point="topleft" relativeTo="$parentChenDi" relativePoint="topleft">
+						<Offset>
+							<AbsDimension x="25" y="15"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Layers>
+					<Layer level="overlay">
+						<FontString name="$parentName" fonttype="BlackFont21" lineInterval="2" fontStyle="border" text="返回主菜单">
+							<Color r="255" g="253" b="222"/>
+							<Size>
+								<AbsDimension x="115" y="22"/>
+							</Size>
+							<Anchors>
+								<Anchor point="center" relativePoint="center" relativeTo="$parent">
+									<Offset>
+										<AbsDimension x="0" y="0"/>
+									</Offset>
+								</Anchor>
+							</Anchors>
+						</FontString>
+					</Layer>
+				</Layers>
+				<NormalTexture name="$parentNormal" file="ui/mobile/ui2.png" x="206" y="927" w="119" h="38" />		
+				<PushedTexture name="$parentPushedBG" file="ui/mobile/ui2.png" x="329" y="926" w="115" h="42">
+					<Size>
+						<AbsDimension x="130" y="47"/>
+					</Size>
+					<Anchors>
+						<Anchor point="center" relativePoint="center" relativeTo="$parent">
+							<Offset>
+								<AbsDimension x="0" y="0"/>
+							</Offset>
+						</Anchor>
+					</Anchors>
+				</PushedTexture>
+				<Scripts>
+					<OnClick>DeathBackMainMenuBtn_OnClick();</OnClick>
+				</Scripts>
+			</Button>
+		</Frames>
+		<Scripts>
+			<OnLoad>DeathFrame_OnLoad();</OnLoad>
+			<OnEvent>DeathFrame_OnEvent();</OnEvent>
+			<OnShow>DeathFrame_OnShow();</OnShow>
+			<OnHide>DeathFrame_OnHide();</OnHide>
+		</Scripts>
+	</Frame>
+</Ui>

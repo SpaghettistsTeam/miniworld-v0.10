@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Ui>
+	<Script file="ui/mobile/map.lua" />	
+	<Frame name="OtherPlayerTemPlate" virtual="true">
+		<Size>
+			<AbsDimension x="50" y= "50"/>
+		</Size>
+		<Layers>
+			<Layer level="BACKGROUND" >
+				<Texture name="$parentBkg" file="ui/mobile/ui2.png" x="766" y="373" w="44" h="44">
+					<Size>
+						<AbsDimension x="50" y="50"/>
+					</Size>
+				</Texture>
+				<Texture name="$parentIcon">
+					<Size>
+						<AbsDimension x="36" y="36"/>
+					</Size>
+					<Anchors>
+						<Anchor point="center" relativePoint="center" relativeTo="$parentBkg">
+							<Offset>
+								<AbsDimension x="0" y="0"/>
+							</Offset>
+						</Anchor>
+					</Anchors>	
+				</Texture>
+			</Layer>
+		</Layers>
+	</Frame>
+	
+	<Frame name="MapFrame" parent="UIClient" frameStrata="TOOLTIP" hidden="true" framelevel="1" input_transparent="true">
+		<Size>
+			<RelDimension x="1.0" y="1.0"/>
+		</Size>
+		<Layers>
+			<Layer level="ARTWORK">
+				<Texture name="$parentBkg" inherits="TipsBkgTemplate" color="64ffffff">
+					<Size>
+						<AbsDimension x="150" y="190"/>
+					</Size>
+					<Anchors>
+						<Anchor point="topleft" relativePoint="topleft" relativeTo="$parent">
+							<Offset>
+								<AbsDimension x="10" y="450"/>
+							</Offset>
+						</Anchor>
+					</Anchors>
+				</Texture>
+				<FontString name="$parentTimeTitle" fonttype="BlackFont21" lineInterval="2" fontStyle="border" text="时间：">
+					<Color r="255" g="255" b="255"/>
+					<Size>
+						<AbsDimension x="65" y="22"/>
+					</Size>
+					<Anchors>
+						<Anchor point="topleft" relativePoint="topleft" relativeTo="$parent">
+							<Offset>
+								<AbsDimension x="20" y="460"/>
+							</Offset>
+						</Anchor>
+					</Anchors>
+				</FontString>
+				<FontString name="$parentTime" fonttype="BlackFont21" lineInterval="2" fontStyle="border">
+					<Color r="255" g="235" b="0"/>
+					<Size>
+						<AbsDimension x="70" y="22"/>
+					</Size>
+					<Anchors>
+						<Anchor point="topleft" relativePoint="bottomleft" relativeTo="$parentTimeTitle">
+							<Offset>
+								<AbsDimension x="0" y="7"/>
+							</Offset>
+						</Anchor>
+					</Anchors>
+				</FontString>
+				<Texture name="$parentDay" file="ui/mobile/ui1.png" x="975" y="886" w="48" h="48" hidden="true">
+					<Size>
+						<AbsDimension x="54" y="54"/>
+					</Size>
+					<Anchors>
+						<Anchor point="left" relativePoint="right" relativeTo="$parentTime">
+							<Offset>
+								<AbsDimension x="10" y="0"/>
+							</Offset>
+						</Anchor>
+					</Anchors>	
+				</Texture>
+				<Texture name="$parentNight" file="ui/mobile/ui1.png" x="943" y="888" w="30" h="32" hidden="true">
+					<Size>
+						<AbsDimension x="40" y="42"/>
+					</Size>
+					<Anchors>
+						<Anchor point="left" relativePoint="right" relativeTo="$parentTime">
+							<Offset>
+								<AbsDimension x="10" y="0"/>
+							</Offset>
+						</Anchor>
+					</Anchors>	
+				</Texture>
+				<FontString name="$parentCoordTitle" fonttype="BlackFont21" lineInterval="2" fontStyle="border" text="坐标：">
+					<Color r="255" g="255" b="255"/>
+					<Size>
+						<AbsDimension x="65" y="22"/>
+					</Size>
+					<Anchors>
+						<Anchor point="topleft" relativePoint="bottomleft" relativeTo="$parentTime">
+							<Offset>
+								<AbsDimension x="0" y="7"/>
+							</Offset>
+						</Anchor>
+					</Anchors>
+				</FontString>
+				<FontString name="$parentCoord" fonttype="BlackFont21" lineInterval="2" fontStyle="border">
+					<Color r="255" g="235" b="0"/>
+					<Size>
+						<AbsDimension x="130" y="22"/>
+					</Size>
+					<Anchors>
+						<Anchor point="topleft" relativePoint="bottomleft" relativeTo="$parentCoordTitle">
+							<Offset>
+								<AbsDimension x="0" y="7"/>
+							</Offset>
+						</Anchor>
+					</Anchors>
+				</FontString>
+				<FontString name="$parentHeightTitle" fonttype="BlackFont21" lineInterval="2" fontStyle="border" text="高度：">
+					<Color r="255" g="255" b="255"/>
+					<Size>
+						<AbsDimension x="65" y="22"/>
+					</Size>
+					<Anchors>
+						<Anchor point="topleft" relativePoint="bottomleft" relativeTo="$parentCoord">
+							<Offset>
+								<AbsDimension x="0" y="7"/>
+							</Offset>
+						</Anchor>
+					</Anchors>
+				</FontString>
+				<FontString name="$parentHeight" fonttype="BlackFont21" lineInterval="2" fontStyle="border">
+					<Color r="255" g="235" b="0"/>
+					<Size>
+						<AbsDimension x="60" y="22"/>
+					</Size>
+					<Anchors>
+						<Anchor point="topleft" relativePoint="bottomleft" relativeTo="$parentHeightTitle">
+							<Offset>
+								<AbsDimension x="0" y="7"/>
+							</Offset>
+						</Anchor>
+					</Anchors>
+				</FontString>
+				<Texture name="$parentRoleBkg" file="ui/mobile/ui2.png" x="233" y="849" w="54" h="73" hidden="false">
+					<Size>
+						<AbsDimension x="61" y="82"/>
+					</Size>
+					<Anchors>
+						<Anchor point="center" relativePoint="center" relativeTo="$parent">
+							<Offset>
+								<AbsDimension x="0" y="0"/>
+							</Offset>
+						</Anchor>
+					</Anchors>	
+				</Texture>
+				<Texture name="$parentRoleIcon">
+					<Size>
+						<AbsDimension x="54" y="54"/>
+					</Size>
+					<Anchors>
+						<Anchor point="center" relativePoint="center" relativeTo="$parentRoleBkg">
+							<Offset>
+								<AbsDimension x="0" y="10"/>
+							</Offset>
+						</Anchor>
+					</Anchors>
+				</Texture>
+				<Texture name="$parentRoleArrow" file="ui/mobile/ui2.png" x="115" y="732" w="41" h="44" hidden="true">
+					<Size>
+						<AbsDimension x="35" y="39"/>
+					</Size>
+					<Anchors>
+						<Anchor point="bottom" relativePoint="top" relativeTo="$parentRoleBkg">
+							<Offset>
+								<AbsDimension x="0" y="-17"/>
+							</Offset>
+						</Anchor>
+					</Anchors>	
+				</Texture>
+				<Texture name="$parentBoss" file="ui/mobile/ui2.png" x="558" y="626" w="65" h="84" hidden="false">
+					<Size>
+						<AbsDimension x="73" y="95"/>
+					</Size>
+					<Anchors>
+						<Anchor point="topleft" relativePoint="topleft" relativeTo="$parent">
+							<Offset>
+								<AbsDimension x="100" y="100"/>
+							</Offset>
+						</Anchor>
+					</Anchors>	
+				</Texture>
+				<Texture name="$parentBirthplace" file="ui/mobile/ui2.png" x="58" y="725" w="53" h="53" hidden="false">
+					<Size>
+						<AbsDimension x="60" y="60"/>
+					</Size>
+					<Anchors>
+						<Anchor point="bottomright" relativePoint="bottomright" relativeTo="$parent">
+							<Offset>
+								<AbsDimension x="-100" y="-100"/>
+							</Offset>
+						</Anchor>
+					</Anchors>	
+				</Texture>
+				<Texture name="$parentDeathplace" file="ui/mobile/ui2.png" x="207" y="729" w="49" h="47" hidden="false">
+					<Size>
+						<AbsDimension x="55" y="53"/>
+					</Size>
+					<Anchors>
+						<Anchor point="bottomleft" relativePoint="bottomleft" relativeTo="$parent">
+							<Offset>
+								<AbsDimension x="100" y="-100"/>
+							</Offset>
+						</Anchor>
+					</Anchors>	
+				</Texture>
+				<Texture name="$parentDeathUv" file="ui/mobile/ui2.png" x="281" y="729" w="100" h="100" hidden="false">
+					<Size>
+						<AbsDimension x="113" y="113"/>
+					</Size>
+					<Anchors>
+						<Anchor point="center" relativePoint="center" relativeTo="$parentDeathplace">
+							<Offset>
+								<AbsDimension x="0" y="0"/>
+							</Offset>
+						</Anchor>
+					</Anchors>	
+				</Texture>
+			</Layer>
+		</Layers>
+		<Frames>
+			<Button name="$parentBackBtn">
+				<Size>
+					<AbsDimension x="88" y="81"/>
+				</Size>
+				<Anchors>
+					<Anchor point="topleft" relativeTo="$parent" relativePoint="topleft">
+						<Offset>
+							<AbsDimension x="10" y="10"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<NormalTexture name="$parentNormal" file="ui/mobile/ui2.png" x="814" y="372" w="78" h="72" />		
+				<PushedTexture name="$parentPushedBG" file="ui/mobile/ui2.png" x="896" y="377" w="66" h="67" >
+					<Size>
+						<AbsDimension x="74" y="75"/>
+					</Size>
+				</PushedTexture>
+				<Scripts>
+					<OnClick>MapFrameBackBtn_OnClick();</OnClick>
+				</Scripts>
+			</Button>
+		</Frames>
+		<Scripts>
+			<Onload>MapFrame_OnLoad();</Onload>
+			<OnEvent>MapFrame_OnEvent();</OnEvent>
+			<OnUpdate>MapFrame_OnUpdate();</OnUpdate>
+			<OnShow>MapFrame_OnShow();</OnShow>
+		</Scripts>
+	</Frame>
+</Ui>

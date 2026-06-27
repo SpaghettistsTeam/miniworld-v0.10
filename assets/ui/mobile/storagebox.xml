@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Ui>
+ 	<Script file="ui/mobile/storagebox.lua" />
+	<Frame name="StorageBoxFrame" parent="UIClient" frameStrata="MEDIUM" hidden="true" framelevel="10">
+		<Size>
+			<AbsDimension x="1183" y="597"/>
+		</Size>
+		<Anchors>
+			<Anchor point="bottom" relativePoint="top" relativeTo="PlayShortcut">
+				<Offset>
+					<AbsDimension x="0" y="3" />
+				</Offset>
+			</Anchor>
+		</Anchors>
+		<Layers>
+			<Layer level="BACKGROUND">
+				<Texture name="$parentBkg" file="ui/mobile/ui1.png" x="10" y="1" w="810" h="456">
+					<Size>
+						<AbsDimension x="1094" y="597"/>
+					</Size>
+					<Anchors>
+						<Anchor point="topleft" relativePoint="topleft" relativeTo="$parent">
+							<Offset>
+								<AbsDimension x="121" y="0" />
+							</Offset>
+						</Anchor>
+					</Anchors>
+				</Texture>
+				<Texture name="$parentVLine" file="ui/mobile/ui1.png" x="1" y="7" w="5" h="441">
+					<Size>
+						<AbsDimension x="10" y="577"/>
+					</Size>
+					<Anchors>
+						<Anchor point="topleft" relativePoint="topleft" relativeTo="$parentBkg">
+							<Offset>
+								<AbsDimension x="540" y="3"/>
+							</Offset>
+						</Anchor>
+					</Anchors>	
+				</Texture>
+				<Texture name="$parentLeftTitle" file="ui/mobile/ui.png" x="325" y="177" w="90" h="30">
+					<Size>
+						<AbsDimension x="118" y="39"/>
+					</Size>
+					<Anchors>
+						<Anchor point="topleft" relativePoint="topleft" relativeTo="$parentBkg">
+							<Offset>
+								<AbsDimension x="208" y="22"/>
+							</Offset>
+						</Anchor>
+					</Anchors>	
+				</Texture>
+				<Texture name="$parentRightTitle" file="ui/mobile/ui.png" x="420" y="177" w="89" h="30">
+					<Size>
+						<AbsDimension x="117" y="39"/>
+					</Size>
+					<Anchors>
+						<Anchor point="topleft" relativePoint="topleft" relativeTo="$parentBkg">
+							<Offset>
+								<AbsDimension x="723" y="22"/>
+							</Offset>
+						</Anchor>
+					</Anchors>	
+				</Texture>
+			</Layer>
+		</Layers>
+		<Frames>
+			<Button name="$parentCloseBtn">
+				<Size>
+					<AbsDimension x="122" y="101"/>
+				</Size>
+				<Anchors>
+					<Anchor point="topleft" relativeTo="$parent" relativePoint="topleft">
+						<Offset>
+							<AbsDimension x="0" y="18"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Layers>
+					<Layer level="overlay">
+						<Texture name="$parentIcon" file="ui/mobile/ui.png" x="351" y="222" w="42" h="43">
+							<Size>
+								<AbsDimension x="55" y="56"/>
+							</Size>
+							<Anchors>
+								<Anchor point="center" relativePoint="center" relativeTo="$parent">
+									<Offset>
+										<AbsDimension x="0" y="0"/>
+									</Offset>
+								</Anchor>
+							</Anchors>	
+						</Texture>
+					</Layer>
+				</Layers>
+				<NormalTexture name="$parentNormal" file="ui/mobile/ui.png" x="2" y="650" w="93" h="77" >
+					<Size>
+						<AbsDimension x="122" y="101"/>
+					</Size>
+				</NormalTexture>
+				<Scripts>
+					<OnMouseDown>StorageBoxFrameCloseBtn_OnMouseDown();</OnMouseDown>
+					<OnMouseUp>StorageBoxFrameCloseBtn_OnMouseUp();</OnMouseUp>
+					<OnClick>StorageBoxFrameCloseBtn_OnClick();</OnClick>
+				</Scripts>
+			</Button>
+			<Button name="$parentTidyBtn">
+				<Size>
+					<AbsDimension x="117" y="72"/>
+				</Size>
+				<Anchors>
+					<Anchor point="topleft" relativeTo="$parentBkg" relativePoint="topleft">
+						<Offset>
+							<AbsDimension x="901" y="5"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<NormalTexture name="$parentNormal" file="ui/mobile/ui.png" x="731" y="590" w="89" h="55" >
+					<Size>
+						<AbsDimension x="117" y="72"/>
+					</Size>
+				</NormalTexture>		
+				<PushedTexture name="$parentPushedBG" file="ui/mobile/ui.png" x="823" y="590" w="89" h="55" >
+					<Size>
+						<AbsDimension x="117" y="72"/>
+					</Size>
+				</PushedTexture>
+				<Scripts>
+					<OnClick>StorageBoxFrameTidyBtn_OnClick();</OnClick>
+				</Scripts>
+			</Button>
+			<SlidingFrame name="StorageLeftBox" slidingY="true" slideplane="$parentPlane">
+				<Size>
+					<AbsDimension x="468" y="467"/>
+				</Size>
+				<Anchors>
+				<Anchor point="topleft" relativePoint="topleft" relativeTo="$parent">
+						<Offset>
+							<AbsDimension x="160" y="79"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Frames>
+					<Frame name="$parentPlane" hidden="true">
+						<Size>
+							<AbsDimension x="468" y="562"/>
+						</Size>
+					</Frame>
+					<Button name="$parentItem1" inherits="CraftingTableGridBtnTemplate" id="1"/>
+					<Button name="$parentItem2" inherits="CraftingTableGridBtnTemplate" id="2"/>
+					<Button name="$parentItem3" inherits="CraftingTableGridBtnTemplate" id="3"/>
+					<Button name="$parentItem4" inherits="CraftingTableGridBtnTemplate" id="4"/>
+					<Button name="$parentItem5" inherits="CraftingTableGridBtnTemplate" id="5"/>
+					<Button name="$parentItem6" inherits="CraftingTableGridBtnTemplate" id="6"/>
+					<Button name="$parentItem7" inherits="CraftingTableGridBtnTemplate" id="7"/>
+					<Button name="$parentItem8" inherits="CraftingTableGridBtnTemplate" id="8"/>
+					<Button name="$parentItem9" inherits="CraftingTableGridBtnTemplate" id="9"/>
+					<Button name="$parentItem10" inherits="CraftingTableGridBtnTemplate" id="10"/>
+					<Button name="$parentItem11" inherits="CraftingTableGridBtnTemplate" id="11"/>
+					<Button name="$parentItem12" inherits="CraftingTableGridBtnTemplate" id="12"/>
+					<Button name="$parentItem13" inherits="CraftingTableGridBtnTemplate" id="13"/>
+					<Button name="$parentItem14" inherits="CraftingTableGridBtnTemplate" id="14"/>
+					<Button name="$parentItem15" inherits="CraftingTableGridBtnTemplate" id="15"/>
+					<Button name="$parentItem16" inherits="CraftingTableGridBtnTemplate" id="16"/>
+					<Button name="$parentItem17" inherits="CraftingTableGridBtnTemplate" id="17"/>
+					<Button name="$parentItem18" inherits="CraftingTableGridBtnTemplate" id="18"/>
+					<Button name="$parentItem19" inherits="CraftingTableGridBtnTemplate" id="19"/>
+					<Button name="$parentItem20" inherits="CraftingTableGridBtnTemplate" id="20"/>
+					<Button name="$parentItem21" inherits="CraftingTableGridBtnTemplate" id="21"/>
+					<Button name="$parentItem22" inherits="CraftingTableGridBtnTemplate" id="22"/>
+					<Button name="$parentItem23" inherits="CraftingTableGridBtnTemplate" id="23"/>
+					<Button name="$parentItem24" inherits="CraftingTableGridBtnTemplate" id="24"/>
+					<Button name="$parentItem25" inherits="CraftingTableGridBtnTemplate" id="25"/>
+					<Button name="$parentItem26" inherits="CraftingTableGridBtnTemplate" id="26"/>
+					<Button name="$parentItem27" inherits="CraftingTableGridBtnTemplate" id="27"/>
+					<Button name="$parentItem28" inherits="CraftingTableGridBtnTemplate" id="28"/>
+					<Button name="$parentItem29" inherits="CraftingTableGridBtnTemplate" id="29"/>
+					<Button name="$parentItem30" inherits="CraftingTableGridBtnTemplate" id="30"/>
+				</Frames>
+			</SlidingFrame>
+			<SlidingFrame name="StorageRightBox" slidingY="true" slideplane="$parentPlane">
+				<Size>
+					<AbsDimension x="468" y="467"/>
+				</Size>
+				<Anchors>
+				<Anchor point="topleft" relativePoint="topleft" relativeTo="$parent">
+						<Offset>
+							<AbsDimension x="703" y="79"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Frames>
+					<Frame name="$parentPlane" hidden="true">
+						<Size>
+							<AbsDimension x="468" y="521"/>
+						</Size>
+					</Frame>
+					<Button name="$parentStorageItem1" inherits="CraftingTableGridBtnTemplate" id="3001"/>
+					<Button name="$parentStorageItem2" inherits="CraftingTableGridBtnTemplate" id="3002"/>
+					<Button name="$parentStorageItem3" inherits="CraftingTableGridBtnTemplate" id="3003"/>
+					<Button name="$parentStorageItem4" inherits="CraftingTableGridBtnTemplate" id="3004"/>
+					<Button name="$parentStorageItem5" inherits="CraftingTableGridBtnTemplate" id="3005"/>
+					<Button name="$parentStorageItem6" inherits="CraftingTableGridBtnTemplate" id="3006"/>
+					<Button name="$parentStorageItem7" inherits="CraftingTableGridBtnTemplate" id="3007"/>
+					<Button name="$parentStorageItem8" inherits="CraftingTableGridBtnTemplate" id="3008"/>
+					<Button name="$parentStorageItem9" inherits="CraftingTableGridBtnTemplate" id="3009"/>
+					<Button name="$parentStorageItem10" inherits="CraftingTableGridBtnTemplate" id="3010"/>
+					<Button name="$parentStorageItem11" inherits="CraftingTableGridBtnTemplate" id="3011"/>
+					<Button name="$parentStorageItem12" inherits="CraftingTableGridBtnTemplate" id="3012"/>
+					<Button name="$parentStorageItem13" inherits="CraftingTableGridBtnTemplate" id="3013"/>
+					<Button name="$parentStorageItem14" inherits="CraftingTableGridBtnTemplate" id="3014"/>
+					<Button name="$parentStorageItem15" inherits="CraftingTableGridBtnTemplate" id="3015"/>
+					<Button name="$parentStorageItem16" inherits="CraftingTableGridBtnTemplate" id="3016"/>
+					<Button name="$parentStorageItem17" inherits="CraftingTableGridBtnTemplate" id="3017"/>
+					<Button name="$parentStorageItem18" inherits="CraftingTableGridBtnTemplate" id="3018"/>
+					<Button name="$parentStorageItem19" inherits="CraftingTableGridBtnTemplate" id="3019"/>
+					<Button name="$parentStorageItem20" inherits="CraftingTableGridBtnTemplate" id="3020"/>
+					<Button name="$parentStorageItem21" inherits="CraftingTableGridBtnTemplate" id="3021"/>
+					<Button name="$parentStorageItem22" inherits="CraftingTableGridBtnTemplate" id="3022"/>
+					<Button name="$parentStorageItem23" inherits="CraftingTableGridBtnTemplate" id="3023"/>
+					<Button name="$parentStorageItem24" inherits="CraftingTableGridBtnTemplate" id="3024"/>
+					<Button name="$parentStorageItem25" inherits="CraftingTableGridBtnTemplate" id="3025"/>	
+					<Button name="$parentStorageItem26" inherits="CraftingTableGridBtnTemplate" id="3026"/>
+					<Button name="$parentStorageItem27" inherits="CraftingTableGridBtnTemplate" id="3027"/>
+					<Button name="$parentStorageItem28" inherits="CraftingTableGridBtnTemplate" id="3028"/>
+					<Button name="$parentStorageItem29" inherits="CraftingTableGridBtnTemplate" id="3029"/>
+					<Button name="$parentStorageItem30" inherits="CraftingTableGridBtnTemplate" id="3030"/>
+					<Button name="$parentStorageItem31" inherits="CraftingTableGridBtnTemplate" id="3031"/>
+					<Button name="$parentStorageItem32" inherits="CraftingTableGridBtnTemplate" id="3032"/>
+					<Button name="$parentStorageItem33" inherits="CraftingTableGridBtnTemplate" id="3033"/>
+					<Button name="$parentStorageItem34" inherits="CraftingTableGridBtnTemplate" id="3034"/>
+					<Button name="$parentStorageItem35" inherits="CraftingTableGridBtnTemplate" id="3035"/>
+					<Button name="$parentStorageItem36" inherits="CraftingTableGridBtnTemplate" id="3036"/>
+					<Button name="$parentStorageItem37" inherits="CraftingTableGridBtnTemplate" id="3037"/>
+					<Button name="$parentStorageItem38" inherits="CraftingTableGridBtnTemplate" id="3038"/>
+					<Button name="$parentStorageItem39" inherits="CraftingTableGridBtnTemplate" id="3039"/>
+					<Button name="$parentStorageItem40" inherits="CraftingTableGridBtnTemplate" id="3040"/>
+					<Button name="$parentStorageItem41" inherits="CraftingTableGridBtnTemplate" id="3041"/>
+					<Button name="$parentStorageItem42" inherits="CraftingTableGridBtnTemplate" id="3042"/>
+					<Button name="$parentStorageItem43" inherits="CraftingTableGridBtnTemplate" id="3043"/>
+					<Button name="$parentStorageItem44" inherits="CraftingTableGridBtnTemplate" id="3044"/>
+					<Button name="$parentStorageItem45" inherits="CraftingTableGridBtnTemplate" id="3045"/>
+					<Button name="$parentStorageItem46" inherits="CraftingTableGridBtnTemplate" id="3046"/>
+					<Button name="$parentStorageItem47" inherits="CraftingTableGridBtnTemplate" id="3047"/>
+					<Button name="$parentStorageItem48" inherits="CraftingTableGridBtnTemplate" id="3048"/>
+					<Button name="$parentStorageItem49" inherits="CraftingTableGridBtnTemplate" id="3049"/>
+					<Button name="$parentStorageItem50" inherits="CraftingTableGridBtnTemplate" id="3050"/>
+					<Button name="$parentStorageItem51" inherits="CraftingTableGridBtnTemplate" id="3051"/>
+					<Button name="$parentStorageItem52" inherits="CraftingTableGridBtnTemplate" id="3052"/>
+					<Button name="$parentStorageItem53" inherits="CraftingTableGridBtnTemplate" id="3053"/>
+					<Button name="$parentStorageItem54" inherits="CraftingTableGridBtnTemplate" id="3054"/>
+					<Button name="$parentStorageItem55" inherits="CraftingTableGridBtnTemplate" id="3055"/>
+					<Button name="$parentStorageItem56" inherits="CraftingTableGridBtnTemplate" id="3056"/>
+					<Button name="$parentStorageItem57" inherits="CraftingTableGridBtnTemplate" id="3057"/>
+					<Button name="$parentStorageItem58" inherits="CraftingTableGridBtnTemplate" id="3058"/>
+					<Button name="$parentStorageItem59" inherits="CraftingTableGridBtnTemplate" id="3059"/>
+					<Button name="$parentStorageItem60" inherits="CraftingTableGridBtnTemplate" id="3060"/>
+				</Frames>
+			</SlidingFrame>
+		</Frames>
+		<Scripts>
+			<OnLoad>StorageBoxFrame_Onload();</OnLoad>
+			<OnShow>StorageBoxFrame_OnShow();</OnShow>
+			<OnHide>StorageBoxFrame_OnHide();</OnHide>
+			<OnEvent>StorageBoxFrame_OnEvent();</OnEvent>
+		</Scripts>
+	</Frame>
+	
+	<Frame name="MoveProgressBarFrame" parent="UIClient" frameStrata="MEDIUM" hidden="true" framelevel="11">
+		<Size>
+			<AbsDimension x="157" y="39"/>
+		</Size>
+		<Anchors>
+			<Anchor point="center" relativePoint="center" relativeTo="StorageBoxFrame">
+				<Offset>
+					<AbsDimension x="0" y="0" />
+				</Offset>
+			</Anchor>
+		</Anchors>
+		<Layers>
+			<Layer level="BACKGROUND">
+				<FontString name="$parentDesc" fonttype="BlackFont18" lineInterval="2" text="移动64个红石灯" justifyH="center">
+					<Color r="255" g="255" b="255"/>
+					<Size>
+						<AbsDimension x="157" y="18"/>
+					</Size>
+					<Anchors>
+						<Anchor point="topleft" relativePoint="topleft" relativeTo="$parent">
+							<Offset>
+								<AbsDimension x="0" y="0"/>
+							</Offset>
+						</Anchor>
+					</Anchors>
+				</FontString>
+				<Texture name="$parentBkgTexture" file="ui/mobile/ui.png" x="548" y="257" w="59" h="8">
+					<Size>
+						<AbsDimension x="77" y="10"/>
+					</Size>
+					<Anchors>
+						<Anchor point="TopLeft" relativePoint="TopLeft" relativeTo="$parent">
+							<Offset>
+								<AbsDimension x="39" y="26"/>
+							</Offset>
+						</Anchor>
+					</Anchors>				
+				</Texture>
+			</Layer>
+		</Layers>
+		<Frames>
+			<ProgressBar name="MoveProgressBar" barname="MoveProgressTex">
+				<Size>
+					<AbsDimension x="77" y="10"/>
+				</Size>
+				<Anchors>
+					<Anchor point="topleft" relativeTo="$parentBkgTexture" relativePoint="topleft">
+						<Offset>
+							<AbsDimension x="0" y="0"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Layers>
+					<Layer level="ARTWORK">
+						<Texture name="MoveProgressTex" file="ui/mobile/ui.png" x="611" y="257" w="59" h="8">
+							<Size>
+								<AbsDimension x="77" y="10"/>
+							</Size>
+							<Anchors>
+								<Anchor point="topleft" relativePoint="topleft" relativeTo="$parent">
+									<Offset>
+										<AbsDimension x="0" y="0"/>
+									</Offset>
+								</Anchor>
+							</Anchors>	
+						</Texture>
+					</Layer>
+				</Layers>
+			</ProgressBar>	
+		</Frames>
+		<Scripts>
+			<OnHide>MoveProgressBarFrame_OnHide();</OnHide>
+		</Scripts>
+	</Frame>
+</Ui>

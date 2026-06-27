@@ -1,0 +1,485 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Ui>
+	<Script file="ui/uitemplate.lua" />
+	##主面板的背景	使用该面板的最大宽度不能超过 916
+	<Texture name="MainBkgTemplate" virtual="true" file="ui/login.png" DrawType="ninesquare">
+		<Size>
+			<RelDimension x="1.0" y="1.0"/>
+		</Size>
+		<Anchors>
+			<Anchor point="topleft" relativeTo="$parent" relativePoint="topleft">
+				<Offset>
+					<AbsDimension x="0" y="0"/>
+				</Offset>
+			</Anchor>
+		</Anchors>
+		<NineSquare>
+			<Topleft		x="588"	y="293"	w="48"	h="48"/>
+			<Top			x="636"	y="293"	w="48"  h="48"/>
+			<Topright		x="684"	y="293"	w="48"	h="48"/>
+			<Left			x="588"	y="341"	w="48"	h="48"/>
+			<Center			x="636" y="341"	w="48"	h="48"/>
+			<Right			x="684"	y="341"	w="48"	h="48"/>
+			<Bottomleft		x="588" y="389"	w="48"	h="48"/>
+			<Bottom			x="636"	y="389"	w="48"	h="48"/>
+			<Bottomright	x="684" y="389"	w="48"	h="48"/>
+			<OffSet x="48" y="48" />
+		</NineSquare>
+	</Texture>
+	<Texture name="FrameBkgTemplate" virtual="true" file="ui/login.png" DrawType="ninesquare">
+		<Size>
+			<RelDimension x="1.0" y="1.0"/>
+		</Size>
+		<Anchors>
+			<Anchor point="topleft" relativeTo="$parent" relativePoint="topleft">
+				<Offset>
+					<AbsDimension x="0" y="0"/>
+				</Offset>
+			</Anchor>
+		</Anchors>
+		<NineSquare>
+			<Topleft		x="441"	y="293"	w="48"	h="48"/>
+			<Top			x="489"	y="293"	w="48"  h="48"/>
+			<Topright		x="537"	y="293"	w="48"	h="48"/>
+			<Left			x="441"	y="341"	w="48"	h="48"/>
+			<Center			x="489" y="341"	w="48"	h="48"/>
+			<Right			x="537"	y="341"	w="48"	h="48"/>
+			<Bottomleft		x="441" y="389"	w="48"	h="48"/>
+			<Bottom			x="489"	y="389"	w="48"	h="48"/>
+			<Bottomright	x="537" y="389"	w="48"	h="48"/>
+			<OffSet x="48" y="48" />
+		</NineSquare>
+	</Texture>
+	<Texture name="WhiteEditBkgTemplate" virtual="true" file="ui/login.png" DrawType="ninesquare">
+		<Size>
+			<RelDimension x="1.0" y="1.0"/>
+		</Size>
+		<Anchors>
+			<Anchor point="topleft" relativeTo="$parent" relativePoint="topleft">
+				<Offset>
+					<AbsDimension x="0" y="0"/>
+				</Offset>
+			</Anchor>
+		</Anchors>
+		<NineSquare>
+			<Topleft		x="945"	y="192"	w="12"	h="12"/>
+			<Top			x="957"	y="192"	w="12"  h="12"/>
+			<Topright		x="969"	y="192"	w="12"	h="12"/>
+			<Left			x="945"	y="204"	w="12"	h="12"/>
+			<Center			x="957" y="204"	w="12"	h="12"/>
+			<Right			x="969"	y="204"	w="12"	h="12"/>
+			<Bottomleft		x="945" y="216"	w="12"	h="12"/>
+			<Bottom			x="957"	y="216"	w="12"	h="12"/>
+			<Bottomright	x="969" y="216"	w="12"	h="12"/>
+			<OffSet x="12" y="12" />
+		</NineSquare>
+	</Texture>
+	<Texture name="EditBoxBkgTemplate" virtual="true" file="ui/1.dds" x="156" y="652" w="126" h="14" DrawType="tile">
+		<Tile>
+			<TileSize>
+				<AbsValue val="14" />
+			</TileSize>
+			<BackgroundInsets>
+				<AbsInset left="14" right="14" top="14" bottom="14" />
+			</BackgroundInsets>
+		</Tile>
+		<Size>
+			<RelDimension x="1.0" y="1.0"/>
+		</Size>
+		<Anchors>
+			<Anchor point="topleft" relativeTo="$parent" relativePoint="topleft">
+				<Offset>
+					<AbsDimension x="0" y="0"/>
+				</Offset>
+			</Anchor>
+		</Anchors>
+	</Texture>
+	<Texture name="MoneyIconTemplate" virtual="true" file="ui/login.png" x="679" y="164" w="22" h="27">
+		<Size>
+			<AbsDimension x="22" y="27"/>
+		</Size>
+	</Texture>
+	<Texture name="MedalIconTemplate" virtual="true" file="ui/login.png" x="806" y="94" w="25" h="28">
+		<Size>
+			<AbsDimension x="25" y="28"/>
+		</Size>
+	</Texture>
+	<Texture name="LikeIconTemplate" virtual="true" file="ui/login.png" x="945" y="271" w="38" h="44">
+		<Size>
+			<AbsDimension x="38" y="44"/>
+		</Size>
+	</Texture>
+	<Texture name="RoseIconTemplate" virtual="true" file="ui/login.png" x="945" y="316" w="38" h="42">
+		<Size>
+			<AbsDimension x="38" y="42"/>
+		</Size>
+	</Texture>
+	<Texture name="LockIconTemplate" virtual="true" file="ui/login.png" x="945" y="230" w="39" h="39">
+		<Size>
+			<AbsDimension x="39" y="39"/>
+		</Size>
+	</Texture>
+	<Texture name="HorizonLineTemplate" virtual="true" file="ui/login.png" x="5" y="62" w="44" h="1">
+	</Texture>
+	<Texture name="VerticalLineTemplate" virtual="true" file="ui/login.png" x="56" y="6" w="1" h="44">
+	</Texture>
+	<Texture name="FadeLineTemplate" virtual="true" file="ui/login.png" x="426" y="441" w="265" h="1">
+		<Size>
+			<AbsDimension x="265" y="1"/>
+		</Size>
+	</Texture>
+	<Texture name="BattleIconTemplate" virtual="true" file="ui/login.png" x="986" y="267" w="38" h="36">
+		<Size>
+			<AbsDimension x="38" y="36"/>
+		</Size>
+	</Texture>
+	<Button name="LobbyYellowBtnTemplate" virtual="true">
+		<Size>
+			<AbsDimension x="81" y="35"/>
+		</Size>
+		<NormalTexture name="$parentNormal" file="ui/login.png" x="842" y="155" w="81" h="35"/>
+		<PushedTexture name="$parentPushed" file="ui/login.png" x="842" y="155" w="81" h="35"/>
+		<HighlightTexture name="$parentHighlight" file="ui/login.png" x="925" y="155" w="81" h="35"/>
+		<FontString name="$parentText" fonttype="BlackFont18" justifyH="center" fontStyle="border" textcolor="FFFED663">
+			<Size>
+				<AbsDimension x="81" y="18"/>
+			</Size>
+			<Anchors>
+				<Anchor point="center" relativePoint="center" relativeTo="$parent">
+					<Offset>
+						<AbsDimension x="0" y="0"/>
+					</Offset>
+				</Anchor>
+			</Anchors>
+		</FontString>
+	</Button>
+	<Button name="LobbyCloseBtnTemplate" virtual="true">
+		<Size>
+			<AbsDimension x="39" y="39"/>
+		</Size>
+		<NormalTexture name="$parentNormal" file="ui/login.png" x="851" y="295" w="39" h="39"/>
+		<PushedTexture name="$parentPushed" file="ui/login.png" x="851" y="295" w="39" h="39"/>
+		<HighlightTexture name="$parentHighlight" file="ui/login.png" x="892" y="295" w="39" h="39"/>
+	</Button>
+	<Button name="LobbySmallCloseBtnTemplate" virtual="true">
+		<Size>
+			<AbsDimension x="13" y="14"/>
+		</Size>
+		<NormalTexture name="$parentNormal" file="ui/login.png" x="679" y="3" w="13" h="14"/>
+		<PushedTexture name="$parentPushed" file="ui/login.png" x="679" y="3" w="13" h="14"/>
+		<HighlightTexture name="$parentHighlight" file="ui/login.png" x="679" y="23" w="13" h="14"/>
+	</Button>
+	<Button name="LobbySmallBtnTemplate" virtual="true">
+		<Size>
+			<AbsDimension x="83" y="35"/>
+		</Size>
+		<NormalTexture name="$parentNormal" file="ui/login.png" x="584" y="128" w="83" h="35"/>
+		<PushedTexture name="$parentPushed" file="ui/login.png" x="584" y="128" w="83" h="35"/>
+		<HighlightTexture name="$parentHighlight" file="ui/login.png" x="669" y="128" w="83" h="35" hidden="true"/>
+	</Button>
+	<Button name="LobbySmallTextBtnTemplate" virtual="true">
+		<Size>
+			<AbsDimension x="83" y="35"/>
+		</Size>
+		<NormalTexture name="$parentNormal" file="ui/login.png" x="584" y="128" w="83" h="35"/>
+		<PushedTexture name="$parentPushed" file="ui/login.png" x="584" y="128" w="83" h="35"/>
+		<HighlightTexture name="$parentHighlight" file="ui/login.png" x="669" y="128" w="83" h="35" hidden="true"/>
+		<FontString name="$parentText" fonttype="BlackFont" justifyH="center" fontStyle="border">
+			<Size>
+				<AbsDimension x="80" y="16"/>
+			</Size>
+			<Anchors>
+				<Anchor point="center" relativePoint="center" relativeTo="$parent">
+					<Offset>
+						<AbsDimension x="0" y="0"/>
+					</Offset>
+				</Anchor>
+			</Anchors>
+		</FontString>
+	</Button>
+	<Button name="LobbyMiniBtnTemplate" virtual="true">
+		<Size>
+			<AbsDimension x="47" y="25"/>
+		</Size>
+		<NormalTexture name="$parentNormal" file="ui/login.png" x="577" y="40" w="47" h="25"/>
+		<PushedTexture name="$parentPushed" file="ui/login.png" x="577" y="40" w="47" h="25"/>
+		<HighlightTexture name="$parentHighlight" file="ui/login.png" x="627" y="40" w="47" h="25"/>
+	</Button>
+	<Button name="LobbyMiniTextBtnTemplate" virtual="true">
+		<Size>
+			<AbsDimension x="47" y="25"/>
+		</Size>
+		<NormalTexture name="$parentNormal" file="ui/login.png" x="577" y="40" w="47" h="25"/>
+		<PushedTexture name="$parentPushed" file="ui/login.png" x="577" y="40" w="47" h="25"/>
+		<HighlightTexture name="$parentHighlight" file="ui/login.png" x="627" y="40" w="47" h="25"/>
+		<FontString name="$parentText" fonttype="BlackFont14" justifyH="center" fontStyle="border">
+			<Size>
+				<AbsDimension x="47" y="14"/>
+			</Size>
+			<Anchors>
+				<Anchor point="center" relativePoint="center" relativeTo="$parent">
+					<Offset>
+						<AbsDimension x="0" y="0"/>
+					</Offset>
+				</Anchor>
+			</Anchors>
+		</FontString>
+	</Button>
+	<Button name="LobbyRectTextBtnTemplate" virtual="true">
+		<Size>
+			<AbsDimension x="129" y="31"/>
+		</Size>
+		<NormalTexture name="$parentNormal" file="ui/login.png" x="814" y="340" w="129" h="31"/>
+		<PushedTexture name="$parentPushed" file="ui/login.png" x="814" y="340" w="129" h="31"/>
+		<HighlightTexture name="$parentHighlight" file="ui/login.png" x="814" y="375" w="129" h="31"/>
+		<FontString name="$parentText" fonttype="BlackFont18" justifyH="center">
+			<Size>
+				<AbsDimension x="129" y="18"/>
+			</Size>
+			<Anchors>
+				<Anchor point="center" relativePoint="center" relativeTo="$parent">
+					<Offset>
+						<AbsDimension x="0" y="0"/>
+					</Offset>
+				</Anchor>
+			</Anchors>
+		</FontString>
+	</Button>
+	<Button name="LobbyMiddleBtnTemplate" virtual="true">
+		<Size>
+			<AbsDimension x="115" y="45"/>
+		</Size>
+		<NormalTexture name="$parentNormal" file="ui/login.png" x="777" y="0" w="115" h="45"/>
+		<PushedTexture name="$parentPushed" file="ui/login.png" x="777" y="0" w="115" h="45"/>
+		<HighlightTexture name="$parentHighlight" file="ui/login.png" x="893" y="0" w="115" h="45" hidden="true"/>
+	</Button>
+	<Button name="LobbyMiddleTextBtnTemplate" virtual="true">
+		<Size>
+			<AbsDimension x="115" y="45"/>
+		</Size>
+		<NormalTexture name="$parentNormal" file="ui/login.png" x="777" y="0" w="115" h="45"/>
+		<PushedTexture name="$parentPushed" file="ui/login.png" x="777" y="0" w="115" h="45"/>
+		<HighlightTexture name="$parentHighlight" file="ui/login.png" x="893" y="0" w="115" h="45" hidden="true"/>
+		<FontString name="$parentText" fonttype="BlackFont18" justifyH="center" fontStyle="border">
+			<Size>
+				<AbsDimension x="115" y="18"/>
+			</Size>
+			<Anchors>
+				<Anchor point="center" relativePoint="center" relativeTo="$parent">
+					<Offset>
+						<AbsDimension x="0" y="0"/>
+					</Offset>
+				</Anchor>
+			</Anchors>
+		</FontString>
+	</Button>
+	<Button name="RotateLeftBtnTemplate" virtual="true">
+		<Size>
+			<AbsDimension x="41" y="30"/>
+		</Size>
+		<NormalTexture name="$parentNormal" file="ui/backpack.png" x="901" y="515" w="42" h="27"/>
+		<PushedTexture name="$parentPushedBG" file="ui/backpack.png" x="983" y="515" w="42" h="27"/>
+		<HighlightTexture name="$parentHighlightBG" file="ui/backpack.png" x="942" y="515" w="42" h="27"/>
+	</Button>
+	<Button name="RotateRightBtnTemplate" virtual="true">
+		<Size>
+			<AbsDimension x="41" y="30"/>
+		</Size>
+		<NormalTexture name="$parentNormal" file="ui/backpack.png" x="901" y="544" w="42" h="27"/>
+		<PushedTexture name="$parentPushedBG" file="ui/backpack.png" x="983" y="544" w="42" h="27"/>
+		<HighlightTexture name="$parentHighlightBG" file="ui/backpack.png" x="942" y="544" w="42" h="27"/>
+	</Button>
+	<Button name="LobbyEnterBtnTemplate" virtual="true">
+		<Size>
+			<AbsDimension x="115" y="45"/>
+		</Size>
+		<NormalTexture name="$parentNormal" file="ui/login.png" x="777" y="0" w="115" h="45"/>
+		<PushedTexture name="$parentPushed" file="ui/login.png" x="777" y="0" w="115" h="45"/>
+		<HighlightTexture name="$parentHighlight" file="ui/login.png" x="893" y="0" w="115" h="45" hidden="true"/>
+		<Layers>
+			<Layer level="HIGHLIGHT">
+				<Texture name="$parentText" file="ui/login.png" x="678" y="41" w="49" h="25">
+					<Size>
+						<AbsDimension x="49" y="25"/>
+					</Size>
+					<Anchors>
+						<Anchor point="center" relativePoint="center" relativeTo="$parent">
+							<Offset>
+								<AbsDimension x="0" y="0"/>
+							</Offset>
+						</Anchor>
+					</Anchors>
+				</Texture>
+			</Layer>
+		</Layers>
+	</Button>
+	<Button name="LobbyCheckBtnTemplate" virtual="true">
+		<Size>
+			<AbsDimension x="22" y="20"/>
+		</Size>
+		<Layers>
+			<Layer level="background">
+				<Texture name="$parentBG" file="ui/login.png" x="782" y="53" w="12" h="12">
+					<Size>
+						<AbsDimension x="12" y="12"/>
+					</Size>
+					<Anchors>
+						<Anchor point="bottom" relativePoint="bottom" relativeTo="$parent">
+							<Offset>
+								<AbsDimension x="-3" y="0"/>
+							</Offset>
+						</Anchor>
+					</Anchors>
+				</Texture>
+			</Layer>
+		</Layers>
+		<NormalTexture name="$parentNormal" file="ui/login.png" x="0" y="0" w="1" h="1" color="00000000"/>
+		<PushedTexture name="$parentPushed" file="ui/login.png" x="0" y="0" w="1" h="1" color="00000000"/>
+		<CheckedTexture name="$parentChecked" file="ui/login.png" x="715" y="20" w="22" h="20"/>
+	</Button>
+	<Button name="LobbyLongBtnTemplate" virtual="true">
+		<Size>
+			<AbsDimension x="255" y="32"/>
+		</Size>
+		<NormalTexture name="$parentNormal" file="ui/login.png" x="63" y="33" w="255" h="32"/>
+		<PushedTexture name="$parentPushed" file="ui/login.png" x="63" y="33" w="255" h="32"/>
+		<HighlightTexture name="$parentHighlight" file="ui/login.png" x="320" y="33" w="255" h="32"/>
+	</Button>
+	<Button name="LobbyLongTextBtnTemplate" virtual="true">
+		<Size>
+			<AbsDimension x="255" y="32"/>
+		</Size>
+		<NormalTexture name="$parentNormal" file="ui/login.png" x="63" y="33" w="255" h="32"/>
+		<PushedTexture name="$parentPushed" file="ui/login.png" x="63" y="33" w="255" h="32"/>
+		<HighlightTexture name="$parentHighlight" file="ui/login.png" x="320" y="33" w="255" h="32"/>
+		<FontString name="$parentText" fonttype="BlackFont" justifyH="center" fontStyle="border">
+			<Size>
+				<AbsDimension x="255" y="16"/>
+			</Size>
+			<Anchors>
+				<Anchor point="center" relativePoint="center" relativeTo="$parent">
+					<Offset>
+						<AbsDimension x="0" y="0"/>
+					</Offset>
+				</Anchor>
+			</Anchors>
+		</FontString>
+	</Button>
+	<Button name="CloseBtnTemplate" virtual="true">
+		<Size>
+			<AbsDimension x="45" y="47"/>
+		</Size>
+		<NormalTexture name="$parentNormal" file="ui/backpack.png" x="0" y="715" w="45" h="47"/>
+		<PushedTexture name="$parentPushedBG" file="ui/backpack.png" x="93" y="715" w="45" h="47"/>
+		<HighlightTexture name="$parentHighlightBG" file="ui/backpack.png" x="48" y="715" w="45" h="47"/>
+	</Button>
+	<Button name="SortBtnTemplate" virtual="true">
+		<Size>
+			<AbsDimension x="42" y="24"/>
+		</Size>
+		<Anchors>
+			<Anchor point="topleft" relativeTo="$parent" relativePoint="topleft">
+				<Offset>
+					<AbsDimension x="630" y="178"/>
+				</Offset>
+			</Anchor>
+		</Anchors>
+		<NormalTexture name="$parentNormal" file="ui/backpack.png" x="142" y="667" w="42" h="24"/>
+		<PushedTexture name="$parentPushedBG" file="ui/backpack.png" x="227" y="666" w="42" h="24"/>
+		<HighlightTexture name="$parentHighlightBG" file="ui/backpack.png" x="184" y="666" w="42" h="24"/>
+		<Scripts>
+			<OnClick>BackpackFrameSortBtn_OnClick();</OnClick>
+		</Scripts>
+	</Button>
+	<Button name="ItemButtonTemplate" virtual="true">
+		<Size>
+			<AbsDimension x="64" y="64" />
+		</Size>
+		<Anchors>
+			<Anchor point="topleft" relativePoint="topleft" relativeTo="$parent">
+				<Offset>
+					<AbsDimension x="0" y="0"/>
+				</Offset>
+			</Anchor>
+		</Anchors>
+		<Frames>
+			<Frame name="$parentContent" input_transparent="true">
+				<Size>
+					<AbsDimension x="64" y="64"/>
+				</Size>
+				<Anchors>
+					<Anchor point="center" relativePoint="center" relativeTo="$parent">
+						<Offset>
+							<AbsDimension x="0" y="0"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Layers>
+					<Layer level="BACKGROUND">
+						<Texture name="$parentIcon">
+						</Texture>
+						<Texture name="$parentBoxTexture" file="ui/backpack.png" x="90" y="774" w="70" h="70" hidden="true">
+							<Size>
+								<AbsDimension x="70" y="70"/>
+							</Size>
+							<Anchors>
+								<Anchor point="TopLeft" relativePoint="TopLeft" relativeTo="$parent">
+									<Offset>
+										<AbsDimension x="-3" y="-3"/>
+									</Offset>
+								</Anchor>
+							</Anchors>				
+						</Texture>
+					</Layer>
+					<Layer level="ARTWORK">
+						<Texture name="$parentDuration" file="ui/backpack.png" x="143" y="698" w="60" h="9" hidden="true">
+							<Size>
+								<AbsDimension x="60" y="9"/>
+							</Size>
+							<Anchors>
+								<Anchor point="BottomLeft" relativePoint="BottomLeft" relativeTo="$parent">
+									<Offset>
+										<AbsDimension x="2" y="-5"/>
+									</Offset>
+								</Anchor>
+							</Anchors>				
+						</Texture>
+					</Layer>
+					<Layer level="HIGHLIGHT">
+						<FontString name="$parentDurationNum" fonttype="BlackFont14" fontStyle="border" justifyH="center" textcolor="FFFFFFFF">
+							<Size>
+								<AbsDimension x="40" y="16"/>
+							</Size>
+							<Anchors>
+								<Anchor point="topright" relativePoint="topright" relativeTo="$parent">
+									<Offset>
+										<AbsDimension x="0" y="0"/>
+									</Offset>
+								</Anchor>
+							</Anchors>
+						</FontString>
+						 <FontString name="$parentCount" fonttype="MinimumBlackFont" fontStyle="border" justifyH="right" text="">
+							<Color r="243" g="245" b="218" />
+							<Size>
+								<AbsDimension x="14" y="14" />
+							</Size>
+							<Anchors>
+								<Anchor point="bottomright" relativePoint="bottomright" relativeTo="$parent">
+									<Offset>
+										<AbsDimension x="0" y="0" />
+									</Offset>
+								</Anchor>
+							</Anchors>
+						</FontString>
+					</Layer>
+				</Layers>
+			</Frame>
+		</Frames>
+		<Scripts>
+			<OnMouseDown>ItemButton_MouseDown()</OnMouseDown>
+			<OnMouseUp>ItemButton_MouseUp()</OnMouseUp>
+			<OnEnter>ItemButton_MouseEnter()</OnEnter>
+			<OnLeave>ItemButton_MouseLeave()</OnLeave>
+		</Scripts>
+	</Button>
+</Ui>

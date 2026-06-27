@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Ui>
+	<Script file="ui/gameoption.lua" />
+	<Frame name="GameOptionFrame" parent="UIClient" frameStrata="FULLSCREEN_DIALOG" hidden="true" framelevel="1">
+		<Size>
+			<RelDimension x="1.0" y="1.0"/>
+		</Size>
+		<Anchors>
+			<Anchor point="topleft" relativePoint="topleft" relativeTo="$parent">
+				<Offset>
+					<AbsDimension x="0" y="0" />
+				</Offset>
+			</Anchor>
+		</Anchors>
+		<Layers>
+			<Layer level="BACKGROUND">
+				<Texture name="$parentBkg" file="ui/white.png" color="80000000">
+					<Size>
+						<RelDimension x="1.0" y="1.0" />
+					</Size>
+					<Anchors>
+						<Anchor point="topleft" relativeTo="$parent" relativePoint="topleft">
+							<Offset>
+								<AbsDimension x="0" y="0" />
+							</Offset>
+						</Anchor>
+					</Anchors>
+				</Texture>
+				<FontString name="$parentTitle" fonttype="BlackFont24" justifyH="center"  text="游戏菜单" >
+					<Color r="255" g="254" b="189" />
+					<Size>
+						<AbsDimension x="121" y="24"/>
+					</Size>
+					<Anchors>
+						<Anchor point="center" relativeTo="$parent" LittleFZYBlackFont="center">
+							<Offset>
+								<AbsDimension x="0" y="-100" />
+							</Offset>
+						</Anchor>
+					</Anchors>
+				</FontString>
+			</Layer>
+		</Layers>
+		<Frames>
+			<Button name="$parentContinueBtn" inherits="LobbyLongTextBtnTemplate" text="回到游戏">
+				<Anchors>
+					<Anchor point="center" relativePoint="center" relativeTo="$parent">
+						<Offset>
+							<AbsDimension x="0" y="0"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Scripts>
+					<OnClick>GameOptContinueBtn_OnClick();</OnClick>
+				</Scripts>
+			</Button>
+			<Button name="$parentMainMenuBtn" inherits="LobbyLongTextBtnTemplate" text="保存并退到标题画面">
+				<Anchors>
+					<Anchor point="center" relativePoint="center" relativeTo="$parent">
+						<Offset>
+							<AbsDimension x="0" y="100"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Scripts>
+					<OnClick>GameOptMainMenuBtn_OnClick();</OnClick>
+				</Scripts>
+			</Button>
+			<Button name="$parentHideUIBtn" inherits="LobbyLongTextBtnTemplate" text="隐藏UI界面">
+				<Anchors>
+					<Anchor point="center" relativePoint="center" relativeTo="$parent">
+						<Offset>
+							<AbsDimension x="0" y="200"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Scripts>
+					<OnClick>GameOptHideUIBtn_OnClick();</OnClick>
+				</Scripts>
+			</Button>
+		</Frames>
+		<Scripts>
+			<OnShow>GameOptionFrame_OnShow();</OnShow>
+			<OnHide>GameOptionFrame_OnHide();</OnHide>
+		</Scripts>
+	</Frame>
+</Ui>

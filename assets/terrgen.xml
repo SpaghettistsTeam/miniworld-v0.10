@@ -1,0 +1,12 @@
+<?xml versin="1.0" encoding="UTF-8"?>
+
+<Layers>
+	<bedrock mode="tile" miny="0" maxy="2" minfalloff="0" maxfalloff="1" odds="0.999"/>
+	<lava mode="tile" miny="1" maxy="5" minfalloff="1" maxfalloff="0" odds="0.9"/>
+	<rock mode="tile" miny="5" maxy="255" minfalloff="0" maxfalloff="0" odds="0.8"/>
+	<diamond mode="tile" miny="0" maxy="20" minfalloff="5" maxfalloff="3" odds="0.00082"/>
+	<gold mode="tile" miny="16" maxy="32" minfalloff="5" maxfalloff="3" odds="0.00089"/>
+	<iron mode="tile" miny="32" maxy="64" minfalloff="5" maxfalloff="3" odds="0.00459"/>
+	<coal mode="tile" miny="64" maxy="128" minfalloff="5" maxfalloff="3" odds="0.00899"/>
+	<redstone mode="tile" miny="0" maxy="19" minfalloff="5" maxfalloff="3" odds="0.00628"/>
+</Layers>

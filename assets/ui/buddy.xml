@@ -1,0 +1,1132 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Ui>
+	<Script file="ui/buddy.lua" />
+	<Button name="BuddyListItemTemplate" virtual="true">
+		<Size>
+			<AbsDimension x="255" y="62" />
+		</Size>
+		<Layers>
+			<Layer level="overlay">
+				<Texture name="$parentIcon" file="ui/roleicons/1.png">
+					<Size>
+						<AbsDimension x="48" y="48" />
+					</Size>
+					<Anchors>
+						<Anchor point="left" relativeTo="$parent" relativePoint="left">
+							<Offset>
+								<AbsDimension x="2" y="0" />
+							</Offset>
+						</Anchor>
+					</Anchors>
+				</Texture>
+				<FontString name="$parentNickName" fonttype="BlackFont" text="test">
+					<Color r="255" g="255" b="255"/>
+					<Size>
+						<AbsDimension x="150" y="20"/>
+					</Size>
+					<Anchors>
+						<Anchor point="topleft" relativeTo="$parentIcon" relativePoint="topright">
+							<Offset>
+								<AbsDimension x="0" y="4" />
+							</Offset>
+						</Anchor>
+					</Anchors>
+				</FontString>
+				<FontString name="$parentStatus" fonttype="MinimumBlackFont" text="ingame">
+					<Color r="238" g="234" b="0"/>
+					<Size>
+						<AbsDimension x="150" y="20"/>
+					</Size>
+					<Anchors>
+						<Anchor point="bottomleft" relativeTo="$parentIcon" relativePoint="bottomright">
+							<Offset>
+								<AbsDimension x="0" y="-4" />
+							</Offset>
+						</Anchor>
+					</Anchors>
+				</FontString>
+			</Layer>
+		</Layers>
+		<Frames>
+			<Button name="$parentMsgBtn">
+				<Size>
+					<AbsDimension x="17" y="17"/>
+				</Size>
+				<Anchors>
+					<Anchor point="topright" relativeTo="$parent" relativePoint="topright">
+						<Offset>
+							<AbsDimension x="-6" y="4" />
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<NormalTexture name="$parentNormal" file="ui/login.png" x="601" y="0" w="17" h="17"/>
+				<PushedTexture name="$parentPushed" file="ui/login.png" x="601" y="0" w="17" h="17"/>
+				<Scripts>
+					<OnClick>BuddyListItemMsgBtn_OnClick();</OnClick>
+				</Scripts>
+			</Button>
+		</Frames>
+		<NormalTexture name="$parentNormal" file="ui/login.png" x="1" y="67" w="255" h="62"/>
+		<PushedTexture name="$parentPushed" file="ui/login.png" x="1" y="67" w="255" h="62"/>
+		<HighlightTexture name="$parentHighlight" file="ui/login.png" x="258" y="67" w="255" h="62"/>
+		<Scripts>
+			<OnClick>BuddyListItem_OnClick()</OnClick>
+		</Scripts>
+	</Button>
+	<Button name="BuddyWorldBtnTemplate" virtual="true">
+		<Size>
+			<AbsDimension x="143" y="96"/>
+		</Size>
+		<Layers>
+			<Layer level="background">
+				<Texture name="$parentPicBG" inherits="MainBkgTemplate"/>
+			</Layer>
+			<Layer level="artwork">
+				<Texture name="$parentPic" file="ui/question.png">
+					<Size>
+						<AbsDimension x="141" y="94"/>
+					</Size>
+					<Anchors>
+						<Anchor point="topleft" relativePoint="topleft" relativeTo="$parent">
+							<Offset>
+								<AbsDimension x="1" y="1" />
+							</Offset>
+						</Anchor>
+					</Anchors>
+				</Texture>
+				<Texture name="$parentLock" inherits="LockIconTemplate" hidden="true">
+					<Anchors>
+						<Anchor point="topleft" relativePoint="topleft" relativeTo="$parent">
+							<Offset>
+								<AbsDimension x="-15" y="-15" />
+							</Offset>
+						</Anchor>
+					</Anchors>
+				</Texture>
+				<Texture name="$parentShare" inherits="LikeIconTemplate" hidden="true">
+					<Anchors>
+						<Anchor point="topleft" relativePoint="topleft" relativeTo="$parent">
+							<Offset>
+								<AbsDimension x="-15" y="-15" />
+							</Offset>
+						</Anchor>
+					</Anchors>
+				</Texture>
+			</Layer>
+		</Layers>
+		<Scripts>
+			<OnClick>BuddyWorldBtn_OnClick()</OnClick>
+		</Scripts>
+	</Button>
+
+	<Frame name="BuddyListFrame" parent="UIClient" frameStrata="MEDIUM" hidden="true" framelevel="100">
+		<Size>
+			<AbsDimension x="267" y="514"/>
+		</Size>
+		<Anchors>
+			<Anchor point="bottomleft" relativePoint="bottomleft" relativeTo="$parent">
+				<Offset>
+					<AbsDimension x="0" y="-36"/>
+				</Offset>
+			</Anchor>
+		</Anchors>
+		<Layers>
+			<Layer level="BACKGROUND">
+				<Texture name="$parentBkg" inherits="FrameBkgTemplate"/>
+			</Layer>
+			<Layer level="overlay">
+				<Texture name="$parentMyIcon" file="ui/roleicons/1.png">
+					<Size>
+						<AbsDimension x="64" y="64"/>
+					</Size>
+					<Anchor point="topleft" relativePoint="topleft" relativeTo="$parent">
+						<Offset>
+							<AbsDimension x="2" y="2"/>
+						</Offset>
+					</Anchor>
+				</Texture>
+				<FontString name="$parentMyNick" fonttype="BlackFont" lineInterval="2" text="大王来巡山">
+					<Color r="255" g="255" b="255"/>
+					<Size>
+						<AbsDimension x="150" y="20"/>
+					</Size>
+					<Anchors>
+						<Anchor point="topleft" relativePoint="topright" relativeTo="$parentMyIcon">
+							<Offset>
+								<AbsDimension x="10" y="16"/>
+							</Offset>
+						</Anchor>
+					</Anchors>
+				</FontString>
+				<FontString name="$parentMyStatus" fonttype="MinimumBlackFont" lineInterval="2" text="在线">
+					<Color r="0" g="150" b="0"/>
+					<Size>
+						<AbsDimension x="150" y="20"/>
+					</Size>
+					<Anchors>
+						<Anchor point="topleft" relativePoint="bottomleft" relativeTo="$parentMyNick">
+							<Offset>
+								<AbsDimension x="0" y="2"/>
+							</Offset>
+						</Anchor>
+					</Anchors>
+				</FontString>
+				<Texture name="$parentSearchBG" file="ui/login.png" x="268" y="1" w="255" h="30">
+					<Size>
+						<AbsDimension x="255" y="30"/>
+					</Size>
+					<Anchors>
+						<Anchor point="topleft" relativePoint="bottomleft" relativeTo="$parentMyIcon">
+							<Offset>
+								<AbsDimension x="2" y="2"/>
+							</Offset>
+						</Anchor>
+					</Anchors>
+				</Texture>
+			</Layer>
+		</Layers>
+		<Frames>
+			<EditBox name="$parentSearchEdit" letters="30">
+				<Size>
+					<AbsDimension x="220" y="20"/>
+				</Size>
+				<Anchors>
+					<Anchor point="left" relativePoint="left" relativeTo="$parentSearchBG">
+						<Offset>
+							<AbsDimension x="3" y="0"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<FontString name="$parentFont" fonttype="BlackFont"></FontString>
+			</EditBox>
+			<Button name="$parentSearchBtn">
+				<Size>
+					<AbsDimension x="17" y="15"/>
+				</Size>
+				<Anchors>
+					<Anchor point="right" relativePoint="right" relativeTo="$parentSearchBG">
+						<Offset>
+							<AbsDimension x="-5" y="0"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<NormalTexture name="$parentNormal" file="ui/login.png" x="581" y="21" w="17" h="15"/>
+				<PushedTexture name="$parentPushed" file="ui/login.png" x="581" y="21" w="17" h="15"/>
+				<HighlightTexture name="$parentHighlight" file="ui/login.png" x="602" y="21" w="17" h="15" hidden="true"/>
+				<Scripts>
+					<OnClick>BuddyListFrameSearchBtn_OnClick();</OnClick>
+				</Scripts>
+			</Button>
+			<Button name="$parentAddBtn" inherits="LobbyMiniBtnTemplate">
+				<Anchors>
+					<Anchor point="right" relativePoint="left" relativeTo="$parentSysMsgBtn">
+						<Offset>
+							<AbsDimension x="-10" y="0"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Layers>
+					<Layer level="HIGHLIGHT">
+						<Texture name="$parentText" file="ui/login.png" x="525" y="9" w="21" h="21">
+							<Size>
+								<AbsDimension x="21" y="21"/>
+							</Size>
+							<Anchors>
+								<Anchor point="center" relativePoint="center" relativeTo="$parent">
+									<Offset>
+										<AbsDimension x="0" y="0"/>
+									</Offset>
+								</Anchor>
+							</Anchors>
+						</Texture>
+					</Layer>
+				</Layers>
+				<Scripts>
+					<OnClick>BuddyListFrameAddBtn_OnClick();</OnClick>
+				</Scripts>
+			</Button>
+			<Button name="$parentSysMsgBtn" inherits="LobbyMiniBtnTemplate">
+				<Anchors>
+					<Anchor point="bottomright" relativePoint="bottomright" relativeTo="$parent">
+						<Offset>
+							<AbsDimension x="-12" y="-6"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Layers>
+					<Layer level="HIGHLIGHT">
+						<Texture name="$parentText" file="ui/login.png" x="550" y="9" w="21" h="21">
+							<Size>
+								<AbsDimension x="21" y="21"/>
+							</Size>
+							<Anchors>
+								<Anchor point="center" relativePoint="center" relativeTo="$parent">
+									<Offset>
+										<AbsDimension x="0" y="0"/>
+									</Offset>
+								</Anchor>
+							</Anchors>
+						</Texture>
+					</Layer>
+				</Layers>
+				<Scripts>
+					<OnClick>BuddyListFrameSysMsgBtn_OnClick();</OnClick>
+				</Scripts>
+			</Button>
+			<ListBox name="$parentList" itemtemplate="BuddyListItemTemplate" itemheight="62" headerheight="32" clipped="true">
+				<Size>
+					<AbsDimension x="255" y="370"/>
+				</Size>
+				<Anchors>
+					<Anchor point="topleft" relativePoint="bottomleft" relativeTo="$parentSearchBG">
+						<Offset>
+							<AbsDimension x="0" y="4"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<GroupHeaders>
+					<Button name="$parentTypeA" inherits="LobbyLongBtnTemplate" id="0">
+						<Layers>
+							<Layer level="HIGHLIGHT">
+								<FontString name="$parentTitle" fonttype="BlackFont" lineInterval="2" text="亲密好友">
+									<Size>
+										<AbsDimension x="100" y="20"/>
+									</Size>
+									<Anchors>
+										<Anchor point="left" relativePoint="left" relativeTo="$parent">
+											<Offset>
+												<AbsDimension x="6" y="0"/>
+											</Offset>
+										</Anchor>
+									</Anchors>
+								</FontString>
+								<FontString name="$parentOnline" fonttype="BlackFont" lineInterval="2" text="[2/4]">
+									<Size>
+										<AbsDimension x="50" y="20"/>
+									</Size>
+									<Anchors>
+										<Anchor point="right" relativePoint="right" relativeTo="$parent">
+											<Offset>
+												<AbsDimension x="-2" y="0"/>
+											</Offset>
+										</Anchor>
+									</Anchors>
+								</FontString>
+							</Layer>
+						</Layers>
+						<Scripts>
+							<OnClick>BuddyListFrameTypeABtn_OnClick();</OnClick>
+						</Scripts>
+					</Button>
+					<Button name="$parentTypeB" id="1000">
+						<Size>
+							<AbsDimension x="255" y="32"/>
+						</Size>
+						<NormalTexture name="$parentNormal" file="ui/login.png" x="63" y="33" w="255" h="32"/>
+						<PushedTexture name="$parentPushed" file="ui/login.png" x="63" y="33" w="255" h="32"/>
+						<HighlightTexture name="$parentHighlight" file="ui/login.png" x="320" y="33" w="255" h="32" hidden="true"/>
+						<Layers>
+							<Layer level="HIGHLIGHT">
+								<FontString name="$parentTitle" fonttype="BlackFont" lineInterval="2" text="好友">
+									<Size>
+										<AbsDimension x="100" y="20"/>
+									</Size>
+									<Anchors>
+										<Anchor point="left" relativePoint="left" relativeTo="$parent">
+											<Offset>
+												<AbsDimension x="6" y="0"/>
+											</Offset>
+										</Anchor>
+									</Anchors>
+								</FontString>
+								<FontString name="$parentOnline" fonttype="BlackFont" lineInterval="2" text="[2/4]">
+									<Size>
+										<AbsDimension x="50" y="20"/>
+									</Size>
+									<Anchors>
+										<Anchor point="right" relativePoint="right" relativeTo="$parent">
+											<Offset>
+												<AbsDimension x="-2" y="0"/>
+											</Offset>
+										</Anchor>
+									</Anchors>
+								</FontString>
+							</Layer>
+						</Layers>
+						<Scripts>
+							<OnClick>BuddyListFrameTypeBBtn_OnClick();</OnClick>
+						</Scripts>
+					</Button>
+				</GroupHeaders>
+			</ListBox>
+			<Slider name="$parentScrollBar" orientation="VERTICAL" minValue="0" maxValue="80" valueStep="1" defaultValue="0" hidden="true">
+				<Size>
+					<AbsDimension x="6" y="366" />
+				</Size>
+				<Anchors>
+					<Anchor point="topleft" relativePoint="topright" relativeTo="$parentList">
+						<Offset>
+							<AbsDimension x="1" y="0"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<ThumbTexture name="$parentThumb" file="ui/login.png" x="1009" y="1" w="6" h="188">
+					<Size>
+						<AbsDimension x="6" y="188" />
+					</Size>
+				</ThumbTexture>
+				<Scripts>
+					<OnValueChanged>BuddyListScrollBar_OnValueChanged();</OnValueChanged>
+					<OnMouseWheel>ScrollBar_OnMouseWheel();</OnMouseWheel>
+				</Scripts>
+			</Slider>
+		</Frames>
+		<Scripts>
+			<OnLoad>BuddyListFrame_OnLoad();</OnLoad>
+			<OnEvent>BuddyListFrame_OnEvent();</OnEvent>
+			<OnShow>BuddyListFrame_OnShow();</OnShow>
+			<OnHide>BuddyListFrame_OnHide();</OnHide>
+		</Scripts>
+	</Frame>
+	<Frame name="BuddyOptionFrame" parent="UIClient" frameStrata="MEDIUM" hidden="true" framelevel="101">
+		<Size>
+			<AbsDimension x="187" y="152"/>
+		</Size>
+		<Layers>
+			<Layer level="BACKGROUND">
+				<Texture name="$parentBkg" inherits="FrameBkgTemplate"/>
+			</Layer>
+			<Layer level="ARTWORK">
+				<Texture name="$parentTalkIcon" file="ui/login.png" x="60" y="5" w="30" h="25">
+					<Size>
+						<AbsDimension x="30" y="25"/>
+					</Size>
+					<Anchors>
+						<Anchor point="topleft" relativePoint="topleft" relativeTo="$parent">
+							<Offset>
+								<AbsDimension x="12" y="24"/>
+							</Offset>
+						</Anchor>
+					</Anchors>
+				</Texture>
+				<Texture name="$parentViewIcon" file="ui/login.png" x="95" y="5" w="30" h="25">
+					<Size>
+						<AbsDimension x="30" y="25"/>
+					</Size>
+					<Anchors>
+						<Anchor point="top" relativePoint="top" relativeTo="$parentTalkIcon">
+							<Offset>
+								<AbsDimension x="0" y="48"/>
+							</Offset>
+						</Anchor>
+					</Anchors>
+				</Texture>
+			</Layer>
+		</Layers>
+		<Frames>
+			<Button name="$parentTalkBtn" inherits="LobbyRectTextBtnTemplate" text="聊天">
+				<Anchors>
+					<Anchor point="left" relativePoint="right" relativeTo="$parentTalkIcon">
+						<Offset>
+							<AbsDimension x="6" y="0"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Scripts>
+					<OnClick>BuddyOptionTalkBtn_OnClick()</OnClick>
+				</Scripts>
+			</Button>
+			<Button name="$parentViewBtn" inherits="LobbyRectTextBtnTemplate" text="查看好友">
+				<Anchors>
+					<Anchor point="left" relativePoint="right" relativeTo="$parentViewIcon">
+						<Offset>
+							<AbsDimension x="6" y="0"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Scripts>
+					<OnClick>BuddyOptionViewBtn_OnClick()</OnClick>
+				</Scripts>
+			</Button>
+			<Button name="$parentIntimateBtn">
+				<Size>
+					<AbsDimension x="26" y="22"/>
+				</Size>
+				<Anchors>
+					<Anchor point="bottomleft" relativePoint="bottomleft" relativeTo="$parent">
+						<Offset>
+							<AbsDimension x="14" y="-10"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<NormalTexture name="$parentNormal" file="ui/login.png" x="128" y="6" w="26" h="22" gray="true"/>
+				<CheckedTexture name="$parentChecked" file="ui/login.png" x="128" y="6" w="26" h="22"/>
+				<Scripts>
+					<OnClick>BuddyOptionIntimateBtn_OnClick()</OnClick>
+				</Scripts>
+			</Button>
+			<Button name="$parentRejectMailBtn">
+				<Size>
+					<AbsDimension x="29" y="19"/>
+				</Size>
+				<Anchors>
+					<Anchor point="left" relativePoint="right" relativeTo="$parentIntimateBtn">
+						<Offset>
+							<AbsDimension x="21" y="0"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<NormalTexture name="$parentNormal" file="ui/login.png" x="157" y="8" w="29" h="19" gray="true"/>
+				<CheckedTexture name="$parentChecked" file="ui/login.png" x="157" y="8" w="29" h="19"/>
+			</Button>
+			<Button name="$parentRejectTransBtn">
+				<Size>
+					<AbsDimension x="22" y="22"/>
+				</Size>
+				<Anchors>
+					<Anchor point="left" relativePoint="right" relativeTo="$parentRejectMailBtn">
+						<Offset>
+							<AbsDimension x="21" y="0"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<NormalTexture name="$parentNormal" file="ui/login.png" x="192" y="5" w="22" h="22" gray="true"/>
+				<CheckedTexture name="$parentChecked" file="ui/login.png" x="192" y="5" w="22" h="22"/>
+			</Button>
+			<Button name="$parentRemoveBtn">
+				<Size>
+					<AbsDimension x="19" y="19"/>
+				</Size>
+				<Anchors>
+					<Anchor point="left" relativePoint="right" relativeTo="$parentRejectTransBtn">
+						<Offset>
+							<AbsDimension x="21" y="0"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<NormalTexture name="$parentNormal" file="ui/login.png" x="218" y="8" w="19" h="19"/>
+				<HighlightTexture name="$parentHighlight" file="ui/login.png" x="243" y="8" w="19" h="19"/>
+				<Scripts>
+					<OnClick>BuddyOptionRemoveBtn_OnClick()</OnClick>
+				</Scripts>
+			</Button>
+		</Frames>
+	</Frame>
+	<Frame name="BuddyChatFrame" parent="UIClient" frameStrata="MEDIUM" hidden="true" framelevel="102">
+		<Size>
+			<AbsDimension x="274" y="312"/>
+		</Size>
+		<Layers>
+			<Layer level="BACKGROUND">
+				<Texture name="$parentBkg" inherits="FrameBkgTemplate"/>
+				<Texture name="$parentBkg2" file="ui/login.png" x="636" y="341"	w="48"	h="48">
+					<Size>
+						<AbsDimension x="269" y="255"/>
+					</Size>
+					<Anchors>
+						<Anchor point="bottomleft" relativeTo="$parent" relativePoint="bottomleft">
+							<Offset>
+								<AbsDimension x="2" y="2"/>
+							</Offset>
+						</Anchor>
+					</Anchors>
+				</Texture>
+			</Layer>
+			<Layer level="ARTWORK">
+				<Texture name="$parentIcon" file="ui/roleicons/1.png">
+					<Size>
+						<AbsDimension x="48" y="48" />
+					</Size>
+					<Anchors>
+						<Anchor point="topleft" relativeTo="$parent" relativePoint="topleft">
+							<Offset>
+								<AbsDimension x="2" y="2"/>
+							</Offset>
+						</Anchor>
+					</Anchors>
+				</Texture>
+				<FontString name="$parentNickName" fonttype="BlackFont18" text="test">
+					<Size>
+						<AbsDimension x="180" y="18"/>
+					</Size>
+					<Anchors>
+						<Anchor point="topleft" relativeTo="$parentIcon" relativePoint="topright">
+							<Offset>
+								<AbsDimension x="10" y="0" />
+							</Offset>
+						</Anchor>
+					</Anchors>
+				</FontString>
+				<Texture name="$parentInputBG" inherits="WhiteEditBkgTemplate">
+					<Size>
+						<AbsDimension x="234" y="24" />
+					</Size>
+					<Anchors>
+						<Anchor point="bottomleft" relativeTo="$parent" relativePoint="bottomleft">
+							<Offset>
+								<AbsDimension x="6" y="-6"/>
+							</Offset>
+						</Anchor>
+					</Anchors>
+				</Texture>
+			</Layer>
+		</Layers>
+		<Frames>
+			<RichText name="$parentContent" lineInterval="2" multiLine="true" fonttype="BlackFont14" autoextend="true">
+				<Size>
+					<AbsDimension x="250" y="216" />
+				</Size>		
+				<Anchors>
+					<Anchor point="topleft" relativeTo="$parentBkg2" relativePoint="topleft">
+						<Offset>
+							<AbsDimension x="8" y="6"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+			</RichText>
+			<Slider name="$parentScrollBar" orientation="VERTICAL" minValue="0" maxValue="80" valueStep="1" defaultValue="0" hidden="true">
+				<Size>
+					<AbsDimension x="6" y="216" />
+				</Size>
+				<Anchors>
+					<Anchor point="topleft" relativePoint="topright" relativeTo="$parentContent">
+						<Offset>
+							<AbsDimension x="2" y="0"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<ThumbTexture name="$parentThumb" file="ui/login.png" x="1009" y="192" w="6" h="71">
+					<Size>
+						<AbsDimension x="6" y="71" />
+					</Size>
+				</ThumbTexture>
+				<Scripts>
+					<OnValueChanged>BuddyChatScrollBar_OnValueChanged();</OnValueChanged>
+					<OnMouseWheel>ScrollBar_OnMouseWheel();</OnMouseWheel>
+				</Scripts>
+			</Slider>
+			<EditBox name="$parentInput" letters="256" historyLines="1" multiLine="false" cursorColor="FF000000">
+				<Size>
+					<AbsDimension x="222" y="14" />
+				</Size>		
+				<Anchors>
+					<Anchor point="center" relativeTo="$parentInputBG" relativePoint="center">
+						<Offset>
+							<AbsDimension x="0" y="0" />
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<FontString name="$parentFont" fonttype="BlackFont14" textcolor="ff000000"/>
+				<Scripts>
+					<OnEnterPressed>BuddyChatEditbox_OnEnterPressed();</OnEnterPressed>
+				</Scripts>
+			</EditBox>
+			<Button name="$parentEmoIcon">
+				<Size>
+					<AbsDimension x="26" y="26" />
+				</Size>		
+				<Anchors>
+					<Anchor point="left" relativeTo="$parentInputBG" relativePoint="right">
+						<Offset>
+							<AbsDimension x="2" y="0" />
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<NormalTexture name="$parentNormal" file="ui/login.png" x="648" y="165" w="26" h="26"/>
+				<PushedTexture name="$parentPushed" file="ui/login.png" x="648" y="165" w="26" h="26" color="ffa0a0a0"/>
+			</Button>
+			<Button name="$parentClose" inherits="LobbySmallCloseBtnTemplate">
+				<Anchors>
+					<Anchor point="topright" relativeTo="$parent" relativePoint="topright">
+						<Offset>
+							<AbsDimension x="-4" y="4"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Scripts>
+					<OnClick>BuddyChatFrameClose_OnClick()</OnClick>
+				</Scripts>
+			</Button>
+		</Frames>
+		<Scripts>
+			<OnLoad>BuddyChatFrame_OnLoad()</OnLoad>
+			<OnEvent>BuddyChatFrame_OnEvent()</OnEvent>
+		</Scripts>
+	</Frame>
+	<Frame name="BuddyViewFrame" parent="UIClient" frameStrata="MEDIUM" hidden="true" framelevel="103">
+		<Size>
+			<AbsDimension x="738" y="490"/>
+		</Size>
+		<Anchors>
+			<Anchor point="bottomleft" relativeTo="BuddyListFrame" relativePoint="bottomright">
+				<Offset>
+					<AbsDimension x="2" y="-24" />
+				</Offset>
+			</Anchor>
+		</Anchors>
+		<Layers>
+			<Layer level="BACKGROUND">
+				<Texture name="$parentBkg" inherits="FrameBkgTemplate"/>
+				<Texture name="$parentNameArea" file="ui/login.png" x="636" y="341"	w="48"	h="48">
+					<Size>
+						<AbsDimension x="208" y="102"/>
+					</Size>
+					<Anchors>
+						<Anchor point="topleft" relativeTo="$parent" relativePoint="topleft">
+							<Offset>
+								<AbsDimension x="6" y="6"/>
+							</Offset>
+						</Anchor>
+					</Anchors>
+				</Texture>
+				<Texture name="$parentModelArea" file="ui/login.png" x="636" y="341" w="48"	h="48">
+					<Size>
+						<AbsDimension x="208" y="364"/>
+					</Size>
+					<Anchors>
+						<Anchor point="top" relativeTo="$parentNameArea" relativePoint="bottom">
+							<Offset>
+								<AbsDimension x="0" y="12"/>
+							</Offset>
+						</Anchor>
+					</Anchors>
+				</Texture>
+				<Texture name="$parentScoreArea" file="ui/login.png" x="636" y="341" w="48"	h="48">
+					<Size>
+						<AbsDimension x="163" y="102"/>
+					</Size>
+					<Anchors>
+						<Anchor point="left" relativeTo="$parentNameArea" relativePoint="right">
+							<Offset>
+								<AbsDimension x="10" y="0"/>
+							</Offset>
+						</Anchor>
+					</Anchors>
+				</Texture>
+				<Texture name="$parentAchiveArea" file="ui/login.png" x="636" y="341" w="48"	h="48">
+					<Size>
+						<AbsDimension x="338" y="102"/>
+					</Size>
+					<Anchors>
+						<Anchor point="left" relativeTo="$parentScoreArea" relativePoint="right">
+							<Offset>
+								<AbsDimension x="10" y="0"/>
+							</Offset>
+						</Anchor>
+					</Anchors>
+				</Texture>
+				<Texture name="$parentWorldArea" file="ui/login.png" x="636" y="341" w="48"	h="48">
+					<Size>
+						<AbsDimension x="517" y="374"/>
+					</Size>
+					<Anchors>
+						<Anchor point="left" relativeTo="$parentModelArea" relativePoint="right">
+							<Offset>
+								<AbsDimension x="5" y="0"/>
+							</Offset>
+						</Anchor>
+					</Anchors>
+				</Texture>
+				<Texture name="$parentLineH1" inherits="HorizonLineTemplate">
+					<Size>
+						<AbsDimension x="734" y="1"/>
+					</Size>
+					<Anchors>
+						<Anchor point="topleft" relativeTo="$parentNameArea" relativePoint="bottomleft">
+							<Offset>
+								<AbsDimension x="-4" y="5"/>
+							</Offset>
+						</Anchor>
+					</Anchors>
+				</Texture>
+				<Texture name="$parentLineV1" inherits="VerticalLineTemplate">
+					<Size>
+						<AbsDimension x="1" y="486"/>
+					</Size>
+					<Anchors>
+						<Anchor point="topleft" relativeTo="$parentNameArea" relativePoint="topright">
+							<Offset>
+								<AbsDimension x="4" y="-4"/>
+							</Offset>
+						</Anchor>
+					</Anchors>
+				</Texture>
+				<Texture name="$parentLineH2"  inherits="HorizonLineTemplate">
+					<Size>
+						<AbsDimension x="520" y="1"/>
+					</Size>
+					<Anchors>
+						<Anchor point="topleft" relativeTo="$parentLineV1" relativePoint="topleft">
+							<Offset>
+								<AbsDimension x="0" y="296"/>
+							</Offset>
+						</Anchor>
+					</Anchors>
+				</Texture>
+				<Texture name="$parentLineV2" inherits="VerticalLineTemplate">
+					<Size>
+						<AbsDimension x="1" y="110"/>
+					</Size>
+					<Anchors>
+						<Anchor point="topleft" relativeTo="$parentScoreArea" relativePoint="topright">
+							<Offset>
+								<AbsDimension x="5" y="-4"/>
+							</Offset>
+						</Anchor>
+					</Anchors>
+				</Texture>
+				<Texture name="$parentModelBG" file="ui/login.png" x="0" y="650" w="212" h="374">
+					<Size>
+						<AbsDimension x="212" y="374"/>
+					</Size>
+					<Anchors>
+						<Anchor point="center" relativeTo="$parentModelArea" relativePoint="center">
+							<Offset>
+								<AbsDimension x="0" y="0"/>
+							</Offset>
+						</Anchor>
+					</Anchors>
+				</Texture>
+				<Texture name="$parentBattleBG" file="ui/login.png" x="2" y="437" w="414" h="103">
+					<Size>
+						<AbsDimension x="414" y="103"/>
+					</Size>
+					<Anchors>
+						<Anchor point="top" relativeTo="$parentWorldArea" relativePoint="top">
+							<Offset>
+								<AbsDimension x="0" y="5"/>
+							</Offset>
+						</Anchor>
+					</Anchors>
+				</Texture>
+				<Texture name="$parentFadeLine" inherits="FadeLineTemplate">
+					<Anchors>
+						<Anchor point="top" relativeTo="$parentBattleBG" relativePoint="bottom">
+							<Offset>
+								<AbsDimension x="0" y="40"/>
+							</Offset>
+						</Anchor>
+					</Anchors>
+				</Texture>
+			</Layer>
+			<Layer level="ARTWORK">
+				<Texture name="$parentIcon" file="ui/roleicons/1.png">
+					<Size>
+						<AbsDimension x="64" y="64"/>
+					</Size>
+					<Anchors>
+						<Anchor point="topleft" relativePoint="topleft" relativeTo="$parentNameArea">
+							<Offset>
+								<AbsDimension x="0" y="0"/>
+							</Offset>
+						</Anchor>
+					</Anchors>
+				</Texture>
+				<FontString name="$parentNickName" fonttype="BlackFont18" text="test">
+					<Size>
+						<AbsDimension x="180" y="18"/>
+					</Size>
+					<Anchors>
+						<Anchor point="topleft" relativeTo="$parentIcon" relativePoint="topright">
+							<Offset>
+								<AbsDimension x="10" y="10" />
+							</Offset>
+						</Anchor>
+					</Anchors>
+				</FontString>
+				<Texture name="$parentMedalIcon" inherits="MedalIconTemplate">
+					<Anchors>
+						<Anchor point="topleft" relativePoint="bottomleft" relativeTo="$parentNickName">
+							<Offset>
+								<AbsDimension x="4" y="6"/>
+							</Offset>
+						</Anchor>
+					</Anchors>
+				</Texture>
+				<FontString name="$parentMedalNum" fonttype="BlackFont18" text="test">
+					<Size>
+						<AbsDimension x="90" y="18"/>
+					</Size>
+					<Anchors>
+						<Anchor point="left" relativeTo="$parentMedalIcon" relativePoint="right">
+							<Offset>
+								<AbsDimension x="8" y="0" />
+							</Offset>
+						</Anchor>
+					</Anchors>
+				</FontString>
+				<Texture name="$parentMoneyIcon" inherits="MoneyIconTemplate">
+					<Anchors>
+						<Anchor point="topleft" relativePoint="bottomleft" relativeTo="$parentMedalIcon">
+							<Offset>
+								<AbsDimension x="0" y="6"/>
+							</Offset>
+						</Anchor>
+					</Anchors>
+				</Texture>
+				<FontString name="$parentMoneyNum" fonttype="BlackFont18" text="test">
+					<Size>
+						<AbsDimension x="90" y="18"/>
+					</Size>
+					<Anchors>
+						<Anchor point="left" relativeTo="$parentMoneyIcon" relativePoint="right">
+							<Offset>
+								<AbsDimension x="8" y="0" />
+							</Offset>
+						</Anchor>
+					</Anchors>
+				</FontString>
+				<Texture name="$parentLikeIcon" inherits="LikeIconTemplate">
+					<Anchors>
+						<Anchor point="topleft" relativePoint="topleft" relativeTo="$parentScoreArea">
+							<Offset>
+								<AbsDimension x="5" y="5"/>
+							</Offset>
+						</Anchor>
+					</Anchors>
+				</Texture>
+				<FontString name="$parentLikeNum" fonttype="BlackFont18" text=": 889">
+					<Size>
+						<AbsDimension x="90" y="18"/>
+					</Size>
+					<Anchors>
+						<Anchor point="left" relativeTo="$parentLikeIcon" relativePoint="right">
+							<Offset>
+								<AbsDimension x="6" y="0" />
+							</Offset>
+						</Anchor>
+					</Anchors>
+				</FontString>
+				<Texture name="$parentRoseIcon" inherits="RoseIconTemplate">
+					<Anchors>
+						<Anchor point="topleft" relativePoint="bottomleft" relativeTo="$parentLikeIcon">
+							<Offset>
+								<AbsDimension x="0" y="13"/>
+							</Offset>
+						</Anchor>
+					</Anchors>
+				</Texture>
+				<FontString name="$parentRoseNum" fonttype="BlackFont18" text=": 25206">
+					<Size>
+						<AbsDimension x="90" y="18"/>
+					</Size>
+					<Anchors>
+						<Anchor point="left" relativeTo="$parentRoseIcon" relativePoint="right">
+							<Offset>
+								<AbsDimension x="6" y="0" />
+							</Offset>
+						</Anchor>
+					</Anchors>
+				</FontString>
+				<ModelView name="$parentRoleView">
+					<Size>
+						<AbsDimension x="208" y="300"/>
+					</Size>
+					<Anchors>
+						<Anchor point="top" relativeTo="$parentModelArea" relativePoint="top">
+							<Offset>
+								<AbsDimension x="0" y="0" />
+							</Offset>
+						</Anchor>
+					</Anchors>
+				</ModelView>
+				<Texture name="$parentBattleIcon" inherits="BattleIconTemplate">
+					<Anchors>
+						<Anchor point="left" relativePoint="left" relativeTo="$parentBattleBG">
+							<Offset>
+								<AbsDimension x="70" y="0"/>
+							</Offset>
+						</Anchor>
+					</Anchors>
+				</Texture>
+				<FontString name="$parentWinRateName" fonttype="BlackFont24" text="多人对战胜率: ">
+					<Size>
+						<AbsDimension x="165" y="24"/>
+					</Size>
+					<Anchors>
+						<Anchor point="left" relativeTo="$parentBattleIcon" relativePoint="right">
+							<Offset>
+								<AbsDimension x="10" y="0" />
+							</Offset>
+						</Anchor>
+					</Anchors>
+				</FontString>
+				<FontString name="$parentWinRate" fonttype="BlackFont24" text="52%" textcolor="FFFF0000">
+					<Size>
+						<AbsDimension x="90" y="24"/>
+					</Size>
+					<Anchors>
+						<Anchor point="left" relativeTo="$parentWinRateName" relativePoint="right">
+							<Offset>
+								<AbsDimension x="0" y="0" />
+							</Offset>
+						</Anchor>
+					</Anchors>
+				</FontString>
+				<FontString name="$parentMostOftenName" fonttype="BlackFont18" text="最常玩的游戏: " textcolor="FF0000FF">
+					<Size>
+						<AbsDimension x="120" y="18"/>
+					</Size>
+					<Anchors>
+						<Anchor point="topleft" relativeTo="$parentBattleBG" relativePoint="bottomleft">
+							<Offset>
+								<AbsDimension x="105" y="15" />
+							</Offset>
+						</Anchor>
+					</Anchors>
+				</FontString>
+				<FontString name="$parentMostOften" fonttype="BlackFont18" text="僵尸模式">
+					<Size>
+						<AbsDimension x="120" y="18"/>
+					</Size>
+					<Anchors>
+						<Anchor point="left" relativeTo="$parentMostOftenName" relativePoint="right">
+							<Offset>
+								<AbsDimension x="0" y="0" />
+							</Offset>
+						</Anchor>
+					</Anchors>
+				</FontString>
+				<FontString name="$parentLatestName" fonttype="BlackFont18" text="最近一次玩了: " textcolor="FF0000FF">
+					<Size>
+						<AbsDimension x="120" y="18"/>
+					</Size>
+					<Anchors>
+						<Anchor point="topleft" relativeTo="$parentMostOftenName" relativePoint="bottomleft">
+							<Offset>
+								<AbsDimension x="0" y="14" />
+							</Offset>
+						</Anchor>
+					</Anchors>
+				</FontString>
+				<FontString name="$parentLatest" fonttype="BlackFont18" text="抢滩登陆">
+					<Size>
+						<AbsDimension x="120" y="18"/>
+					</Size>
+					<Anchors>
+						<Anchor point="left" relativeTo="$parentLatestName" relativePoint="right">
+							<Offset>
+								<AbsDimension x="0" y="0" />
+							</Offset>
+						</Anchor>
+					</Anchors>
+				</FontString>
+				<FontString name="$parentWhoseWorld" fonttype="BlackFont18" justifyH="center" text="XXX的世界">
+					<Size>
+						<AbsDimension x="340" y="18"/>
+					</Size>
+					<Anchors>
+						<Anchor point="top" relativeTo="$parentLineH2" relativePoint="bottom">
+							<Offset>
+								<AbsDimension x="0" y="10" />
+							</Offset>
+						</Anchor>
+					</Anchors>
+				</FontString>
+			</Layer>
+		</Layers>
+		<Frames>
+			<Button name="$parentSkinBtn" inherits="LobbyMiniTextBtnTemplate" text="皮肤">
+				<Anchors>
+					<Anchor point="bottomleft" relativeTo="$parentModelBG" relativePoint="bottomleft">
+						<Offset>
+							<AbsDimension x="0" y="0" />
+						</Offset>
+					</Anchor>
+				</Anchors>
+			</Button>
+			<Button name="$parentBackBtn" inherits="LobbyMiniTextBtnTemplate" text="背饰">
+				<Anchors>
+					<Anchor point="bottomright" relativeTo="$parentModelBG" relativePoint="bottomright">
+						<Offset>
+							<AbsDimension x="0" y="0" />
+						</Offset>
+					</Anchor>
+				</Anchors>
+			</Button>
+			<Button name="$parentRotateLeftBtn" inherits="RotateLeftBtnTemplate">
+				<Anchors>
+					<Anchor point="bottomright" relativeTo="$parentSkinBtn" relativePoint="topright">
+						<Offset>
+							<AbsDimension x="0" y="-20"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Scripts>
+					<OnMouseDown>BuddyViewRotateLeftBtn_OnMouseDown();</OnMouseDown>
+					<OnMouseUp>BuddyViewRotateLeftBtn_OnMouseUp();</OnMouseUp>
+				</Scripts>
+			</Button>
+			<Button name="$parentRotateRightBtn" inherits="RotateRightBtnTemplate">
+				<Anchors>
+					<Anchor point="bottomleft" relativeTo="$parentBackBtn" relativePoint="topleft">
+						<Offset>
+							<AbsDimension x="0" y="-10"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Scripts>
+					<OnMouseDown>BuddyViewRotateRightBtn_OnMouseDown();</OnMouseDown>
+					<OnMouseUp>BuddyViewRotateRightBtn_OnMouseUp();</OnMouseUp>
+				</Scripts>
+			</Button>
+			<Button name="$parentEnterBtn" inherits="LobbyYellowBtnTemplate" text="进入">
+				<Anchors>
+					<Anchor point="bottom" relativeTo="$parentWorldArea" relativePoint="bottom">
+						<Offset>
+							<AbsDimension x="0" y="-6"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Scripts>
+					<OnClick>BuddyViewEnterBtn_OnClick()</OnClick>
+				</Scripts>
+			</Button>
+			<Button name="$parentWorld1" inherits="BuddyWorldBtnTemplate" id="1">
+				<Anchors>
+					<Anchor point="topleft" relativeTo="$parentWorldArea" relativePoint="topleft">
+						<Offset>
+							<AbsDimension x="32" y="230"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+			</Button>
+			<Button name="$parentWorld2" inherits="BuddyWorldBtnTemplate" id="2">
+				<Anchors>
+					<Anchor point="left" relativeTo="$parentWorld1" relativePoint="right">
+						<Offset>
+							<AbsDimension x="14" y="0"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+			</Button>
+			<Button name="$parentWorld3" inherits="BuddyWorldBtnTemplate" id="3">
+				<Anchors>
+					<Anchor point="left" relativeTo="$parentWorld2" relativePoint="right">
+						<Offset>
+							<AbsDimension x="14" y="0"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+			</Button>
+			<Button name="$parentClose" inherits="LobbySmallCloseBtnTemplate">
+				<Anchors>
+					<Anchor point="topright" relativeTo="$parent" relativePoint="topright">
+						<Offset>
+							<AbsDimension x="-4" y="4"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Scripts>
+					<OnClick>BuddyViewFrameClose_OnClick()</OnClick>
+				</Scripts>
+			</Button>
+		</Frames>
+		<Scripts>
+			<OnLoad>BuddyViewFrame_OnLoad()</OnLoad>
+			<OnEvent>BuddyViewFrame_OnEvent()</OnEvent>
+			<OnShow>BuddyViewFrame_OnShow()</OnShow>
+			<OnHide>BuddyViewFrame_OnHide()</OnHide>
+		</Scripts>
+	</Frame>
+</Ui>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Ui>
+	<Script file="ui/titlescreen.lua" />
+	<Frame name="TitleFrame" parent="UIClient" frameStrata="BACKGROUND" hidden="true" framelevel="1">
+		<Size>
+			<RelDimension x="1.0" y="1.0"/>
+		</Size>
+		<Anchors>
+			<Anchor point="topleft" relativePoint="topleft" relativeTo="$parent">
+				<Offset>
+					<AbsDimension x="0" y="0" />
+				</Offset>
+			</Anchor>
+		</Anchors>
+		<Frames>
+			<EditBox name="CreateWorldNameInput" letters="30" historyLines="1" multiLine="false">
+				<Size>
+					<AbsDimension x="204" y="18" />
+				</Size>
+				<Anchors>
+					<Anchor point="center" relativeTo="$parent" relativePoint="center">
+						<Offset>
+							<AbsDimension x="-150" y="-60" />
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<FontString name="$parentFont" fonttype="BlackFont"/>
+				<Layers>
+					<Layer>
+						<Texture name="$parentBkg" inherits="EditBoxBkgTemplate">
+							<Size>
+								<AbsDimension x="206" y="22" />
+							</Size>
+							<Anchors>
+								<Anchor point="topleft" relativeTo="$parent" relativePoint="topleft">
+									 <Offset>
+										 <AbsDimension x="0" y="-3" />
+									 </Offset>
+								</Anchor>
+							</Anchors>
+						</Texture>
+					</Layer>
+				</Layers>
+			</EditBox>
+			<EditBox name="CreateWorldSeedInput" letters="256" historyLines="1" multiLine="false">
+				<Size>
+					<AbsDimension x="204" y="18" />
+				</Size>
+				<Anchors>
+					<Anchor point="center" relativeTo="$parent" relativePoint="center">
+						<Offset>
+							<AbsDimension x="150" y="-60" />
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<FontString name="$parentFont" fonttype="BlackFont"/>
+				<Layers>
+					<Layer>
+						<Texture name="$parentBkg" inherits="EditBoxBkgTemplate">
+							<Size>
+								<AbsDimension x="206" y="22" />
+							</Size>
+							<Anchors>
+								<Anchor point="topleft" relativeTo="$parent" relativePoint="topleft">
+									 <Offset>
+										 <AbsDimension x="0" y="-3" />
+									 </Offset>
+								</Anchor>
+							</Anchors>
+						</Texture>
+					</Layer>
+				</Layers>
+			</EditBox>
+			<Button name="FlatWorldBtn" inherits="MainMenuButton" text="平坦地形">
+				<Size>
+					<AbsDimension x="145" y="40" />
+				</Size>
+				<Anchors>
+					<Anchor point="center" relativePoint="center" relativeTo="$parent">
+						<Offset>
+							<AbsDimension x="-80" y="50"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Scripts>
+					<OnClick>FlatWorldBtn_OnClick();</OnClick>
+				</Scripts>
+			</Button>
+			<Button name="NormalWorldBtn" inherits="MainMenuButton" text="普通地形">
+				<Size>
+					<AbsDimension x="145" y="40" />
+				</Size>
+				<Anchors>
+					<Anchor point="center" relativePoint="center" relativeTo="$parent">
+						<Offset>
+							<AbsDimension x="80" y="50"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Scripts>
+					<OnClick>NormalWorldBtn_OnClick();</OnClick>
+				</Scripts>
+			</Button>
+			<Button name="OpenWorldBtn" inherits="MainMenuButton" text="开放世界">
+				<Size>
+					<AbsDimension x="145" y="40" />
+				</Size>
+				<Anchors>
+					<Anchor point="center" relativePoint="center" relativeTo="$parent">
+						<Offset>
+							<AbsDimension x="240" y="50"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Scripts>
+					<OnClick>OpenWorldBtn_OnClick();</OnClick>
+				</Scripts>
+			</Button>
+		</Frames>
+		<Scripts>
+		</Scripts>
+	</Frame>
+</Ui>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Ui>
+	<Font name="MinimumBlackFont" type="ui/fonts/heiti.ttf" bitmap="false">
+		<FontHeight value="10"/>
+	</Font>
+	<Font name="BlackFont14" type="ui/fonts/heiti.ttf" bitmap="false">
+		<FontHeight value="14"/>
+	</Font>
+	<Font name="BlackFont" type="ui/fonts/heiti.ttf" bitmap="false">
+		<FontHeight value="16"/>
+	</Font>
+	<Font name="BlackFont18" type="ui/fonts/heiti.ttf" bitmap="false">
+		<FontHeight value="18"/>
+	</Font>
+	<Font name="BlackFont21" type="ui/fonts/heiti.ttf" bitmap="false">
+		<FontHeight value="21"/>
+	</Font>
+	<Font name="BlackFont24" type="ui/fonts/heiti.ttf" bitmap="false">
+		<FontHeight value="24"/>
+	</Font>
+	<Font name="BlackFont28" type="ui/fonts/heiti.ttf" bitmap="false">
+		<FontHeight value="28"/>
+	</Font>
+	<Font name="BlackFont30" type="ui/fonts/heiti.ttf" bitmap="false">
+		<FontHeight value="30"/>
+	</Font>	
+	<Font name="BlackFontUnderline30" type="ui/fonts/heiti.ttf" extType="underline" bitmap="false">
+		<FontHeight value="30"/>
+	</Font>
+	<Font name="BlackFont34" type="ui/fonts/heiti.ttf" bitmap="false">
+		<FontHeight value="34"/>
+	</Font>
+	<Font name="BlackFont38" type="ui/fonts/heiti.ttf" bitmap="false">
+		<FontHeight value="38"/>
+	</Font>
+</Ui>
+
+

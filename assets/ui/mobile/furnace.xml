@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Ui>
+	<Script file="ui/mobile/furnace.lua" />
+	<Frame name="FurnaceFrame" parent="UIClient" frameStrata="MEDIUM" hidden="true" framelevel="10">
+		<Size>
+			<AbsDimension x="1239" y="591"/>
+		</Size>
+		<Anchors>
+			<Anchor point="bottom" relativePoint="top" relativeTo="PlayShortcut">
+				<Offset>
+					<AbsDimension x="0" y="0" />
+				</Offset>
+			</Anchor>
+		</Anchors>
+		<Layers>
+			<Layer level="BACKGROUND">
+				<Texture name="$parentBkg" file="ui/mobile/ui.png" x="1" y="268" w="726" h="379">
+					<Size>
+						<AbsDimension x="1133" y="591"/>
+					</Size>
+					<Anchors>
+						<Anchor point="topleft" relativePoint="topleft" relativeTo="$parent">
+							<Offset>
+								<AbsDimension x="105" y="0"/>
+							</Offset>
+						</Anchor>
+					</Anchors>	
+				</Texture>
+				<Texture name="$parentHLine" file="ui/mobile/ui.png" x="626" y="1012" w="397" h="12">
+					<Size>
+						<AbsDimension x="639" y="16"/>
+					</Size>
+					<Anchors>
+						<Anchor point="topleft" relativePoint="topleft" relativeTo="$parentBkg">
+							<Offset>
+								<AbsDimension x="17" y="277"/>
+							</Offset>
+						</Anchor>
+					</Anchors>	
+				</Texture>
+				<Texture name="$parentVLine" file="ui/mobile/ui.png" x="1003" y="260" w="20" h="368">
+					<Size>
+						<AbsDimension x="26" y="577"/>
+					</Size>
+					<Anchors>
+						<Anchor point="topleft" relativePoint="topleft" relativeTo="$parentBkg">
+							<Offset>
+								<AbsDimension x="640" y="0"/>
+							</Offset>
+						</Anchor>
+					</Anchors>	
+				</Texture>
+				<Texture name="$parentTips1" file="ui/mobile/ui1.png" x="620" y="977" w="96" h="24">
+					<Size>
+						<AbsDimension x="125" y="31"/>
+					</Size>
+					<Anchors>
+						<Anchor point="topleft" relativePoint="topleft" relativeTo="$parentBkg">
+							<Offset>
+								<AbsDimension x="53" y="17"/>
+							</Offset>
+						</Anchor>
+					</Anchors>	
+				</Texture>
+				<Texture name="$parentTips2" file="ui/mobile/ui1.png" x="620" y="1001" w="96" h="23">
+					<Size>
+						<AbsDimension x="125" y="30"/>
+					</Size>
+					<Anchors>
+						<Anchor point="topleft" relativePoint="topleft" relativeTo="$parentBkg">
+							<Offset>
+								<AbsDimension x="53" y="306"/>
+							</Offset>
+						</Anchor>
+					</Anchors>	
+				</Texture>
+				<Texture name="$parentFireBkg" file="ui/mobile/ui2.png" x="479" y="287" w="74" h="86">
+					<Size>
+						<AbsDimension x="106" y="134"/>
+					</Size>
+					<Anchors>
+						<Anchor point="topleft" relativePoint="topleft" relativeTo="$parentBkg">
+							<Offset>
+								<AbsDimension x="724" y="232"/>
+							</Offset>
+						</Anchor>
+					</Anchors>	
+				</Texture>
+				<Texture name="$parentArrow" file="ui/mobile/ui1.png" x="719" y="979" w="62" h="43" color="ff606060">
+					<Size>
+						<AbsDimension x="90" y="50"/>
+					</Size>
+					<Anchors>
+						<Anchor point="topleft" relativePoint="topleft" relativeTo="$parentBkg">
+							<Offset>
+								<AbsDimension x="830" y="146"/>
+							</Offset>
+						</Anchor>
+					</Anchors>	
+				</Texture>
+				<FontString name="$parentTips3" fonttype="BlackFont24" lineInterval="2" justifyH="left" text="请先取下烧炼后的物品" fontStyle="border" hidden="true">
+					<Color r="118" g="67" b="0"/>
+					<Size>
+						<AbsDimension x="250" y="24"/>
+					</Size>
+					<Anchors>
+						<Anchor point="topright" relativePoint="topright" relativeTo="$parent">
+							<Offset>
+								<AbsDimension x="-110" y="60"/>
+							</Offset>
+						</Anchor>
+					</Anchors>
+				</FontString>
+				<FontString name="$parentTips4" fonttype="BlackFont24" lineInterval="2" justifyH="left" text="放入燃料和材料后烧炼自动开始" fontStyle="border">
+					<Color r="118" g="67" b="0"/>
+					<Size>
+						<AbsDimension x="340" y="24"/>
+					</Size>
+					<Anchors>
+						<Anchor point="bottomright" relativePoint="bottomright" relativeTo="$parent">
+							<Offset>
+								<AbsDimension x="-60" y="-60"/>
+							</Offset>
+						</Anchor>
+					</Anchors>
+				</FontString>
+				<FontString name="$parentName" fonttype="BlackFont21" lineInterval="2" justifyH="right" text="" fontStyle="border">
+					<Color r="118" g="67" b="0"/>
+					<Size>
+						<AbsDimension x="120" y="24"/>
+					</Size>
+					<Anchors>
+						<Anchor point="right" relativePoint="right" relativeTo="$parent">
+							<Offset>
+								<AbsDimension x="-200" y="-40"/>
+							</Offset>
+						</Anchor>
+					</Anchors>
+				</FontString>
+			</Layer>
+		</Layers>
+		<Frames>
+			<RichText name="$parentItemDesc" lineInterval="2" multiLine="false" fonttype="BlackFont21" fontStyle="border" autoextend="true">
+				<Size>
+					<AbsDimension x="150" y="90" />
+				</Size>
+				<Anchors>
+					<Anchor point="topleft" relativeTo="$parentName" relativePoint="topright">
+						<Offset>
+							<AbsDimension x="10" y="0" />
+						</Offset>
+					</Anchor>
+				</Anchors>
+			</RichText>
+			<Button name="$parentCloseBtn">
+				<Size>
+					<AbsDimension x="106" y="119"/>
+				</Size>
+				<Anchors>
+					<Anchor point="topleft" relativeTo="$parent" relativePoint="topleft">
+						<Offset>
+							<AbsDimension x="0" y="14"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Layers>
+					<Layer level="overlay">
+						<Texture name="$parentIcon" file="ui/mobile/ui.png" x="351" y="222" w="42" h="43">
+							<Size>
+								<AbsDimension x="66" y="67"/>
+							</Size>
+							<Anchors>
+								<Anchor point="center" relativePoint="center" relativeTo="$parent">
+									<Offset>
+										<AbsDimension x="0" y="0"/>
+									</Offset>
+								</Anchor>
+							</Anchors>	
+						</Texture>
+					</Layer>
+				</Layers>
+				<NormalTexture name="$parentNormal" file="ui/mobile/ui.png" x="87" y="0" w="68" h="76" />
+				<Scripts>
+					<OnMouseDown>FurnaceFrameCloseBtn_OnMouseDown();</OnMouseDown>
+					<OnMouseUp>FurnaceFrameCloseBtn_OnMouseUp();</OnMouseUp>
+					<OnClick>FurnaceFrameCloseBtn_OnClick();</OnClick>
+				</Scripts>
+			</Button>
+			<ProgressBar name="$parentFuelProgressBar" barname="FuelProgressTex" orientation="VERTICAL">
+				<Size>
+					<AbsDimension x="96" y="125"/>
+				</Size>
+				<Anchors>
+					<Anchor point="center" relativeTo="$parentFireBkg" relativePoint="center">
+						<Offset>
+							<AbsDimension x="0" y="0"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Layers>
+					<Layer level="ARTWORK">
+						<Texture name="FuelProgressTex" file="ui/mobile/ui2.png" x="554" y="287" w="77" h="86">
+							<Anchors>
+								<Anchor point="topleft" relativePoint="topleft" relativeTo="$parent">
+									<Offset>
+										<AbsDimension x="0" y="0"/>
+									</Offset>
+								</Anchor>
+							</Anchors>	
+						</Texture>
+					</Layer>
+				</Layers>
+			</ProgressBar>
+			<ProgressBar name="$parentArrowProgressBar" barname="ArrowProgressTex" orientation="HORIZONTAL">
+				<Size>
+					<AbsDimension x="90" y="50"/>
+				</Size>
+				<Anchors>
+					<Anchor point="center" relativeTo="$parentArrow" relativePoint="center">
+						<Offset>
+							<AbsDimension x="0" y="0"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Layers>
+					<Layer level="ARTWORK">
+						<Texture name="ArrowProgressTex" file="ui/mobile/ui1.png" x="719" y="979" w="62" h="43">
+							<Anchors>
+								<Anchor point="topleft" relativePoint="topleft" relativeTo="$parent">
+									<Offset>
+										<AbsDimension x="0" y="0"/>
+									</Offset>
+								</Anchor>
+							</Anchors>	
+						</Texture>
+					</Layer>
+				</Layers>
+			</ProgressBar>
+			<Button name="$parentFurnaceItem1" inherits="PackGridBtnTemplate" id="9001">
+				<Anchors>
+					<Anchor point="topleft" relativePoint="topleft" relativeTo="$parentBkg">
+						<Offset>
+							<AbsDimension x="722" y="121" />
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Layers>
+					<Layer level="overlay">
+						<Texture name="$parentBrokenLine" file="ui/mobile/ui.png" x="878" y="82" w="55" h="59">
+							<Size>
+								<AbsDimension x="73" y="77"/>
+							</Size>
+							<Anchors>
+								<Anchor point="bottomright" relativePoint="left" relativeTo="$parent">
+									<Offset>
+										<AbsDimension x="9" y="0"/>
+									</Offset>
+								</Anchor>
+							</Anchors>	
+						</Texture>
+					</Layer>
+				</Layers>
+			</Button>
+			<Button name="$parentFurnaceItem2" inherits="PackGridBtnTemplate" id="9002">
+				<Anchors>
+					<Anchor point="top" relativePoint="bottom" relativeTo="$parentFurnaceItem1">
+						<Offset>
+							<AbsDimension x="0" y="128" />
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Layers>
+					<Layer level="overlay">
+						<Texture name="$parentBrokenLine" file="ui/mobile/ui.png" x="939" y="82" w="55" h="59">
+							<Size>
+								<AbsDimension x="73" y="77"/>
+							</Size>
+							<Anchors>
+								<Anchor point="topright" relativePoint="left" relativeTo="$parent">
+									<Offset>
+										<AbsDimension x="9" y="0"/>
+									</Offset>
+								</Anchor>
+							</Anchors>	
+						</Texture>
+					</Layer>
+				</Layers>
+			</Button>
+			<Button name="$parentFurnaceItem3" inherits="PackGridBtnTemplate" id="9003">
+				<Anchors>
+					<Anchor point="topleft" relativePoint="topleft" relativeTo="$parentFurnaceItem1">
+						<Offset>
+							<AbsDimension x="200" y="0" />
+						</Offset>
+					</Anchor>
+				</Anchors>
+			</Button>
+			<SlidingFrame name="FurnaceStuffBox" slidingY="true" slideplane="$parentPlane">
+				<Size>
+					<AbsDimension x="527" y="209"/>
+				</Size>
+				<Anchors>
+				<Anchor point="topleft" relativePoint="topleft" relativeTo="$parentBkg">
+						<Offset>
+							<AbsDimension x="50" y="61"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Frames>
+					<Frame name="$parentPlane" hidden="true">
+						<Size>
+							<AbsDimension x="527" y="637"/>
+						</Size>
+					</Frame>
+					<Button name="$parentItem1" inherits="PackGridBtnTemplate"/>
+					<Button name="$parentItem2" inherits="PackGridBtnTemplate"/>
+					<Button name="$parentItem3" inherits="PackGridBtnTemplate"/>
+					<Button name="$parentItem4" inherits="PackGridBtnTemplate"/>
+					<Button name="$parentItem5" inherits="PackGridBtnTemplate"/>
+					<Button name="$parentItem6" inherits="PackGridBtnTemplate"/>
+					<Button name="$parentItem7" inherits="PackGridBtnTemplate"/>
+					<Button name="$parentItem8" inherits="PackGridBtnTemplate"/>
+					<Button name="$parentItem9" inherits="PackGridBtnTemplate"/>
+					<Button name="$parentItem10" inherits="PackGridBtnTemplate"/>
+					<Button name="$parentItem11" inherits="PackGridBtnTemplate"/>
+					<Button name="$parentItem12" inherits="PackGridBtnTemplate"/>
+					<Button name="$parentItem13" inherits="PackGridBtnTemplate"/>
+					<Button name="$parentItem14" inherits="PackGridBtnTemplate"/>
+					<Button name="$parentItem15" inherits="PackGridBtnTemplate"/>
+					<Button name="$parentItem16" inherits="PackGridBtnTemplate"/>
+					<Button name="$parentItem17" inherits="PackGridBtnTemplate"/>
+					<Button name="$parentItem18" inherits="PackGridBtnTemplate"/>
+					<Button name="$parentItem19" inherits="PackGridBtnTemplate"/>
+					<Button name="$parentItem20" inherits="PackGridBtnTemplate"/>
+					<Button name="$parentItem21" inherits="PackGridBtnTemplate"/>
+					<Button name="$parentItem22" inherits="PackGridBtnTemplate"/>
+					<Button name="$parentItem23" inherits="PackGridBtnTemplate"/>
+					<Button name="$parentItem24" inherits="PackGridBtnTemplate"/>
+					<Button name="$parentItem25" inherits="PackGridBtnTemplate"/>
+					<Button name="$parentItem26" inherits="PackGridBtnTemplate"/>
+					<Button name="$parentItem27" inherits="PackGridBtnTemplate"/>
+					<Button name="$parentItem28" inherits="PackGridBtnTemplate"/>
+					<Button name="$parentItem29" inherits="PackGridBtnTemplate"/>
+					<Button name="$parentItem30" inherits="PackGridBtnTemplate"/>
+				</Frames>
+			</SlidingFrame>
+			<SlidingFrame name="FurnaceFuelBox" slidingY="true" slideplane="$parentPlane">
+				<Size>
+					<AbsDimension x="527" y="209"/>
+				</Size>
+				<Anchors>
+				<Anchor point="topleft" relativePoint="topleft" relativeTo="$parentBkg">
+						<Offset>
+							<AbsDimension x="50" y="345"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Frames>
+					<Frame name="$parentPlane" hidden="true">
+						<Size>
+							<AbsDimension x="527" y="637"/>
+						</Size>
+					</Frame>
+					<Button name="$parentItem1" inherits="PackGridBtnTemplate"/>
+					<Button name="$parentItem2" inherits="PackGridBtnTemplate"/>
+					<Button name="$parentItem3" inherits="PackGridBtnTemplate"/>
+					<Button name="$parentItem4" inherits="PackGridBtnTemplate"/>
+					<Button name="$parentItem5" inherits="PackGridBtnTemplate"/>
+					<Button name="$parentItem6" inherits="PackGridBtnTemplate"/>
+					<Button name="$parentItem7" inherits="PackGridBtnTemplate"/>
+					<Button name="$parentItem8" inherits="PackGridBtnTemplate"/>
+					<Button name="$parentItem9" inherits="PackGridBtnTemplate"/>
+					<Button name="$parentItem10" inherits="PackGridBtnTemplate"/>
+					<Button name="$parentItem11" inherits="PackGridBtnTemplate"/>
+					<Button name="$parentItem12" inherits="PackGridBtnTemplate"/>
+					<Button name="$parentItem13" inherits="PackGridBtnTemplate"/>
+					<Button name="$parentItem14" inherits="PackGridBtnTemplate"/>
+					<Button name="$parentItem15" inherits="PackGridBtnTemplate"/>
+					<Button name="$parentItem16" inherits="PackGridBtnTemplate"/>
+					<Button name="$parentItem17" inherits="PackGridBtnTemplate"/>
+					<Button name="$parentItem18" inherits="PackGridBtnTemplate"/>
+					<Button name="$parentItem19" inherits="PackGridBtnTemplate"/>
+					<Button name="$parentItem20" inherits="PackGridBtnTemplate"/>
+					<Button name="$parentItem21" inherits="PackGridBtnTemplate"/>
+					<Button name="$parentItem22" inherits="PackGridBtnTemplate"/>
+					<Button name="$parentItem23" inherits="PackGridBtnTemplate"/>
+					<Button name="$parentItem24" inherits="PackGridBtnTemplate"/>
+					<Button name="$parentItem25" inherits="PackGridBtnTemplate"/>
+					<Button name="$parentItem26" inherits="PackGridBtnTemplate"/>
+					<Button name="$parentItem27" inherits="PackGridBtnTemplate"/>
+					<Button name="$parentItem28" inherits="PackGridBtnTemplate"/>
+					<Button name="$parentItem29" inherits="PackGridBtnTemplate"/>
+					<Button name="$parentItem30" inherits="PackGridBtnTemplate"/>
+				</Frames>
+			</SlidingFrame>
+		</Frames>		
+		<Scripts>
+			<OnLoad>FurnaceFrame_OnLoad();</OnLoad>
+			<OnShow>FurnaceFrame_OnShow();</OnShow>
+			<OnHide>FurnaceFrame_OnHide();</OnHide>
+			<OnEvent>FurnaceFrame_OnEvent();</OnEvent>
+		</Scripts>
+	</Frame>
+</Ui>

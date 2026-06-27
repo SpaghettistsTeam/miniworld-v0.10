@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Ui>
+	<Script file="ui/login.lua" />
+	<Frame name="LoginScreenFrame" parent="UIClient" frameStrata="BACKGROUND" hidden="false" framelevel="1">
+		<Size>
+			<RelDimension x="1.0" y="1.0"/>
+		</Size>
+		<Anchors>
+			<Anchor point="topleft" relativePoint="topleft" relativeTo="$parent">
+				<Offset>
+					<AbsDimension x="0" y="0" />
+				</Offset>
+			</Anchor>
+		</Anchors>
+		<Layers>
+			<Layer level="BACKGROUND">
+				<Texture name="$parentBkg" file="ui/login_bg.png">
+					<Anchors>
+						<Anchor point="topleft" relativePoint="topleft" relativeTo="$parent">
+							<Offset>
+								<AbsDimension x="0" y="0"/>
+							</Offset>
+						</Anchor>
+					</Anchors>
+				</Texture>
+			</Layer>
+		</Layers>
+		<Frames>
+			<Frame name="LoginFrame">
+				<Size>
+					<AbsDimension x="440" y="275"/>
+				</Size>
+				<Anchors>
+					<Anchor point="center" relativePoint="center" relativeTo="$parent">
+						<Offset>
+							<AbsDimension x="0" y="0" />
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Layers>
+					<Layer level="BACKGROUND">
+						<Texture name="$parentBkg" file="ui/login.png" x="0" y="163" w="440" h="275">
+						</Texture>
+					</Layer>
+				</Layers>
+				<Frames>
+					<EditBox name="$parentUserNameEdit" letters="30" multiLine="false" editMethod="519">
+						<Size>
+							<AbsDimension x="211" y="16" />
+						</Size>
+						<Anchors>
+							<Anchor point="topleft" relativeTo="$parent" relativePoint="topleft">
+								<Offset>
+									<AbsDimension x="135" y="86" />
+								</Offset>
+							</Anchor>
+						</Anchors>
+						<FontString name="$parentFont" fonttype="BlackFont"></FontString>
+					</EditBox>
+					<EditBox name="$parentPasswordEdit" letters="16" historyLines="1" multiLine="false" editMethod="167">
+						<Size>
+							<AbsDimension x="211" y="16" />
+						</Size>
+						<Anchors>
+							<Anchor point="topleft" relativeTo="$parent" relativePoint="topleft">
+								<Offset>
+									<AbsDimension x="135" y="134" />
+								</Offset>
+							</Anchor>
+						</Anchors>
+						<FontString name="$parentFont" fonttype="BlackFont"></FontString>
+					</EditBox>
+					<Button name="$parentLoginBtn">
+						<Size>
+							<AbsDimension x="115" y="45" />
+						</Size>
+						<Anchors>
+							<Anchor point="topleft" relativePoint="topleft" relativeTo="$parent">
+								<Offset>
+									<AbsDimension x="164" y="188"/>
+								</Offset>
+							</Anchor>
+						</Anchors>
+						<NormalTexture name="$parentNormal" file="ui/login.png" x="777" y="0" w="115" h="45"/>
+						<PushedTexture name="$parentPushed" file="ui/login.png" x="777" y="0" w="115" h="45"/>
+						<HighlightTexture name="$parentHighlight" file="ui/login.png" x="893" y="0" w="115" h="45" hidden="true"/>
+						<Layers>
+							<Layer level="HIGHLIGHT">
+								<Texture name="$parentText" file="ui/login.png" x="678" y="41" w="98" h="25">
+									<Size>
+										<AbsDimension x="98" y="25"/>
+									</Size>
+									<Anchors>
+										<Anchor point="center" relativePoint="center" relativeTo="$parent">
+											<Offset>
+												<AbsDimension x="0" y="0"/>
+											</Offset>
+										</Anchor>
+									</Anchors>
+								</Texture>
+							</Layer>
+						</Layers>
+						<Scripts>
+							<OnClick>LoginBtn_OnClick();</OnClick>
+						</Scripts>
+					</Button>
+					<Button name="$parentRememberBtn" checked="true" inherits="LobbyCheckBtnTemplate">
+						<Anchors>
+							<Anchor point="topleft" relativePoint="topleft" relativeTo="$parent">
+								<Offset>
+									<AbsDimension x="129" y="161"/>
+								</Offset>
+							</Anchor>
+						</Anchors>
+						<Scripts>
+							<OnClick>RememberBtn_OnClick()</OnClick>
+						</Scripts>
+					</Button>
+				</Frames>
+			</Frame>
+			<Button name="$parentRegisterBtn">
+				<Size>
+					<AbsDimension x="50" y="28"/>
+				</Size>
+				<Anchors>
+					<Anchor point="bottomleft" relativePoint="bottomleft" relativeTo="$parent">
+						<Offset>
+							<AbsDimension x="4" y="4"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<NormalTexture name="$parentNormalBG" file="ui/login.png" x="576" y="39" w="50" h="28"/>
+				<PushedTexture name="$parentPushedBG" file="ui/login.png" x="576" y="39" w="50" h="28"/>
+				<HighlightTexture name="$parentHighlightBG" file="ui/login.png" x="626" y="39" w="50" h="28"/>
+				<Layers>
+					<Layer level="HIGHLIGHT">
+						<Texture name="$parentText" file="ui/login.png" x="693" y="0" w="40" h="20">
+							<Size>
+								<AbsDimension x="40" y="20"/>
+							</Size>
+							<Anchors>
+								<Anchor point="center" relativePoint="center" relativeTo="$parent">
+									<Offset>
+										<AbsDimension x="0" y="0"/>
+									</Offset>
+								</Anchor>
+							</Anchors>
+						</Texture>
+					</Layer>
+				</Layers>
+				<Scripts>
+					<OnClick>RegisterBtn_OnClick();</OnClick>
+				</Scripts>
+			</Button>
+			<Button name="$parentSettingBtn">
+				<Size>
+					<AbsDimension x="50" y="28"/>
+				</Size>
+				<Anchors>
+					<Anchor point="bottomleft" relativePoint="bottomleft" relativeTo="$parent">
+						<Offset>
+							<AbsDimension x="58" y="4"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<NormalTexture name="$parentNormal" file="ui/login.png" x="576" y="39" w="50" h="28"/>
+				<PushedTexture name="$parentPushed" file="ui/login.png" x="576" y="39" w="50" h="28"/>
+				<HighlightTexture name="$parentHighlight" file="ui/login.png" x="626" y="39" w="50" h="28"/>
+				<Layers>
+					<Layer level="HIGHLIGHT">
+						<Texture name="$parentText" file="ui/login.png" x="733" y="0" w="40" h="20">
+							<Size>
+								<AbsDimension x="40" y="20"/>
+							</Size>
+							<Anchors>
+								<Anchor point="center" relativePoint="center" relativeTo="$parent">
+									<Offset>
+										<AbsDimension x="0" y="0"/>
+									</Offset>
+								</Anchor>
+							</Anchors>
+						</Texture>
+					</Layer>
+				</Layers>
+				<Scripts>
+					<OnClick>SettingBtn_OnClick();</OnClick>
+				</Scripts>
+			</Button>
+			<Button name="$parentOfflineMode" inherits="LobbyMiddleTextBtnTemplate" text="超平坦">
+				<Anchors>
+					<Anchor point="bottomleft" relativePoint="bottomright" relativeTo="$parentSettingBtn">
+						<Offset>
+							<AbsDimension x="10" y="0"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Scripts>
+					<OnClick>OfflineModeBtn_OnClick();</OnClick>
+				</Scripts>
+			</Button>
+			<Button name="$parentOfflineMode2" inherits="LobbyMiddleTextBtnTemplate" text="正常地形">
+				<Anchors>
+					<Anchor point="bottomleft" relativePoint="bottomright" relativeTo="$parentOfflineMode">
+						<Offset>
+							<AbsDimension x="10" y="0"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Scripts>
+					<OnClick>OfflineModeBtn2_OnClick();</OnClick>
+				</Scripts>
+			</Button>
+		</Frames>
+		<Scripts>
+			<OnLoad>LoginFrame_OnLoad()</OnLoad>
+			<OnEvent>LoginFrame_OnEvent()</OnEvent>
+		</Scripts>
+	</Frame>
+</Ui>

@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Ui>
+	<Script file="ui/selectrole.lua" />
+	<Frame name="SelectRoleFrame" parent="UIClient" frameStrata="BACKGROUND" hidden="true" framelevel="1">
+		<Size>
+			<RelDimension x="1.0" y="1.0"/>
+		</Size>
+		<Layers>
+			<Layer level="ARTWORK">
+				<ModelView name="SelectRoleView" background="ui/models/selrole.omod">
+					<Size>
+						<RelDimension x="1.0" y="1.0"/>
+					</Size>
+					<Anchors>
+						<Anchor point="center" relativeTo="$parent" relativePoint="center">
+							<Offset>
+								<AbsDimension x="0" y="0" />
+							</Offset>
+						</Anchor>
+					</Anchors>
+				</ModelView>
+			</Layer>
+		</Layers>
+		<Frames>
+			<Frame name="CreateRoleFrame">
+				<Size>
+					<AbsDimension x="250" y="400"/>
+				</Size>
+				<Anchors>
+					<Anchor point="bottom" relativePoint="bottom" relativeTo="$parent">
+						<Offset>
+							<AbsDimension x="0" y="0"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Layers>
+					<Layer level="BACKGROUND">
+						<Texture name="$parentEditBG" file="ui/login.png" x="798" y="50" w="205" h="36">
+							<Size>
+								<AbsDimension x="205" y="36" />
+							</Size>
+							<Anchors>
+								<Anchor point="bottom" relativeTo="$parent" relativePoint="bottom">
+									<Offset>
+										<AbsDimension x="0" y="-60"/>
+									</Offset>
+								</Anchor>
+							</Anchors>
+						</Texture>
+					</Layer>
+				</Layers>
+				<Frames>
+					<Button name="$parentEnterBtn" inherits="LobbyEnterBtnTemplate">
+						<Anchors>
+							<Anchor point="bottom" relativePoint="bottom" relativeTo="$parent">
+								<Offset>
+									<AbsDimension x="0" y="-10"/>
+								</Offset>
+							</Anchor>
+						</Anchors>
+						<Scripts>
+							<OnClick>CreateRoleEnterBtn_OnClick();</OnClick>
+						</Scripts>
+					</Button>
+					<EditBox name="$parentNickEdit" letters="30" multiLine="false">
+						<Size>
+							<AbsDimension x="200" y="16" />
+						</Size>
+						<Anchors>
+							<Anchor point="center" relativeTo="$parentEditBG" relativePoint="center">
+								<Offset>
+									<AbsDimension x="0" y="0"/>
+								</Offset>
+							</Anchor>
+						</Anchors>
+						<FontString name="$parentFont" fonttype="BlackFont"></FontString>
+					</EditBox>
+					<Button name="$parentRandNameBtn">
+						<Size>
+							<AbsDimension x="53" y="53"/>
+						</Size>
+						<Anchors>
+							<Anchor point="left" relativePoint="right" relativeTo="$parentEditBG">
+								<Offset>
+									<AbsDimension x="10" y="0"/>
+								</Offset>
+							</Anchor>
+						</Anchors>
+						<NormalTexture name="$parentNormal" file="ui/login.png" x="516" y="68" w="53" h="53"/>
+						<PushedTexture name="$parentPushed" file="ui/login.png" x="516" y="68" w="53" h="53"/>
+						<HighlightTexture name="$parentHighlight" file="ui/login.png" x="571" y="68" w="53" h="53" hidden="true"/>
+						<Layers>
+							<Layer level="HIGHLIGHT">
+								<Texture name="$parentText" file="ui/login.png" x="664" y="68" w="38" h="39">
+									<Size>
+										<AbsDimension x="38" y="39"/>
+									</Size>
+									<Anchors>
+										<Anchor point="center" relativePoint="center" relativeTo="$parent">
+											<Offset>
+												<AbsDimension x="0" y="0"/>
+											</Offset>
+										</Anchor>
+									</Anchors>
+								</Texture>
+							</Layer>
+						</Layers>
+						<Scripts>
+							<OnClick>CreateRoleRandNameBtn_OnClick();</OnClick>
+						</Scripts>
+					</Button>
+					<Button name="$parentRotateLeftBtn" inherits="RotateLeftBtnTemplate">
+						<Anchors>
+							<Anchor point="bottomright" relativeTo="$parentEditBG" relativePoint="top">
+								<Offset>
+									<AbsDimension x="-40" y="-10"/>
+								</Offset>
+							</Anchor>
+						</Anchors>
+						<Scripts>
+							<OnMouseDown>CreateRoleRotateLeftBtn_OnMouseDown();</OnMouseDown>
+							<OnMouseUp>CreateRoleRotateLeftBtn_OnMouseUp();</OnMouseUp>
+						</Scripts>
+					</Button>
+					<Button name="$parentRotateRightBtn" inherits="RotateRightBtnTemplate">
+						<Anchors>
+							<Anchor point="bottomleft" relativeTo="$parentEditBG" relativePoint="top">
+								<Offset>
+									<AbsDimension x="40" y="-10"/>
+								</Offset>
+							</Anchor>
+						</Anchors>
+						<Scripts>
+							<OnMouseDown>CreateRoleRotateRightBtn_OnMouseDown();</OnMouseDown>
+							<OnMouseUp>CreateRoleRotateRightBtn_OnMouseUp();</OnMouseUp>
+						</Scripts>
+					</Button>
+				</Frames>
+			</Frame>
+		</Frames>
+		<Scripts>
+			<OnLoad>SelectRoleFrame_OnLoad()</OnLoad>
+			<OnEvent>SelectRoleFrame_OnEvent()</OnEvent>
+			<OnShow>SelectRoleFrame_OnShow()</OnShow>
+			<OnHide>SelectRoleFrame_OnHide()</OnHide>
+		</Scripts>
+	</Frame>
+</Ui>

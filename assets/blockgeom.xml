@@ -1,0 +1,476 @@
+
+<Blocks>
+	<cube>
+		<negx index="0">
+			<quad>
+				<vert x="0" y="0" z="0" u="1" v="1"/>
+				<vert x="0" y="0" z="1" u="0" v="1"/>
+				<vert x="0" y="1" z="1" u="0" v="0"/>
+				<vert x="0" y="1" z="0" u="1" v="0"/>
+			</quad>
+		</negx>
+		<posx index="1">
+			<quad>
+				<vert x="1" y="0" z="0" u="0" v="1"/>
+				<vert x="1" y="1" z="0" u="0" v="0"/>
+				<vert x="1" y="1" z="1" u="1" v="0"/>
+				<vert x="1" y="0" z="1" u="1" v="1"/>
+			</quad>
+		</posx>
+		<negz index="2">
+			<quad>
+				<vert x="0" y="0" z="0" u="0" v="1"/>
+				<vert x="0" y="1" z="0" u="0" v="0"/>
+				<vert x="1" y="1" z="0" u="1" v="0"/>
+				<vert x="1" y="0" z="0" u="1" v="1"/>
+			</quad>
+		</negz>
+		<posz index="3">
+			<quad>
+				<vert x="0" y="0" z="1" u="1" v="1"/>
+				<vert x="1" y="0" z="1" u="0" v="1"/>
+				<vert x="1" y="1" z="1" u="0" v="0"/>
+				<vert x="0" y="1" z="1" u="1" v="0"/>
+			</quad>
+		</posz>
+		<negy index="4">
+			<quad>
+				<vert x="0" y="0" z="0" u="1" v="0"/>
+				<vert x="1" y="0" z="0" u="0" v="0"/>
+				<vert x="1" y="0" z="1" u="0" v="1"/>
+				<vert x="0" y="0" z="1" u="1" v="1"/>
+			</quad>
+		</negy>
+		<posy index="5">
+			<quad>
+				<vert x="0" y="1" z="0" u="0" v="0"/>
+				<vert x="0" y="1" z="1" u="0" v="1"/>
+				<vert x="1" y="1" z="1" u="1" v="1"/>
+				<vert x="1" y="1" z="0" u="1" v="0"/>
+			</quad>
+		</posy>
+	</cube>
+	<cube2>
+		<negx index="0">
+			<quad>
+				<vert x="0" y="0" z="0" u="1" v="1"/>
+				<vert x="0" y="0" z="2" u="0" v="1"/>
+				<vert x="0" y="2" z="2" u="0" v="0"/>
+				<vert x="0" y="2" z="0" u="1" v="0"/>
+			</quad>
+		</negx>
+		<posx index="1">
+			<quad>
+				<vert x="2" y="0" z="0" u="0" v="1"/>
+				<vert x="2" y="2" z="0" u="0" v="0"/>
+				<vert x="2" y="2" z="2" u="1" v="0"/>
+				<vert x="2" y="0" z="2" u="1" v="1"/>
+			</quad>
+		</posx>
+		<negz index="2">
+			<quad>
+				<vert x="0" y="0" z="0" u="0" v="1"/>
+				<vert x="0" y="2" z="0" u="0" v="0"/>
+				<vert x="2" y="2" z="0" u="1" v="0"/>
+				<vert x="2" y="0" z="0" u="1" v="1"/>
+			</quad>
+		</negz>
+		<posz index="3">
+			<quad>
+				<vert x="0" y="0" z="2" u="1" v="1"/>
+				<vert x="2" y="0" z="2" u="0" v="1"/>
+				<vert x="2" y="2" z="2" u="0" v="0"/>
+				<vert x="0" y="2" z="2" u="1" v="0"/>
+			</quad>
+		</posz>
+		<negy index="4">
+			<quad>
+				<vert x="0" y="0" z="0" u="1" v="0"/>
+				<vert x="2" y="0" z="0" u="0" v="0"/>
+				<vert x="2" y="0" z="2" u="0" v="1"/>
+				<vert x="0" y="0" z="2" u="1" v="1"/>
+			</quad>
+		</negy>
+		<posy index="5">
+			<quad>
+				<vert x="0" y="2" z="0" u="0" v="0"/>
+				<vert x="0" y="2" z="2" u="0" v="1"/>
+				<vert x="2" y="2" z="2" u="1" v="1"/>
+				<vert x="2" y="2" z="0" u="1" v="0"/>
+			</quad>
+		</posy>
+	</cube2>
+	<wall modelfile="blocks/wall.obj">
+		<pillow index="0"/>
+		<bar1 index="1"/>
+		<bar2 index="2"/>
+	</wall>
+	<fence modelfile="blocks/fence.obj">
+		<pillow index="0"/>
+		<bar index="1"/>
+	</fence>
+	<stair modelfile="blocks/stair.obj">
+		<stair index="0"/>
+		<stair1 index="1"/>
+		<stair2 index="2"/>
+	</stair>
+	<door modelfile="blocks/door.obj">
+		<lower index="0"/>
+		<upper index="1"/>
+	</door>
+	<torch modelfile="blocks/torch.obj">
+		<side index="0"/>
+		<top  index="1"/>
+	</torch>
+	<hurbs ignore_normal="true">
+		<cross index="0">
+			<quad>
+				<vert x="0.2" y="0" z="0.2" u="0" v="1"/>
+				<vert x="0.2" y="1" z="0.2" u="0" v="0"/>
+				<vert x="0.8" y="1" z="0.8" u="1" v="0"/>
+				<vert x="0.8" y="0" z="0.8" u="1" v="1"/>
+			</quad>
+			<quad>
+				<vert x="0.2" y="0" z="0.8" u="0" v="1"/>
+				<vert x="0.2" y="1" z="0.8" u="0" v="0"/>
+				<vert x="0.8" y="1" z="0.2" u="1" v="0"/>
+				<vert x="0.8" y="0" z="0.2" u="1" v="1"/>
+			</quad>
+		</cross>
+		<front index="1">
+			<quad>
+				<vert x="1" y="0.5" z="0" u="0" v="1"/>
+				<vert x="0.5" y="1" z="0" u="0" v="0"/>
+				<vert x="0.5" y="1" z="1" u="1" v="0"/>
+				<vert x="1" y="0.5" z="1" u="1" v="1"/>
+			</quad>
+		</front>
+		<back index="2">
+			<quad>
+				<vert x="1" y="0.5" z="0" u="0" v="1"/>
+				<vert x="1" y="0.5" z="1" u="1" v="1"/>
+				<vert x="0.5" y="1" z="1" u="1" v="0"/>
+				<vert x="0.5" y="1" z="0" u="0" v="0"/>
+			</quad>
+		</back>
+	</hurbs>
+	<wheat ignore_normal="true">
+		<cross index="0">
+			<quad>
+				<vert x="0.25" y="0" z="0" u="0" v="1"/>
+				<vert x="0.25" y="1" z="0" u="0" v="0"/>
+				<vert x="0.25" y="1" z="1.0" u="1" v="0"/>
+				<vert x="0.25" y="0" z="1.0" u="1" v="1"/>
+			</quad>
+			<quad>
+				<vert x="0.75" y="0" z="0" u="0" v="1"/>
+				<vert x="0.75" y="1" z="0" u="0" v="0"/>
+				<vert x="0.75" y="1" z="1.0" u="1" v="0"/>
+				<vert x="0.75" y="0" z="1.0" u="1" v="1"/>
+			</quad>
+			<quad>
+				<vert x="0" y="0" z="0.25" u="0" v="1"/>
+				<vert x="0" y="1" z="0.25" u="0" v="0"/>
+				<vert x="1" y="1" z="0.25" u="1" v="0"/>
+				<vert x="1" y="0" z="0.25" u="1" v="1"/>
+			</quad>
+			<quad>
+				<vert x="0" y="0" z="0.75" u="0" v="1"/>
+				<vert x="0" y="1" z="0.75" u="0" v="0"/>
+				<vert x="1" y="1" z="0.75" u="1" v="0"/>
+				<vert x="1" y="0" z="0.75" u="1" v="1"/>
+			</quad>
+		</cross>
+	</wheat>
+	<cactus>
+		<negx index="0">
+			<quad>
+				<vert x="0.05" y="0" z="0" u="1" v="1"/>
+				<vert x="0.05" y="0" z="1" u="0" v="1"/>
+				<vert x="0.05" y="1" z="1" u="0" v="0"/>
+				<vert x="0.05" y="1" z="0" u="1" v="0"/>
+			</quad>
+		</negx>
+		<posx index="1">
+			<quad>
+				<vert x="0.95" y="0" z="0" u="0" v="1"/>
+				<vert x="0.95" y="1" z="0" u="0" v="0"/>
+				<vert x="0.95" y="1" z="1" u="1" v="0"/>
+				<vert x="0.95" y="0" z="1" u="1" v="1"/>
+			</quad>
+		</posx>
+		<negz index="2">
+			<quad>
+				<vert x="0" y="0" z="0.05" u="0" v="1"/>
+				<vert x="0" y="1" z="0.05" u="0" v="0"/>
+				<vert x="1" y="1" z="0.05" u="1" v="0"/>
+				<vert x="1" y="0" z="0.05" u="1" v="1"/>
+			</quad>
+		</negz>
+		<posz index="3">
+			<quad>
+				<vert x="0" y="0" z="0.95" u="1" v="1"/>
+				<vert x="1" y="0" z="0.95" u="0" v="1"/>
+				<vert x="1" y="1" z="0.95" u="0" v="0"/>
+				<vert x="0" y="1" z="0.95" u="1" v="0"/>
+			</quad>
+		</posz>
+		<negy index="4">
+			<quad>
+				<vert x="0" y="0" z="0" u="1" v="0"/>
+				<vert x="1" y="0" z="0" u="0" v="0"/>
+				<vert x="1" y="0" z="1" u="0" v="1"/>
+				<vert x="0" y="0" z="1" u="1" v="1"/>
+			</quad>
+		</negy>
+		<posy index="5">
+			<quad>
+				<vert x="0" y="1" z="0" u="0" v="0"/>
+				<vert x="0" y="1" z="1" u="0" v="1"/>
+				<vert x="1" y="1" z="1" u="1" v="1"/>
+				<vert x="1" y="1" z="0" u="1" v="0"/>
+			</quad>
+		</posy>
+	</cactus>
+	<dustplane ignore_normal="true">
+		<negx index="0">
+			<quad>
+				<vert x="0.015625" y="0" z="0" u="0" v="0"/>
+				<vert x="0.015625" y="1" z="0" u="1" v="0"/>
+				<vert x="0.015625" y="1" z="1" u="1" v="1"/>
+				<vert x="0.015625" y="0" z="1" u="0" v="1"/>
+			</quad>
+		</negx>
+		<posx index="1">
+			<quad>
+				<vert x="0.984375" y="0" z="0" u="0" v="1"/>
+				<vert x="0.984375" y="0" z="1" u="0" v="0"/>
+				<vert x="0.984375" y="1" z="1" u="1" v="0"/>
+				<vert x="0.984375" y="1" z="0" u="1" v="1"/>
+			</quad>
+		</posx>
+		<negz index="2">
+			<quad>
+				<vert x="0" y="0" z="0.015625" u="0" v="1"/>
+				<vert x="1" y="0" z="0.015625" u="0" v="0"/>
+				<vert x="1" y="1" z="0.015625" u="1" v="0"/>
+				<vert x="0" y="1" z="0.015625" u="1" v="1"/>
+			</quad>
+		</negz>
+		<posz index="3">
+			<quad>
+				<vert x="0" y="0" z="0.984375" u="0" v="0"/>
+				<vert x="0" y="1" z="0.984375" u="1" v="0"/>
+				<vert x="1" y="1" z="0.984375" u="1" v="1"/>
+				<vert x="1" y="0" z="0.984375" u="0" v="1"/>
+			</quad>
+		</posz>
+		<negy index="4">
+			<quad>
+				<vert x="0" y="0.015625" z="0" u="0" v="0"/>
+				<vert x="0" y="0.015625" z="1" u="0" v="1"/>
+				<vert x="1" y="0.015625" z="1" u="1" v="1"/>
+				<vert x="1" y="0.015625" z="0" u="1" v="0"/>
+			</quad>
+		</negy>
+		<negy_r90 index="5">
+			<quad>
+				<vert x="0" y="0.015625" z="0" u="1" v="0"/>
+				<vert x="0" y="0.015625" z="1" u="0" v="0"/>
+				<vert x="1" y="0.015625" z="1" u="0" v="1"/>
+				<vert x="1" y="0.015625" z="0" u="1" v="1"/>
+			</quad>
+		</negy_r90>
+		<slope1 index="6">
+			<quad>
+				<vert x="0" y="0.015625" z="0" u="0" v="0"/>
+				<vert x="0" y="1.015625" z="1" u="0" v="1"/>
+				<vert x="1" y="1.015625" z="1" u="1" v="1"/>
+				<vert x="1" y="0.015625" z="0" u="1" v="0"/>
+			</quad>
+		</slope1>
+		<slope2 index="7">
+			<quad>
+				<vert x="0" y="1.015625" z="0" u="0" v="0"/>
+				<vert x="0" y="0.015625" z="1" u="0" v="1"/>
+				<vert x="1" y="0.015625" z="1" u="1" v="1"/>
+				<vert x="1" y="1.015625" z="0" u="1" v="0"/>
+			</quad>
+		</slope2>
+	</dustplane>
+	<flatpiece ignore_normal="true">
+		<negx index="0">
+			<quad>
+				<vert x="0.015625" y="0" z="0" u="0" v="1"/>
+				<vert x="0.015625" y="1" z="0" u="0" v="0"/>
+				<vert x="0.015625" y="1" z="1" u="1" v="0"/>
+				<vert x="0.015625" y="0" z="1" u="1" v="1"/>
+			</quad>
+		</negx>
+		<posx index="1">
+			<quad>
+				<vert x="0.984375" y="0" z="1" u="0" v="1"/>
+				<vert x="0.984375" y="1" z="1" u="0" v="0"/>
+				<vert x="0.984375" y="1" z="0" u="1" v="0"/>
+				<vert x="0.984375" y="0" z="0" u="1" v="1"/>
+			</quad>
+		</posx>
+		<negz index="2">
+			<quad>
+				<vert x="1" y="0" z="0.015625" u="0" v="1"/>
+				<vert x="1" y="1" z="0.015625" u="0" v="0"/>
+				<vert x="0" y="1" z="0.015625" u="1" v="0"/>
+				<vert x="0" y="0" z="0.015625" u="1" v="1"/>
+			</quad>
+		</negz>
+		<posz index="3">
+			<quad>
+				<vert x="0" y="0" z="0.984375" u="0" v="1"/>
+				<vert x="0" y="1" z="0.984375" u="0" v="0"/>
+				<vert x="1" y="1" z="0.984375" u="1" v="0"/>
+				<vert x="1" y="0" z="0.984375" u="1" v="1"/>
+			</quad>
+		</posz>
+		<negy index="4">
+			<quad>
+				<vert x="0" y="0.015625" z="0" u="0" v="1"/>
+				<vert x="0" y="0.015625" z="1" u="0" v="0"/>
+				<vert x="1" y="0.015625" z="1" u="1" v="0"/>
+				<vert x="1" y="0.015625" z="0" u="1" v="1"/>
+			</quad>
+		</negy>
+		<posy index="5">
+			<quad>
+				<vert x="0" y="0.984375" z="1" u="0" v="1"/>
+				<vert x="0" y="0.984375" z="0" u="0" v="0"/>
+				<vert x="1" y="0.984375" z="0" u="1" v="0"/>
+				<vert x="1" y="0.984375" z="1" u="1" v="1"/>
+			</quad>
+		</posy>
+	</flatpiece>
+	<cocoa modelfile="blocks/cocoa.obj" normal="2">
+		<stage0 index="0"/>
+		<stage1 index="1"/>
+		<stage2 index="2"/>
+	</cocoa>
+	<chest modelfile="blocks/chest.obj">
+		<close1 index="0"/>
+		<open1 index="1"/>
+		<close2 index="2"/>
+		<open2 index="3"/>
+	</chest>
+	<trapdoor modelfile="blocks/trapdoor.obj">
+		<close index="0"/>
+		<open index="4"/>
+	</trapdoor>
+	<lever modelfile="blocks/lever.obj">
+		<base_side index="0"/>
+		<base_ground index="1"/>
+		<switchoff_side index="2"/>
+		<switchoff_ground index="3"/>
+		<switchon_side index="4"/>
+		<switchon_ground index="5"/>
+	</lever>
+	<tripwire modelfile="blocks/tripwire.obj">
+		<base index="0" rotate="90"/>
+		<hook_free index="1"/>
+		<hook_tied index="2"/>
+		<hook_pressed index="3"/>
+	</tripwire>
+	<wire modelfile="blocks/wire.obj">
+		<wire index="0"/>
+	</wire>
+	<repeater modelfile="blocks/repeater.obj">
+		<base index="0"/>
+		<light index="1"/>
+		<switch index="2"/>
+		<block index="3"/>
+	</repeater>
+	<comparator modelfile="blocks/comparator.obj">
+		<base index="0"/>
+		<light index="1"/>
+		<switch_pressed index="2"/>
+		<switch index="3"/>
+	</comparator>
+	<fire modelfile="blocks/fire.obj" normal="0">
+		<top index="0"/>
+		<center index="1"/>
+		<side index="2"/>
+	</fire>
+	<enchanttable modelfile="blocks/enchanttable.obj">
+		<table index="0"/>
+	</enchanttable>
+	<cake modelfile="blocks/cake.obj">
+		<piece0 index="0"/>
+		<piece1 index="1"/>
+		<piece2 index="2"/>
+		<piece3 index="3"/>
+		<piece4 index="4"/>
+		<piece5 index="5"/>
+	</cake>
+	<anvil modelfile="blocks/anvil.obj">
+		<anvil index="0"/>
+	</anvil>
+	<mobspawner modelfile="blocks/mobspawner.obj">
+		<base index="0"/>
+	</mobspawner>
+	<ironfence modelfile="blocks/ironfence.obj">
+		<pillow index="0"/>
+		<bar index="1"/>
+	</ironfence>
+	<glasspane modelfile="blocks/glasspane.obj">
+		<shizi index="0"/>
+		<yiban index="1"/>
+		<men index="2"/>
+		<guaijiao index="3"/>
+		<shizitop index="4"/>
+		<yibantop index="5"/>
+		<mentop index="6"/>
+		<guaijiaotop index="7"/>
+	</glasspane>
+	<fencegate modelfile="blocks/fencegate.obj">
+		<close index="0"/>
+		<open index="1"/>
+	</fencegate>
+	<bed modelfile="blocks/bed.obj">
+		<wei index="0"/>
+		<tou index="1"/>
+	</bed>
+	<button modelfile="blocks/button.obj">
+		<normal index="0"/>
+		<pressed index="1"/>
+	</button>
+	<pressure modelfile="blocks/pressure.obj">
+		<normal index="0"/>
+		<pressed index="1"/>
+	</pressure>
+	<piston modelfile="blocks/piston.obj">
+		<pressed0 index="0"/>
+		<normal0 index="1"/>
+		<pressed1 index="2"/>
+		<normal1 index="3"/>
+		<pressed2 index="4"/>
+		<normal2 index="5"/>
+	</piston>
+	<spring modelfile="blocks/spring.obj">
+		<pressed0 index="0"/>
+		<normal0 index="1"/>
+		<pressed1 index="2"/>
+		<normal1 index="3"/>
+		<pressed2 index="4"/>
+		<normal2 index="5"/>
+	</spring>
+	<dragoncup modelfile="blocks/dragoncup.obj">
+		<side index="0"/>
+		<top  index="1"/>
+	</dragoncup>
+	<jar modelfile="blocks/jar.obj">
+		<jar1 index="0"/>
+		<jar2 index="1"/>
+		<jar3 index="2"/>
+	</jar>
+	<box modelfile="blocks/box.obj">
+		<close index="0"/>
+		<open index="1"/>
+	</box>
+</Blocks>

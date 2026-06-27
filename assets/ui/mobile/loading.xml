@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Ui>
+	<Script file="ui/mobile/loading.lua" />
+	<Frame name="LoadingFrame" parent="UIClient" frameStrata="TOOLTIP" hidden="true" framelevel="1">
+		<Size>
+			<RelDimension x="1.0" y="1.0"/>
+		</Size>
+		<Anchors>
+			<Anchor point="topleft" relativePoint="topleft" relativeTo="$parent">
+				<Offset>
+					<AbsDimension x="0" y="0" />
+				</Offset>
+			</Anchor>
+		</Anchors>
+		<Layers>
+			<Layer level="BACKGROUND">
+				<Texture name="$parentBkg" file="ui/login_bg.png" color="ff000000">
+					<Anchors>
+						<Anchor point="topleft" relativePoint="topleft" relativeTo="$parent">
+							<Offset>
+								<AbsDimension x="0" y="0"/>
+							</Offset>
+						</Anchor>
+					</Anchors>
+				</Texture>
+			</Layer>
+		</Layers>
+		<Frames>
+			<Button name="LoadProgressBar" clipped="true">
+				<Size>
+					<AbsDimension x="1280" y="160"/>
+				</Size>
+				<Anchors>
+					<Anchor point="bottom" relativeTo="LoadingFrame" relativePoint="bottom">
+						<Offset>
+							<AbsDimension x="50" y="-30"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Layers>
+					<Layer level="ARTWORK">
+						<Texture name="$parentSmoke" file="ui/mobile/yanchen.png" hidden="true">
+							<Size>
+								<AbsDimension x="1100" y="80"/>
+							</Size>
+							<Anchors>
+								<Anchor point="bottomright" relativePoint="bottomleft" relativeTo="$parent">
+									<Offset>
+										<AbsDimension x="50" y="0"/>
+									</Offset>
+								</Anchor>
+							</Anchors>	
+							<UVAnimation texrows="6" texcols="1" />
+						</Texture>
+						<Texture name="$parentZombie" file="ui/mobile/xiaojiangshi.png" hidden="true">
+							<Size>
+								<AbsDimension x="132" y="156"/>
+							</Size>
+							<Anchors>
+								<Anchor point="bottomleft" relativePoint="bottomright" relativeTo="$parentSmoke">
+									<Offset>
+										<AbsDimension x="-60" y="0"/>
+									</Offset>
+								</Anchor>
+							</Anchors>	
+							<UVAnimation texrows="3" texcols="3" />
+						</Texture>
+						<Texture name="$parentChicken" file="ui/mobile/xiaoji.png" hidden="true">
+							<Size>
+								<AbsDimension x="30" y="35"/>
+							</Size>
+							<Anchors>
+								<Anchor point="bottomleft" relativePoint="bottomright" relativeTo="$parentZombie">
+									<Offset>
+										<AbsDimension x="0" y="0"/>
+									</Offset>
+								</Anchor>
+							</Anchors>	
+							<UVAnimation texrows="3" texcols="2" />
+						</Texture>
+					</Layer>
+				</Layers>
+			</Button>
+		</Frames>
+		<Scripts>
+			<OnLoad>LoadingFrame_OnLoad();</OnLoad>
+			<OnEvent>LoadingFrame_OnEvent();</OnEvent>
+			<OnShow>LoadingFrame_OnShow();</OnShow>
+		</Scripts>
+	</Frame>
+	
+	<Frame name="LoadLoopFrame" parent="UIClient" frameStrata="TOOLTIP" hidden="true" framelevel="1">
+		<Size>
+			<AbsDimension x="35" y="37"/>
+		</Size>
+		<Anchors>
+			<Anchor point="center" relativePoint="center" relativeTo="$parent">
+				<Offset>
+					<AbsDimension x="0" y="0" />
+				</Offset>
+			</Anchor>
+		</Anchors>
+		<Layers>
+			<Layer level="ARTWORK">
+				<Texture name="$parentTex" file="ui/mobile/ui1.png" x="921" y="924" w="31" h="33" >
+				</Texture>
+			</Layer>
+		</Layers>
+		<Scripts>
+			<OnLoad>LoadLoopFrame_OnLoad();</OnLoad>
+			<OnUpdate>LoadLoopFrame_OnUpdate();</OnUpdate>
+		</Scripts>
+	</Frame>
+</Ui>

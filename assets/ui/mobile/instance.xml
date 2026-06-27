@@ -1,0 +1,453 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Ui>
+	<Script file="ui/mobile/instance.lua"/>
+	#boss血条
+	<Frame name="BossHpFrame" parent="UIClient" frameStrata="BACKGROUND" input_transparent="true" hidden="true" framelevel="1">
+		<Size>
+			<AbsDimension x="560" y="51"/>
+		</Size>
+		<Anchors>
+			<Anchor point="top" relativePoint="top" relativeTo="$parent">
+				<Offset>
+					<AbsDimension x="0" y="5" />
+				</Offset>
+			</Anchor>
+		</Anchors>
+		<Layers>
+			<Layer level="BACKGROUND">
+				<Texture name="$parentIcon" file="ui/mobile/ui3.png" x="420" y="6" w="16" h="16">
+					<Size>
+						<AbsDimension x="18" y="18"/>
+					</Size>
+					<Anchors>
+						<Anchor point="topleft" relativePoint="topleft" relativeTo="$parent">
+							<Offset>
+								<AbsDimension x="0" y="0"/>
+							</Offset>
+						</Anchor>
+					</Anchors>	
+				</Texture>
+				<FontString name="$parentName" fonttype="BlackFont21" lineInterval="2" fontStyle="border" text="懒货黑龙">
+					<Color r="253" g="230" b="66"/>
+					<Size>
+						<AbsDimension x="150" y="22"/>
+					</Size>
+					<Anchors>
+						<Anchor point="left" relativePoint="right" relativeTo="$parentIcon">
+							<Offset>
+								<AbsDimension x="3" y="0"/>
+							</Offset>
+						</Anchor>
+					</Anchors>
+				</FontString>
+				<Texture name="$parentHpBkg" inherits="HpBkgTemplate">
+					<Size>
+						<AbsDimension x="560" y="26"/>
+					</Size>
+					<Anchors>
+						<Anchor point="topleft" relativePoint="bottomleft" relativeTo="$parentIcon">
+							<Offset>
+								<AbsDimension x="0" y="3"/>
+							</Offset>
+						</Anchor>
+					</Anchors>	
+				</Texture>
+				<Texture name="$parentHp" file="ui/mobile/ui3.png" x="255" y="37" w="26" h="14">
+					<Size>
+						<AbsDimension x="280" y="18"/>
+					</Size>
+					<Anchors>
+						<Anchor point="topleft" relativePoint="topleft" relativeTo="$parentHpBkg">
+							<Offset>
+								<AbsDimension x="4" y="4"/>
+							</Offset>
+						</Anchor>
+					</Anchors>	
+				</Texture>
+				<Texture name="$parentDialogueBkg" file="ui/mobile/ui3.png" x="865" y="322" w="155" h="83" hidden="true">
+					<Size>
+						<AbsDimension x="490" y="280"/>
+					</Size>
+					<Anchors>
+						<Anchor point="topleft" relativePoint="center" relativeTo="$parentHpBkg">
+							<Offset>
+								<AbsDimension x="35" y="0"/>
+							</Offset>
+						</Anchor>
+					</Anchors>	
+				</Texture>
+				<FontString name="$parentDialogue" fonttype="BlackFont34" lineInterval="2" fontStyle="border">
+					<Color r="52" g="42" b="34"/>
+					<Size>
+						<AbsDimension x="400" y="34"/>
+					</Size>
+					<Anchors>
+						<Anchor point="topleft" relativePoint="topleft" relativeTo="$parentDialogueBkg">
+							<Offset>
+								<AbsDimension x="70" y="140"/>
+							</Offset>
+						</Anchor>
+					</Anchors>
+				</FontString>
+			</Layer>
+		</Layers>
+		<Scripts>
+			<OnLoad>BossHpFrame_OnLoad();</OnLoad>
+			<OnEvent>BossHpFrame_OnEvent();</OnEvent>
+			<OnShow>BossHpFrame_OnShow();</OnShow>
+			<OnUpdate>BossHpFrame_OnUpdate();</OnUpdate>
+		</Scripts>
+	</Frame>
+	#副本任务面板
+	<Frame name="InstanceTaskFrame" parent="UIClient" frameStrata="BACKGROUND" hidden="true" framelevel="1">
+		<Size>
+			<AbsDimension x="200" y="56"/>
+		</Size>
+		<Anchors>
+			<Anchor point="left" relativePoint="left" relativeTo="$parent">
+				<Offset>
+					<AbsDimension x="0" y="-55" />
+				</Offset>
+			</Anchor>
+		</Anchors>
+		<Layers>
+			<Layer level="BACKGROUND">
+			<!--
+				<FontString name="$parentGoalDesc" fonttype="BlackFont21" lineInterval="2" fontStyle="border" text="击败黑龙0/1">
+					<Color r="254" g="232" b="153"/>
+					<Size>
+						<AbsDimension x="150" y="29"/>
+					</Size>
+					<Anchors>
+						<Anchor point="topleft" relativePoint="left" relativeTo="$parent">
+							<Offset>
+								<AbsDimension x="65" y="-2"/>
+							</Offset>
+						</Anchor>
+					</Anchors>
+				</FontString>
+				-->
+			</Layer>
+		</Layers>
+		<Frames>
+			<Button name="$parentGoalBtn">
+				<Size>
+					<AbsDimension x="52" y="56"/>
+				</Size>
+				<Anchors>
+					<Anchor point="topleft" relativePoint="topleft" relativeTo="$parent">
+						<Offset>
+							<AbsDimension x="13" y="0"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Layers>
+					<Layer level="overlay" >
+						<FontString name="$parentNum" fonttype="BlackFont28" lineInterval="2" fontStyle="border" text="3">
+							<Color r="254" g="232" b="153"/>
+							<Size>
+								<AbsDimension x="30" y="29"/>
+							</Size>
+							<Anchors>
+								<Anchor point="center" relativePoint="center" relativeTo="$parent">
+									<Offset>
+										<AbsDimension x="5" y="0"/>
+									</Offset>
+								</Anchor>
+							</Anchors>
+						</FontString>
+					</Layer>
+				</Layers>
+				<NormalTexture name="$parentNormal" file="ui/mobile/ui3.png" x="357" y="128" w="46" h="50" />		
+				<PushedTexture name="$parentPushedBG" file="ui/mobile/ui3.png" x="357" y="177" w="46" h="50" />
+				<Scripts>
+					<OnClick>InstanceTaskFrameGoalBtn_OnClick();</OnClick>
+				</Scripts>
+			</Button>
+			<Frame name="$parentGoalDesc" clipped="true" input_transparent="true">
+				<Size>
+					<AbsDimension x="180" y="29"/>
+				</Size>
+				<Anchors>
+					<Anchor point="left" relativePoint="left" relativeTo="$parent">
+						<Offset>
+							<AbsDimension x="65" y="5"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Layers>
+					<Layer level="BACKGROUND">
+						<FontString name="$parentFont" fonttype="BlackFont21" lineInterval="2" fontStyle="border" text="击败黑龙0/1">
+							<Color r="254" g="232" b="153"/>
+							<Size>
+								<AbsDimension x="150" y="29"/>
+							</Size>
+							<Anchors>
+								<Anchor point="topleft" relativePoint="topleft" relativeTo="$parent">
+									<Offset>
+										<AbsDimension x="0" y="0"/>
+									</Offset>
+								</Anchor>
+							</Anchors>
+						</FontString>
+						<Texture name="$parentTick" file="ui/mobile/ui.png" x="488" y="228" w="43" h="38" hidden="true">
+							<Size>
+								<AbsDimension x="32" y="28"/>
+							</Size>
+						</Texture>
+					</Layer>
+				</Layers>
+			</Frame>
+		</Frames>
+		<Scripts>
+			<OnLoad>InstanceTaskFrame_OnLoad();</OnLoad>
+			<OnEvent>InstanceTaskFrame_OnEvent();</OnEvent>
+			<OnShow>InstanceTaskFrame_OnShow();</OnShow>
+			<OnClick>InstanceTaskFrame_OnClick();</OnClick>
+			<OnUpdate>InstanceTaskFrame_OnUpdate();</OnUpdate>
+		</Scripts>
+	</Frame>
+	#副本介绍面板
+	<Frame name="IntroduceFrame" parent="UIClient" frameStrata="BACKGROUND" hidden="true" framelevel="1">
+		<Size>
+			<AbsDimension x="654" y="366"/>
+		</Size>
+		<Anchors>
+			<Anchor point="center" relativePoint="center" relativeTo="$parent">
+				<Offset>
+					<AbsDimension x="0" y="0" />
+				</Offset>
+			</Anchor>
+		</Anchors>
+		<Layers>
+			<Layer level="BACKGROUND">
+				<Texture name="$parentBkg" inherits="TipsBkgTemplate">
+					<Size>
+						<AbsDimension x="654" y="305"/>
+					</Size>
+					<Anchors>
+						<Anchor point="bottomleft" relativePoint="bottomleft" relativeTo="$parent">
+							<Offset>
+								<AbsDimension x="0" y="0"/>
+							</Offset>
+						</Anchor>
+					</Anchors>	
+				</Texture>
+				<Texture name="$parentFightIcon" file="ui/mobile/ui3.png" x="917" y="132" w="105" h="105">
+					<Size>
+						<AbsDimension x="118" y="118"/>
+					</Size>
+					<Anchors>
+						<Anchor point="left" relativePoint="left" relativeTo="$parentBkg">
+							<Offset>
+								<AbsDimension x="30" y="0"/>
+							</Offset>
+						</Anchor>
+					</Anchors>	
+				</Texture>
+				<Texture name="$parentTitleIcon" file="ui/mobile/ui3.png" x="344" y="412" w="513" h="81">
+					<Size>
+						<AbsDimension x="578" y="91"/>
+					</Size>
+					<Anchors>
+						<Anchor point="top" relativePoint="top" relativeTo="$parent">
+							<Offset>
+								<AbsDimension x="0" y="0"/>
+							</Offset>
+						</Anchor>
+					</Anchors>	
+				</Texture>
+				<FontString name="$parentTitle" fonttype="BlackFont24" lineInterval="2" fontStyle="border" text="玩法介绍">
+					<Color r="254" g="232" b="153"/>
+					<Size>
+						<AbsDimension x="102" y="25"/>
+					</Size>
+					<Anchors>
+						<Anchor point="top" relativePoint="top" relativeTo="$parentTitleIcon">
+							<Offset>
+								<AbsDimension x="0" y="55"/>
+							</Offset>
+						</Anchor>
+					</Anchors>
+				</FontString>
+				<FontString name="$parentDesc" fonttype="BlackFont24" lineInterval="6" fontStyle="border" text="懒货黑龙盘踞在地狱龙巢，击败它\n证明你的勇武吧！">
+					<Color r="255" g="255" b="255"/>
+					<Size>
+						<AbsDimension x="360" y="60"/>
+					</Size>
+					<Anchors>
+						<Anchor point="topleft" relativePoint="topleft" relativeTo="$parentBkg">
+							<Offset>
+								<AbsDimension x="176" y="60"/>
+							</Offset>
+						</Anchor>
+					</Anchors>
+				</FontString>
+				<FontString name="$parentGoal1Desc" fonttype="BlackFont28" lineInterval="2" fontStyle="border" text="1.找到黑龙111">
+					<Color r="254" g="232" b="153"/>
+					<Size>
+						<AbsDimension x="360" y="29"/>
+					</Size>
+					<Anchors>
+						<Anchor point="topleft" relativePoint="bottomleft" relativeTo="$parentDesc">
+							<Offset>
+								<AbsDimension x="0" y="16"/>
+							</Offset>
+						</Anchor>
+					</Anchors>
+				</FontString>
+				<Texture name="$parentTick1" file="ui/mobile/ui.png" x="488" y="228" w="43" h="38" hidden="false">
+					<Size>
+						<AbsDimension x="43" y="38"/>
+					</Size>
+					<!--
+					<Anchors>
+						<Anchor point="left" relativePoint="left" relativeTo="$parentGoal1Desc">
+							<Offset>
+								<AbsDimension x="100" y="0"/>
+							</Offset>
+						</Anchor>
+					</Anchors>
+					-->
+				</Texture>
+				<FontString name="$parentGoal2Desc" fonttype="BlackFont28" lineInterval="2" fontStyle="border" text="2.击败黑龙2222">
+					<Color r="254" g="232" b="153"/>
+					<Size>
+						<AbsDimension x="366" y="29"/>
+					</Size>
+					<Anchors>
+						<Anchor point="topleft" relativePoint="bottomleft" relativeTo="$parentGoal1Desc">
+							<Offset>
+								<AbsDimension x="0" y="26"/>
+							</Offset>
+						</Anchor>
+					</Anchors>
+				</FontString>
+				<Texture name="$parentTick2" file="ui/mobile/ui.png" x="488" y="228" w="43" h="38" hidden="true">
+					<Size>
+						<AbsDimension x="43" y="38"/>
+					</Size>
+				</Texture>
+				<FontString name="$parentGoal3Desc" fonttype="BlackFont28" lineInterval="2" fontStyle="border" text="3.测试测试测试测试测试">
+					<Color r="254" g="232" b="153"/>
+					<Size>
+						<AbsDimension x="366" y="29"/>
+					</Size>
+					<Anchors>
+						<Anchor point="topleft" relativePoint="bottomleft" relativeTo="$parentGoal2Desc">
+							<Offset>
+								<AbsDimension x="0" y="26"/>
+							</Offset>
+						</Anchor>
+					</Anchors>
+				</FontString>
+				<Texture name="$parentTick3" file="ui/mobile/ui.png" x="488" y="228" w="43" h="38" hidden="true">
+					<Size>
+						<AbsDimension x="43" y="38"/>
+					</Size>
+				</Texture>
+			</Layer>
+		</Layers>
+		<Scripts>
+			<OnShow>IntroduceFrame_OnShow();</OnShow>
+			<OnClick>IntroduceFrame_OnClick();</OnClick>
+		</Scripts>
+	</Frame>
+	#纪念碑面板
+	<Frame name="MonumentFrame" parent="UIClient" frameStrata="BACKGROUND" hidden="true" framelevel="1">
+		<Size>
+			<AbsDimension x="654" y="366"/>
+		</Size>
+		<Anchors>
+			<Anchor point="center" relativePoint="center" relativeTo="$parent">
+				<Offset>
+					<AbsDimension x="0" y="0" />
+				</Offset>
+			</Anchor>
+		</Anchors>
+		<Layers>
+			<Layer level="BACKGROUND">
+				<Texture name="$parentBkg" inherits="TipsBkgTemplate">
+					<Size>
+						<AbsDimension x="654" y="305"/>
+					</Size>
+					<Anchors>
+						<Anchor point="bottomleft" relativePoint="bottomleft" relativeTo="$parent">
+							<Offset>
+								<AbsDimension x="0" y="0"/>
+							</Offset>
+						</Anchor>
+					</Anchors>	
+				</Texture>
+				<Texture name="$parentIcon" file="ui/mobile/ui3.png" x="937" y="240" w="80" h="80">
+					<Size>
+						<AbsDimension x="90" y="90"/>
+					</Size>
+					<Anchors>
+						<Anchor point="left" relativePoint="left" relativeTo="$parentBkg">
+							<Offset>
+								<AbsDimension x="30" y="0"/>
+							</Offset>
+						</Anchor>
+					</Anchors>	
+				</Texture>
+				<Texture name="$parentTitleIcon" file="ui/mobile/ui3.png" x="344" y="412" w="513" h="81">
+					<Size>
+						<AbsDimension x="578" y="91"/>
+					</Size>
+					<Anchors>
+						<Anchor point="top" relativePoint="top" relativeTo="$parent">
+							<Offset>
+								<AbsDimension x="0" y="0"/>
+							</Offset>
+						</Anchor>
+					</Anchors>
+				</Texture>
+				<FontString name="$parentTitle" fonttype="BlackFont24" lineInterval="2" justifyH="center" fontStyle="border" text="龙鳞纪念碑">
+					<Color r="254" g="232" b="153"/>
+					<Size>
+						<AbsDimension x="200" y="25"/>
+					</Size>
+					<Anchors>
+						<Anchor point="top" relativePoint="top" relativeTo="$parentTitleIcon">
+							<Offset>
+								<AbsDimension x="0" y="55"/>
+							</Offset>
+						</Anchor>
+					</Anchors>
+				</FontString>
+				<FontString name="$parentPlayerName" fonttype="BlackFont28" lineInterval="6" fontStyle="border" text="奔跑吧小熊">
+					<Color r="255" g="255" b="255"/>
+					<Size>
+						<AbsDimension x="360" y="29"/>
+					</Size>
+					<Anchors>
+						<Anchor point="topleft" relativePoint="topleft" relativeTo="$parentBkg">
+							<Offset>
+								<AbsDimension x="176" y="87"/>
+							</Offset>
+						</Anchor>
+					</Anchors>
+				</FontString>
+			</Layer>
+		</Layers>
+		<Frames>
+			<RichText name="$parentDesc" lineInterval="16" multiLine="false" fonttype="BlackFont24" fontStyle="border">
+				<Size>
+					<AbsDimension x="360" y="110"/>
+				</Size>
+				<Anchors>
+					<Anchor point="topleft" relativePoint="bottomleft" relativeTo="$parentPlayerName">
+						<Offset>
+							<AbsDimension x="0" y="16"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+			</RichText>
+		</Frames>
+		<Scripts>
+			<OnShow>MonumentFrame_OnShow();</OnShow>
+			<OnClick>MonumentFrame_OnClick();</OnClick>
+		</Scripts>
+	</Frame>
+</Ui>

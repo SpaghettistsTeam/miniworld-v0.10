@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Ui>
+	<Script file="ui/storagebox.lua" />
+	<Frame name="StorageBoxFrame" parent="UIClient" frameStrata="MEDIUM" hidden="true" framelevel="10">
+		<Size>
+			<AbsDimension x="683" y="676"/>
+		</Size>
+		<Anchors>
+			<Anchor point="center" relativePoint="center" relativeTo="$parent">
+				<Offset>
+					<AbsDimension x="0" y="0" />
+				</Offset>
+			</Anchor>
+		</Anchors>
+		<Layers>
+			<Layer level="BACKGROUND">
+				<Texture name="$parentBkgGrid1" file="ui/craftingtable.png" x="0" y="360" w="683" h="209">
+					<Size>
+						<AbsDimension x="683" y="209"/>
+					</Size>
+					<Anchors>
+						<Anchor point="topleft" relativePoint="bottomleft" relativeTo="$parentBkgTitle1">
+							<Offset>
+								<AbsDimension x="12" y="-30" />
+							</Offset>
+						</Anchor>
+					</Anchors>
+				</Texture>
+				<Texture name="$parentBkgGrid2" file="ui/craftingtable.png" hidden="true" x="0" y="361" w="683" h="209">
+					<Size>
+						<AbsDimension x="683" y="209"/>
+					</Size>
+					<Anchors>
+						<Anchor point="topleft" relativePoint="bottomleft" relativeTo="$parentBkgGrid1">
+							<Offset>
+								<AbsDimension x="0" y="-4" />
+							</Offset>
+						</Anchor>
+					</Anchors>
+				</Texture>
+				<Texture name="$parentBkgGrid3" file="ui/backpack.png" x="318" y="209" w="706" h="304">
+					<Size>
+						<AbsDimension x="706" y="304"/>
+					</Size>
+					<Anchors>
+						<Anchor point="topleft" relativePoint="bottomleft" relativeTo="$parentBkgTitle1">
+							<Offset>
+								<AbsDimension x="5" y="431" />
+							</Offset>
+						</Anchor>
+					</Anchors>
+				</Texture>
+				<Texture name="$parentBkgTitle1" file="ui/craftingtable.png" x="0" y="679" w="707" h="93">
+					<Size>
+						<AbsDimension x="707" y="93"/>
+					</Size>
+				</Texture>
+				<Texture name="$parentBkgTitle2" file="ui/craftingtable.png" x="0" y="780" w="715" h="66">
+					<Size>
+						<AbsDimension x="715" y="66"/>
+					</Size>
+					<Anchors>
+						<Anchor point="topleft" relativePoint="bottomleft" relativeTo="$parentBkgTitle1">
+							<Offset>
+								<AbsDimension x="0" y="385"/>
+							</Offset>
+						</Anchor>
+					</Anchors>
+				</Texture>
+			</Layer>
+		</Layers>
+		<Frames>
+			<Frame name="StorageGrids">
+				<Size>
+					<AbsDimension x="663" y="280"/>
+				</Size>
+				<Anchors>
+					<Anchor point="topleft" relativePoint="topleft" relativeTo="$parentBkgGrid1">
+						<Offset>
+							<AbsDimension x="11" y="5" />
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Frames>
+					<Button name="StorageGridItem1" inherits="ItemButtonTemplate" id="3000"/>
+					<Button name="StorageGridItem2" inherits="ItemButtonTemplate" id="3001"/>
+					<Button name="StorageGridItem3" inherits="ItemButtonTemplate" id="3002"/>
+					<Button name="StorageGridItem4" inherits="ItemButtonTemplate" id="3003"/>
+					<Button name="StorageGridItem5" inherits="ItemButtonTemplate" id="3004"/>
+					<Button name="StorageGridItem6" inherits="ItemButtonTemplate" id="3005"/>
+					<Button name="StorageGridItem7" inherits="ItemButtonTemplate" id="3006"/>
+					<Button name="StorageGridItem8" inherits="ItemButtonTemplate" id="3007"/>
+					<Button name="StorageGridItem9" inherits="ItemButtonTemplate" id="3008"/>
+					<Button name="StorageGridItem10" inherits="ItemButtonTemplate" id="3009"/>
+					<Button name="StorageGridItem11" inherits="ItemButtonTemplate" id="3010"/>
+					<Button name="StorageGridItem12" inherits="ItemButtonTemplate" id="3011"/>
+					<Button name="StorageGridItem13" inherits="ItemButtonTemplate" id="3012"/>
+					<Button name="StorageGridItem14" inherits="ItemButtonTemplate" id="3013"/>
+					<Button name="StorageGridItem15" inherits="ItemButtonTemplate" id="3014"/>
+					<Button name="StorageGridItem16" inherits="ItemButtonTemplate" id="3015"/>
+					<Button name="StorageGridItem17" inherits="ItemButtonTemplate" id="3016"/>
+					<Button name="StorageGridItem18" inherits="ItemButtonTemplate" id="3017"/>
+					<Button name="StorageGridItem19" inherits="ItemButtonTemplate" id="3018"/>
+					<Button name="StorageGridItem20" inherits="ItemButtonTemplate" id="3019"/>
+					<Button name="StorageGridItem21" inherits="ItemButtonTemplate" id="3020"/>
+					<Button name="StorageGridItem22" inherits="ItemButtonTemplate" id="3021"/>
+					<Button name="StorageGridItem23" inherits="ItemButtonTemplate" id="3022"/>
+					<Button name="StorageGridItem24" inherits="ItemButtonTemplate" id="3023"/>
+					<Button name="StorageGridItem25" inherits="ItemButtonTemplate" id="3024"/>
+					<Button name="StorageGridItem26" inherits="ItemButtonTemplate" id="3025"/>
+					<Button name="StorageGridItem27" inherits="ItemButtonTemplate" id="3026"/>
+					<Button name="StorageGridItem28" inherits="ItemButtonTemplate" id="3027"/>
+					<Button name="StorageGridItem29" inherits="ItemButtonTemplate" id="3028"/>
+					<Button name="StorageGridItem30" inherits="ItemButtonTemplate" id="3029"/>
+				</Frames>
+			</Frame>
+			<Frame name="StorageGridsEx" hidden="true">
+				<Size>
+					<AbsDimension x="663" y="280"/>
+				</Size>
+				<Anchors>
+					<Anchor point="topleft" relativePoint="bottomleft" relativeTo="StorageGrids">
+						<Offset>
+							<AbsDimension x="0" y="0" />
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Frames>
+					<Button name="StorageGridItem31" inherits="ItemButtonTemplate" id="3030"/>
+					<Button name="StorageGridItem32" inherits="ItemButtonTemplate" id="3031"/>
+					<Button name="StorageGridItem33" inherits="ItemButtonTemplate" id="3032"/>
+					<Button name="StorageGridItem34" inherits="ItemButtonTemplate" id="3033"/>
+					<Button name="StorageGridItem35" inherits="ItemButtonTemplate" id="3034"/>
+					<Button name="StorageGridItem36" inherits="ItemButtonTemplate" id="3035"/>
+					<Button name="StorageGridItem37" inherits="ItemButtonTemplate" id="3036"/>
+					<Button name="StorageGridItem38" inherits="ItemButtonTemplate" id="3037"/>
+					<Button name="StorageGridItem39" inherits="ItemButtonTemplate" id="3038"/>
+					<Button name="StorageGridItem40" inherits="ItemButtonTemplate" id="3039"/>
+					<Button name="StorageGridItem41" inherits="ItemButtonTemplate" id="3040"/>
+					<Button name="StorageGridItem42" inherits="ItemButtonTemplate" id="3041"/>
+					<Button name="StorageGridItem43" inherits="ItemButtonTemplate" id="3042"/>
+					<Button name="StorageGridItem44" inherits="ItemButtonTemplate" id="3043"/>
+					<Button name="StorageGridItem45" inherits="ItemButtonTemplate" id="3044"/>
+					<Button name="StorageGridItem46" inherits="ItemButtonTemplate" id="3045"/>
+					<Button name="StorageGridItem47" inherits="ItemButtonTemplate" id="3046"/>
+					<Button name="StorageGridItem48" inherits="ItemButtonTemplate" id="3047"/>
+					<Button name="StorageGridItem49" inherits="ItemButtonTemplate" id="3048"/>
+					<Button name="StorageGridItem50" inherits="ItemButtonTemplate" id="3049"/>
+					<Button name="StorageGridItem51" inherits="ItemButtonTemplate" id="3050"/>
+					<Button name="StorageGridItem52" inherits="ItemButtonTemplate" id="3051"/>
+					<Button name="StorageGridItem53" inherits="ItemButtonTemplate" id="3052"/>
+					<Button name="StorageGridItem54" inherits="ItemButtonTemplate" id="3053"/>
+					<Button name="StorageGridItem55" inherits="ItemButtonTemplate" id="3054"/>
+					<Button name="StorageGridItem56" inherits="ItemButtonTemplate" id="3055"/>
+					<Button name="StorageGridItem57" inherits="ItemButtonTemplate" id="3056"/>
+					<Button name="StorageGridItem58" inherits="ItemButtonTemplate" id="3057"/>
+					<Button name="StorageGridItem59" inherits="ItemButtonTemplate" id="3058"/>
+					<Button name="StorageGridItem60" inherits="ItemButtonTemplate" id="3059"/>
+				</Frames>
+			</Frame>
+			<Button name="$parentCloseBtn" inherits="CloseBtnTemplate">
+				<Anchors>
+					<Anchor point="topleft" relativeTo="$parent" relativePoint="topleft">
+						<Offset>
+							<AbsDimension x="656" y="0"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Scripts>
+					<OnClick>StorageBoxFrameCloseBtn_OnClick();</OnClick>
+				</Scripts>
+			</Button>
+			<Button name="$parentSortBtn" inherits="SortBtnTemplate">
+				<Anchors>
+					<Anchor point="topleft" relativeTo="$parent" relativePoint="topleft">
+						<Offset>
+							<AbsDimension x="601" y="326"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+			</Button>
+		</Frames>
+		<Scripts>
+			<OnLoad>StorageBoxFrame_OnLoad();</OnLoad>
+			<OnEvent>StorageBoxFrame_OnEvent();</OnEvent>
+			<OnShow>StorageBoxFrame_OnShow();</OnShow>
+			<OnHide>StorageBoxFrame_OnHide();</OnHide>
+		</Scripts>
+	</Frame>
+</Ui>

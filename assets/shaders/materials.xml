@@ -1,0 +1,468 @@
+<MaterialTemplate>
+	<Material name="triangle">
+		<Technique name="lod0" usage="135" lod="0"/>
+	</Material>
+	<Material name="skyplane">
+		<Technique name="lod0" usage="135" lod="0"/>
+		<Params>
+			<var name="g_SkyHeight" type="float"/>
+			<var name="g_DayTime" type="float"/>
+			<var name="g_SunDirect" type="float3"/>
+			<var name="g_SunColor" type="float4"/>
+			<var name="g_SkyModColor" type="float4"/>
+			<var name="g_SkyTex" type="texture"/>
+			<var name="g_StarTex" type="texture"/>
+		</Params>
+		<Samplers>
+			<sampler name="s_SkySampler" texture="g_SkyTex"  addressU="wrap" addressV="clamp" minFilter="linear" magFilter="linear" mipFilter="point"/>
+			<sampler name="s_StarSampler" texture="g_StarTex"/>
+		</Samplers>
+	</Material>
+	<Material name="cloudplane">
+		<Technique name="lod0" usage="135" lod="0"/>
+		<Params>
+			<var name="g_SkyModColor" type="float4"/>
+			<var name="g_CloudTex" type="texture"/>
+			<var name="g_CloudLightTex" type="texture"/>
+		</Params>
+		<Samplers>
+			<sampler name="s_CloudSampler" texture="g_CloudTex"/>
+			<sampler name="s_CloudLightSampler" texture="g_CloudLightTex"/>
+		</Samplers>
+	</Material>
+	<Material name="sun">
+		<Technique name="lod0" usage="135" lod="0"/>
+		<Params>
+			<var name="g_SunTex" type="texture"/>
+			<var name="g_SunColor" type="float4"/>
+		</Params>
+		<Samplers>
+			<sampler name="s_SunSampler" texture="g_SunTex" addressU="clamp" addressV="clamp"/>
+		</Samplers>
+	</Material>
+	<Material name="blockitem">
+		<Technique name="lod0" usage="135" lod="0"/>
+		<Params>
+			<var name="BLEND_MODE" type="macro" default="0"/>
+			<var name="USE_TEXTURE" type="macro" default="0"/>
+			<var name="g_DiffuseTex" type="texture"/>
+			<var name="LightDir" type="float3"/>
+			<var name="GrassColor" type="float3"/>
+			<var name="g_OverlayColor" type="float3"/>
+			<var name="g_UVTranslate" type="float2"/>
+		</Params>
+		<Samplers>
+			<sampler name="s_DiffuseSampler" texture="g_DiffuseTex" addressU="wrap" addressV="warp"/>
+		</Samplers>
+	</Material>
+	<Material name="blockdecal">
+		<Technique name="lod0" usage="135" lod="0"/>
+		<Params>
+			<var name="g_DiffuseTex" type="texture"/>
+		</Params>
+		<Samplers>
+			<sampler name="s_DiffuseSampler" texture="g_DiffuseTex" addressU="clamp" addressV="clamp"/>
+		</Samplers>
+	</Material>
+	<Material name="block">
+		<Technique name="lod0" usage="135" lod="0"/>
+		<Technique name="shadowgen" usage="8" lod="0"/>
+		<Params>
+			<var name="BLEND_MODE" type="macro" default="0"/>
+			<var name="DOUBLE_SIDE" type="macro" default="0"/>
+			<var name="OVERLAY" type="macro" default="0"/>
+			<var name="g_DiffuseTex" type="texture"/>
+			<var name="g_OverlayTex" type="texture"/>
+		</Params>
+		<Samplers>
+			<sampler name="s_DiffuseSampler" texture="g_DiffuseTex" addressU="wrap" addressV="wrap"/>
+			<sampler name="s_OverlaySampler" texture="g_OverlayTex" addressU="clamp" addressV="clamp"/>
+			<sampler name="s_DepthMapSampler" texture="g_depthtexture" addressU="clamp" addressV="clamp" minFilter="linear" magFilter="linear" mipFilter="none"/>
+		</Samplers>
+	</Material>
+	<Material name="block_water" transparent="true">
+		<Technique name="lod0" usage="135" lod="0"/>
+		<Params>
+			<var name="g_DiffuseTex" type="texture"/>
+			<var name="g_NormalTex" type="texture"/>
+			<var name="g_ReflectTex" type="texture"/>
+			<var name="g_NumTexRepeat" type="float" default="8.0"/>
+			<var name="g_fSpeed" type="float" default="0.2"/>
+			<var name="g_fAmp" type="float" default="1.0"/>
+		</Params>
+		<Samplers>
+			<sampler name="s_DiffuseSampler" texture="g_DiffuseTex" addressU="clamp" addressV="clamp"/>
+			<sampler name="NormalSampler" texture="g_NormalTex" addressU="wrap" addressV="wrap"/>
+			<sampler name="ReflectSampler" texture="g_ReflectTex" addressU="clamp" addressV="clamp"/>
+		</Samplers>
+	</Material>
+	<Material name="block_uvanim">
+		<Technique name="lod0" usage="135" lod="0"/>
+		<Params>
+			<var name="BLEND_MODE" type="macro" default="0"/>
+			<var name="DOUBLE_SIDE" type="macro" default="0"/>
+			<var name="g_DiffuseTex" type="texture"/>
+			<var name="g_UVTranslate" type="float2"/>
+		</Params>
+		<Samplers>
+			<sampler name="s_DiffuseSampler" texture="g_DiffuseTex" addressU="wrap" addressV="wrap"/>
+			<sampler name="s_DepthMapSampler" texture="g_depthtexture" addressU="clamp" addressV="clamp" minFilter="linear" magFilter="linear" mipFilter="none"/>
+		</Samplers>
+	</Material>
+	<Material name="stdmtl">
+		<Technique name="lod0" usage="135" lod="0"/>
+		<Technique name="shadowgen" usage="8" lod="0"/>
+		<Params>
+			<var name="BLEND_MODE" type="macro" default="0"/>
+			<var name="DOUBLE_SIDE" type="macro" default="0"/>
+			<var name="USE_SELFILLUM_TEX" type="macro" default="0"/>
+			<var name="OVERLAY_MODE" type="macro" default="0"/>
+			<var name="g_DiffuseTex" type="texture"/>
+			<var name="g_SpecSelfTex" type="texture"/>
+			<var name="g_OverlayTex" type="texture"/>
+			<var name="g_MaskColor" type="float3"/>
+			<var name="g_OverlayColor" type="float3"/>
+			<var name="g_SpecPower" type="float" default="0.0f"/>
+			<var name="g_SpecShiness" type="float" default="0.0f"/>
+			<var name="g_SelfPower" type="float3" default="0.0f,0.0f,0.0f"/>
+			<var name="g_TransU" type="float" default="0.0f"/>
+			<var name="g_TransV" type="float" default="0.0f"/>
+			<var name="g_ScaleU" type="float" default="1.0f"/>
+			<var name="g_ScaleV" type="float" default="1.0f"/>
+			<var name="g_RotUV" type="float" default="0.0f"/>
+		</Params>
+		<Samplers>
+			<sampler name="s_DiffuseSampler" texture="g_DiffuseTex"/>
+			<sampler name="s_DepthMapSampler" texture="g_depthtexture" addressU="clamp" addressV="clamp" minFilter="linear" magFilter="linear" mipFilter="none"/>
+			<sampler name="s_SpecSelfSampler" texture="g_SpecSelfTex"/>
+			<sampler name="s_OverlaySampler" texture="g_OverlayTex"/>
+		</Samplers>
+	</Material>
+	<Material name="cloth">
+		<Technique name="lod0" usage="135" lod="0"/>
+		<Technique name="shadowgen" usage="8" lod="0"/>
+		<Params>
+			<var name="BLEND_MODE" type="macro" default="0"/>
+			<var name="DOUBLE_SIDE" type="macro" default="0"/>
+			<var name="USE_SELFILLUM_TEX" type="macro" default="0"/>
+			<var name="USE_CLOTHMASK" type="macro" default="0"/>
+			<var name="g_DiffuseTex" type="texture"/>
+			<var name="g_SpecSelfTex" type="texture"/>
+			<var name="g_ClothMask" type="texture"/>
+			<var name="g_LiuGuangTex" type="texture"/>
+			<var name="g_ClothParam" type="float4"/>
+			<var name="g_SpecPower" type="float" default="0.0f"/>
+			<var name="g_DeadScale" type="float" default="1.0f"/>
+			<var name="g_SpecShiness" type="float" default="0.0f"/>
+			<var name="g_SelfPower" type="float3" default="0.0f,0.0f,0.0f"/>
+		</Params>
+	</Material>
+	<Material name="back0">
+		<Technique name="lod0" usage="135" lod="0"/>
+		<Params>
+			<var name="BLEND_MODE" type="macro" default="0"/>
+			<var name="g_DiffuseTex" type="texture"/>
+			<var name="g_SpecPower" type="float" default="0.0f"/>
+			<var name="g_SelfPower" type="float3" default="0.0f,0.0f,0.0f"/>
+			<var name="g_TransU" type="float" default="0.0f"/>
+			<var name="g_TransV" type="float" default="0.0f"/>
+			<var name="g_ScaleU" type="float" default="1.0f"/>
+			<var name="g_ScaleV" type="float" default="1.0f"/>
+			<var name="g_RotUV" type="float" default="0.0f"/>
+		</Params>
+	</Material>
+	<Material name="back1">
+		<Technique name="lod0" usage="135" lod="0"/>
+		<Params>
+			<var name="g_DiffuseTex" type="texture"/>
+			<var name="g_SpecPower" type="float" default="0.0f"/>
+			<var name="g_SelfPower" type="float3" default="0.0f,0.0f,0.0f"/>
+			<var name="g_TransU" type="float"/>
+			<var name="g_TransV" type="float"/>
+			<var name="g_ScaleU" type="float"/>
+			<var name="g_ScaleV" type="float"/>
+			<var name="g_RotUV" type="float"/>
+		</Params>
+	</Material>
+	<Material name="border">
+		<Technique name="lod0" usage="135" lod="0"/>
+		<Params> 
+			<var name="g_DiffuseTex" type="texture"/>
+			<var name="g_SpecSelfTex" type="texture"/>
+			<var name="g_SpecPower" type="float" default="0.0f"/>
+			<var name="g_SpecShiness" type="float" default="0.0f"/>
+			<var name="g_SelfPower" type="float3" default="0.0f,0.0f,0.0f"/>
+			<var name="g_TransU" type="float"/>
+			<var name="g_TransV" type="float"/>
+			<var name="g_ScaleU" type="float"/>
+			<var name="g_ScaleV" type="float"/>
+			<var name="g_RotUV" type="float"/>
+		</Params>
+	</Material>
+		<Material name="border1">
+		<Technique name="lod0" usage="135" lod="0"/>
+		<Params>
+			<var name="g_DiffuseTex" type="texture"/>
+			<var name="g_strength" type="float" default="2.1f"/>
+			<var name="g_scale" type="float" default="0.5f"/>
+			<var name="g_color" type="float3" default="1.0f,1.0f,0.0f"/>
+		</Params>
+	</Material>
+	<Material name="overlay">
+		<Technique name="lod0" usage="135" lod="0"/>
+		<Params>
+			<var name="BLEND_MODE" type="macro" default="0"/>
+			<var name="g_DiffuseTex" type="texture"/>
+		</Params>
+		<Samplers>
+			<sampler name="s_DiffuseSampler" texture="g_DiffuseTex"/>
+		</Samplers>
+	</Material>
+	<Material name="uvanim">
+		<Technique name="lod0" usage="135" lod="0"/>
+		<Params>
+			<var name="BLEND_MODE" type="macro" default="2"/>
+			<var name="RECEIVE_LIGHTING" type="macro" default="0"/>
+			<var name="RECEIVE_FOG" type="macro" default="1"/>
+			<var name="USE_MASK_TEX" type="macro" default="1"/>
+			<var name="g_DiffuseTex" type="texture"/>
+			<var name="g_MaskTex" type="texture"/>
+			<var name="g_TransU" type="float" default="0"/>
+			<var name="g_TransV" type="float" default="0"/>
+			<var name="g_ScaleU" type="float" default="1"/>
+			<var name="g_ScaleV" type="float" default="1"/>
+			<var name="g_RotUV" type="float" default="0"/>
+		</Params>
+		<Samplers>
+			<sampler name="s_DiffuseSampler" texture="g_DiffuseTex"/>
+			<sampler name="s_MaskSampler" texture="g_MaskTex"/>
+		</Samplers>
+	</Material>
+	<Material name="uvanim_blend" transparent="true">
+		<Technique name="lod0" usage="135" lod="0"/>
+		<Params>
+			<var name="g_DiffuseTex" type="texture"/>
+			<var name="g_MaskTex" type="texture"/>
+			<var name="g_TransU" type="float"/>
+			<var name="g_TransV" type="float"/>
+			<var name="g_ScaleU" type="float"/>
+			<var name="g_ScaleV" type="float"/>
+			<var name="g_RotUV" type="float"/>
+	    </Params>
+		<Samplers>
+			<sampler name="s_DiffuseSampler" texture="g_DiffuseTex"/>
+			<sampler name="s_MaskSampler" texture="g_MaskTex"/>
+		</Samplers>
+	</Material>
+	<Material name="uvanim_selfillum" transparent="true">
+		<Technique name="lod0" usage="135" lod="0"/>
+		<Params>
+			<var name="g_DiffuseTex" type="texture"/>
+			<var name="g_MaskTex" type="texture"/>
+			<var name="g_TransU" type="float"/>
+			<var name="g_TransV" type="float"/>
+			<var name="g_ScaleU" type="float"/>
+			<var name="g_ScaleV" type="float"/>
+			<var name="g_RotUV" type="float"/>
+		</Params>
+		<Samplers>
+			<sampler name="s_DiffuseSampler" texture="g_DiffuseTex"/>
+			<sampler name="s_MaskSampler" texture="g_MaskTex"/>
+		</Samplers>
+	</Material>
+	<Material name="uvanim_2layer" transparent="false">
+		<Technique name="lod0" usage="135" lod="0"/>
+		<Params>
+			<var name="g_DiffuseTex" type="texture"/>
+			<var name="g_SelfIllumTex" type="texture"/>
+			<var name="g_TransU" type="float"/>
+			<var name="g_TransV" type="float"/>
+			<var name="g_ScaleU" type="float"/>
+			<var name="g_ScaleV" type="float"/>
+			<var name="g_RotUV" type="float"/>
+		</Params>
+		<Samplers>
+			<sampler name="s_DiffuseSampler" texture="g_DiffuseTex"/>
+			<sampler name="s_SelfIllumSampler" texture="g_SelfIllumTex"/>
+		</Samplers>
+	</Material>
+	<Material name="particle">
+		<Technique name="lod0" usage="135" lod="0"/>
+		<Technique name="distort" usage="32" lod="0"/>
+		<Params>
+			<var name="BLEND_MODE" type="macro" default="0"/>
+			<var name="MASK_TEXTURE" type="macro" default="0"/>
+			<var name="g_DiffuseTex" type="texture"/>
+			<var name="g_MaskTex" type="texture"/>
+		</Params>
+		<Samplers>
+			<sampler name="s_DiffuseSampler" texture="g_DiffuseTex" addressU="clamp" addressV="clamp" addressU1="wrap" addressV1="wrap"/>
+			<sampler name="s_MaskSampler" texture="g_MaskTex"  addressU="clamp" addressV="clamp"  addressU1="wrap" addressV1="wrap"/>
+		</Samplers>
+	</Material>
+	<Material name="line" transparent="false">
+		<Technique name="lod0" usage="135" lod="0"/>
+		<Params>
+			<var name="DEPTH_TEST" type="macro" default="0"/>
+		</Params>
+	</Material>
+	<Material name="terrain_all">
+		<Technique name="lod0" usage="135" lod="0"/>
+		<Params>
+			<var name="TERRAIN_LAYERS" type="macro" default="1"/>
+			<var name="USE_STATICLIGHT" type="macro" default="0"/>
+			<var name="g_BlendColorTex0" type="texture"/>
+			<var name="g_BlendColorTex1" type="texture"/>
+			<var name="g_BlendColorTex2" type="texture"/>
+			<var name="g_BlendColorTex3" type="texture"/>
+			<var name="g_BlendAlphaTex" type="texture"/>
+			<var name="g_LightMap" type="texture"/>
+			<var name="g_UVRepeat" type="float4"/>
+		</Params>
+		<Samplers>
+			<sampler name="s_BlendColorSampler0" texture="g_BlendColorTex0"/>
+			<sampler name="s_BlendAlphaSampler" texture="g_BlendAlphaTex"  addressU="clamp" addressV="clamp"/>
+			<sampler name="s_BlendColorSampler1" texture="g_BlendColorTex1"/>
+			<sampler name="s_BlendColorSampler2" texture="g_BlendColorTex2"/>
+			<sampler name="s_BlendColorSampler3" texture="g_BlendColorTex3"/>
+			<sampler name="s_DepthMapSampler" texture="g_depthtexture" addressU="clamp" addressV="clamp" minFilter="linear" magFilter="linear" mipFilter="none"/>
+			<sampler name="s_LightMapSampler" texture="g_LightMap"/>
+		</Samplers>
+	</Material>
+	<Material name="terrain_colormask" transparent="true">
+		<Technique name="lod0" usage="2" lod="0"/>
+		<Params>
+			<var name="g_ColorMaskTex" type="texture"/>
+		</Params>
+	</Material>
+	<Material name="general_water" transparent="true">
+		<Technique name="lod0" usage="2" lod="0"/>
+		<Params>
+			<var name="ALPHABLEND" type="macro" default="1"/>
+			<var name="g_ShallowWaterDepth" type="float"/>
+			<var name="g_DeepWaterColor" type="float4"/>
+			<var name="g_ShallowWaterColor" type="float4"/>
+			<var name="g_WaterBaseTex" type="texture"/>
+			<var name="g_WaterDepthTex" type="texture"/>
+			<var name="g_NumTexRepeat" type="float"/>
+			<var name="g_refelcttexture" type="texture"/>
+			<var name="g_refProj" type="float4x4"/>
+			<var name="g_Normaltexture" type="texture"/>
+			<var name="g_bumptexture" type="texture"/>      
+		</Params>
+	</Material>
+  <Material name="water_reflect" transparent="true">
+	<Technique name="lod0" usage="2" lod="0"/>
+    <Params>
+      <var name="g_Shallow" type="float"/>
+      <var name="g_Depth" type="float"/>
+      <var name="g_maxdepth" type="float"/>      
+      <var name="g_DeepWaterColor" type="float4"/>
+      <var name="g_ShallowWaterColor" type="float4"/>
+      <var name="g_WaterBaseTex" type="texture"/>
+      <var name="g_WaterDepthTex" type="texture"/>
+      <var name="g_NumTexRepeat" type="float"/>
+      <var name="g_refelcttexture" type="texture"/>
+      <var name="g_RefractTexture" type="texture"/>
+      <var name="g_refProj" type="float4x4"/>
+      <var name="g_Normaltexture" type="texture"/>
+      <var name="g_bumptexture" type="texture"/>
+      <var name="g_fSpeed" type="float"/>
+      <var name="g_fAmp" type="float"/>
+      <var name="g_fAlpha" type="float"/>
+    </Params>
+  </Material>
+	<Material name="plant" transparent="false">
+		<Technique name="lod0" usage="2" lod="0"/>
+		<Params>
+			<var name="g_DiffuseTex" type="texture"/>
+			<var name="g_PosExcursion" type="float4"/>
+		</Params>
+	</Material>
+	<Material name="ui_element" transparent="true">
+		<Technique name="lod0" usage="3" lod="0"/>
+		<Params>
+			<var name="BLEND_MODE" type="macro"/>
+			<var name="MASK_TEXTURE" type="macro"/>
+			<var name="RGB_MOD" type="macro"/>
+			<var name="g_DiffuseTex" type="texture"/>
+			<var name="g_MaskTex" type="texture"/>
+			<var name="g_MaskColor" type="float3"/>
+		</Params>
+		<Samplers>
+			<sampler name="s_DiffuseSampler" texture="g_DiffuseTex" addressU="clamp" addressV="clamp" minFilter="point" magFilter="linear" mipFilter="none"/>
+			<sampler name="s_MaskSampler" texture="g_MaskTex" addressU="wrap" addressV="wrap" minFilter="linear" magFilter="linear" mipFilter="none"/>
+		</Samplers>
+	</Material>
+	<Material name="posteffect_glow"/>
+	<Material name="sky_stdmtl" transparent="false">
+		<Technique name="lod0" usage="135" lod="0"/>
+		<Technique name="shadowgen" usage="8" lod="0"/>
+		<Params>
+			<var name="g_DiffuseTex" type="texture"/>
+		</Params>
+	</Material>
+	<Material name="bloom" transparent="false">
+		<Technique name="lod0" usage="135" lod="0"/>
+		<Params>
+			<var name="BLOOM_PASS" type="macro"/>
+			<var name="BLUR_TYPE" type="macro" default="0"/>
+			<var name="g_BaseTexture" type="texture"/>
+			<var name="g_BlendTexture" type="texture"/>
+			<var name="g_BloomTexture" type="texture"/>
+			<var name="g_HighScene" type="float"/>
+			<var name="g_lum" type="float"/>
+			<var name="g_avSampleOffsets" type="float4x4"/>
+			<var name="g_avSampleWeights" type="float4x4"/>
+			<var name="g_fSampleDist" type="float"/>
+			<var name="g_fSampleStrength" type="float"/>
+			<var name="textureX" type="float"/>
+			<var name="textureY" type="float"/>
+			<var name="radiusRate" type="float"/>
+			<var name="degree" type="float"/>
+			<var name="gaussRate" type="float"/>
+		</Params>
+	</Material>
+	<Material name="distort" transparent="false">
+		//<Technique name="lod0" usage="135" lod="0"/>
+		<Params>
+			<var name="g_SceneTexture" type="texture"/>
+			<var name="GRAY" type="macro" default="0"/>
+			<var name="g_DistortTexture" type="texture"/>
+		</Params>
+	</Material>
+	<Material name="decal" transparent="false">
+		<Technique name="lod0" usage="135" lod="0"/>
+		<Technique name="distort" usage="32" lod="0"/>
+		<Params>
+			<var name="BLEND_MODE" type="macro"/>
+			<var name="MASK_TEXTURE" type="macro"/>
+			<var name="g_DiffuseTex" type="texture"/>
+			<var name="g_MaskTex" type="texture"/>
+			<var name="g_DecalMatrix" type="float4x4"/>
+			<var name="g_DecalMaskMatrix" type="float4x4"/>
+		</Params>
+	</Material>
+	<Material name="footprint" transparent="false">
+		<Technique name="lod0" usage="135" lod="0"/>
+		<Params>
+			<var name="g_DiffuseTex" type="texture"/>
+		</Params>
+	</Material>
+	<Material name="dirdecal" transparent="false">
+		<Technique name="lod0" usage="135" lod="0"/>
+		<Params>
+			<var name="BLEND_MODE" type="macro" default="0"/>
+			<var name="g_DiffuseTex" type="texture"/>
+		</Params>
+	</Material>
+	<Material name="beach" transparent="true">
+		<Technique name="lod0" usage="135" lod="0"/>
+		<Params>
+			<var name="BLEND_MODE" type="macro" default="0"/>
+			<var name="g_DiffuseTex" type="texture"/>
+			<var name="g_MaskTex" type="texture"/>
+			<var name="g_uvTrans" type="float"/>
+		</Params>
+	</Material>
+</MaterialTemplate>

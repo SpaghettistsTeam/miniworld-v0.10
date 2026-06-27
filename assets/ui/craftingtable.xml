@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Ui>
+	<Script file="ui/craftingtable.lua" />
+	<Frame name="CraftingTableFrame" parent="UIClient" frameStrata="MEDIUM" hidden="true" framelevel="10">
+		<Size>
+			<AbsDimension x="683" y="676"/>
+		</Size>
+		<Anchors>
+			<Anchor point="center" relativePoint="center" relativeTo="$parent">
+				<Offset>
+					<AbsDimension x="0" y="0" />
+				</Offset>
+			</Anchor>
+		</Anchors>
+		<Layers>
+			<Layer level="BACKGROUND">
+				<Texture name="$parentBkg" file="ui/craftingtable.png" x="0" y="0" w="683" h="676">
+				</Texture>
+			</Layer>
+		</Layers>
+		<Frames>
+			<Frame name="CraftFrame">
+				<Frames>
+					<Button name="CraftingBtn1" inherits="ItemButtonTemplate" id="4000"/>
+					<Button name="CraftingBtn2" inherits="ItemButtonTemplate" id="4001"/>
+					<Button name="CraftingBtn3" inherits="ItemButtonTemplate" id="4002"/>
+					<Button name="CraftingBtn4" inherits="ItemButtonTemplate" id="4003"/>
+					<Button name="CraftingBtn5" inherits="ItemButtonTemplate" id="4004"/>
+					<Button name="CraftingBtn6" inherits="ItemButtonTemplate" id="4005"/>
+					<Button name="CraftingBtn7" inherits="ItemButtonTemplate" id="4006"/>
+					<Button name="CraftingBtn8" inherits="ItemButtonTemplate" id="4007"/>
+					<Button name="CraftingBtn9" inherits="ItemButtonTemplate" id="4008"/>
+
+					<Button name="CraftingBtn10" inherits="ItemButtonTemplate" id="4009">
+						<Anchors>
+							<Anchor point="topleft" relativeTo="$parent" relativePoint="topleft">
+								<Offset>
+									<AbsDimension x="478" y="200"/>
+								</Offset>
+						</Anchor>
+						</Anchors>
+					</Button>
+				</Frames>
+			</Frame>
+			<Button name="$parentCloseBtn" inherits="CloseBtnTemplate">
+				<Anchors>
+					<Anchor point="topleft" relativeTo="$parent" relativePoint="topleft">
+						<Offset>
+							<AbsDimension x="656" y="0"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Scripts>
+					<OnClick>CraftingTableFrameCloseBtn_OnClick();</OnClick>
+				</Scripts>
+			</Button>
+			<Button name="$parentSortBtn" inherits="SortBtnTemplate">
+				<Anchors>
+					<Anchor point="topleft" relativeTo="$parent" relativePoint="topleft">
+						<Offset>
+							<AbsDimension x="601" y="326"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+			</Button>
+		</Frames>
+		<Scripts>
+			<OnLoad>CraftingTableFrame_OnLoad();</OnLoad>
+			<OnShow>CraftingTableFrame_OnShow();</OnShow>
+			<OnHide>CraftingTableFrame_OnHide();</OnHide>
+		</Scripts>
+	</Frame>
+</Ui>

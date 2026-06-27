@@ -1,0 +1,637 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Ui>
+	<Script file="ui/lobby_single.lua" />
+	<Frame name="SingleRecordTemplate" virtual="true">
+		<Size>
+			<AbsDimension x="600" y="104"/>
+		</Size>
+		<Frames>
+			<Frame name="$parentShot">
+				<Size>
+					<AbsDimension x="183" y="104"/>
+				</Size>
+				<Layers>
+					<Layer level="background">
+						<Texture name="$parentPicBG" inherits="MainBkgTemplate"/>
+					</Layer>
+					<Layer level="artwork">
+						<Texture name="$parentPic" file="ui/question.png">
+							<Size>
+								<AbsDimension x="181" y="102"/>
+							</Size>
+							<Anchors>
+								<Anchor point="topleft" relativePoint="topleft" relativeTo="$parent">
+									<Offset>
+										<AbsDimension x="1" y="1" />
+									</Offset>
+								</Anchor>
+							</Anchors>
+						</Texture>
+					</Layer>
+				</Layers>
+			</Frame>
+			<Button name="$parentRecord">
+				<Size>
+					<AbsDimension x="414" y="103"/>
+				</Size>
+				<Anchors>
+					<Anchor point="topleft" relativePoint="topleft" relativeTo="$parent">
+						<Offset>
+							<AbsDimension x="184" y="0" />
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<NormalTexture name="$parentNormal" file="ui/login.png" x="2" y="437" w="414" h="103"/>
+				<CheckedTexture name="$parentChecked" file="ui/login.png" x="2" y="544" w="414" h="103"/>
+				<Layers>
+					<Layer level="overlay">
+						<FontString name="$parentName" fonttype="BlackFont24" text="XX的极限生存" fontStyle="border">
+							<Size>
+								<AbsDimension x="300" y="24" />
+							</Size>
+							<Anchors>
+								<Anchor point="topleft" relativePoint="topleft" relativeTo="$parent">
+									<Offset>
+										<AbsDimension x="46" y="10" />
+									</Offset>
+								</Anchor>
+							</Anchors>
+						</FontString>
+						<FontString name="$parentTime" fonttype="BlackFont14" text="上次时间: ">
+							<Color r="247" g="243" b="0" />
+							<Size>
+								<AbsDimension x="300" y="14" />
+							</Size>
+							<Anchors>
+								<Anchor point="topleft" relativePoint="bottomleft" relativeTo="$parentName">
+									<Offset>
+										<AbsDimension x="0" y="11" />
+									</Offset>
+								</Anchor>
+							</Anchors>
+						</FontString>
+					</Layer>
+				</Layers>
+				<Frames>
+					<Button name="$parentInvite" inherits="LobbySmallTextBtnTemplate" text="邀请好友">
+						<Anchors>
+							<Anchor point="bottomleft" relativePoint="bottomleft" relativeTo="$parent">
+								<Offset>
+									<AbsDimension x="46" y="-2" />
+								</Offset>
+							</Anchor>
+						</Anchors>
+						<Scripts>
+							<OnClick>SingleRecordInviteBtn_OnClick();</OnClick>
+						</Scripts>
+					</Button>
+				</Frames>
+				<Scripts>
+					<OnClick>SingleRecordBtn_OnClick();</OnClick>
+				</Scripts>
+			</Button>
+		</Frames>
+	</Frame>
+	<Frame name="SingleGameFrame" parent="UIClient" frameStrata="MEDIUM" framelevel="1" hidden="true">
+		<Size>
+			<AbsDimension x="794" y="440"/>
+		</Size>
+		<Anchors>
+			<Anchor point="topleft" relativePoint="topleft" relativeTo="$parent">
+				<Offset>
+					<RelDimension x="0.164" y="0.138" />
+				</Offset>
+			</Anchor>
+		</Anchors>
+		<Layers>
+			<Layer level="background">
+				<Texture name="$parentBG" inherits="MainBkgTemplate"/>
+			</Layer>
+		</Layers>
+		<Frames>
+			<Frame name="$parentRec1" inherits="SingleRecordTemplate" id="1">
+				<Anchors>
+					<Anchor point="topleft" relativePoint="topleft" relativeTo="$parent">
+						<Offset>
+							<AbsDimension x="135" y="47" />
+						</Offset>
+					</Anchor>
+				</Anchors>
+			</Frame>
+			<Frame name="$parentRec2" inherits="SingleRecordTemplate" id="2">
+				<Anchors>
+					<Anchor point="topleft" relativePoint="bottomleft" relativeTo="$parentRec1">
+						<Offset>
+							<AbsDimension x="0" y="16" />
+						</Offset>
+					</Anchor>
+				</Anchors>
+			</Frame>
+			<Frame name="$parentRec3" inherits="SingleRecordTemplate" id="3">
+				<Anchors>
+					<Anchor point="topleft" relativePoint="bottomleft" relativeTo="$parentRec2">
+						<Offset>
+							<AbsDimension x="0" y="16" />
+						</Offset>
+					</Anchor>
+				</Anchors>
+			</Frame>
+			<Button name="$parentCreate" inherits="LobbyMiddleTextBtnTemplate" text="创建新游戏">
+				<Anchors>
+					<Anchor point="bottomleft" relativePoint="bottomleft" relativeTo="$parent">
+						<Offset>
+							<AbsDimension x="2" y="-2" />
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Scripts>
+					<OnClick>BeginCreateSingleWorld()</OnClick>
+				</Scripts>
+			</Button>
+			<Button name="$parentDelete" inherits="LobbyMiddleTextBtnTemplate" text="删除">
+				<Anchors>
+					<Anchor point="bottomleft" relativePoint="bottomright" relativeTo="$parentCreate">
+						<Offset>
+							<AbsDimension x="24" y="0" />
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Scripts>
+					<OnClick>BeginDeleteSingleWorld()</OnClick>
+				</Scripts>
+			</Button>
+			<Button name="$parentEnter" inherits="LobbyMiddleTextBtnTemplate" text="进入游戏">
+				<Anchors>
+					<Anchor point="bottomright" relativePoint="bottomright" relativeTo="$parent">
+						<Offset>
+							<AbsDimension x="-2" y="-2" />
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Scripts>
+					<OnClick>BeginEnterSingleWorld()</OnClick>
+				</Scripts>
+			</Button>
+			<Frame name="AuthSettingFrame" hidden="true" framelevel="1000">
+				<Size>
+					<AbsDimension x="514" y="378"/>
+				</Size>
+				<Anchors>
+					<Anchor point="center" relativePoint="center" relativeTo="$parent">
+						<Offset>
+							<AbsDimension x="0" y="0" />
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Layers>
+					<Layer level="background">
+						<Texture name="$parentBG" inherits="FrameBkgTemplate"/>
+						<Texture name="$parentBG2" inherits="MainBkgTemplate">
+							<Size>
+								<AbsDimension x="460" y="180"/>
+							</Size>
+							<Anchors>
+								<Anchor point="top" relativePoint="top" relativeTo="$parent">
+									<Offset>
+										<AbsDimension x="0" y="146" />
+									</Offset>
+								</Anchor>
+							</Anchors>
+						</Texture>
+					</Layer>
+					<Layer level="artwork">
+						<FontString name="$parentTitle" fonttype="BlackFont18" text="和小伙伴一起玩" justifyH="CENTER" textcolor="FFFFFE00">
+							<Size>
+								<Dimension rel_x="1.0" abs_y="18"/>
+							</Size>
+							<Anchors>
+								<Anchor point="top" relativePoint="top" relativeTo="$parent">
+									<Offset>
+										<AbsDimension x="0" y="10" />
+									</Offset>
+								</Anchor>
+							</Anchors>
+						</FontString>
+						<FontString name="$parentName" fonttype="BlackFont24" text="XX的极限生存" fontStyle="border" textcolor="FFFF7A00">
+							<Size>
+								<AbsDimension x="270" y="24" />
+							</Size>
+							<Anchors>
+								<Anchor point="topleft" relativePoint="topleft" relativeTo="$parent">
+									<Offset>
+										<AbsDimension x="220" y="70" />
+									</Offset>
+								</Anchor>
+							</Anchors>
+						</FontString>
+						<FontString name="$parentTimeName" fonttype="BlackFont14" text="上次时间: ">
+							<Size>
+								<AbsDimension x="66" y="14" />
+							</Size>
+							<Anchors>
+								<Anchor point="topleft" relativePoint="bottomleft" relativeTo="$parentName">
+									<Offset>
+										<AbsDimension x="0" y="14" />
+									</Offset>
+								</Anchor>
+							</Anchors>
+						</FontString>
+						<FontString name="$parentTime" fonttype="BlackFont14" text=""  textcolor="FFFFFE00">
+							<Size>
+								<AbsDimension x="190" y="14" />
+							</Size>
+							<Anchors>
+								<Anchor point="left" relativePoint="right" relativeTo="$parentTimeName">
+									<Offset>
+										<AbsDimension x="0" y="0" />
+									</Offset>
+								</Anchor>
+							</Anchors>
+						</FontString>
+						<Texture name="$parentPicBG" inherits="MainBkgTemplate">
+							<Size>
+								<AbsDimension x="144" y="96"/>
+							</Size>
+							<Anchors>
+								<Anchor point="topleft" relativePoint="topleft" relativeTo="$parent">
+									<Offset>
+										<AbsDimension x="54" y="38" />
+									</Offset>
+								</Anchor>
+							</Anchors>
+						</Texture>
+						<Texture name="$parentPic" file="ui/question.png">
+							<Size>
+								<AbsDimension x="142" y="94"/>
+							</Size>
+							<Anchors>
+								<Anchor point="topleft" relativePoint="topleft" relativeTo="$parentPicBG">
+									<Offset>
+										<AbsDimension x="1" y="1" />
+									</Offset>
+								</Anchor>
+							</Anchors>
+						</Texture>
+						<FontString name="$parentAuth1Name" fonttype="BlackFont18" justifyH="CENTER" text="隐身观众" textcolor="FF79C134">
+							<Size>
+								<AbsDimension x="74" y="18"/>
+							</Size>
+							<Anchors>
+								<Anchor point="top" relativePoint="topleft" relativeTo="$parentBG2">
+									<Offset>
+										<AbsDimension x="152" y="16" />
+									</Offset>
+								</Anchor>
+							</Anchors>
+						</FontString>
+						<FontString name="$parentAuth2Name" fonttype="BlackFont18" justifyH="CENTER" text="围观伙伴"  textcolor="FF79C134">
+							<Size>
+								<AbsDimension x="74" y="18"/>
+							</Size>
+							<Anchors>
+								<Anchor point="top" relativePoint="top" relativeTo="$parentAuth1Name">
+									<Offset>
+										<AbsDimension x="128" y="0" />
+									</Offset>
+								</Anchor>
+							</Anchors>
+						</FontString>
+						<FontString name="$parentAuth3Name" fonttype="BlackFont18" justifyH="CENTER" text="参与伙伴"  textcolor="FF79C134">
+							<Size>
+								<AbsDimension x="74" y="18"/>
+							</Size>
+							<Anchors>
+								<Anchor point="top" relativePoint="top" relativeTo="$parentAuth2Name">
+									<Offset>
+										<AbsDimension x="128" y="0" />
+									</Offset>
+								</Anchor>
+							</Anchors>
+						</FontString>
+						<FontString name="$parentBuddy1Name" fonttype="BlackFont18" justifyH="CENTER" text="亲密好友">
+							<Size>
+								<AbsDimension x="104" y="18"/>
+							</Size>
+							<Anchors>
+								<Anchor point="left" relativePoint="topleft" relativeTo="$parentBG2">
+									<Offset>
+										<AbsDimension x="0" y="76" />
+									</Offset>
+								</Anchor>
+							</Anchors>
+						</FontString>
+						<FontString name="$parentBuddy2Name" fonttype="BlackFont18" justifyH="CENTER" text="好友">
+							<Size>
+								<AbsDimension x="104" y="18"/>
+							</Size>
+							<Anchors>
+								<Anchor point="left" relativePoint="topleft" relativeTo="$parentBG2">
+									<Offset>
+										<AbsDimension x="0" y="116" />
+									</Offset>
+								</Anchor>
+							</Anchors>
+						</FontString>
+						<FontString name="$parentBuddy3Name" fonttype="BlackFont18" justifyH="CENTER" text="其他小伙伴">
+							<Size>
+								<AbsDimension x="104" y="18"/>
+							</Size>
+							<Anchors>
+								<Anchor point="left" relativePoint="topleft" relativeTo="$parentBG2">
+									<Offset>
+										<AbsDimension x="0" y="150" />
+									</Offset>
+								</Anchor>
+							</Anchors>
+						</FontString>
+						<Texture name="$parentLine1" file="ui/login.png" x="0" y="645" w="420" h="3">
+							<Size>
+								<AbsDimension x="420" y="3"/>
+							</Size>
+							<Anchors>
+								<Anchor point="top" relativePoint="top" relativeTo="$parentBG2">
+									<Offset>
+										<AbsDimension x="0" y="94" />
+									</Offset>
+								</Anchor>
+							</Anchors>
+						</Texture>
+						<Texture name="$parentLine2" file="ui/login.png" x="0" y="645" w="420" h="3">
+							<Size>
+								<AbsDimension x="420" y="3"/>
+							</Size>
+							<Anchors>
+								<Anchor point="top" relativePoint="top" relativeTo="$parentBG2">
+									<Offset>
+										<AbsDimension x="0" y="132" />
+									</Offset>
+								</Anchor>
+							</Anchors>
+						</Texture>
+					</Layer>
+				</Layers>
+				<Frames>
+					<Button name="$parentCloseAuth1" inherits="LobbyCheckBtnTemplate">
+						<Anchors>
+							<Anchor point="top" relativePoint="bottom" relativeTo="$parentAuth1Name">
+								<Offset>
+									<AbsDimension x="0" y="30" />
+								</Offset>
+							</Anchor>
+						</Anchors>
+					</Button>
+					<Button name="$parentCloseAuth2" inherits="LobbyCheckBtnTemplate">
+						<Anchors>
+							<Anchor point="top" relativePoint="bottom" relativeTo="$parentAuth2Name">
+								<Offset>
+									<AbsDimension x="0" y="30" />
+								</Offset>
+							</Anchor>
+						</Anchors>
+					</Button>
+					<Button name="$parentCloseAuth3" inherits="LobbyCheckBtnTemplate">
+						<Anchors>
+							<Anchor point="top" relativePoint="bottom" relativeTo="$parentAuth3Name">
+								<Offset>
+									<AbsDimension x="0" y="30" />
+								</Offset>
+							</Anchor>
+						</Anchors>
+					</Button>
+					<Button name="$parentNormalAuth1" inherits="LobbyCheckBtnTemplate">
+						<Anchors>
+							<Anchor point="top" relativePoint="bottom" relativeTo="$parentAuth1Name">
+								<Offset>
+									<AbsDimension x="0" y="70" />
+								</Offset>
+							</Anchor>
+						</Anchors>
+					</Button>
+					<Button name="$parentNormalAuth2" inherits="LobbyCheckBtnTemplate">
+						<Anchors>
+							<Anchor point="top" relativePoint="bottom" relativeTo="$parentAuth2Name">
+								<Offset>
+									<AbsDimension x="0" y="70" />
+								</Offset>
+							</Anchor>
+						</Anchors>
+					</Button>
+					<Button name="$parentOtherAuth1" inherits="LobbyCheckBtnTemplate">
+						<Anchors>
+							<Anchor point="top" relativePoint="bottom" relativeTo="$parentAuth1Name">
+								<Offset>
+									<AbsDimension x="0" y="104" />
+								</Offset>
+							</Anchor>
+						</Anchors>
+					</Button>
+					<Button name="$parentConfirm" inherits="LobbyYellowBtnTemplate" text="确认">
+						<Anchors>
+							<Anchor point="bottom" relativePoint="bottom" relativeTo="$parent">
+								<Offset>
+									<AbsDimension x="0" y="-10" />
+								</Offset>
+							</Anchor>
+						</Anchors>
+						<Scripts>
+							<OnClick>AuthSettingConfirm_OnClick()</OnClick>
+						</Scripts>
+					</Button>
+					<Button name="$parentClose" inherits="LobbyCloseBtnTemplate">
+						<Anchors>
+							<Anchor point="center" relativePoint="topright" relativeTo="$parent">
+								<Offset>
+									<AbsDimension x="0" y="0" />
+								</Offset>
+							</Anchor>
+						</Anchors>
+						<Scripts>
+							<OnClick>AuthSettingClose_OnClick()</OnClick>
+						</Scripts>
+					</Button>
+				</Frames>
+				<Scripts>
+					<OnShow>AuthSettingFrame_OnShow()</OnShow>
+				</Scripts>
+			</Frame>
+		</Frames>
+		<Scripts>
+			<OnLoad>SingleGameFrame_OnLoad()</OnLoad>
+			<OnEvent>SingleGameFrame_OnEvent()</OnEvent>
+			<OnShow>SingleGameFrame_OnShow()</OnShow>
+		</Scripts>
+	</Frame>
+	<Frame name="NewWorldFrame" parent="UIClient" frameStrata="MEDIUM" framelevel="1" hidden="true">
+		<Size>
+			<AbsDimension x="615" y="338"/>
+		</Size>
+		<Anchors>
+			<Anchor point="center" relativePoint="center" relativeTo="$parent">
+				<Offset>
+					<AbsDimension x="0" y="0" />
+				</Offset>
+			</Anchor>
+		</Anchors>
+		<Layers>
+			<Layer level="background">
+				<Texture name="$parentBG" inherits="MainBkgTemplate"/>
+			</Layer>
+			<Layer level="artwork">
+				<FontString name="$parentTitle" fonttype="BlackFont24" justifyH="center" text="创建新的世界" fontStyle="border">
+					<Size>
+						<AbsDimension x="200" y="24"/>
+					</Size>
+					<Anchors>
+						<Anchor point="top" relativePoint="top" relativeTo="$parent">
+							<Offset>
+								<AbsDimension x="0" y="64"/>
+							</Offset>
+						</Anchor>
+					</Anchors>
+				</FontString>
+				<FontString name="$parentTut" fonttype="BlackFont18" justifyH="center" text="启用教程">
+					<Size>
+						<AbsDimension x="72" y="18"/>
+					</Size>
+					<Anchors>
+						<Anchor point="bottomleft" relativePoint="bottomleft" relativeTo="$parent">
+							<Offset>
+								<AbsDimension x="30" y="-40"/>
+							</Offset>
+						</Anchor>
+					</Anchors>
+				</FontString>
+				<Texture name="$parentEditBG" file="ui/login.png" x="798" y="50" w="204" h="35">
+					<Size>
+						<AbsDimension x="204" y="35"/>
+					</Size>
+					<Anchors>
+						<Anchor point="top" relativePoint="bottom" relativeTo="$parentTitle">
+							<Offset>
+								<AbsDimension x="0" y="26"/>
+							</Offset>
+						</Anchor>
+					</Anchors>
+				</Texture>
+			</Layer>
+		</Layers>
+		<Frames>
+			<EditBox name="$parentWorldName" letters="30" historyLines="1" multiLine="false">
+				<Size>
+					<AbsDimension x="190" y="18"/>
+				</Size>
+				<Anchors>
+					<Anchor point="center" relativePoint="center" relativeTo="$parentEditBG">
+						<Offset>
+							<AbsDimension x="0" y="0"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<FontString name="$parentText" fonttype="BlackFont18"/>
+				<FontString name="$parentDefault" default="true" fonttype="BlackFont18" text="请输入酷酷的世界名称" textcolor="ff969696"/>
+			</EditBox>
+			<EditBox name="$parentWorldSeed" letters="30" historyLines="1" multiLine="false" hidden="true">
+				<Size>
+					<AbsDimension x="190" y="18"/>
+				</Size>
+				<Anchors>
+					<Anchor point="center" relativePoint="center" relativeTo="$parentEditBG">
+						<Offset>
+							<AbsDimension x="0" y="0"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<FontString name="$parentText" fonttype="BlackFont18"/>
+				<FontString name="$parentDefault" default="true" fonttype="BlackFont18" text="请输入世界生成的种子, 留空使用随机种子" textcolor="ff969696"/>
+			</EditBox>
+			<Button name="$parentEnter" inherits="LobbyEnterBtnTemplate">
+				<Anchors>
+					<Anchor point="bottom" relativePoint="bottom" relativeTo="$parent">
+						<Offset>
+							<AbsDimension x="0" y="-26"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Scripts>
+					<OnClick>NewWorldEnterBtn_OnClick();</OnClick>
+				</Scripts>
+			</Button>
+			<Button name="$parentMode" inherits="LobbyMiddleBtnTemplate">
+				<Anchors>
+					<Anchor point="top" relativePoint="bottom" relativeTo="$parentEditBG">
+						<Offset>
+							<AbsDimension x="0" y="8"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Layers>
+					<Layer level="overlay">
+						<FontString name="$parentText" fonttype="BlackFont" justifyH="center" text="生存模式" fontStyle="border" textcolor="ffffff00">
+							<Size>
+								<AbsDimension x="72" y="20"/>
+							</Size>
+							<Anchors>
+								<Anchor point="center" relativePoint="center" relativeTo="$parent">
+									<Offset>
+										<AbsDimension x="0" y="0"/>
+									</Offset>
+								</Anchor>
+							</Anchors>
+						</FontString>
+					</Layer>
+				</Layers>
+				<Scripts>
+					<OnClick>NewWorldModeBtn_OnClick();</OnClick>
+				</Scripts>
+			</Button>
+			<Button name="$parentMoreOpt" inherits="LobbyMiddleTextBtnTemplate" text="更多选项">
+				<Anchors>
+					<Anchor point="bottomright" relativePoint="bottomright" relativeTo="$parent">
+						<Offset>
+							<AbsDimension x="-30" y="-40"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Scripts>
+					<OnClick>NewWorldMoreOptBtn_OnClick();</OnClick>
+				</Scripts>
+			</Button>
+			<Button name="$parentTutorial" checked="true" inherits="LobbyCheckBtnTemplate">
+				<Anchors>
+					<Anchor point="topleft" relativePoint="topright" relativeTo="$parentTut">
+						<Offset>
+							<AbsDimension x="10" y="0"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+			</Button>
+			<Button name="$parentTerrType" inherits="LobbyLongTextBtnTemplate" hidden="true" text="">
+				<Anchors>
+					<Anchor point="top" relativePoint="bottom" relativeTo="$parentEditBG">
+						<Offset>
+							<AbsDimension x="0" y="8"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Scripts>
+					<OnClick>NewWorldTerrTypeBtn_OnClick();</OnClick>
+				</Scripts>
+			</Button>
+			<Button name="$parentSaveOpt" inherits="LobbyMiddleTextBtnTemplate" hidden="true" text="完成">
+				<Anchors>
+					<Anchor point="bottom" relativePoint="top" relativeTo="$parentEnter">
+						<Offset>
+							<AbsDimension x="0" y="-10"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Scripts>
+					<OnClick>NewWorldSaveOptBtn_OnClick();</OnClick>
+				</Scripts>
+			</Button>
+		</Frames>
+		<Scripts>
+			<OnShow>NewWorldFrame_OnShow()</OnShow>
+		</Scripts>
+	</Frame>
+</Ui>

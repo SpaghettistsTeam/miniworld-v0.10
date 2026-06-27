@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Ui>
+	<Script file="ui/furnace.lua" />
+	<Frame name="FurnaceFrame" parent="UIClient" frameStrata="MEDIUM" hidden="true" framelevel="10">
+		<Size>
+			<AbsDimension x="715" y="541"/>
+		</Size>
+		<Anchors>
+			<Anchor point="center" relativePoint="center" relativeTo="$parent">
+				<Offset>
+					<AbsDimension x="0" y="0" />
+				</Offset>
+			</Anchor>
+		</Anchors>
+		<Layers>
+			<Layer level="BACKGROUND">
+				<Texture name="$parentGridsBkg" file="ui/backpack.png" x="316" y="190" w="708" h="324">
+					<Size>
+						<AbsDimension x="708" y="324"/>
+					</Size>
+					<Anchors>
+						<Anchor point="topleft" relativePoint="topleft" relativeTo="$parent">
+							<Offset>
+								<AbsDimension x="4" y="302"/>
+							</Offset>
+						</Anchor>
+					</Anchors>	
+				</Texture>
+				<Texture name="$parentBurnBkg" file="ui/backpack.png" x="309" y="700" w="715" h="324">
+					<Size>
+						<AbsDimension x="715" y="324"/>
+					</Size>
+					<Anchors>
+						<Anchor point="topleft" relativePoint="topleft" relativeTo="$parent">
+							<Offset>
+								<AbsDimension x="0" y="0"/>
+							</Offset>
+						</Anchor>
+					</Anchors>	
+				</Texture>
+			</Layer>
+		</Layers>
+		<Frames>
+			<Button name="$parentCloseBtn" inherits="CloseBtnTemplate">
+				<Anchors>
+					<Anchor point="topleft" relativeTo="$parent" relativePoint="topleft">
+						<Offset>
+							<AbsDimension x="664" y="-8"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Scripts>
+					<OnClick>FurnaceFrameCloseBtn_OnClick();</OnClick>
+				</Scripts>
+			</Button>
+			<Button name="FurnaceBtn1" inherits="ItemButtonTemplate" id="9000">
+				<Size>
+					<AbsDimension x="64" y="64"/>
+				</Size>	
+				<Anchors>
+					<Anchor point="topleft" relativeTo="$parent" relativePoint="topleft">
+						<Offset>
+							<AbsDimension x="175" y="51"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+			</Button>
+			<Button name="FurnaceBtn2" inherits="ItemButtonTemplate" id="9001">
+				<Size>
+					<AbsDimension x="64" y="64"/>
+				</Size>
+				<Anchors>
+					<Anchor point="topleft" relativeTo="$parent" relativePoint="topleft">
+						<Offset>
+							<AbsDimension x="175" y="205"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+			</Button>
+			<Button name="FurnaceBtn3" inherits="ItemButtonTemplate" id="9002">
+				<Size>
+					<AbsDimension x="64" y="64"/>
+				</Size>
+				<Anchors>
+					<Anchor point="topleft" relativeTo="$parent" relativePoint="topleft">
+						<Offset>
+							<AbsDimension x="461" y="131"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+			</Button>
+			<ProgressBar name="FuelProgressBar" barname="FuelProgressTex" orientation="VERTICAL">
+				<Size>
+					<AbsDimension x="78" y="86"/>
+				</Size>
+				<Anchors>
+					<Anchor point="topleft" relativeTo="$parent" relativePoint="topleft">
+						<Offset>
+							<AbsDimension x="167" y="118"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Layers>
+					<Layer level="ARTWORK">
+						<Texture name="FuelProgressTex" file="ui/backpack.png" x="0" y="767" w="78" h="86">
+							<Anchors>
+								<Anchor point="topleft" relativePoint="topleft" relativeTo="$parent">
+									<Offset>
+										<AbsDimension x="0" y="0"/>
+									</Offset>
+								</Anchor>
+							</Anchors>	
+						</Texture>
+					</Layer>
+				</Layers>
+			</ProgressBar>
+			<ProgressBar name="SmeltProgressBar" barname="SmeltProgressTex">
+				<Size>
+					<AbsDimension x="106" y="53"/>
+				</Size>
+				<Anchors>
+					<Anchor point="topleft" relativeTo="$parent" relativePoint="topleft">
+						<Offset>
+							<AbsDimension x="298" y="140"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Layers>
+					<Layer level="ARTWORK">
+						<Texture name="SmeltProgressTex" file="ui/backpack.png" x="916" y="579" w="106" h="53">
+							<Anchors>
+								<Anchor point="topleft" relativePoint="topleft" relativeTo="$parent">
+									<Offset>
+										<AbsDimension x="0" y="0"/>
+									</Offset>
+								</Anchor>
+							</Anchors>	
+						</Texture>
+					</Layer>
+				</Layers>
+			</ProgressBar>
+		</Frames>
+		<Scripts>
+			<OnLoad>FurnaceFrame_OnLoad();</OnLoad>
+			<OnShow>FurnaceFrame_OnShow();</OnShow>
+			<OnHide>FurnaceFrame_OnHide();</OnHide>
+			<OnEvent>FurnaceFrame_OnEvent();</OnEvent>
+		</Scripts>
+	</Frame>
+</Ui>

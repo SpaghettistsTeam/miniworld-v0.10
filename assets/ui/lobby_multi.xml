@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Ui>
+	<Script file="ui/lobby_multi.lua" />
+	##通明模板
+	<Texture name="TransTextureTemplate" virtual="true" file="ui/TouMingTongDao.tga" />
+	##高亮栏
+	<Texture name="HighlightTextureTemplate" virtual="true" file="ui/1.dds" x="408" y="34" w="90" h="10" DrawType="tile">
+		<Tile>
+			<TileSize>
+				<AbsValue val="10" />
+			</TileSize>
+			<BackgroundInsets>
+				<AbsInset left="10" right="10" top="10" bottom="10" />
+			</BackgroundInsets>
+		</Tile>
+	</Texture>
+	##选中栏
+	<Texture name="PushedTextureTemplate" virtual="true" file="ui/1.dds" x="408" y="45" w="63" h="7" DrawType="tile">
+		<Tile>
+			<TileSize>
+				<AbsValue val="7" />
+			</TileSize>
+			<BackgroundInsets>
+				<AbsInset left="7" right="7" top="7" bottom="7" />
+			</BackgroundInsets>
+		</Tile>
+	</Texture>
+
+	<Button name="WorldListItemTemplate" virtual="true" >
+		<Size>
+			<AbsDimension x="250" y="26" />
+		</Size>
+		<Anchors>
+			<Anchor point="topleft" relativeTo="$parent" relativePoint="topleft">
+				<Offset>
+					<AbsDimension x="0" y="0" />
+				</Offset>
+			</Anchor>
+		</Anchors>
+		<Layers>
+			<Layer level="overlay">
+				<FontString name="$parentWorldName" fonttype="BlackFont" justifyH="center"  text="" >
+					<Color r="255" g="254" b="189" />
+					<Size>
+						<AbsDimension x="121" y="24" />
+					</Size>
+					<Anchors>
+						<Anchor point="topleft" relativeTo="$parent" LittleFZYBlackFont="topleft">
+							<Offset>
+								<AbsDimension x="0" y="4" />
+							</Offset>
+						</Anchor>
+					</Anchors>
+				</FontString>
+				<FontString name="$parentOwnerName" fonttype="BlackFont" justifyH="center"  text="" >
+					<Color r="255" g="254" b="189" />
+					<Size>
+						<AbsDimension x="121" y="24" />
+					</Size>
+					<Anchors>
+						<Anchor point="topleft" relativeTo="$parent" LittleFZYBlackFont="topleft">
+							<Offset>
+								<AbsDimension x="121" y="4" />
+							</Offset>
+						</Anchor>
+					</Anchors>
+				</FontString>
+			</Layer>
+		</Layers>
+		<Scripts>
+			<OnClick>WorldListItem_OnClick();</OnClick>
+		</Scripts>
+		<NormalTexture	name="$parentNormal"	inherits="TransTextureTemplate"/>
+		<PushedTexture	name="$parentPushed"	inherits="PushedTextureTemplate" />
+		<HighlightTexture	name="$parentHighlight" inherits="HighlightTextureTemplate" />
+	</Button>
+
+	<Frame name="MultiGameFrame" parent="UIClient" frameStrata="BACKGROUND" hidden="true" framelevel="1">
+		<Size>
+			<RelDimension x="1.0" y="1.0"/>
+		</Size>
+		<Anchors>
+			<Anchor point="topleft" relativePoint="topleft" relativeTo="$parent">
+				<Offset>
+					<AbsDimension x="0" y="0" />
+				</Offset>
+			</Anchor>
+		</Anchors>
+		<Layers>
+			<Layer level="BACKGROUND">
+				<Texture name="$parentBkg" file="ui/login_bg.png">
+					<Anchors>
+						<Anchor point="topleft" relativePoint="topleft" relativeTo="$parent">
+							<Offset>
+								<AbsDimension x="0" y="0"/>
+							</Offset>
+						</Anchor>
+					</Anchors>
+				</Texture>
+			</Layer>
+		</Layers>
+		<Frames>
+			<Frame name="$parentMyWorlds" frameStrata="MEDIUM" framelevel="2">
+				<Size>
+					<AbsDimension x="250" y="484" />
+				</Size>
+				<Anchors>
+					<Anchor point="center" relativePoint="center" relativeTo="$parent">
+						<Offset>
+							<AbsDimension x="-150" y="0" />
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Layers>
+					<Layer level="background">
+						<Texture name="$parentBG" inherits="MainBkgTemplate" />
+						<FontString name="$parentName" fonttype="BlackFont" justifyH="center" lineInterval="2" text="我的世界">
+							<Color r="255" g="254" b="189"/>
+							<Size>
+								<AbsDimension x="100" y="18" />
+							</Size>
+							<Anchors>
+								<Anchor point="top" relativePoint="top" relativeTo="$parent">
+									<Offset>
+										<AbsDimension x="0" y="5" />
+									</Offset>
+								</Anchor>
+							</Anchors>
+						</FontString>
+					</Layer>
+				</Layers>
+				<Frames>
+					<Button name="MyWorldListItem1" inherits="WorldListItemTemplate" id="1">
+						<Anchors>
+							<Anchor point="topleft" relativeTo="$parent" relativePoint="topleft">
+								<Offset>
+									<AbsDimension x="0" y="24" />
+								</Offset>
+							</Anchor>
+						</Anchors>
+					</Button>
+					<Button name="MyWorldListItem2" inherits="WorldListItemTemplate" id="2">
+						<Anchors>
+							<Anchor point="topleft" relativeTo="MyWorldListItem1" relativePoint="bottomleft">
+								<Offset>
+									<AbsDimension x="0" y="0" />
+								</Offset>
+							</Anchor>
+						</Anchors>
+					</Button>
+					<Button name="MyWorldListItem3" inherits="WorldListItemTemplate" id="3">
+						<Anchors>
+							<Anchor point="topleft" relativeTo="MyWorldListItem2" relativePoint="bottomleft">
+								<Offset>
+									<AbsDimension x="0" y="0" />
+								</Offset>
+							</Anchor>
+						</Anchors>
+					</Button>
+					<Button name="MyWorldListItem4" inherits="WorldListItemTemplate" id="4">
+						<Anchors>
+							<Anchor point="topleft" relativeTo="MyWorldListItem3" relativePoint="bottomleft">
+								<Offset>
+									<AbsDimension x="0" y="0" />
+								</Offset>
+							</Anchor>
+						</Anchors>
+					</Button>
+					<Button name="MyWorldListItem5" inherits="WorldListItemTemplate" id="5">
+						<Anchors>
+							<Anchor point="topleft" relativeTo="MyWorldListItem4" relativePoint="bottomleft">
+								<Offset>
+									<AbsDimension x="0" y="0" />
+								</Offset>
+							</Anchor>
+						</Anchors>
+					</Button>
+					<Button name="MyWorldListItem6" inherits="WorldListItemTemplate" id="6">
+						<Anchors>
+							<Anchor point="topleft" relativeTo="MyWorldListItem5" relativePoint="bottomleft">
+								<Offset>
+									<AbsDimension x="0" y="0" />
+								</Offset>
+							</Anchor>
+						</Anchors>
+					</Button>
+					<Button name="MyWorldListItem7" inherits="WorldListItemTemplate" id="7">
+						<Anchors>
+							<Anchor point="topleft" relativeTo="MyWorldListItem6" relativePoint="bottomleft">
+								<Offset>
+									<AbsDimension x="0" y="0" />
+								</Offset>
+							</Anchor>
+						</Anchors>
+					</Button>
+					<Button name="MyWorldListItem8" inherits="WorldListItemTemplate" id="8">
+						<Anchors>
+							<Anchor point="topleft" relativeTo="MyWorldListItem7" relativePoint="bottomleft">
+								<Offset>
+									<AbsDimension x="0" y="0" />
+								</Offset>
+							</Anchor>
+						</Anchors>
+					</Button>
+				</Frames>
+			</Frame>
+
+			<Frame name="$parentOpenWorlds" frameStrata="MEDIUM" framelevel="3">
+				<Size>
+					<AbsDimension x="250" y="484" />
+				</Size>
+				<Anchors>
+					<Anchor point="center" relativePoint="center" relativeTo="$parent">
+						<Offset>
+							<AbsDimension x="150" y="0" />
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Layers>
+					<Layer level="background">
+						<Texture name="$parentBG" inherits="MainBkgTemplate" />
+						<FontString name="$parentName" fonttype="BlackFont" justifyH="center" lineInterval="2" text="别人的世界">
+							<Color r="255" g="254" b="189"/>
+							<Size>
+								<AbsDimension x="100" y="18" />
+							</Size>
+							<Anchors>
+								<Anchor point="top" relativePoint="top" relativeTo="$parent">
+									<Offset>
+										<AbsDimension x="0" y="5" />
+									</Offset>
+								</Anchor>
+							</Anchors>
+						</FontString>
+					</Layer>
+				</Layers>
+				<Frames>
+					<Button name="OpenWorldListItem1" inherits="WorldListItemTemplate" id="101">
+						<Anchors>
+							<Anchor point="topleft" relativeTo="$parent" relativePoint="topleft">
+								<Offset>
+									<AbsDimension x="0" y="24" />
+								</Offset>
+							</Anchor>
+						</Anchors>
+					</Button>
+					<Button name="OpenWorldListItem2" inherits="WorldListItemTemplate" id="102">
+						<Anchors>
+							<Anchor point="topleft" relativeTo="OpenWorldListItem1" relativePoint="bottomleft">
+								<Offset>
+									<AbsDimension x="0" y="0" />
+								</Offset>
+							</Anchor>
+						</Anchors>
+					</Button>
+					<Button name="OpenWorldListItem3" inherits="WorldListItemTemplate" id="103">
+						<Anchors>
+							<Anchor point="topleft" relativeTo="OpenWorldListItem2" relativePoint="bottomleft">
+								<Offset>
+									<AbsDimension x="0" y="0" />
+								</Offset>
+							</Anchor>
+						</Anchors>
+					</Button>
+					<Button name="OpenWorldListItem4" inherits="WorldListItemTemplate" id="104">
+						<Anchors>
+							<Anchor point="topleft" relativeTo="OpenWorldListItem3" relativePoint="bottomleft">
+								<Offset>
+									<AbsDimension x="0" y="0" />
+								</Offset>
+							</Anchor>
+						</Anchors>
+					</Button>
+					<Button name="OpenWorldListItem5" inherits="WorldListItemTemplate" id="105">
+						<Anchors>
+							<Anchor point="topleft" relativeTo="OpenWorldListItem4" relativePoint="bottomleft">
+								<Offset>
+									<AbsDimension x="0" y="0" />
+								</Offset>
+							</Anchor>
+						</Anchors>
+					</Button>
+					<Button name="OpenWorldListItem6" inherits="WorldListItemTemplate" id="106">
+						<Anchors>
+							<Anchor point="topleft" relativeTo="OpenWorldListItem5" relativePoint="bottomleft">
+								<Offset>
+									<AbsDimension x="0" y="0" />
+								</Offset>
+							</Anchor>
+						</Anchors>
+					</Button>
+					<Button name="OpenWorldListItem7" inherits="WorldListItemTemplate" id="107">
+						<Anchors>
+							<Anchor point="topleft" relativeTo="OpenWorldListItem6" relativePoint="bottomleft">
+								<Offset>
+									<AbsDimension x="0" y="0" />
+								</Offset>
+							</Anchor>
+						</Anchors>
+					</Button>
+					<Button name="OpenWorldListItem8" inherits="WorldListItemTemplate" id="108">
+						<Anchors>
+							<Anchor point="topleft" relativeTo="OpenWorldListItem7" relativePoint="bottomleft">
+								<Offset>
+									<AbsDimension x="0" y="0" />
+								</Offset>
+							</Anchor>
+						</Anchors>
+					</Button>
+				</Frames>
+			</Frame>
+			<Button name="$parentEnterWorldBtn" inherits="LobbyMiddleTextBtnTemplate" text="进入世界">
+				<Anchors>
+					<Anchor point="bottom" relativePoint="bottom" relativeTo="$parent">
+						<Offset>
+							<AbsDimension x="-80" y="-30"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Scripts>
+					<OnClick>LobbyEnterWorldBtn_MouseClick();</OnClick>
+				</Scripts>
+			</Button>
+			<Button name="$parentOpenWorldBtn" inherits="LobbyMiddleTextBtnTemplate" text="开放世界">
+				<Anchors>
+					<Anchor point="bottom" relativePoint="bottom" relativeTo="$parent">
+						<Offset>
+							<AbsDimension x="100" y="-30"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Scripts>
+					<OnClick>LobbyOpenWorldBtn_MouseClick();</OnClick>
+				</Scripts>
+			</Button>
+			<Button name="$parentRefreshWorldBtn" inherits="LobbyMiddleTextBtnTemplate" text="刷新开放世界">
+				<Anchors>
+					<Anchor point="bottom" relativePoint="bottom" relativeTo="$parent">
+						<Offset>
+							<AbsDimension x="300" y="-30"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Scripts>
+					<OnClick>LobbyRefreshWorldBtn_MouseClick();</OnClick>
+				</Scripts>
+			</Button>
+		</Frames>
+		<Scripts>
+			<OnLoad>MultiGameFrame_OnLoad();</OnLoad>
+			<OnEvent>MultiGameFrame_OnEvent();</OnEvent>
+		</Scripts>
+	</Frame>
+</Ui>

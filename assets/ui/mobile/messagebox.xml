@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Ui>
+	<Script file="ui/mobile/messagebox.lua"/>	
+	<Frame name="MessageBoxFrame" parent="UIClient" frameStrata="TOOLTIP" hidden="true" framelevel="1000" input_transparent="true">
+		<Size>
+			<AbsDimension x="485" y="216" />
+		</Size>
+		<Anchors>
+			<Anchor point="center" relativePoint="center" relativeTo="$parent">
+				<Offset>
+					<AbsDimension x="0" y="0"/>
+				</Offset>
+			</Anchor>
+		</Anchors>
+		<Layers>
+			<Layer level="BACKGROUND">
+				<Texture name="$parentBkg" inherits="GaryBkgTemplate"/>
+				<Texture name="$parentIcon" file="ui/mobile/ui2.png" x="885" y="449" w="61" h="61">
+					<Size>
+						<AbsDimension x="60" y="60" />
+					</Size>
+					<Anchors>
+						<Anchor point="topleft" relativeTo="$parent" relativePoint="topleft">
+							<Offset>
+								<AbsDimension x="34" y="26" />
+							</Offset>
+						</Anchor>
+					</Anchors>
+				</Texture>
+			</Layer>
+		</Layers>
+		<Frames>
+			<RichText name="$parentDesc" lineInterval="2" multiLine="false" fonttype="BlackFont28" fontStyle="border" autoextend="true">
+				<Size>
+					<AbsDimension x="350" y="100" />
+				</Size>
+				<Anchors>
+					<Anchor point="topleft" relativeTo="$parent" relativePoint="topleft">
+						<Offset>
+							<AbsDimension x="126" y="48" />
+						</Offset>
+					</Anchor>
+				</Anchors>
+			</RichText>
+			<Button name="$parentLeftBtn" inherits="GreenBtnTemplate">
+				<Size>
+					<AbsDimension x="190" y="70"/>
+				</Size>
+				<Anchors>
+					<Anchor point="bottomleft" relativeTo="$parent" relativePoint="bottomleft">
+						<Offset>
+							<AbsDimension x="19" y="-16"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Layers>
+					<Layer level="overlay">
+						<Texture name="$parentName" file="ui/mobile/ui.png" x="539" y="735" w="96" h="27">
+							<Size>
+								<AbsDimension x="69" y="37"/>
+							</Size>
+							<Anchors>
+								<Anchor point="center" relativePoint="center" relativeTo="$parent">
+									<Offset>
+										<AbsDimension x="0" y="0"/>
+									</Offset>
+								</Anchor>
+							</Anchors>	
+						</Texture>
+					</Layer>
+				</Layers>
+				<Scripts>
+					<OnClick>MessageBoxFrameLeftBtn_OnClick();</OnClick>
+				</Scripts>
+			</Button>
+			<Button name="$parentRightBtn" inherits="GreenBtnTemplate">
+				<Size>
+					<AbsDimension x="190" y="70"/>
+				</Size>
+				<Anchors>
+					<Anchor point="bottomright" relativeTo="$parent" relativePoint="bottomright">
+						<Offset>
+							<AbsDimension x="-19" y="-16"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Layers>
+					<Layer level="overlay">
+						<Texture name="$parentName" file="ui/mobile/ui.png" x="539" y="735" w="96" h="27">
+							<Size>
+								<AbsDimension x="69" y="37"/>
+							</Size>
+							<Anchors>
+								<Anchor point="center" relativePoint="center" relativeTo="$parent">
+									<Offset>
+										<AbsDimension x="0" y="0"/>
+									</Offset>
+								</Anchor>
+							</Anchors>	
+						</Texture>
+					</Layer>
+				</Layers>
+				<Scripts>
+					<OnClick>MessageBoxFrameRightBtn_OnClick();</OnClick>
+				</Scripts>
+			</Button>
+			<Button name="$parentCenterBtn" inherits="GreenBtnTemplate">
+				<Size>
+					<AbsDimension x="190" y="70"/>
+				</Size>
+				<Anchors>
+					<Anchor point="bottom" relativeTo="$parent" relativePoint="bottom">
+						<Offset>
+							<AbsDimension x="0" y="-16"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Layers>
+					<Layer level="overlay">
+						<Texture name="$parentName" file="ui/mobile/ui.png" x="539" y="735" w="96" h="27">
+							<Size>
+								<AbsDimension x="69" y="37"/>
+							</Size>
+							<Anchors>
+								<Anchor point="center" relativePoint="center" relativeTo="$parent">
+									<Offset>
+										<AbsDimension x="0" y="0"/>
+									</Offset>
+								</Anchor>
+							</Anchors>	
+						</Texture>
+					</Layer>
+				</Layers>
+				<Scripts>
+					<OnClick>MessageBoxFrameCenterBtn_OnClick();</OnClick>
+				</Scripts>
+			</Button>
+		</Frames>
+		<Scripts>
+			<OnHide>MessageBoxFrame_OnHide();</OnHide>
+		</Scripts>
+	</Frame>
+</Ui>

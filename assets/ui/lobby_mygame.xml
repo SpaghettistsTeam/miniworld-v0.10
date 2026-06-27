@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Ui>
+	<Script file="ui/lobby_mygame.lua" />
+	<Frame name="MyCreateRecTemplate" virtual="true">
+		<Size>
+			<AbsDimension x="760" y="48"/>
+		</Size>
+		<Layers>
+			<Layer level="BACKGROUND">
+				<Texture name="$parentBG" inherits="FrameBkgTemplate">
+					<Size>
+						<AbsDimension x="660" y="48"/>
+					</Size>
+				</Texture>
+			</Layer>
+			<Layer level="ARTWORK">
+				<FontString name="$parentIndex" fonttype="BlackFont18" justifyH="CENTER" textcolor="FFFFF700">
+					<Size>
+						<AbsDimension x="84" y="18"/>
+					</Size>
+					<Anchors>
+						<Anchor point="left" relativePoint="left" relativeTo="$parent">
+							<Offset>
+								<AbsDimension x="0" y="0" />
+							</Offset>
+						</Anchor>
+					</Anchors>
+				</FontString>
+				<FontString name="$parentName" fonttype="BlackFont18" justifyH="CENTER" textcolor="FFFF6563">
+					<Size>
+						<AbsDimension x="224" y="18"/>
+					</Size>
+					<Anchors>
+						<Anchor point="left" relativePoint="left" relativeTo="$parent">
+							<Offset>
+								<AbsDimension x="84" y="0" />
+							</Offset>
+						</Anchor>
+					</Anchors>
+				</FontString>
+				<FontString name="$parentType" fonttype="BlackFont18" justifyH="CENTER" textcolor="FFFFF700">
+					<Size>
+						<AbsDimension x="140" y="18"/>
+					</Size>
+					<Anchors>
+						<Anchor point="left" relativePoint="left" relativeTo="$parent">
+							<Offset>
+								<AbsDimension x="308" y="0" />
+							</Offset>
+						</Anchor>
+					</Anchors>
+				</FontString>
+				<FontString name="$parentPlayers" fonttype="BlackFont18" justifyH="CENTER">
+					<Size>
+						<AbsDimension x="120" y="18"/>
+					</Size>
+					<Anchors>
+						<Anchor point="left" relativePoint="left" relativeTo="$parent">
+							<Offset>
+								<AbsDimension x="448" y="0" />
+							</Offset>
+						</Anchor>
+					</Anchors>
+				</FontString>
+				<FontString name="$parentState" fonttype="BlackFont18" justifyH="CENTER" textcolor="FFFF6563">
+					<Size>
+						<AbsDimension x="92" y="18"/>
+					</Size>
+					<Anchors>
+						<Anchor point="left" relativePoint="left" relativeTo="$parent">
+							<Offset>
+								<AbsDimension x="568" y="0" />
+							</Offset>
+						</Anchor>
+					</Anchors>
+				</FontString>
+			</Layer>
+		</Layers>
+		<Frames>
+			<Button name="$parentEnter" inherits="LobbyYellowBtnTemplate" text="快速进入">
+				<Anchors>
+					<Anchor point="right" relativePoint="right" relativeTo="$parent">
+						<Offset>
+							<RelDimension x="0" y="0" />
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Scripts>
+					<OnClick>MyCreateRecEnter_OnClick()</OnClick>
+				</Scripts>
+			</Button>
+		</Frames>
+	</Frame>
+	<Frame name="MySurviveRecTemplate" virtual="true">
+		<Size>
+			<AbsDimension x="177" y="120"/>
+		</Size>
+		<Layers>
+			<Layer level="BACKGROUND">
+				<FontString name="$parentTimeName" fonttype="BlackFont14" text="上次时间: ">
+					<Size>
+						<AbsDimension x="70" y="14" />
+					</Size>
+					<Anchors>
+						<Anchor point="bottomleft" relativePoint="bottomleft" relativeTo="$parent">
+							<Offset>
+								<AbsDimension x="0" y="0" />
+							</Offset>
+						</Anchor>
+					</Anchors>
+				</FontString>
+				<FontString name="$parentTime" fonttype="BlackFont14" text="">
+					<Color r="247" g="243" b="0" />
+					<Size>
+						<AbsDimension x="107" y="14" />
+					</Size>
+					<Anchors>
+						<Anchor point="bottomright" relativePoint="bottomright" relativeTo="$parent">
+							<Offset>
+								<AbsDimension x="0" y="0" />
+							</Offset>
+						</Anchor>
+					</Anchors>
+				</FontString>
+			</Layer>
+		</Layers>
+		<Frames>
+			<Button name="$parentShot">
+				<Size>
+					<AbsDimension x="143" y="96"/>
+				</Size>
+				<Anchors>
+					<Anchor point="top" relativePoint="top" relativeTo="$parent">
+						<Offset>
+							<AbsDimension x="0" y="0" />
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Layers>
+					<Layer level="background">
+						<Texture name="$parentPicBG" inherits="MainBkgTemplate"/>
+					</Layer>
+					<Layer level="artwork">
+						<Texture name="$parentPic" file="ui/question.png">
+							<Size>
+								<AbsDimension x="141" y="94"/>
+							</Size>
+							<Anchors>
+								<Anchor point="topleft" relativePoint="topleft" relativeTo="$parent">
+									<Offset>
+										<AbsDimension x="1" y="1" />
+									</Offset>
+								</Anchor>
+							</Anchors>
+						</Texture>
+					</Layer>
+				</Layers>
+				<Scripts>
+					<OnClick>MyGameSingleRec_OnClick()</OnClick>
+				</Scripts>
+			</Button>
+		</Frames>
+	</Frame>
+	<Frame name="MyGamesFrame" parent="UIClient" frameStrata="MEDIUM" hidden="true" framelevel="13">
+		<Size>
+			<AbsDimension x="794" y="440"/>
+		</Size>
+		<Anchors>
+			<Anchor point="topleft" relativePoint="topleft" relativeTo="$parent">
+				<Offset>
+					<RelDimension x="0.164" y="0.138" />
+				</Offset>
+			</Anchor>
+		</Anchors>
+		<Layers>
+			<Layer level="background">
+				<Texture name="$parentBG" inherits="MainBkgTemplate"/>
+			</Layer>
+		</Layers>
+		<Frames>
+			<Frame name="$parentSurvive">
+				<Size>
+					<AbsDimension x="760" y="144"/>
+				</Size>
+				<Anchors>
+					<Anchor point="top" relativePoint="top" relativeTo="$parent">
+						<Offset>
+							<AbsDimension x="0" y="12" />
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Layers>
+					<Layer level="background">
+						<Texture name="$parentBG" inherits="FrameBkgTemplate"/>
+					</Layer>
+				</Layers>
+				<Frames>
+					<Frame name="$parentRec1" inherits="MySurviveRecTemplate" id="1">
+						<Anchors>
+							<Anchor point="topleft" relativePoint="topleft" relativeTo="$parent">
+								<Offset>
+									<AbsDimension x="60" y="10" />
+								</Offset>
+							</Anchor>
+						</Anchors>
+					</Frame>
+					<Frame name="$parentRec2" inherits="MySurviveRecTemplate" id="2">
+						<Anchors>
+							<Anchor point="topleft" relativePoint="topleft" relativeTo="$parent">
+								<Offset>
+									<AbsDimension x="296" y="10" />
+								</Offset>
+							</Anchor>
+						</Anchors>
+					</Frame>
+					<Frame name="$parentRec3" inherits="MySurviveRecTemplate" id="3">
+						<Anchors>
+							<Anchor point="topleft" relativePoint="topleft" relativeTo="$parent">
+								<Offset>
+									<AbsDimension x="533" y="10" />
+								</Offset>
+							</Anchor>
+						</Anchors>
+					</Frame>
+				</Frames>
+			</Frame>
+			<Frame name="$parentCreate">
+				<Size>
+					<AbsDimension x="760" y="220"/>
+				</Size>
+				<Anchors>
+					<Anchor point="top" relativePoint="bottom" relativeTo="$parentSurvive">
+						<Offset>
+							<AbsDimension x="0" y="10" />
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Layers>
+					<Layer level="background">
+						<FontString name="$parentTitle" fonttype="BlackFont24" text="我的创造" fontStyle="border">
+							<Color r="178" g="240" b="58" />
+							<Size>
+								<AbsDimension x="96" y="24" />
+							</Size>
+							<Anchors>
+								<Anchor point="top" relativePoint="top" relativeTo="$parent">
+									<Offset>
+										<AbsDimension x="0" y="0" />
+									</Offset>
+								</Anchor>
+							</Anchors>
+						</FontString>
+					</Layer>
+				</Layers>
+				<Frames>
+					<Frame name="$parentRec1" inherits="MyCreateRecTemplate" id="1">
+						<Anchors>
+							<Anchor point="top" relativePoint="bottom" relativeTo="$parentTitle">
+								<Offset>
+									<AbsDimension x="0" y="10" />
+								</Offset>
+							</Anchor>
+						</Anchors>
+					</Frame>
+					<Frame name="$parentRec2" inherits="MyCreateRecTemplate" id="2">
+						<Anchors>
+							<Anchor point="top" relativePoint="bottom" relativeTo="$parentRec1">
+								<Offset>
+									<AbsDimension x="0" y="0" />
+								</Offset>
+							</Anchor>
+						</Anchors>
+					</Frame>
+					<Frame name="$parentRec3" inherits="MyCreateRecTemplate" id="3">
+						<Anchors>
+							<Anchor point="top" relativePoint="bottom" relativeTo="$parentRec2">
+								<Offset>
+									<AbsDimension x="0" y="0" />
+								</Offset>
+							</Anchor>
+						</Anchors>
+					</Frame>
+				</Frames>
+			</Frame>
+			<Button name="$parentMyGame" inherits="LobbyMiddleTextBtnTemplate" text="我的游戏">
+				<Anchors>
+					<Anchor point="bottomleft" relativePoint="bottomleft" relativeTo="$parent">
+						<Offset>
+							<AbsDimension x="0" y="0" />
+						</Offset>
+					</Anchor>
+				</Anchors>
+			</Button>
+			<Button name="$parentMyFavorite" inherits="LobbyMiddleTextBtnTemplate" text="我的收藏">
+				<Anchors>
+					<Anchor point="left" relativePoint="right" relativeTo="$parentMyGame">
+						<Offset>
+							<AbsDimension x="24" y="0" />
+						</Offset>
+					</Anchor>
+				</Anchors>
+			</Button>
+		</Frames>
+		<Scripts>
+			<OnShow>MyGamesFrame_OnShow()</OnShow>
+		</Scripts>
+	</Frame>
+</Ui>

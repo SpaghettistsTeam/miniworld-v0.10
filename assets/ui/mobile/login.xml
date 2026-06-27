@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Ui>
+	<Script file="ui/mobile/login.lua" />
+	<Frame name="LoginScreenFrame" parent="UIClient" frameStrata="BACKGROUND" framelevel="1">
+		<Size>
+			<RelDimension x="1.0" y="1.0"/>
+		</Size>
+		<Anchors>
+			<Anchor point="center" relativePoint="center" relativeTo="$parent">
+				<Offset>
+					<AbsDimension x="0" y="0" />
+				</Offset>
+			</Anchor>
+		</Anchors>
+		<Layers>
+			<Layer level="BACKGROUND">
+				<Texture name="$parentBkg" file="ui/login_bg.png">
+					<Size>
+						<RelDimension x="1.0" y="1.0"/>
+					</Size>
+					<Anchors>
+						<Anchor point="center" relativePoint="center" relativeTo="$parent">
+							<Offset>
+								<AbsDimension x="0" y="0"/>
+							</Offset>
+						</Anchor>
+					</Anchors>
+				</Texture>
+				<ModelView name="$parentBkgFX">
+				</ModelView>
+				<Texture name="$parentEnterGame" file="ui/mobile/ui.png" x="2" y="733" w="292" h="52">
+					<Size>
+						<AbsDimension x="329" y="59"/>
+					</Size>
+					<Anchors>
+						<Anchor point="bottom" relativePoint="bottom" relativeTo="$parent">
+							<Offset>
+								<AbsDimension x="0" y="-65"/>
+							</Offset>
+						</Anchor>
+					</Anchors>
+				</Texture>
+				<Texture name="$parentUpdateBkg" file="ui/mobile/ui1.png" x="822" y="399" w="109" h="109" hidden="true">
+					<Size>
+						<AbsDimension x="123" y="123"/>
+					</Size>
+					<Anchors>
+						<Anchor point="topleft" relativePoint="bottomright" relativeTo="$parent">
+							<Offset>
+								<AbsDimension x="-170" y="-208"/>
+							</Offset>
+						</Anchor>
+					</Anchors>
+				</Texture>
+				<Texture name="$parentCircle" file="ui/mobile/ui1.png" x="821" y="526" w="126" h="130" hidden="true">
+					<Size>
+						<AbsDimension x="142" y="146"/>
+					</Size>
+					<Anchors>
+						<Anchor point="center" relativePoint="center" relativeTo="$parentUpdateBkg">
+							<Offset>
+								<AbsDimension x="0" y="0"/>
+							</Offset>
+						</Anchor>
+					</Anchors>
+				</Texture>
+				<FontString name="$parentVerTitle" fonttype="BlackFont28" fontStyle="border" text="版本号：">
+					<Color r="255" g="222" b="0"/>
+					<Size>
+						<AbsDimension x="100" y="30"/>
+					</Size>
+					<Anchors>
+						<Anchor point="topleft" relativePoint="bottomright" relativeTo="$parent">
+							<Offset>
+								<AbsDimension x="-230" y="-60"/>
+							</Offset>
+						</Anchor>
+					</Anchors>
+				</FontString>
+				<FontString name="$parentVersion" fonttype="BlackFont28" fontStyle="border" text="1.0">
+					<Color r="255" g="255" b="255"/>
+					<Size>
+						<AbsDimension x="90" y="30"/>
+					</Size>
+					<Anchors>
+						<Anchor point="left" relativePoint="right" relativeTo="$parentVerTitle">
+							<Offset>
+								<AbsDimension x="5" y="0"/>
+							</Offset>
+						</Anchor>
+					</Anchors>
+				</FontString>
+			</Layer>
+		</Layers>
+		<Frames>
+			<Button name="$parentSdkLoginBtn" inherits="GreenBtnTemplate" hidden="true">
+				<Size>
+					<AbsDimension x="217" y="85"/>
+				</Size>
+				<Anchors>
+					<Anchor point="bottomleft" relativeTo="$parent" relativePoint="bottomleft">
+						<Offset>
+							<AbsDimension x="2" y="-2"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<FontString name="$parentText" fonttype="BlackFont28" justifyH="center" fontStyle="border" text="Sdk帐号登录">
+					<Color r="255" g="222" b="0"/>
+					<Size>
+						<AbsDimension x="200" y="30"/>
+					</Size>
+					<Anchors>
+						<Anchor point="center" relativePoint="center" relativeTo="$parent">
+							<Offset>
+								<AbsDimension x="0" y="0"/>
+							</Offset>
+						</Anchor>
+					</Anchors>
+				</FontString>
+				<Scripts>
+					<OnClick>LoginScreenFrameSdkLoginBtn_OnClick();</OnClick>
+				</Scripts>
+			</Button>
+			<ProgressBar name="$parentUpdateProgressBar" barname="UpdateProgressTex" orientation="VERTICAL" hidden="true">
+				<Size>
+					<AbsDimension x="103" y="103"/>
+				</Size>
+				<Anchors>
+					<Anchor point="center" relativeTo="$parentUpdateBkg" relativePoint="center">
+						<Offset>
+							<AbsDimension x="0" y="0"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Layers>
+					<Layer level="ARTWORK">
+						<Texture name="UpdateProgressTex" file="ui/mobile/ui1.png" x="1133" y="409" w="91" h="91">
+							<Anchors>
+								<Anchor point="topleft" relativePoint="topleft" relativeTo="$parent">
+									<Offset>
+										<AbsDimension x="0" y="0"/>
+									</Offset>
+								</Anchor>
+							</Anchors>	
+						</Texture>
+						<FontString name="$parentText" fonttype="BlackFont18" justifyH="center" fontStyle="border" text="自动更新">
+							<Color r="255" g="255" b="255"/>
+							<Size>
+								<AbsDimension x="90" y="20"/>
+							</Size>
+							<Anchors>
+								<Anchor point="center" relativePoint="center" relativeTo="$parent">
+									<Offset>
+										<AbsDimension x="0" y="-15"/>
+									</Offset>
+								</Anchor>
+							</Anchors>
+						</FontString>
+						<FontString name="$parentProgress" fonttype="BlackFont30" justifyH="center" fontStyle="border" text="99%">
+							<Color r="255" g="0" b="0"/>
+							<Size>
+								<AbsDimension x="90" y="32"/>
+							</Size>
+							<Anchors>
+								<Anchor point="top" relativePoint="bottom" relativeTo="$parentText">
+									<Offset>
+										<AbsDimension x="0" y="5"/>
+									</Offset>
+								</Anchor>
+							</Anchors>
+						</FontString>
+					</Layer>
+				</Layers>
+			</ProgressBar>
+		</Frames>
+		<Scripts>
+			<OnLoad>LoginFrame_OnLoad();</OnLoad>
+			<OnEvent>LoginFrame_OnEvent();</OnEvent>
+			<OnShow>LoginFrame_OnShow();</OnShow>
+			<OnClick>LoginFrame_OnClick();</OnClick>
+			<OnUpdate>LoginFrame_OnUpdate(0);</OnUpdate>
+		</Scripts>
+	</Frame>
+</Ui>

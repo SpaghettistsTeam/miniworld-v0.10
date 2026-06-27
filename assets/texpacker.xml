@@ -1,0 +1,121 @@
+<?xml versin="1.0" encoding="UTF-8"?>
+
+<TextureAtlas>
+	<Atlas imagePath="grass_color.png" width="256" height="256">
+		<sprite n="grass_color" x="0" y="0" w="256" h="256"/>
+	</Atlas>
+	<Atlas imagePath="foliage_color.png" width="256" height="256">
+		<sprite n="foliage_color" x="0" y="0" w="256" h="256"/>
+	</Atlas>
+	<Atlas imagePath="brick.png" width="256" height="256">
+		<sprite n="brick" x="0" y="0" w="256" h="256"/>
+	</Atlas>
+	<Atlas imagePath="bedrock.png" width="256" height="256">
+		<sprite n="bedrock" x="0" y="0" w="256" h="256"/>
+	</Atlas>
+	<Atlas imagePath="stone.png" width="256" height="256">
+		<sprite n="stone" x="0" y="0" w="256" h="256"/>
+	</Atlas>
+	<Atlas imagePath="gravel.png" width="256" height="256">
+		<sprite n="gravel" x="0" y="0" w="256" h="256"/>
+	</Atlas>
+	<Atlas imagePath="dirt.png" width="256" height="256">
+		<sprite n="dirt" x="0" y="0" w="256" h="256"/>
+	</Atlas>
+	<Atlas imagePath="sand.png" width="256" height="256">
+		<sprite n="sand" x="0" y="0" w="256" h="256"/>
+	</Atlas>
+	<Atlas imagePath="grass_top.png" width="256" height="256">
+		<sprite n="grass_top" x="0" y="0" w="256" h="256"/>
+	</Atlas>
+	<Atlas imagePath="grass_side_overlay.png" width="256" height="256">
+		<sprite n="grass_side_overlay" x="0" y="0" w="256" h="256"/>
+	</Atlas>
+	<Atlas imagePath="grass_side.png" width="256" height="256">
+		<sprite n="grass_side" x="0" y="0" w="256" h="256"/>
+	</Atlas>
+	<Atlas imagePath="grass_side_snowed.png" width="256" height="256">
+		<sprite n="grass_side_snowed" x="0" y="0" w="256" h="256"/>
+	</Atlas>
+	<Atlas imagePath="tallgrass.png" width="256" height="256">
+		<sprite n="tallgrass" x="0" y="0" w="256" h="256"/>
+	</Atlas>
+	<Atlas imagePath="flower_dandelion.png" width="256" height="256">
+		<sprite n="flower_dandelion" x="0" y="0" w="256" h="256"/>
+	</Atlas>
+	<Atlas imagePath="double_plant_fern_bottom.png" width="256" height="256">
+		<sprite n="double_plant_fern_bottom" x="0" y="0" w="256" h="256"/>
+	</Atlas>
+	<Atlas imagePath="double_plant_fern_top.png" width="256" height="256">
+		<sprite n="double_plant_fern_top" x="0" y="0" w="256" h="256"/>
+	</Atlas>
+	<Atlas imagePath="leaves_oak.png" width="256" height="256">
+		<sprite n="leaves_oak" x="0" y="0" w="256" h="256"/>
+	</Atlas>
+	<Atlas imagePath="leaves_spruce.png" width="256" height="256">
+		<sprite n="leaves_spruce" x="0" y="0" w="256" h="256"/>
+	</Atlas>
+	<Atlas imagePath="leaves_birch.png" width="256" height="256">
+		<sprite n="leaves_birch" x="0" y="0" w="256" h="256"/>
+	</Atlas>
+	<Atlas imagePath="leaves_jungle.png" width="256" height="256">
+		<sprite n="leaves_jungle" x="0" y="0" w="256" h="256"/>
+	</Atlas>
+	<Atlas imagePath="log_oak.png" width="256" height="256">
+		<sprite n="log_oak" x="0" y="0" w="256" h="256"/>
+	</Atlas>
+	<Atlas imagePath="log_spruce.png" width="256" height="256">
+		<sprite n="log_spruce" x="0" y="0" w="256" h="256"/>
+	</Atlas>
+	<Atlas imagePath="log_birch.png" width="256" height="256">
+		<sprite n="log_birch" x="0" y="0" w="256" h="256"/>
+	</Atlas>
+	<Atlas imagePath="log_jungle.png" width="256" height="256">
+		<sprite n="log_jungle" x="0" y="0" w="256" h="256"/>
+	</Atlas>
+	<Atlas imagePath="log_oak_top.png" width="256" height="256">
+		<sprite n="log_oak_top" x="0" y="0" w="256" h="256"/>
+	</Atlas>
+	<Atlas imagePath="log_spruce_top.png" width="256" height="256">
+		<sprite n="log_spruce_top" x="0" y="0" w="256" h="256"/>
+	</Atlas>
+	<Atlas imagePath="log_birch_top.png" width="256" height="256">
+		<sprite n="log_birch_top" x="0" y="0" w="256" h="256"/>
+	</Atlas>
+	<Atlas imagePath="log_jungle_top.png" width="256" height="256">
+		<sprite n="log_jungle_top" x="0" y="0" w="256" h="256"/>
+	</Atlas>
+	<Atlas imagePath="snow.png" width="256" height="256">
+		<sprite n="snow" x="0" y="0" w="256" h="256"/>
+	</Atlas>
+	<Atlas imagePath="ice.png" width="256" height="256">
+		<sprite n="ice" x="0" y="0" w="256" h="256"/>
+	</Atlas>
+	<Atlas imagePath="water_still.png" width="256" height="256" frametick="100">
+		<sprite n="water_still" x="0" y="0" w="256" h="256"/>
+	</Atlas>
+	<Atlas imagePath="water_flow.png" width="256" height="256" frametick="100">
+		<sprite n="water_flow" x="0" y="0" w="256" h="256"/>
+	</Atlas>
+	<Atlas imagePath="lava_still.png" width="256" height="256" frametick="100">
+		<sprite n="lava_still" x="0" y="0" w="256" h="256"/>
+	</Atlas>
+	<Atlas imagePath="lava_flow.png" width="256" height="256" frametick="100">
+		<sprite n="lava_flow" x="0" y="0" w="256" h="256"/>
+	</Atlas>
+	<Atlas imagePath="destroy_stage_%d.png" width="128" height="128" frametick="100" nframe="10">
+		<sprite n="destroy" x="0" y="0" w="128" h="128"/>
+	</Atlas>
+	<Atlas imagePath="coal_ore.png" width="256" height="256">
+		<sprite n="coal_ore" x="0" y="0" w="256" h="256"/>
+	</Atlas>
+	<Atlas imagePath="gold_ore.png" width="256" height="256">
+		<sprite n="gold_ore" x="0" y="0" w="256" h="256"/>
+	</Atlas>
+	<Atlas imagePath="iron_ore.png" width="256" height="256">
+		<sprite n="iron_ore" x="0" y="0" w="256" h="256"/>
+	</Atlas>
+	<Atlas imagePath="diamond_ore.png" width="256" height="256">
+		<sprite n="diamond_ore" x="0" y="0" w="256" h="256"/>
+	</Atlas>
+</TextureAtlas>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Ui>
+	<Script file="ui/accelkeys.lua"/>
+	<Accel keydown="AccelKey_E()" key="69" alt="false" ctrl="false" shift="false"/>
+	<Accel keydown="AccelKey_Q()" key="81" alt="false" ctrl="false" shift="false"/>
+	<Accel keydown="AccelKey_Slash()" key="191" alt="false" ctrl="false" shift="false"/>
+	<Accel keydown="AccelKey_Enter()" key="13" alt="false" ctrl="false" shift="false"/>
+	<Accel keydown="AccelKey_Escape()" key="27" alt="false" ctrl="false" shift="false"/>
+	<Accel keydown="AccelKey_Num0()" key="48" alt="false" ctrl="false" shift="false"/>
+	<Accel keydown="AccelKey_Num1()" key="49" alt="false" ctrl="false" shift="false"/>
+	<Accel keydown="AccelKey_Num2()" key="50" alt="false" ctrl="false" shift="false"/>
+	<Accel keydown="AccelKey_Num3()" key="51" alt="false" ctrl="false" shift="false"/>
+	<Accel keydown="AccelKey_Num4()" key="52" alt="false" ctrl="false" shift="false"/>
+	<Accel keydown="AccelKey_Num5()" key="53" alt="false" ctrl="false" shift="false"/>
+	<Accel keydown="AccelKey_Num6()" key="54" alt="false" ctrl="false" shift="false"/>
+	<Accel keydown="AccelKey_Num7()" key="55" alt="false" ctrl="false" shift="false"/>
+	<Accel keydown="AccelKey_Num8()" key="56" alt="false" ctrl="false" shift="false"/>
+	<Accel keydown="AccelKey_Num9()" key="57" alt="false" ctrl="false" shift="false"/>
+</Ui>
